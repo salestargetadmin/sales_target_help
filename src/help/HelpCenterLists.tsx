@@ -19,7 +19,7 @@ export default function HelpCenterLists() {
       <nav className="text-sm text-gray-500 mb-4">
         <span>All Collections</span> &gt; <span className="text-black">What is Instantly?</span>
       </nav>
-      <h1 className="text-2xl font-bold mb-2">What is Instantly?</h1>
+      <h1 className="text-2xl font-bold mb-2">What is</h1>
       <p className="text-gray-500 mb-4">7 articles</p>
       <div className="bg-white border rounded-lg shadow-sm p-2">
         {articles.map((article, index) => (
