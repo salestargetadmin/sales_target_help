@@ -9,9 +9,10 @@ const HelpLayout = ({ children }: { children: (searchQuery: string, setIsChatOpe
   return (
     <div className="relative min-h-screen bg-white">
       {/* Full-width header & search input */}
-      <div className="w-full layoutbg p-5 pb-[80px] pt-[50px] relative overflow-hidden">
-        <h1 className="text-3xl text-center font-bold text-white mb-6">
-          Advice and answers from the SalesTarget Team
+      <div className="w-full layoutbg p-5 pb-[80px] pt-[26px] relative overflow-hidden">
+        
+        <h1 className="text-[18px] max-w-4xl mx-auto font-[500] text-white mb-16">
+        Salestarget Help Center
         </h1>
 
         <div className="relative max-w-4xl mx-auto">

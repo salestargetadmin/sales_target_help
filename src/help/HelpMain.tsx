@@ -12,7 +12,7 @@ const categories = [
     ],
   },
   {
-    title: 'Quick Start Guide',
+    title: 'Account Connection',
     icon: '🚀',
     articles: [
       { title: 'Setting up your account', id: 4 },
@@ -21,7 +21,7 @@ const categories = [
     ],
   },
   {
-    title: 'Backend Infrastructure',
+    title: 'Creating Cold Campaigns',
     icon: '🛠️',
     articles: [
       { title: 'Understanding API connections', id: 7 },

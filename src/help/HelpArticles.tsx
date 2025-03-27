@@ -19,13 +19,13 @@ const categories = [
     title: 'What is Salestarget?',
     icon: '📂',
     articles: [
-      { title: 'Overview of Salestarget', id: 1, icon: Book, color: '#60A5FA' }, // Blue
-      { title: 'How it works', id: 2, icon: Compass, color: '#60A5FA' }, // Blue
-      { title: 'Key Features', id: 3, icon: Star, color: '#60A5FA' }, // Blue
+      { title: 'What is Salestarget', id: 1, icon: Book, color: '#60A5FA' }, // Blue
+      { title: 'Quick Start Guide', id: 2, icon: Compass, color: '#60A5FA' }, // Blue
+      { title: 'Rotating IP\'s and sending algorithms in the cold email space = high deliverability', id: 3, icon: Star, color: '#60A5FA' }, // Blue
     ],
   },
   {
-    title: 'Quick Start Guide',
+    title: 'Account Connection',
     icon: '🚀',
     articles: [
       { title: 'Setting up your account', id: 4, icon: UserPlus, color: '#34D399' }, // Green
@@ -34,7 +34,7 @@ const categories = [
     ],
   },
   {
-    title: 'Backend Infrastructure',
+    title: 'Creating Cold Campaigns',
     icon: '🛠️',
     articles: [
       { title: 'Understanding API connections', id: 7, icon: Code, color: '#FBBF24' }, // Orange
