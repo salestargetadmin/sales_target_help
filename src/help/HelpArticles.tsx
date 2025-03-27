@@ -70,7 +70,7 @@ const HelpArticles = () => {
   };
 
   return (
-    <div className="container mx-auto  ">
+    <div className="w-full mx-auto  ">
       <HelpLayout>
         {(searchQuery) => {
           if (!category) {
