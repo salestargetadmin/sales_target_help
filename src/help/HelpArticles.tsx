@@ -42,6 +42,15 @@ const categories = [
       { title: 'Security best practices', id: 9, icon: Shield, color: '#FBBF24' }, // Orange
     ],
   },
+  {
+    title: 'What is LeadExplorer?',
+    icon: '🛠️',
+    articles: [
+      { title: 'Understanding API connections', id: 7, icon: Code, color: '#FBBF24' }, // Orange
+      { title: 'Data processing pipelines', id: 8, icon: Database, color: '#FBBF24' }, // Orange
+      { title: 'Security best practices', id: 9, icon: Shield, color: '#FBBF24' }, // Orange
+    ],
+  },
 ];
 
 const HelpArticles = () => {
