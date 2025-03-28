@@ -44,11 +44,11 @@ const categories = [
   },
   {
     title: 'What is LeadExplorer?',
-    icon: '🛠️',
+    icon: '🔍',
     articles: [
-      { title: 'Understanding API connections', id: 7, icon: Code, color: '#FBBF24' }, // Orange
-      { title: 'Data processing pipelines', id: 8, icon: Database, color: '#FBBF24' }, // Orange
-      { title: 'Security best practices', id: 9, icon: Shield, color: '#FBBF24' }, // Orange
+      { title: 'What Lead explorer does in a cold email platform?', id: 10, icon: Code, color: '#FF00FF' }, // Orange
+      { title: 'What to ask when researching leads?', id: 11, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'What should we see in lead searching platform?', id: 12, icon: Shield, color: '#FF00FF' }, // Orange
     ],
   },
 ];
