@@ -33,9 +33,9 @@ const categories = [
     title: 'What is LeadExplorer?',
     icon: '🔍',
     articles: [
-      { title: 'Understanding API connections', id: 7 },
-      { title: 'Data processing pipelines', id: 8 },
-      { title: 'Security best practices', id: 9 },
+      { title: 'What Lead explorer does in a cold email platform?', id: 10 },
+      { title: 'What to ask when researching leads?', id: 11 },
+      { title: 'What should we see in lead searching platform?', id: 12 },
     ],
   },
 ];
