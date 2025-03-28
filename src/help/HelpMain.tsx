@@ -31,7 +31,7 @@ const categories = [
   },
   {
     title: 'What is LeadExplorer?',
-    icon: '🚀',
+    icon: '🔍',
     articles: [
       { title: 'Understanding API connections', id: 7 },
       { title: 'Data processing pipelines', id: 8 },
