@@ -29,6 +29,15 @@ const categories = [
       { title: 'Security best practices', id: 9 },
     ],
   },
+  {
+    title: 'What is LeadExplorer?',
+    icon: '🚀',
+    articles: [
+      { title: 'Understanding API connections', id: 7 },
+      { title: 'Data processing pipelines', id: 8 },
+      { title: 'Security best practices', id: 9 },
+    ],
+  },
 ];
 
 const HelpMain = () => {

@@ -302,7 +302,7 @@ const HelpArticleDetail = ({ openChat }: { openChat: () => void }) => {
           {article ? (
             <div className="relative flex gap-6">
               {/* Main Content */}
-              <div className="w-3/4">
+              <div className="w-full md:w-3/4">
                 <h1 className="text-3xl font-bold text-black" ref={(el) => (sectionsRef.current['title'] = el)}>
                   {article.title}
                 </h1>
@@ -351,7 +351,7 @@ const HelpArticleDetail = ({ openChat }: { openChat: () => void }) => {
               </div>
 
               {/* Sidebar Table of Contents */}
-              <div className="w-1/4 relative">
+              <div className="w-1/4 relative hidden md:block">
                 <div className="sticky top-20">
                   {/* Vertical Line Before Sidebar */}
                   <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-gray-300"></div>
