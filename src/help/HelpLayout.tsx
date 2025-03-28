@@ -26,7 +26,7 @@ const HelpLayout = ({ children }: { children: (searchQuery: string, setIsChatOpe
           />
         </div>
         <img src="/bg3.svg" alt="" className="image1 absolute"></img>
-        <img src="/bg2.svg" alt="" className="image2 absolute"></img>
+        <img src="/bg2.svg" alt="" className="image2 absolute "></img>
       </div>
 
       {/* Content inside max-width container */}
