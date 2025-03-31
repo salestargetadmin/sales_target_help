@@ -13,7 +13,7 @@ const categories = [
   },
   {
     title: 'Account Connection',
-    icon: '🚀',
+    icon: '📂',
     articles: [
       { title: 'Setting up your account', id: 4 },
       { title: 'Navigating the dashboard', id: 5 },
@@ -22,7 +22,7 @@ const categories = [
   },
   {
     title: 'Creating Cold Campaigns',
-    icon: '🛠️',
+    icon: '📂',
     articles: [
       { title: 'Understanding API connections', id: 7 },
       { title: 'Data processing pipelines', id: 8 },
@@ -30,12 +30,120 @@ const categories = [
     ],
   },
   {
-    title: 'What is LeadExplorer?',
-    icon: '🔍',
+    title: 'What is Lead Explorer?',
+    icon: '📂',
     articles: [
       { title: 'What Lead explorer does in a cold email platform?', id: 10 },
       { title: 'What to ask when researching leads?', id: 11 },
       { title: 'What should we see in lead searching platform?', id: 12 },
+    ],
+  },
+  {
+    title: 'Setup',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 13 },
+      { title: 'Data processing pipelines', id: 14 },
+      { title: 'Security best practices', id: 15 },
+    ],
+  },
+  {
+    title: "Account 'Warm-Up' and how it works",
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 21 },
+      { title: 'Data processing pipelines', id: 22 },
+      { title: 'Security best practices', id: 23 },
+    ],
+  },
+  {
+    title: 'Best Practices',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 19 },
+      { title: 'Data processing pipelines', id: 20 },
+      { title: 'Security best practices', id: 21 },
+    ],
+  },
+  {
+    title: 'Troubleshooting',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 22 },
+      { title: 'Data processing pipelines', id: 23 },
+      { title: 'Security best practices', id: 24 },
+    ],
+  },
+  {
+    title: 'Integrations',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 25 },
+      { title: 'Data processing pipelines', id: 26 },
+      { title: 'Security best practices', id: 27 },
+    ],
+  },
+  {
+    title: 'Leads and Data',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 28 },
+      { title: 'Data processing pipelines', id: 29 },
+      { title: 'Security best practices', id: 30 },
+    ],
+  },
+  {
+    title: 'Unibox',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 31 },
+      { title: 'Data processing pipelines', id: 32 },
+      { title: 'Security best practices', id: 33 },
+    ],
+  },
+  {
+    title: 'Account and Billing',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 34 },
+      { title: 'Data processing pipelines', id: 35 },
+      { title: 'Security best practices', id: 36 },
+    ],
+  },
+  {
+    title: 'Salestarget Privacy Center',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 37 },
+      { title: 'Data processing pipelines', id: 38 },
+      { title: 'Security best practices', id: 39 },
+    ],
+  },
+  {
+    title: 'CRM',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 40 },
+      { title: 'Data processing pipelines', id: 41 },
+      { title: 'Security best practices', id: 42 },
+    ],
+  },
+  {
+    title: 'Website Visitors',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 43 },
+      { title: 'Data processing pipelines', id: 44 },
+      { title: 'Security best practices', id: 45 },
+    ],
+  },
+  {
+    title: 'Deliverability',
+    icon: '📂',
+    articles: [
+      { title: 'Understanding API connections', id: 46 },
+      { title: 'Data processing pipelines', id: 47 },
+      { title: 'Security best practices', id: 48 },
     ],
   },
 ];

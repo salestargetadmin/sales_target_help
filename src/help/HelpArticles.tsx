@@ -43,7 +43,7 @@ const categories = [
     ],
   },
   {
-    title: 'What is LeadExplorer?',
+    title: 'What is Lead Explorer?',
     icon: '🔍',
     articles: [
       { title: 'What Lead explorer does in a cold email platform?', id: 10, icon: Code, color: '#FF00FF' }, // Orange
@@ -51,11 +51,137 @@ const categories = [
       { title: 'What should we see in lead searching platform?', id: 12, icon: Shield, color: '#FF00FF' }, // Orange
     ],
   },
+  {
+    title: 'Setup',
+    icon: '🔍',
+    articles: [
+      { title: 'Transferring domains from one email provider to another', id: 13, icon: Code, color: '#FF00FF' }, // Orange
+      { title: 'Setting up Reply-to email address', id: 14, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'Checklist before campaign launch', id: 15, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'Create a separate workspace and invite team members', id: 16, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'Email Service Providers Matching', id: 17, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'Why do I need DNS records?', id: 18, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'How to set up SPF and DKIM for cPanel email accounts', id: 19, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'Ways to add a signature', id: 20, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  },
+  {
+    title: 'Account \'Warm-Up\' and how it works',
+    icon: '🔍',
+    articles: [
+      { title: 'How Warm-Up Works and Why it\'s Important 🤓', id: 21, icon: Code, color: '#FF00FF' }, // Orange
+      { title: 'What is "read emulation" in Warmup', id: 22, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'Warmup filters - Google and Microsoft🚦', id: 23, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
+  {
+    title: 'Best Practices',
+    icon: '🔍',
+    articles: [
+      { title: 'How do I make sure my emails will get delivered? 📦', id: 24, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "Scale Your Cold Email Campaigns With Secondary Sending Domains - The Strategy & How To Implement It", id: 25, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'Cold Email Copywriting Framework We Use To Get 400+ Replies Monthly', id: 26, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
+  {
+    title: 'Troubleshooting',
+    icon: '🔍',
+    articles: [
+      { title: 'What to do if your \'Open Rate\' is low📉', id: 27, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "Why do emails bounce?", id: 28, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'Why am I getting 100% open rate?💯', id: 29, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
+  {
+    title: 'Integrations',
+    icon: '🔍',
+    articles: [
+      { title: 'CRM Import', id: 30, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "Slack integration", id: 31, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'How to use Webhooks? 🕸🪝', id: 32, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
+  {
+    title: 'Leads and Data',
+    icon: '🔍',
+    articles: [
+      { title: 'How To Create High-ROI Cold Email Campaigns by Scraping B2B Emails from Twitter (incl. Template)', id: 33, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "How to use Builtwith for lead mining", id: 34, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'How to use Launch Gravity to extract leads', id: 35, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
+  {
+    title: 'Unibox',
+    icon: '🔍',
+    articles: [
+      { title: 'How to manage the Unibox & Best Practices on how to reply to leads', id: 36, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "Schedule a reply", id: 37, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'How to remove a lead from campaigns', id: 38, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
+  {
+    title: 'Account and Billing',
+    icon: '🔍',
+    articles: [
+      { title: 'Email Outreach plans comparison', id: 39, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "Lead Finder plans comparison", id: 40, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'Add-on pricing', id: 41, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
+  {
+    title: 'Salestarget Privacy Center',
+    icon: '🔍',
+    articles: [
+      { title: 'Request access to collected data', id: 42, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "Opt out of salestarget - object to our processing, opt out of sales, and request deletion of your profile", id: 43, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'salestarget Sub-processors', id: 44, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
+  {
+    title: 'CRM',
+    icon: '🔍',
+    articles: [
+      { title: 'salestarget CRM', id: 45, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "CRM Features", id: 46, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'How to purchase phone numbers', id: 47, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
+  {
+    title: 'Website Visitors',
+    icon: '🔍',
+    articles: [
+      { title: 'How to add the Website Visitors script to Webflow?', id: 48, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "Getting started with the Website Visitors feature", id: 49, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'How do I add the Website Visitors Pixel to my website?', id: 50, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
+  {
+    title: 'Deliverability',
+    icon: '🔍',
+    articles: [
+      { title: 'Inbox Placement feature', id: 51, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "Inbox Placement: one-time tests", id: 52, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'Inbox Placement - automated tests', id: 53, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
 ];
 
+import { useSearch } from './SearchContext';
 const HelpArticles = () => {
   const { categoryName } = useParams();
   const navigate = useNavigate();
+  const { searchQuery } = useSearch(); // Get global search state
 
   const decodedCategory = decodeURIComponent(categoryName || '')
     .toLowerCase()
@@ -79,9 +205,9 @@ const HelpArticles = () => {
   };
 
   return (
-    <div className="w-full mx-auto  ">
+    <div className="w-full mx-auto">
       <HelpLayout>
-        {(searchQuery) => {
+        {() => { // No need to pass searchQuery explicitly, it's now global
           if (!category) {
             return <p className="text-gray-400 text-center">Category not found.</p>;
           }
@@ -92,9 +218,9 @@ const HelpArticles = () => {
 
           return (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
-               <button className="flex items-center gap-2 text-black mb-2 " onClick={() => navigate(-1)}>
-                          <ArrowLeft className="w-5 h-5" /> Back to Main
-                        </button>
+              <button className="flex items-center gap-2 text-black mb-2" onClick={() => navigate(-1)}>
+                <ArrowLeft className="w-5 h-5" /> Back to Main
+              </button>
               {filteredArticles.length > 0 ? (
                 filteredArticles.map((article) => {
                   const IconComponent = article.icon;
@@ -105,8 +231,8 @@ const HelpArticles = () => {
                       onClick={() => handleArticleClick(article.id)}
                     >
                       <div className="flex items-center gap-3">
-                        <IconComponent className="w-6 h-6" style={{ color: article.color }} /> {/* Colorful Icons */}
-                        <h3 className="text-lg font-semibold text-black">{article.title}</h3>
+                        <IconComponent className="w-6 h-6" style={{ color: article.color, display: "none" }} />
+                        <h3 className="text-md font-semibold text-black">{article.title}</h3>
                       </div>
                       <ChevronRight className="text-gray-400" />
                     </div>
