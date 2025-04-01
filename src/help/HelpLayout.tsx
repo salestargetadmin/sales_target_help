@@ -1,24 +1,46 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import ChatWidget from "./ChatWidget";
 import { MagnifyingGlassIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useSearch } from "./SearchContext";
+import mockArticles from "../utilities/constants";
 
-const HelpLayout = ({ children }: { children: (searchQuery: string, setIsChatOpen: (open: boolean) => void) => JSX.Element }) => {
-  const { searchQuery, setSearchQuery } = useSearch(); // Global search state
+const HelpLayout = ({ children }) => {
+  const { searchQuery, setSearchQuery } = useSearch();
   const [isChatOpen, setIsChatOpen] = useState(false);
+  const [filteredArticles, setFilteredArticles] = useState([]);
   const navigate = useNavigate();
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  // Filter articles whenever search query changes
+  useEffect(() => {
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      const results = mockArticles.filter((article) =>
+        article.title.toLowerCase().includes(query) ||
+        article.features.some((feature) =>
+          feature.title.toLowerCase().includes(query) ||
+          feature.description.toLowerCase().includes(query)
+        )
+      );
+      setFilteredArticles(results);
+      setIsDropdownOpen(true); // Open the dropdown when there are search results
+    } else {
+      setFilteredArticles([]);
+      setIsDropdownOpen(false); // Close the dropdown when there are no search results
+    }
+  }, [searchQuery]);
 
-  // Handle Enter key search
-  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+  const handleKeyPress = (e) => {
     if (e.key === "Enter" && searchQuery.trim() !== "") {
       navigate(`/search?query=${encodeURIComponent(searchQuery)}`);
+      setIsDropdownOpen(false); // Close the dropdown after navigation
     }
   };
 
-  // Function to clear search input
   const clearSearch = () => {
     setSearchQuery("");
+    setFilteredArticles([]);
+    setIsDropdownOpen(false); // Close the dropdown when search is cleared
   };
 
   return (
@@ -28,38 +50,67 @@ const HelpLayout = ({ children }: { children: (searchQuery: string, setIsChatOpe
           Salestarget Help Center
         </h1>
 
-        {/* Search Bar */}
+        {/* Search Bar with Suggestions */}
         <div className="relative max-w-4xl mx-auto">
-          <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-3 text-gray-400" />
-          <input
-            type="text"
-            placeholder="Search for articles..."
-            className="w-full pl-10 pr-10 py-3 text-white rounded-lg bg-transparent border border-borderColor focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            onKeyDown={handleKeyPress} // Trigger search on Enter
-          />
-          
-          {/* Clear (X) Button - Only visible if there's text */}
-          {searchQuery && (
-            <button
-              className="absolute right-3 top-3 text-gray-400 hover:text-gray-200"
-              onClick={clearSearch}
-            >
-              <XMarkIcon className="w-5 h-5" />
-            </button>
+          <div className="relative">
+            <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-3 text-gray-400" />
+            <input
+              type="text"
+              placeholder="Search for articles..."
+              className="w-full pl-10 pr-10 py-3 text-white rounded-lg bg-transparent border border-borderColor focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onKeyDown={handleKeyPress}
+            />
+            {searchQuery && (
+              <button
+                className="absolute right-3 top-3 text-gray-400 hover:text-gray-200"
+                onClick={clearSearch}
+              >
+                <XMarkIcon className="w-5 h-5" />
+              </button>
+            )}
+          </div>
+
+          {/* Suggestions Dropdown */}
+         {/* Suggestions Dropdown */}
+         {isDropdownOpen && (
+            <div className="absolute z-50 w-full mt-2 bg-white rounded-lg shadow-xl max-h-60 overflow-y-auto">
+              {filteredArticles.length > 0 ? (
+                filteredArticles.map((article) => (
+                  <button
+                    key={article.id}
+                    onClick={() => {
+                     navigate(`/articles/${article.category}/${article.id}`);
+                      
+                      setIsDropdownOpen(false); // Close the dropdown after navigation
+                    }}
+                    className="w-full px-4 py-3 text-left hover:bg-gray-50 text-gray-700 border-b last:border-b-0"
+                  >
+                    <p className="font-medium">{article.title}</p>
+                    <p className="text-sm text-gray-500 mt-1">
+                      {article.content}
+                    </p>
+                  </button>
+                ))
+              ) : (
+                <div className="p-4 text-gray-500">
+                  No articles found for "{searchQuery}"
+                </div>
+              )}
+            </div>
           )}
         </div>
 
-        <img src="/bg3.svg" alt="" className="image1 absolute"></img>
-        <img src="/bg2.svg" alt="" className="image2 absolute"></img>
+        <img src="/bg3.svg" alt="" className="image1 absolute" />
+        <img src="/bg2.svg" alt="" className="image2 absolute" />
       </div>
 
-      <div className="max-w-4xl mx-auto p-8 pt-2 mt-5">{children(searchQuery, setIsChatOpen)}</div>
-
-      <div className="fixed bottom-4 right-4">
-        <ChatWidget isOpen={isChatOpen} setIsOpen={setIsChatOpen} />
+      {/* Content Area */}
+      <div className="max-w-4xl mx-auto p-8 pt-2 mt-5">
+        {children(searchQuery, setIsChatOpen)}
       </div>
+
     </div>
   );
 };

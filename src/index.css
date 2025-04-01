@@ -43,3 +43,21 @@
   }
   
 }
+
+/* Ensure the parent container allows overflow */
+.layoutbg {
+  overflow: visible;
+  position: relative; /* Ensure it can be a reference for absolute positioning */
+}
+
+/* Style for the suggestions dropdown */
+.suggestions-dropdown {
+  position: absolute;
+  top: 100%; /* Position right below the search input */
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it appears above other elements */
+}
