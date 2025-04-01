@@ -266,6 +266,9 @@ const HelpArticleDetail = ({ openChat }: { openChat: () => void }) => {
   const sectionsRef = useRef<Record<string, HTMLElement | null>>({});
   const listRef = useRef(null);
   const [activeSection, setActiveSection] = useState('title');
+  
+  
+  const [selectedEmoji, setSelectedEmoji] = useState(null);
 
   useEffect(() => {
     const selectedArticle = mockArticles.find((article) => article.id === articleId);
@@ -342,11 +345,48 @@ const HelpArticleDetail = ({ openChat }: { openChat: () => void }) => {
 
                 <div className="mt-8 border-t pt-4" ref={(el) => (sectionsRef.current['feedback'] = el)}>
                   <p className="text-gray-600">Was this article helpful?</p>
-                  <div className="mt-3 flex gap-4">
-                    <button className="text-3xl hover:scale-125 transition-all" onClick={() => setIsChatOpen(false)}>😊</button>
-                    <button className="text-3xl hover:scale-125 transition-all" onClick={() => setIsChatOpen(true)}>😞</button>
-                    <button className="text-3xl hover:scale-125 transition-all" onClick={() => setIsChatOpen(true)}>😠</button>
-                  </div>
+                  
+<div className="mt-3 flex gap-4">
+  <button
+    className={`text-3xl hover:cursor-pointer transition-all ${
+      selectedEmoji === 'happy' 
+        ? 'opacity-100 scale-125' 
+        : 'opacity-50 hover:opacity-75 hover:scale-125'
+    }`}
+    onClick={() => {
+      setSelectedEmoji('happy');
+      setIsChatOpen(false);
+    }}
+  >
+    😊
+  </button>
+  <button
+    className={`text-3xl hover:cursor-pointer transition-all ${
+      selectedEmoji === 'sad' 
+        ? 'opacity-100 scale-125' 
+        : 'opacity-50 hover:opacity-75 hover:scale-125'
+    }`}
+    onClick={() => {
+      setSelectedEmoji('sad');
+      setIsChatOpen(true);
+    }}
+  >
+    😞
+  </button>
+  <button
+    className={`text-3xl hover:cursor-pointer transition-all ${
+      selectedEmoji === 'angry' 
+        ? 'opacity-100 scale-125' 
+        : 'opacity-50 hover:opacity-75  hover:scale-125'
+    }`}
+    onClick={() => {
+      setSelectedEmoji('angry');
+      setIsChatOpen(true);
+    }}
+  >
+    😠
+  </button>
+</div>
                 </div>
               </div>
 
