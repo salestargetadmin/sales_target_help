@@ -12,23 +12,36 @@ const HelpLayout = ({ children }) => {
   const navigate = useNavigate();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   // Filter articles whenever search query changes
+  
+
   useEffect(() => {
     if (searchQuery.trim()) {
-      const query = searchQuery.toLowerCase();
-      const results = mockArticles.filter((article) =>
-        article.title.toLowerCase().includes(query) ||
-        article.features.some((feature) =>
-          feature.title.toLowerCase().includes(query) ||
-          feature.description.toLowerCase().includes(query)
-        )
-      );
+      const queryWords = searchQuery.toLowerCase().split(/\s+/); // split by spaces
+  
+      const results = mockArticles.filter((article) => {
+        const title = article.title.toLowerCase();
+        const content = article.content?.toLowerCase() || "";
+        const featureText = article.features
+          .map((feature) => `${feature.title} ${feature.description}`)
+          .join(" ")
+          .toLowerCase();
+  
+        // Combine all searchable text
+        const searchableText = `${title} ${content} ${featureText}`;
+  
+        // Return true only if all words are found somewhere in the text
+        return queryWords.every((word) => searchableText.includes(word));
+      });
+  
       setFilteredArticles(results);
-      setIsDropdownOpen(true); // Open the dropdown when there are search results
+      setIsDropdownOpen(true);
     } else {
       setFilteredArticles([]);
-      setIsDropdownOpen(false); // Close the dropdown when there are no search results
+      setIsDropdownOpen(false);
     }
   }, [searchQuery]);
+  
+  
 
   const handleKeyPress = (e) => {
     if (e.key === "Enter" && searchQuery.trim() !== "") {
