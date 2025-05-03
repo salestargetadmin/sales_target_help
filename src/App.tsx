@@ -4,7 +4,8 @@ import HelpMain from './help/HelpMain';
 import HelpArticles from './help/HelpArticles';
 import HelpArticlesDetails from './help/HelpArticlesDetails';
 import SearchResults from './help/SearchResults';
-import { SearchProvider } from './help/SearchContext';
+import { SearchProvider } from './help/SearchContext'
+import CalculateCost from './help/CalculateCost';
 
 const App = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/articles/:categoryName" element={<HelpArticles />} />
         <Route path="/articles/:categoryName/:articleId" element={<HelpArticlesDetails setIsChatOpen={setIsChatOpen} />} />
         <Route path="/search" element={<SearchResults />} />
+        <Route path="/calculate" element={<CalculateCost />} />
       </Routes>
     </BrowserRouter>
     </SearchProvider>
