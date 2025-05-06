@@ -73,7 +73,7 @@ const HelpLayout = ({ children }) => {
         {/* Search Bar with Suggestions */}
         <div className="relative max-w-4xl mx-auto">
           <div className="relative">
-            <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-3 text-gray-400" />
+            <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-4 text-gray-400" />
             <input
   type="text"
   placeholder="Search for articles..."
