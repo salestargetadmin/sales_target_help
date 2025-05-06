@@ -175,6 +175,16 @@ const categories = [
      
     ],
   },
+  {
+    title: 'Calculate your costs',
+    icon: '🔍',
+    articles: [
+      { title: 'Monthly email volume', id: 54, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "Required email accounts", id: 55, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'Required domains', id: 56, icon: Shield, color: '#FF00FF' }, // Orange
+     
+    ],
+  },
 ];
 
 import { useSearch } from './SearchContext';

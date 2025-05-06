@@ -146,6 +146,15 @@ const categories = [
       { title: 'Security best practices', id: 48 },
     ],
   },
+  {
+    title: 'Calculate Your Costs',
+    icon: '📂',
+    articles: [
+      { title: 'Monthly email volume', id: 49 },
+      { title: 'Required email accounts', id: 50 },
+      { title: 'Required domains', id: 51 },
+    ],
+  },
 ];
 
 const HelpMain = () => {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ChatWidget from "./ChatWidget";
 import { MagnifyingGlassIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useSearch } from "./SearchContext";
@@ -59,22 +59,29 @@ const HelpLayout = ({ children }) => {
   return (
     <div className="relative min-h-screen bg-white">
       <div className="w-full layoutbg p-5 pb-[80px] pt-[26px] relative overflow-hidden">
-        <h1 className="text-[18px] max-w-4xl mx-auto font-[500] text-white mb-16">
-          Salestarget Help Center
-        </h1>
+      <div className="flex justify-between items-center max-w-4xl mx-auto text-white mb-10">
+  <h1 className="text-[18px] font-[500]">Salestarget Help Center</h1>
+  <Link
+    to="/calculate"
+    className="text-[16px] px-4 py-1 border-0 outline-0 bg-white text-black rounded-[20px] font-[500] hover:bg-purple-400 hover:text-white hover:shadow-[1px_1px_1px_black]"
+  >
+   Calculator Your Cost
+  </Link>
+</div>
+
 
         {/* Search Bar with Suggestions */}
         <div className="relative max-w-4xl mx-auto">
           <div className="relative">
             <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-3 text-gray-400" />
             <input
-              type="text"
-              placeholder="Search for articles..."
-              className="w-full pl-10 pr-10 py-3 text-white rounded-lg bg-transparent border border-borderColor focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              onKeyDown={handleKeyPress}
-            />
+  type="text"
+  placeholder="Search for articles..."
+  className="w-full pl-10 pr-10 py-3 text-white rounded-lg bg-transparent border border-borderColor focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition-shadow duration-200 cursor-text"
+  value={searchQuery}
+  onChange={(e) => setSearchQuery(e.target.value)}
+  onKeyDown={handleKeyPress}
+/>
             {searchQuery && (
               <button
                 className="absolute right-3 top-3 text-gray-400 hover:text-gray-200"
