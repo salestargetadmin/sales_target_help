@@ -259,15 +259,13 @@ import { ArrowLeft } from 'lucide-react';
 import HelpLayout from './HelpLayout';
 import mockArticles from '../utilities/constants';
 
-const HelpArticleDetail = ({ openChat }: { openChat: () => void }) => {
+const HelpArticleDetail = ({ openChat }) => {
   const { articleId } = useParams();
   const navigate = useNavigate();
-  const [article, setArticle] = useState<any>(null);
-  const sectionsRef = useRef<Record<string, HTMLElement | null>>({});
+  const [article, setArticle] = useState(null);
+  const sectionsRef = useRef({});
   const listRef = useRef(null);
   const [activeSection, setActiveSection] = useState('title');
-  
-  
   const [selectedEmoji, setSelectedEmoji] = useState(null);
 
   useEffect(() => {
@@ -278,7 +276,7 @@ const HelpArticleDetail = ({ openChat }: { openChat: () => void }) => {
   useEffect(() => {
     const handleScroll = () => {
       let currentSection = 'title';
-      const scrollPosition = window.scrollY + 120; // Adjust based on header height
+      const scrollPosition = window.scrollY + 120;
 
       Object.entries(sectionsRef.current).forEach(([key, ref]) => {
         if (ref) {
@@ -345,76 +343,82 @@ const HelpArticleDetail = ({ openChat }: { openChat: () => void }) => {
 
                 <div className="mt-8 border-t pt-4" ref={(el) => (sectionsRef.current['feedback'] = el)}>
                   <p className="text-gray-600">Was this article helpful?</p>
-                  
-<div className="mt-3 flex gap-4">
-  <button
-    className={`text-3xl hover:cursor-pointer transition-all ${
-      selectedEmoji === 'happy' 
-        ? 'opacity-100 scale-125' 
-        : 'opacity-50 hover:opacity-75 hover:scale-125'
-    }`}
-    onClick={() => {
-      setSelectedEmoji('happy');
-      setIsChatOpen(false);
-    }}
-  >
-    😊
-  </button>
-  <button
-    className={`text-3xl hover:cursor-pointer transition-all ${
-      selectedEmoji === 'sad' 
-        ? 'opacity-100 scale-125' 
-        : 'opacity-50 hover:opacity-75 hover:scale-125'
-    }`}
-    onClick={() => {
-      setSelectedEmoji('sad');
-      setIsChatOpen(true);
-    }}
-  >
-    😞
-  </button>
-  <button
-    className={`text-3xl hover:cursor-pointer transition-all ${
-      selectedEmoji === 'angry' 
-        ? 'opacity-100 scale-125' 
-        : 'opacity-50 hover:opacity-75  hover:scale-125'
-    }`}
-    onClick={() => {
-      setSelectedEmoji('angry');
-      setIsChatOpen(true);
-    }}
-  >
-    😠
-  </button>
-</div>
+                  <div className="mt-3 flex gap-4">
+                    <button
+                      className={`text-3xl hover:cursor-pointer transition-all ${
+                        selectedEmoji === 'happy'
+                          ? 'opacity-100 scale-125'
+                          : selectedEmoji
+                          ? 'opacity-50 hover:opacity-75 hover:scale-125'
+                          : 'opacity-100 hover:scale-125'
+                      }`}
+                      onClick={() => {
+                        setSelectedEmoji('happy');
+                        setIsChatOpen(true);
+                        window.Intercom('show');
+                      }}
+                    >
+                      😃
+                    </button>
+                    
+                    <button
+                      className={`text-3xl hover:cursor-pointer transition-all ${
+                        selectedEmoji === 'neutral'
+                          ? 'opacity-100 scale-125'
+                          : selectedEmoji
+                          ? 'opacity-50 hover:opacity-75 hover:scale-125'
+                          : 'opacity-100 hover:scale-125'
+                      }`}
+                      onClick={() => {
+                        setSelectedEmoji('neutral');
+                        setIsChatOpen(true);
+                        window.Intercom('show');
+                      }}
+                    >
+                      😐
+                    </button>
+                    <button
+                      className={`text-3xl hover:cursor-pointer transition-all ${
+                        selectedEmoji === 'sad'
+                          ? 'opacity-100 scale-125'
+                          : selectedEmoji
+                          ? 'opacity-50 hover:opacity-75 hover:scale-125'
+                          : 'opacity-100 hover:scale-125'
+                      }`}
+                      onClick={() => {
+                        setSelectedEmoji('sad');
+                        setIsChatOpen(true);
+                        window.Intercom('show');
+                      }}
+                    >
+                      😞
+                    </button>
+                  </div>
                 </div>
               </div>
 
               {/* Sidebar Table of Contents */}
               <div className="w-1/4 relative hidden md:block">
                 <div className="sticky top-20">
-                  {/* Vertical Line Before Sidebar */}
                   <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-gray-300"></div>
-
                   <h3 className="text-lg font-semibold text-black ml-4">On this page</h3>
                   <ul className="mt-4 space-y-2 ml-4" ref={listRef}>
-  {['title', 'features', 'accounts', 'msaccounts', 'imap', 'faq', 'feedback'].map((id) => (
-    <li key={id}>
-      <button
-        className={`block w-full text-left py-1 pl-4 transition-all ${
-          activeSection === id ? 'text-black font-semibold' : 'text-gray-700'
-        }`}
-        onClick={() => {
-          sectionsRef.current[id]?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          setActiveSection(id); // Update active section
-        }}
-      >
-        {id === 'title' ? 'Introduction' : id.charAt(0).toUpperCase() + id.slice(1)}
-      </button>
-    </li>
-  ))}
-</ul>
-
+                    {['title', 'features', 'accounts', 'msaccounts', 'imap', 'faq', 'feedback'].map((id) => (
+                      <li key={id}>
+                        <button
+                          className={`block w-full text-left py-1 pl-4 transition-all ${
+                            activeSection === id ? 'text-black font-semibold' : 'text-gray-700'
+                          }`}
+                          onClick={() => {
+                            sectionsRef.current[id]?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                            setActiveSection(id);
+                          }}
+                        >
+                          {id === 'title' ? 'Introduction' : id.charAt(0).toUpperCase() + id.slice(1)}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>
