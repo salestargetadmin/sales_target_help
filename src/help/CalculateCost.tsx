@@ -7,8 +7,8 @@ const CalculateCost = () => {
   const totalEmailsPerDay = parseInt(emailCount) || 0;
   const totalEmailsPerMonth = totalEmailsPerDay * 22;
 
-  const emailAccountsNeeded = Math.ceil(totalEmailsPerDay / 25);
-  const domainsNeeded = Math.ceil(emailAccountsNeeded / 2);
+  const emailAccountsNeeded = Math.ceil(totalEmailsPerDay / 30);
+  const domainsNeeded = Math.ceil(emailAccountsNeeded / 5);
 
   const emailPrice = 5;
   const domainPrice = 15;

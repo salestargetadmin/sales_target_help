@@ -2423,6 +2423,260 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       // }
       // ]
     },
+    {
+      id: '54',
+      title: 'Monthly email volume',
+      updated: 'Updated over 8 months ago',
+      content: `Monthly Email Volume Overview`,
+      features: [
+        {
+          title: 'What is your average monthly email volume?',
+          description: "Our average monthly email volume refers to the total number of emails we send out through our platform each month. This includes newsletters, promotional emails, transactional messages, and automated campaigns. On average, we send approximately [X,000 to Y,000 emails/month], but this number can fluctuate based on campaign schedules, customer segmentation, and seasonal marketing efforts. If you're referring to your own monthly email usage, you can typically find this data in your account dashboard under 'Email Analytics' or 'Usage Reports.'"
+        },
+        
+      
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
+    {
+      id: '55',
+      title: 'Required email accounts',
+      updated: 'Updated over 8 months ago',
+      content: `Email Account Requirements`,
+      features: [
+        {
+          title: 'How many email accounts are required to send monthly emails?',
+          description: "Only one email account is required to send monthly emails, regardless of the volume. This account will be used as the sender for all outgoing emails to maintain consistency and ensure deliverability. If you're managing multiple brands or campaigns, additional email accounts can be added, but they are not mandatory unless you need separate sender identities."
+        },
+      
+        // {
+        //   title: 'Unlimited Warmup',
+        //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
+        // }
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
+    {
+      id: '56',
+      title: 'Required domains',
+      updated: 'Updated over 8 months ago',
+      content: `Number of Domains Needed for Sending Emails`,
+      features: [
+        {
+          title: 'How many domains are required to send monthly emails?',
+          description: "You need at least one verified domain to send emails effectively. This domain is used for the sender address (e.g., yourname@yourdomain.com) and must be properly authenticated using SPF, DKIM, and optionally DMARC to ensure high deliverability and avoid spam filters. While one domain is sufficient for most cases, multiple domains can be used if you're sending emails on behalf of different brands or departments."
+        },
+      
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
+    {
+      id: '57',
+      title: '💰 What are the total monthly costs for sending emails through our platform?',
+      updated: 'Updated over 8 months ago',
+      content: `Email Campaign Cost Breakdown`,
+      features: [
+        {
+          title: '',
+          description: "The monthly cost for sending emails depends on three main components: the number of email accounts you use, the number of domains required, and a flat-rate sending & warmup fee. Here's how it works: "
+        },
+        {
+          title: '1. Email Accounts Cost. There are two types of email accounts you can choose from:',
+          description: 'Warmed-Up Email Accounts – These accounts are pre-warmed and ready to send at full volume immediately. Cost: $10 per account per month.'
+        },
+        {
+          title: "",
+          description: 'Unwarmed Email Accounts – These are new accounts that require a warmup period before reaching full sending capacity. Cost: $5 per account per month.'
+        },
+        {
+          title: "",
+          description: "Each account is generally safe to send about 30–50 emails per day, depending on warmup status and domain reputation. The more emails you want to send per day, the more accounts you'll need. For example, if you're sending 300 emails per day, you'll typically need about 10 email accounts."
+        },
+        {
+          title: "2. Domains Cost",
+          description: "Domains are used to increase email deliverability and reduce the chances of emails landing in spam. Each domain is priced at $15 per month. We recommend using 1 domain for every 5 email accounts. This ensures sending is well-distributed and your domain reputation remains strong. So, if you're using 10 email accounts, you’ll need 2 domains."
+        },
+        {
+          title: "3. Sending & Warmup Service Fee",
+          description: "This is a flat monthly fee of $85, which covers the infrastructure and ongoing management of your email sending system. It includes: Sending infrastructure and IP rotation"
+        },
+        {
+          title: "",
+          description: "Automated warmup processes for new accounts"
+        }
+        , {
+          title: "",
+          description: "Deliverability monitoring"
+        }
+        , {
+          title: "",
+          description: "Best-practice configurations to improve inbox placement"
+        },
+        {
+          title: "",
+          description: "This fee is fixed and does not change based on volume."
+        },
+        {
+          title: "🧮 Built-In Cost Calculator",
+          description: "To make planning easy, we’ve integrated a calculator directly into our platform. Simply enter how many emails you want to send per day, and it will automatically calculate:"
+        },
+        {
+          title: "",
+          description: "Total monthly email volume"
+        }, {
+          title: "",
+          description: "Number of email accounts required"
+        }, {
+          title: "",
+          description: "Number of domains needed (1 per 5 accounts)"
+        }, {
+          title: "",
+          description: "Email account cost"
+        }, {
+          title: "",
+          description: "Domain cost"
+        },
+        {
+          title: "",
+          description: "Flat warmup and sending service fee"
+        },
+        {
+          title: "Total upfront cost and monthly recurring cost",
+          
+        },
+        {
+          title: "🔎 Example",
+          description: "If you want to send 300 emails per day:"
+          
+        },
+        {
+          title: "",
+          description: "You’ll need about 10 email accounts"
+          
+        }, {
+          title: "",
+          description: "You’ll need 2 domains"
+          
+        },
+        {
+          title: "",
+          description: "If you choose unwarmed accounts, that's $50 (10 × $5)"
+          
+        },
+        {
+          title: "",
+          description: "Domains cost $30 (2 × $15)"
+          
+        },
+        {
+          title: "",
+          description: "Plus the $85 sending & warmup service fee"
+          
+        },
+        {
+          title: "",
+          description: "That brings your total monthly cost to $165/month for unwarmed accounts, or $215/month if you go with warmed-up accounts."
+          
+        }
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
   ];
 
   export default mockArticles;
