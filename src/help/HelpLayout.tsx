@@ -73,7 +73,7 @@ const HelpLayout = ({ children }) => {
             <input
               type="text"
               placeholder="Search for articles..."
-              className="w-full pl-10 pr-10 py-3 text-white rounded-lg bg-transparent focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+              className="w-full pl-10 pr-10 py-3 text-white border border-gray-600 rounded-lg bg-transparent focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent 
     shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
