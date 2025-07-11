@@ -157,6 +157,29 @@ const categories = [
      
     ],
   },
+  {
+    title: 'Best Practices for Warming Your Domain and Email Accounts',
+    icon: '📂',
+    articles: [
+      { title: 'importantance of warming up domain and email accounts', id: 52 },
+      { title: 'limits for domain and email accounts on SalesTarget.ai?', id: 53 },
+      { title: 'warm-up plan for SalesTarget.ai users?', id: 54 },
+      { title: 'tips for a successful warm-up', id: 55 },
+     
+    ],
+  },
+  {
+    title: 'How to Set Up Your Email Account on SalesTarget.ai',
+    icon: '📂',
+    articles: [
+      { title: 'Total Monthly Costs', id: 56 },
+      { title: 'Monthly email volume', id: 57 },
+      { title: 'Required email accounts', id: 58 },
+      { title: 'Required domains', id: 59 },
+     
+    ],
+  },
+  
 ];
 
 const HelpMain = () => {

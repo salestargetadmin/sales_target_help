@@ -2677,6 +2677,415 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       // }
       // ]
     },
+     {
+      id: '58',
+      title: ' Why is it important to warm up your domain and email accounts?',
+      updated: 'Updated over 8 months ago',
+      content: ``,
+      features: [
+        {
+          title: '',
+          description: "Warming up your email accounts and domains is a fundamental step in successful cold email outreach. If you don't warm up your email accounts properly, your messages could end up in the spam folder, or worse, your domain could be blacklisted. Warming up gradually builds trust with Internet Service Providers (ISPs) and email systems, signaling that your email practices are legitimate and trustworthy."
+        },
+        {
+          title: 'Improve Deliverability:',
+          description: "By gradually increasing the volume of sent emails, your email accounts and domain establish a positive reputation with ISPs. This increases the likelihood of your emails landing in the inbox rather than being flagged as spam."
+        },
+        {
+          title: 'Build Trust with ISPs:',
+          description: "ISPs look for patterns in email behavior. If you send too many emails too quickly from a new domain or account, it can appear suspicious. A well-warmed domain demonstrates to ISPs that you’re a legitimate sender, reducing the chances of being flagged or blacklisted."
+        },
+           {
+          title: 'Maximize Open Rates:',
+          description: "As you build your sender reputation, recipients are more likely to open your emails, thus improving engagement and making future email campaigns more effective. Warmed-up email accounts tend to have better open rates, which is crucial for email marketing success."
+        },
+        
+       
+        
+        
+
+      
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
+    {
+      id: '59',
+      title: 'What are the limits for domain and email accounts on SalesTarget.ai?',
+      updated: 'Updated over 8 months ago',
+      content: `Number of Domains Needed for Sending Emails`,
+      features: [
+        {
+          title: 'What are the limits for domain and email accounts on SalesTarget.ai?',
+          description: "SalesTarget.ai sets specific limits on the number of emails you can send per day per account to ensure that your domain’s reputation stays intact, especially during the warm-up phase. By adhering to these limits, you can maintain a positive sender reputation, which is essential for avoiding spam filters and ensuring your emails reach your recipients' inbox."
+        },
+        {
+          title: 'Domain Limit:',
+          description: "Each domain can support up to 5 email accounts. It's important to note that all accounts under the same domain share the same reputation. If one account sends too many emails too quickly and gets flagged, it can negatively affect all other email accounts under that domain. Therefore, warming up all email accounts within a domain together, at a controlled pace, is critical."
+        },
+        {
+          title: 'Email Account Limit:',
+          description: "Each email account is allowed to send up to 30 emails per day. This limit helps prevent overuse of the account and ensures it doesn’t raise red flags with ISPs. Gradually increasing this limit as part of your warm-up plan helps ensure that the account builds a good reputation and avoids triggering spam filters."
+        },
+      
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
+    {
+      id: '60',
+      title: 'What is the warm-up plan for SalesTarget.ai users?',
+      updated: 'Updated over 8 months ago',
+      content: `Number of Domains Needed for Sending Emails`,
+      features: [
+         {
+          title: 'What is the warm-up plan for SalesTarget.ai users?',
+          description: "SalesTarget.ai recommends a strategic warm-up plan for users to gradually increase email volume over time. This ensures that both the domain and individual email accounts maintain a good reputation and helps to improve deliverability. Below is a detailed breakdown of the warm-up phases:"
+        },
+        {
+          title: '',
+          description: "Initial Phase (Days 1–7): Daily Emails per Account: Start small with 5–10 emails per account per day. Focus: During this phase, it’s essential to send emails only to trusted contacts, such as internal colleagues or known contacts. This helps ensure that the email interactions are genuine and that any issues with the email’s appearance (such as formatting or links) can be addressed before reaching real prospects. Goal: The goal is to begin establishing positive engagement (opens, clicks, replies) with a small, safe group."
+        },
+        {
+          title: '',
+          description: "Progression Phase (Days 8–14): Daily Emails per Account: Gradually increase to 20–25 emails per account per day. Focus: Begin sending emails to real prospects, but still at a controlled pace. You should aim for personalized content, compelling subject lines, and calls to action that encourage engagement. Goal: The goal is to gain higher engagement rates while maintaining careful control over the volume of emails sent to avoid appearing spammy."
+        },
+        {
+          title: '',
+          description: "Full Capacity Phase (Days 15 and Beyond): Daily Emails per Account: Once your domain and email accounts have gained a good reputation, increase the daily limit to 30 emails per account. Focus: Continue sending relevant, personalized emails with a high level of engagement. Now that the accounts have a strong reputation, you can scale up email outreach while ensuring ongoing engagement. Goal: At this point, your email accounts should be fully warmed up, and you should aim to maintain high engagement while expanding your outreach to larger lists."
+        },
+      
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
+    {
+      id: '61',
+      title: 'What are the tips for a successful warm-up?',
+      updated: 'Updated over 8 months ago',
+      features: [
+        {
+          title: 'What are the tips for a successful warm-up?',
+          description: "A successful warm-up strategy requires ongoing monitoring and a careful approach to ensure that your email accounts and domain stay healthy. Here are some additional tips for a smooth and effective warm-up:"
+        },
+        {
+          title: 'Monitor Email Activity',
+          description: "Regularly track your email engagement metrics, such as open rates, replies, bounces, and click rates. If you notice high bounce rates or low engagement, it may indicate that your warm-up strategy is not on track. In such cases, adjust the warm-up volume or quality of emails being sent."
+        },
+        {
+          title: 'Avoid Spammy Content',
+          description: "Avoid using language that could trigger spam filters. This includes using all-caps in subject lines, excessive links, too many images, or too many attachments. Instead, focus on writing personalized and relevant email content that provides value to your recipients."
+        },
+        {
+          title: 'Build Trust with Interactions',
+          description: "Emails that encourage recipients to interact (by replying, clicking on links, or even opening the email) help establish trust with ISPs. Always aim to send valuable content that sparks engagement, whether it’s asking for feedback, offering a useful resource, or prompting a call to action."
+        },
+        {
+          title: 'Use the Right Tools',
+          description: "Leverage tools and services that can help monitor your email deliverability and domain reputation. Services like Google Postmaster Tools, Mail-Tester, or third-party reputation monitoring services can help you track the status of your domain and email accounts and adjust your strategy as needed."
+        },
+        {
+          title: 'Gradual Increase in Volume',
+          description: "The key to avoiding spam filters and maintaining high deliverability is to gradually increase the number of emails sent, both in terms of volume and recipients. Sudden spikes in email activity can be flagged as suspicious by ISPs, which is why gradual escalation is crucial."
+        },
+        
+      
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
+    {
+      id: '62',
+      title: 'How to Set Up Your Email Account on SalesTarget.ai',
+      updated: '',
+      content: `Setting up your email account on SalesTarget.ai is an essential step to start your email outreach campaigns. This step-by-step guide walks you through the process of configuring your email account, whether you’re using pre-warmed email accounts, linking an existing Gmail or G-Suite account, or purchasing a custom domain.`,
+      features: [
+        {
+          title: 'How do I log in and begin setting up my email account on SalesTarget.ai?',
+          description: "Log In to Your Account Go to SalesTarget.ai and log in with your credentials. If it's your first time, ensure you complete the email verification process."
+        },
+        {
+          title: '',
+          description: "Navigate to the Email Accounts Section Once logged in, go to the left sidebar of the dashboard. Click on Email Accounts to begin the setup process."
+        },
+      
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
+    {
+      id: '63',
+      title: 'How do I add a new email account on SalesTarget.ai?',
+      updated: '',
+      content: ``,
+      features: [
+        {
+          title: 'Click "Add New"',
+          description: "In the Email Accounts section, click on Add New to start the process of adding your domain."
+        },
+        {
+          title: 'Choose One of the Four Setup Options',
+          description: "You'll be redirected to the Connect Email page where you can select one of the following four options to set up your email account."
+        },
+      
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
+    {
+      id: '64',
+      title: 'What are the four options for setting up an email account on SalesTarget.ai?',
+      updated: '',
+      content: ``,
+      features: [
+        {
+          title: 'Pre-Warmed Email Accounts',
+          description: "Benefits: Ready-to-use, pre-warmed accounts optimized for email deliverability. Start sending emails immediately."
+        },
+         {
+          title: 'Create Your Own Domain',
+          description: "Process: Purchase a custom domain directly from SalesTarget.ai. After choosing your domain, you’ll receive five email accounts for that domain. Note: DNS propagation may take up to 24 hours for full setup."
+        },
+         {
+          title: 'Link Existing Gmail or G-Suite Accounts',
+          description: "If you already use Gmail or G-Suite, link your existing account to SalesTarget.ai by authenticating through Google."
+        },
+         {
+          title: 'Mail Pilot',
+          description: "Process: Use this option for connecting external email providers or custom SMTP setups. Follow the steps provided to connect your chosen provider."
+        },
+       
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      faq:[
+        {
+        title:" How long does it take for my email account to be fully set up?",
+        description:"DNS propagation can take up to 24-72 hours if you purchased a domain from SalesTarget.ai. Your email account may not be fully operational during this time."
+      },
+      {
+        title:"Can I link my existing email account to SalesTarget.ai?",
+        description:"Yes, you can link Gmail or G-Suite directly by selecting the Link Existing Accounts option and authenticating with Google."
+      }
+      ,
+      {
+        title:"What is the difference between Pre-Warmed Email Accounts and linking my own domain?",
+        description:"Pre-Warmed Email Accounts: These are ready to use and optimized for deliverability. Create Your Own Domain: This option lets you purchase and use your custom domain, which may take up to 24 hours to set up."
+      },
+      {
+        title:"How do I know if my domain is fully set up?",
+        description:"You'll receive a notification from the platform once the setup is complete. You can also verify successful email delivery to recipients' inboxes."
+      },
+      {
+        title:"Can I set up multiple email accounts under the same domain?",
+        description:"Yes, each domain allows you to create 5 email accounts for different purposes (e.g., sales@yourdomain.com, support@yourdomain.com)."
+      },
+       {
+        title:"Do I need to install any software to connect my email account?",
+        description:"No, everything is done within the SalesTarget.ai platform. Follow the steps to connect your email account directly."
+      }, {
+        title:"What happens if I exceed the daily email sending limit?",
+        description:"You are limited to 30 emails per day per account. Exceeding this limit will temporarily restrict sending for that day."
+      }
+      ]
+    },
+    {
+      id: '65',
+      title: 'How to handle DNS propagation and account setup delay?',
+      updated: '',
+      content: ``,
+      features: [
+        {
+          title: 'DNS Propagation Time:',
+          description: "If you purchased a domain from SalesTarget.ai, be aware that DNS changes can take up to 24-72 hours. Check back after this period to verify that your email account is fully set up."
+        },
+         {
+          title: 'Support:',
+          description: "If your account is still not set up after 72 hours, consult the help center or contact support for assistance."
+        },
+      
+      ],
+      // accounts:[
+      //   {
+      //   title:"How to connect Google Accounts?",
+      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
+      // }
+      // ],
+      // msaccounts:[
+      //   {
+      //   title:"How to connect an email account that is not Google or Microsoft?",
+      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
+      // }
+      // ],
+      // imap:[
+      //   {
+      //   title:"What to do if you are not able to connect IMAP?",
+      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
+      // }
+      // ],
+
+      // faq:[
+      //   {
+      //   title:" Am I able to connect aliases with salestarget?",
+      //   description:"There is no option to add alias email accounts to salestarget."
+      // }
+      // ]
+    },
   ];
 
   export default mockArticles;
