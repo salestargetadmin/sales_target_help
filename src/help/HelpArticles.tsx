@@ -188,6 +188,32 @@ const categories = [
      
     ],
   },
+  {
+    title: 'Best Practices for Warming Your Domain and Email Accounts',
+    icon: '🔍',
+    articles: [
+      { title: 'importantance of warming up domain and email accounts', id: 58, icon: Shield, color: '#FF00FF' }, // Orange
+      
+      { title: "limits for domain and email accounts on SalesTarget.ai?", id: 59, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'warm-up plan for SalesTarget.ai users?', id: 60, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'tips for a successful warm-up', id: 61, icon: Code, color: '#FF00FF' }, // Orange
+      
+     
+    ],
+  },
+  {
+    title: 'How to Set Up Your Email Account on SalesTarget.ai',
+    icon: '🔍',
+    articles: [
+      { title: 'How to Set Up Your Email Account on SalesTarget.ai', id: 62, icon: Shield, color: '#FF00FF' }, // Orange
+      
+      { title: "How do I add a new email account on SalesTarget.ai?", id: 63, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'What are the four options for setting up an email account on SalesTarget.ai?', id: 64, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'How to handle DNS propagation and account setup delay?', id: 65, icon: Code, color: '#FF00FF' }, // Orange
+      
+     
+    ],
+  },
 ];
 
 import { useSearch } from './SearchContext';

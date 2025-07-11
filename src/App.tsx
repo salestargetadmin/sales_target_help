@@ -7,10 +7,12 @@ import SearchResults from './help/SearchResults';
 import { SearchProvider } from './help/SearchContext'
 import CalculateCost from './help/CalculateCost';
 
+
 const App = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
 
   return (
+     
     <SearchProvider>
     <BrowserRouter>
       <Routes>
@@ -22,6 +24,7 @@ const App = () => {
       </Routes>
     </BrowserRouter>
     </SearchProvider>
+   
 
   );
 };
