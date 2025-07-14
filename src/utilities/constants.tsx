@@ -69,36 +69,9 @@ const mockArticles = [
         description:
           "Connecting your Google Workspace account to salestarget using OAuth authentication allows seamless access and integration between the two platforms. Follow these step-by-step instructions to set up OAuth access in your Google Workspace account and connect it with salestarget. ",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "3", // Unique ID for routing
@@ -117,36 +90,9 @@ const mockArticles = [
         description:
           "Unlike many cold email tools that rely on static IPs and lack blacklist monitoring or rotation capabilities, salestarget.ai offers:\n A vast pool of rotating proxy IPs. \n Constant monitoring and proactive management of IP reputation. \n Location Independence: Using salestarget.ai from different locations does not impact deliverability because our rotating proxy IPs, not user IP addresses, interact directly with email servers.",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "4", // Unique ID for routing
@@ -170,31 +116,7 @@ const mockArticles = [
           "Link multiple email accounts for sending campaigns. Enable email warm-up to improve deliverability. Verify email settings and SPF, DKIM, and DMARC records.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "5", // Unique ID for routing
@@ -218,31 +140,7 @@ const mockArticles = [
           "Connect multiple email accounts for sending. Configure integrations with CRM, Zapier, or webhooks. Adjust user permissions and manage billing details.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "6", // Unique ID for routing
@@ -266,31 +164,7 @@ const mockArticles = [
           "Start the campaign and track performance (open, click, reply rates). Use AI Inbox Manager for automated replies. Adjust messaging and audience based on analytics.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "7", // Unique ID for routing
@@ -314,31 +188,7 @@ const mockArticles = [
           "Sync SalesTarget with HubSpot, Zapier, or custom CRMs via API. Automate lead transfers and follow-ups.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "8", // Unique ID for routing
@@ -362,31 +212,7 @@ const mockArticles = [
           "GDPR-compliant lead data handling. Secure encryption for all stored information. API/Webhook support for seamless CRM synchronization.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "9", // Unique ID for routing
@@ -410,31 +236,7 @@ const mockArticles = [
           "Verify Email Sources – Avoid clicking on unknown links. Educate Team Members – Train them on recognizing security threats. Report Suspicious Activity – Contact support if you notice anomalies.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "10", // Unique ID for routing
@@ -456,31 +258,7 @@ const mockArticles = [
         description: "Get the latest lead insights and changes.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "11", // Unique ID for routing
@@ -504,31 +282,7 @@ const mockArticles = [
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "12", // Unique ID for routing
@@ -552,31 +306,7 @@ const mockArticles = [
           "GDPR and CCPA compliance, along with opt-in email lists, ensure legal and ethical outreach.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "13",
@@ -600,31 +330,7 @@ const mockArticles = [
           "Now that you have deleted the necessary DNS records, it's time to add your domain to your new email service provider. Here are the steps on how to add a domain to the new email service provider.Log in to your new email service provider's workspace.Navigate to the section where you can add a domain. This might be under settings or domain management.Enter your domain name and follow the on-screen instructions to complete the addition process.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "14",
@@ -642,36 +348,9 @@ const mockArticles = [
         description:
           "Set the reply-to address when connecting an account through the IMAP/SMTP method by checking the 'Set reply-to' in the SMTP part.",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "15",
@@ -684,40 +363,9 @@ const mockArticles = [
         description:
           "For domains, you may use SPF and DKIM check. For email deliverability, try our inbox placement feature.",
       },
-      // {
-      //   title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //   description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      // },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "16",
@@ -735,36 +383,9 @@ const mockArticles = [
         description:
           "You no longer need to share the same login with your team members to access the account since they can have their own credentials. If a person is already an salestarget user, this workspace will be added to their list. If they are not using salestarget, they will be asked to create a new account.",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "17",
@@ -792,24 +413,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
+    
 
     faq: [
       {
@@ -854,31 +458,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "And that is also why users need to warm up their specific domains / sending accounts for 3-4 weeks minimum.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "19",
@@ -899,31 +479,7 @@ With this feature. it will try to match the users sending inboxes with the recip
         description: "SPF, DKIM",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "20",
@@ -941,36 +497,8 @@ With this feature. it will try to match the users sending inboxes with the recip
         description:
           "Get the HTML code. You may use some of the online signature generators to get the HTML code. Once you have the HTML code, paste it to the Sequence editors in the Code View.",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "21",
@@ -983,40 +511,9 @@ With this feature. it will try to match the users sending inboxes with the recip
         description:
           "The warmup functionality mimics human conversations between email accounts.But in this case, your ‘friends’ are other salestarget.ai users who have also enabled the warmup feature. You can be sure that all of them will open your email and a high percentage will write you back with a ‘thoughtful’ and positive sentimentThe emails written by the salestarget AI algorithm signal to Google, Outlook, and other ESPs that your email account and sending domain are relevant and legitimate. This increases the likelihood that the messages that are sent to the cold leads in your outreach campaigns will also actually land in their inbox and subsequently be opened and replied to.The bottom line is that the warmup will improve the deliverability of your cold email accounts by mimicking human conversations in the salestarget.ai user pooWhen you connect a sending account to salestarget, warming up the accounts also warms up your SMTP sending server and IMAP servers as welOn top of the deliverability benefits, your outreach email accounts will also stay alive for longer and the likelihood of you ‘burning’ through an account is significantly lower.",
       },
-      // {
-      //   title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //   description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      // },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "22",
@@ -1024,36 +521,7 @@ With this feature. it will try to match the users sending inboxes with the recip
     updated: "Updated over 8 months ago",
     content: `Read Emulation is an advanced warmup feature that mimics reading warm-up emails like a real human. It sends signals to ESPs (the email provider) that your messages are relevant as they will be "read" by the email receiver which has a positive impact on the deliverability and reputation of your domains.`,
     features: [
-      //   {
-      //     title: 'Unlimited Email Accounts',
-      //     description: 'You may connect as many email accounts as you need.'
-      //   },
-      //   {
-      //     title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //     description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      //   },
-      //   {
-      //     title: 'Unlimited Warmup',
-      //     description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      //   }
-      // ],
-      // accounts:[
-      //   {
-      //   title:"How to connect Google Accounts?",
-      //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-      // }
-      // ],
-      // msaccounts:[
-      //   {
-      //   title:"How to connect an email account that is not Google or Microsoft?",
-      //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-      // }
-      // ],
-      // imap:[
-      //   {
-      //   title:"What to do if you are not able to connect IMAP?",
-      //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-      // }
+      
     ],
 
     faq: [
@@ -1080,36 +548,9 @@ With this feature. it will try to match the users sending inboxes with the recip
         description:
           'If you use an Outlook account and you want to create the warmup filter, follow these steps.Open the warmup settings for any of your accounts (the warmup tag is the same for all the accounts connected to a workspace). Copy the filter tag.On your email, navigate to Rules.In the condition, select Rules or body includes.Enter the warmup tag.Add two actionsMark the email as read.Move to the salestarget Warmup folder. If this folder does not exist, create a new one.Click Save.To run this rule, click the triangle icon "Run this rule now" in the Rules sectio',
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "24",
@@ -1133,31 +574,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "25",
@@ -1180,31 +597,7 @@ With this feature. it will try to match the users sending inboxes with the recip
         description: "Avoid hyphens and numbers, use letters only.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "26",
@@ -1223,36 +616,9 @@ With this feature. it will try to match the users sending inboxes with the recip
         description:
           "For some offers, we found a working campaign after 3 tries, for others it took 3 months and 40 campaigns. You need to get into the habit of testing new things daily and weekly.",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "27",
@@ -1276,31 +642,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "If you haven't warmed up your emails for at least 2-3 weeks before sending cold emails, you might see lower open rates. Your own domain's reputation and how old it is, along with the reputation of your sending accounts affect your deliverability.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "28",
@@ -1324,31 +666,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "In this case, the best course of action would be to stop your cold outreach and only let warmup run for a few weeks. After a few weeks, you can start sending cold emails again and monitor if there is any improvement in bounces. Also, consider lowering your overall cold outreach volume.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "29",
@@ -1372,31 +690,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "30",
@@ -1425,31 +719,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "Importing leads from Pipedrive, Importing leads from Hubspot, ​Importing leads from Salesforce",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "31",
@@ -1461,40 +731,9 @@ With this feature. it will try to match the users sending inboxes with the recip
         title: "Unlimited Email Accounts",
         description: "You may connect as many email accounts as you need.",
       },
-      // {
-      //   title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //   description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      // },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "32",
@@ -1511,40 +750,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "salestarget webhook notifications are sent via a POST request, while the request body (with response data) is in JSON format. salestarget users who understand how to handle webhooks will be able to take advantage of this advanced feature. Our team cannot troubleshoot your code or provide step-by-step development instructions.",
       },
-      // {
-      //   title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //   description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      // },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "33",
@@ -1569,31 +777,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Verify the leads. Once finished verifying the leads, start uploading the leads to the campaign.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "34",
@@ -1613,36 +797,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "If you are a TikTok ad agency, search for TikTok tracking pixel trends to get the list of websites that track conversions from TikTok ads.",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "35",
@@ -1655,40 +812,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "They also provide reports and data about Inc. 5000 (fastest-growing companies), Y combinator batches, and Companies founded by former Facebook employees. Having this type of fresh and segmented data also is a great way to do generic personalization/ice-breakers at scale, e.g. “Congrats on getting funding for {{companyName}}!”, “Congrats on your recent ProductHunt launch!”",
       },
-      // {
-      //   title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //   description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      // },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "36",
@@ -1709,36 +835,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "All emails, Interested, Meeting booked, Meeting complete, Closed, Out of Office, Wrong person,Not interested",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "37",
@@ -1751,40 +850,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Scheduling a reply involves setting a specific time for a message or response to be sent. This can be done in various communication platforms, such as email clients, messaging apps, or social media management tools.",
       },
-      // {
-      //   title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //   description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      // },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "38",
@@ -1802,36 +870,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Go to the Leads section of the campaign or CRM --> Leads section, Click on the lead, Change the status in the pop-up window",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "39",
@@ -1843,33 +884,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         title: "Check below",
         description: "You may connect as many email accounts as you need.",
       },
-      // {
-      //   title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //   description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      // },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
+   
 
     faq: [
       {
@@ -1910,29 +927,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         title: "",
         description: "check below faqs",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+    
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
+   
 
     faq: [
       {
@@ -1959,36 +956,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "You can purchase add-ons (available for Supersonic leads and higher lead plans) to get more lead credits.",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "42",
@@ -2007,36 +977,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Under the CCPA, California residents have the right to opt out of “sales” of their business information. Similarly, under the GDPR (and other European data protection laws), individuals in the EEA, the UK, and Switzerland have the right to object to our processing of their business data. ",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "43",
@@ -2058,31 +1001,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "44",
@@ -2095,40 +1014,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Our DPA supplements our Terms of Service and Privacy Policy, and contains contractual terms that address the GDPR’s requirements for data processing agreements between controllers and processors, including with respect to personal data transfer, and that reflect our data privacy and security commitments to our clients. You can see our Data Processing Addendum Document here. The PDF version is attached to this article.",
       },
-      // {
-      //   title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //   description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      // },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "45",
@@ -2152,31 +1040,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Opportunity Management You can track different stages of lead statuses such as interested, meetings booked, completed, won, and custom",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "46",
@@ -2200,31 +1064,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Opportunities give you a consolidated view of all your interested prospects from campaigns and Lists. You can switch between the two by selecting the desired source of opportunities.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "47",
@@ -2242,36 +1082,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "If there's a problem or your registration has failed right after submitting, contact support via chat.",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "48",
@@ -2294,31 +1107,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "49",
@@ -2336,36 +1125,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "The visitor information does not come from your existing campaigns or lists. Instead, it is discovered and enriched by our powerful AI-powered algorithm. Long story short, this helps you discover data for all warm/inbound leads that you'd have otherwise missed.  ",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "50",
@@ -2383,36 +1145,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Ultimately, it is your responsibility to ensure that you are collecting and using personal information in compliance with all applicable laws and regulations. If you have any questions please consult legal counsel.",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "51",
@@ -2430,36 +1165,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "That's what the Inbox Placement feature helps with - providing you with the tools and insights to help your emails reach your ideal clients.",
       },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "52",
@@ -2472,40 +1180,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Before running Inbox Placement tests, set the maximum number of inbox placement tests per day in the sending account settings:",
       },
-      // {
-      //   title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //   description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      // },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+      
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "53",
@@ -2518,40 +1195,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "It’s a feature that automatically checks if your emails land in the inbox, promotions, or spam folders and gives detailed deliverability insights.It helps by automating placement tests, providing insights into blacklists, spam triggers, and email health, allowing you to optimize campaigns and improve deliverability while spending less time on manual tasks.",
       },
-      // {
-      //   title: 'Done-For-You Automatic Email Accounts/ Domains Setup',
-      //   description: 'An outstanding feature that will save you countless hours on your campaign setup.'
-      // },
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+     
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "54",
@@ -2565,31 +1211,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Our average monthly email volume refers to the total number of emails we send out through our platform each month. This includes newsletters, promotional emails, transactional messages, and automated campaigns. On average, we send approximately [X,000 to Y,000 emails/month], but this number can fluctuate based on campaign schedules, customer segmentation, and seasonal marketing efforts. If you're referring to your own monthly email usage, you can typically find this data in your account dashboard under 'Email Analytics' or 'Usage Reports.'",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "55",
@@ -2603,36 +1225,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Only one email account is required to send monthly emails, regardless of the volume. This account will be used as the sender for all outgoing emails to maintain consistency and ensure deliverability. If you're managing multiple brands or campaigns, additional email accounts can be added, but they are not mandatory unless you need separate sender identities.",
       },
 
-      // {
-      //   title: 'Unlimited Warmup',
-      //   description: 'With the largest warmup pool on the market, salestarget ensures your emails never land in spam.'
-      // }
+    
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "56",
@@ -2646,31 +1241,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "You need at least one verified domain to send emails effectively. This domain is used for the sender address (e.g., yourname@yourdomain.com) and must be properly authenticated using SPF, DKIM, and optionally DMARC to ensure high deliverability and avoid spam filters. While one domain is sufficient for most cases, multiple domains can be used if you're sending emails on behalf of different brands or departments.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "57",
@@ -2788,31 +1359,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "That brings your total monthly cost to $165/month for unwarmed accounts, or $215/month if you go with warmed-up accounts.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "58",
@@ -2848,31 +1395,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Send up to 30 emails per day per account. Maintain quality and relevance to preserve domain reputation and inbox placement.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "59",
@@ -2908,31 +1431,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "As you build your sender reputation, recipients are more likely to open your emails, thus improving engagement and making future email campaigns more effective. Warmed-up email accounts tend to have better open rates, which is crucial for email marketing success.",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "60",
@@ -2970,31 +1469,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "SalesTarget.ai recommends a strategic warm-up plan for users to gradually increase email volume over time. This ensures that both the domain and individual email accounts maintain a good reputation and helps to improve deliverability. Below is a detailed breakdown of the warm-up phases:",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+   
   },
   {
     id: "61",
@@ -3009,31 +1484,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
-
-    // faq:[
-    //   {
-    //   title:" Am I able to connect aliases with salestarget?",
-    //   description:"There is no option to add alias email accounts to salestarget."
-    // }
-    // ]
+    
   },
   {
     id: "62",
@@ -3054,31 +1505,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         image: "",
       },
     ],
-    // accounts: [
-    //   {
-    //     title: "How to connect Google Accounts?",
-    //     description:
-    //       "If you want to connect your Google Account, you may check this article to learn the process.",
-    //     image: "",
-    //   },
-    // ],
-    // msaccounts: [
-    //   {
-    //     title:
-    //       "How to connect an email account that is not Google or Microsoft?",
-    //     description:
-    //       "Use the IMAP/SMTP option and follow the steps in this article to connect non-Google/Microsoft accounts.",
-    //     image: "",
-    //   },
-    // ],
-    // imap: [
-    //   {
-    //     title: "What to do if you are not able to connect IMAP?",
-    //     description:
-    //       "Use this Microsoft tool to diagnose connectivity. If issues persist, share a screenshot with support. IMAP host for Google is imap.gmail.com. Check provider docs or webmail for others.",
-    //     image: "",
-    //   },
-    // ],
+    
     faq: [
       {
         title: "How long does it take for my email account to be fully set up?",
@@ -3112,24 +1539,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         image: "/blog9_connectemail.png",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
+    
 
     faq: [
       {
@@ -3177,24 +1587,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         image: "",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
+   
 
     faq: [
       {
@@ -3223,24 +1616,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         image: "",
       },
     ],
-    // accounts:[
-    //   {
-    //   title:"How to connect Google Accounts?",
-    //   description:"If you want to connect your Google Account, you may check this article to learn the process."
-    // }
-    // ],
-    // msaccounts:[
-    //   {
-    //   title:"How to connect an email account that is not Google or Microsoft?",
-    //   description:"If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article."
-    // }
-    // ],
-    // imap:[
-    //   {
-    //   title:"What to do if you are not able to connect IMAP?",
-    //   description:"Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers."
-    // }
-    // ],
+    
 
     faq: [
       {
