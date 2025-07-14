@@ -297,7 +297,7 @@ const HelpArticleDetail = ({ openChat }) => {
     <HelpLayout>
       {(_, setIsChatOpen) => (
         <div className="bg-white p-6 rounded-lg pt-0 pb-55 relative">
-          <button className="flex items-center gap-2 text-black mb-4" onClick={() => navigate(-1)}>
+          <button className="flex items-center cursor-pointer gap-2 text-black mb-4" onClick={() => navigate(-1)}>
             <ArrowLeft className="w-5 h-5" /> Back to Articles
           </button>
           {article ? (
@@ -313,33 +313,41 @@ const HelpArticleDetail = ({ openChat }) => {
                 <h2 className="mt-6 text-xl text-black font-semibold" ref={(el) => (sectionsRef.current['features'] = el)}>
                   Features
                 </h2>
-                <ul className="mt-4 list-disc pl-6 text-gray-700">
-                  {article.features.map((feature, index) => (
-                    <li key={index} className="mt-2">
-                      <strong>{feature.title}</strong>
-                      <p className="text-gray-600">{feature.description}</p>
-                    </li>
-                  ))}
-                </ul>
+               <ul className="mt-4 list-disc pl-6 text-gray-700">
+  {article.features.map((feature, index) => (
+    <li key={index} className="mt-2">
+      <strong>{feature.title}</strong>
+      {feature.image && (
+        <img src={feature.image} alt={feature.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
+      )}
+      <p className="text-gray-600">{feature.description}</p>
+    </li>
+  ))}
+</ul>
+
 
                 {/* Related Sections */}
                 {['accounts', 'msaccounts', 'imap', 'faq'].map((section) => (
-                  article[section] && article[section].length > 0 && (
-                    <div key={section} className="mt-6" ref={(el) => (sectionsRef.current[section] = el)}>
-                      <h2 className="text-xl text-black font-semibold">
-                        {section === 'msaccounts' ? 'Microsoft/O365 Accounts' : section.charAt(0).toUpperCase() + section.slice(1)}
-                      </h2>
-                      <ul className="mt-4 list-disc pl-6 text-gray-700">
-                        {article[section].map((item, index) => (
-                          <li key={index} className="mt-2">
-                            <strong>{item.title}</strong>
-                            <p className="text-gray-600">{item.description}</p>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )
-                ))}
+  article[section] && article[section].length > 0 && (
+    <div key={section} className="mt-6" ref={(el) => (sectionsRef.current[section] = el)}>
+      <h2 className="text-xl text-black font-semibold">
+        {section === 'msaccounts' ? 'Microsoft/O365 Accounts' : section.charAt(0).toUpperCase() + section.slice(1)}
+      </h2>
+      <ul className="mt-4 list-disc pl-6 text-gray-700">
+        {article[section].map((item, index) => (
+          <li key={index} className="mt-2">
+            <strong>{item.title}</strong>
+            {item.image && (
+              <img src={item.image} alt={item.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
+            )}
+            <p className="text-gray-600">{item.description}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+))}
+
 
                 <div className="mt-8 border-t pt-4" ref={(el) => (sectionsRef.current['feedback'] = el)}>
                   <p className="text-gray-600">Was this article helpful?</p>

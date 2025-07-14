@@ -257,7 +257,7 @@ const HelpArticles = () => {
 
           return (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
-              <button className="flex items-center gap-2 text-black mb-2" onClick={() => navigate(-1)}>
+              <button className="flex items-center cursor-pointer gap-2 text-black mb-2" onClick={() => navigate(-1)}>
                 <ArrowLeft className="w-5 h-5" /> Back to Main
               </button>
               {filteredArticles.length > 0 ? (
