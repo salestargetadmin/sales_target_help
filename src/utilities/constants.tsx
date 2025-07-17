@@ -1504,29 +1504,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           'After logging in, go to the left sidebar of your dashboard. Click on "Email Accounts" to begin setting up your email account.',
         image: "",
       },
-    ],
-    
-    faq: [
-      {
-        title: "How long does it take for my email account to be fully set up?",
-        description:
-          "DNS propagation can take 24–72 hours. During this time, your account may not be fully operational.",
-      },
-      {
-        title: "Can I link my existing email account to SalesTarget.ai?",
-        description:
-          'Yes. Use the "Link Existing Accounts" option and authenticate with Google to connect your Gmail or G-Suite account.',
-      },
-    ],
-  },
-
-  {
-    id: "63",
-    title: "How do I add a new email account on SalesTarget.ai?",
-    updated: "",
-    content: ``,
-    features: [
-      {
+       {
         title: 'Step 3: Click "Add New" to Start Adding Your Domain',
         description:
           'In the Email Accounts section, click "Add New" to begin configuring your email.',
@@ -1538,30 +1516,6 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "You’ll be redirected to the Connect Email page, where you can choose from the following options.",
         image: "/blog9_connectemail.png",
       },
-    ],
-    
-
-    faq: [
-      {
-        title:
-          "What is the difference between Pre-Warmed Email Accounts and linking my own domain?",
-        description:
-          "Pre-Warmed: Ready-to-use and optimized for deliverability.\nCustom Domain: Purchase and set up your domain, which may take up to 24 hours.",
-      },
-      {
-        title: "How do I know if my domain is fully set up?",
-        description:
-          "You’ll receive a notification once setup is complete. You can also monitor email delivery and inbox placement.",
-      },
-    ],
-  },
-  {
-    id: "64",
-    title:
-      "What are the four options for setting up an email account on SalesTarget.ai?",
-    updated: "",
-    content: ``,
-    features: [
       {
         title: "Option 1: Pre-Warmed Email Accounts",
         description:
@@ -1586,10 +1540,36 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           'This option allows you to configure an external email provider or custom SMTP setup by choosing "Mail Pilot" and following the instructions.',
         image: "",
       },
+      {
+        title: "Final Notes on DNS Propagation",
+        description:
+          "DNS changes may take up to 24 hours to fully propagate. If your email is not set up after that time, consult the Help Center or contact support.",
+        image: "",
+      },
     ],
-   
-
+    
     faq: [
+      {
+        title: "How long does it take for my email account to be fully set up?",
+        description:
+          "DNS propagation can take 24–72 hours. During this time, your account may not be fully operational.",
+      },
+      {
+        title: "Can I link my existing email account to SalesTarget.ai?",
+        description:
+          'Yes. Use the "Link Existing Accounts" option and authenticate with Google to connect your Gmail or G-Suite account.',
+      },
+      {
+        title:
+          "What is the difference between Pre-Warmed Email Accounts and linking my own domain?",
+        description:
+          "Pre-Warmed: Ready-to-use and optimized for deliverability.\nCustom Domain: Purchase and set up your domain, which may take up to 24 hours.",
+      },
+      {
+        title: "How do I know if my domain is fully set up?",
+        description:
+          "You’ll receive a notification once setup is complete. You can also monitor email delivery and inbox placement.",
+      },
       {
         title: "Can I set up multiple email accounts under the same domain?",
         description:
@@ -1600,6 +1580,41 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Each account can send up to 30 emails/day. Exceeding this limit will temporarily pause sending until the next day.",
       },
+      {
+        title: "Do I need to install any software to connect my email account?",
+        description:
+          "No installation required. The entire process is handled within the SalesTarget.ai platform.",
+      },
+    ],
+  },
+
+  {
+    id: "63",
+    title: "How do I add a new email account on SalesTarget.ai?",
+    updated: "",
+    content: ``,
+    features: [
+     
+    ],
+    
+
+    faq: [
+      
+    ],
+  },
+  {
+    id: "64",
+    title:
+      "What are the four options for setting up an email account on SalesTarget.ai?",
+    updated: "",
+    content: ``,
+    features: [
+      
+    ],
+   
+
+    faq: [
+      
       ,
     ],
   },
@@ -1609,21 +1624,12 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     updated: "",
     content: ``,
     features: [
-      {
-        title: "Final Notes on DNS Propagation",
-        description:
-          "DNS changes may take up to 24 hours to fully propagate. If your email is not set up after that time, consult the Help Center or contact support.",
-        image: "",
-      },
+      
     ],
     
 
     faq: [
-      {
-        title: "Do I need to install any software to connect my email account?",
-        description:
-          "No installation required. The entire process is handled within the SalesTarget.ai platform.",
-      },
+      
     ],
   },
 ];

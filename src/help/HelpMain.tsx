@@ -173,9 +173,7 @@ const categories = [
     icon: '📂',
     articles: [
       { title: 'Total Monthly Costs', id: 56 },
-      { title: 'Monthly email volume', id: 57 },
-      { title: 'Required email accounts', id: 58 },
-      { title: 'Required domains', id: 59 },
+      
      
     ],
   },
