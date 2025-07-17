@@ -207,9 +207,9 @@ const categories = [
     articles: [
       { title: 'How to Set Up Your Email Account on SalesTarget.ai', id: 62, icon: Shield, color: '#FF00FF' }, // Orange
       
-      { title: "How do I add a new email account on SalesTarget.ai?", id: 63, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'What are the four options for setting up an email account on SalesTarget.ai?', id: 64, icon: Shield, color: '#FF00FF' }, // Orange
-      { title: 'How to handle DNS propagation and account setup delay?', id: 65, icon: Code, color: '#FF00FF' }, // Orange
+      // { title: "How do I add a new email account on SalesTarget.ai?", id: 63, icon: Database, color: '#FF00FF' }, // Orange
+      // { title: 'What are the four options for setting up an email account on SalesTarget.ai?', id: 64, icon: Shield, color: '#FF00FF' }, // Orange
+      // { title: 'How to handle DNS propagation and account setup delay?', id: 65, icon: Code, color: '#FF00FF' }, // Orange
       
      
     ],

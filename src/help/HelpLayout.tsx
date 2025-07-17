@@ -68,12 +68,12 @@ const HelpLayout = ({ children }) => {
 
         {/* Search Bar with Suggestions */}
         <div className="relative max-w-4xl mx-auto">
-          <div className="relative">
+          <div className="relative z-20">
             <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-4 text-gray-400" />
             <input
               type="text"
               placeholder="Search for articles..."
-              className="w-full pl-10 pr-10 py-3 text-white border border-gray-600 rounded-lg bg-transparent focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+              className="w-full pl-10 pr-10 py-3 z-10 text-white border border-gray-600 rounded-lg bg-transparent focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent 
     shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -120,8 +120,8 @@ const HelpLayout = ({ children }) => {
           )}
         </div>
 
-        <img src="/bg3.svg" alt="" className="image1 absolute" />
-        <img src="/bg2.svg" alt="" className="image2 absolute" />
+        <img src="/bg3.svg" alt="" className="image1 absolute z-0 hidden md:block" />
+        <img src="/bg2.svg" alt="" className="image2 absolute z-0 hidden md:block" />
       </div>
 
       {/* Content Area */}
