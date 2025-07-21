@@ -141,7 +141,7 @@ const categories = [
     articles: [
       { title: 'Request access to collected data', id: 42, icon: Code, color: '#FF00FF' }, // Orange
       { title: "Opt out of salestarget - object to our processing, opt out of sales, and request deletion of your profile", id: 43, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'salestarget Sub-processors', id: 44, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'Salestarget Sub-processors', id: 44, icon: Shield, color: '#FF00FF' }, // Orange
      
     ],
   },
@@ -149,7 +149,7 @@ const categories = [
     title: 'CRM',
     icon: '🔍',
     articles: [
-      { title: 'salestarget CRM', id: 45, icon: Code, color: '#FF00FF' }, // Orange
+      { title: 'Salestarget CRM', id: 45, icon: Code, color: '#FF00FF' }, // Orange
       { title: "CRM Features", id: 46, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'How to purchase phone numbers', id: 47, icon: Shield, color: '#FF00FF' }, // Orange
      
@@ -192,11 +192,11 @@ const categories = [
     title: 'Best Practices for Warming Your Domain and Email Accounts',
     icon: '🔍',
     articles: [
-      { title: 'importantance of warming up domain and email accounts', id: 58, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'Importantance of warming up domain and email accounts', id: 58, icon: Shield, color: '#FF00FF' }, // Orange
       
-      { title: "limits for domain and email accounts on SalesTarget.ai?", id: 59, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'warm-up plan for SalesTarget.ai users?', id: 60, icon: Shield, color: '#FF00FF' }, // Orange
-      { title: 'tips for a successful warm-up', id: 61, icon: Code, color: '#FF00FF' }, // Orange
+      { title: "Limits for domain and email accounts on SalesTarget.ai?", id: 59, icon: Database, color: '#FF00FF' }, // Orange
+      { title: 'Warm-up plan for SalesTarget.ai users?', id: 60, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'Tips for a successful warm-up', id: 61, icon: Code, color: '#FF00FF' }, // Orange
       
      
     ],
