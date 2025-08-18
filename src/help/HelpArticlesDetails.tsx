@@ -1,18 +1,35 @@
 
+// Section types must be defined before usage
+type SectionId = 'title' | 'features' | 'accounts' | 'msaccounts' | 'imap' | 'faq' | 'feedback';
+type SectionRefs = Partial<Record<SectionId, HTMLElement | null>>;
+
 import { useEffect, useState, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import HelpLayout from './HelpLayout';
 import mockArticles from '../utilities/constants';
 
-const HelpArticleDetail = ({ openChat }) => {
+
+
+// Add Intercom to window type
+declare global {
+  interface Window {
+    Intercom: (command: string) => void;
+  }
+}
+
+interface HelpArticleDetailProps {
+  openChat?: unknown;
+}
+
+const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
   const { articleId } = useParams();
   const navigate = useNavigate();
-  const [article, setArticle] = useState(null);
-  const sectionsRef = useRef({});
-  const listRef = useRef(null);
-  const [activeSection, setActiveSection] = useState('title');
-  const [selectedEmoji, setSelectedEmoji] = useState(null);
+  const [article, setArticle] = useState<any>(null);
+  const sectionsRef = useRef<SectionRefs>({});
+  const listRef = useRef<HTMLUListElement | null>(null);
+  const [activeSection, setActiveSection] = useState<SectionId>('title');
+  const [selectedEmoji, setSelectedEmoji] = useState<string | null>(null);
 
   useEffect(() => {
     const selectedArticle = mockArticles.find((article) => article.id === articleId);
@@ -21,10 +38,9 @@ const HelpArticleDetail = ({ openChat }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      let currentSection = 'title';
+      let currentSection: SectionId = 'title';
       const scrollPosition = window.scrollY + 120;
-
-      Object.entries(sectionsRef.current).forEach(([key, ref]) => {
+      (Object.entries(sectionsRef.current) as [SectionId, HTMLElement | null][]).forEach(([key, ref]) => {
         if (ref) {
           const offsetTop = ref.offsetTop;
           if (offsetTop <= scrollPosition) {
@@ -34,14 +50,13 @@ const HelpArticleDetail = ({ openChat }) => {
       });
       setActiveSection(currentSection);
     };
-
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
     <HelpLayout>
-      {(_, setIsChatOpen) => (
+  {(_: unknown, setIsChatOpen: (open: boolean) => void) => (
         <div className="bg-white p-6 rounded-lg pt-0 pb-55 relative">
           <button className="flex items-center cursor-pointer gap-2 text-black mb-4" onClick={() => navigate(-1)}>
             <ArrowLeft className="w-5 h-5" /> Back to Articles
@@ -50,17 +65,27 @@ const HelpArticleDetail = ({ openChat }) => {
             <div className="relative flex gap-6">
               {/* Main Content */}
               <div className="w-full md:w-3/4">
-                <h1 className="text-3xl font-bold text-black" ref={(el) => (sectionsRef.current['title'] = el)}>
+                <h1
+                  className="text-3xl font-bold text-black"
+                  ref={(el) => {
+                    sectionsRef.current['title'] = el;
+                  }}
+                >
                   {article.title}
                 </h1>
                 <p className="text-gray-500 text-sm mt-1">{article.updated}</p>
                 <p className="mt-4 text-gray-700">{article.content}</p>
 
-                <h2 className="mt-6 text-xl text-black font-semibold" ref={(el) => (sectionsRef.current['features'] = el)}>
+                <h2
+                  className="mt-6 text-xl text-black font-semibold"
+                  ref={(el) => {
+                    sectionsRef.current['features'] = el;
+                  }}
+                >
                   Features
                 </h2>
                <ul className="mt-4 list-disc pl-6 text-gray-700">
-  {article.features.map((feature, index) => (
+  {(article.features as any[]).map((feature: any, index: number) => (
     <li key={index} className="mt-2">
       <strong>{feature.title}</strong>
       {feature.image && (
@@ -74,13 +99,19 @@ const HelpArticleDetail = ({ openChat }) => {
 
                 {/* Related Sections */}
                 {['accounts', 'msaccounts', 'imap', 'faq'].map((section) => (
-  article[section] && article[section].length > 0 && (
-    <div key={section} className="mt-6" ref={(el) => (sectionsRef.current[section] = el)}>
+  article[section] && (article[section] as any[]).length > 0 && (
+    <div
+      key={section}
+      className="mt-6"
+      ref={(el) => {
+        sectionsRef.current[section as SectionId] = el;
+      }}
+    >
       <h2 className="text-xl text-black font-semibold">
         {section === 'msaccounts' ? 'Microsoft/O365 Accounts' : section.charAt(0).toUpperCase() + section.slice(1)}
       </h2>
       <ul className="mt-4 list-disc pl-6 text-gray-700">
-        {article[section].map((item, index) => (
+        {(article[section] as any[]).map((item: any, index: number) => (
           <li key={index} className="mt-2">
             <strong>{item.title}</strong>
             {item.image && (
@@ -95,7 +126,12 @@ const HelpArticleDetail = ({ openChat }) => {
 ))}
 
 
-                <div className="mt-8 border-t pt-4" ref={(el) => (sectionsRef.current['feedback'] = el)}>
+                <div
+                  className="mt-8 border-t pt-4"
+                  ref={(el) => {
+                    sectionsRef.current['feedback'] = el;
+                  }}
+                >
                   <p className="text-gray-600">Was this article helpful?</p>
                   <div className="mt-3 flex gap-4">
                     <button
@@ -109,7 +145,7 @@ const HelpArticleDetail = ({ openChat }) => {
                       onClick={() => {
                         setSelectedEmoji('happy');
                         setIsChatOpen(true);
-                        window.Intercom('show');
+                        window.Intercom && window.Intercom('show');
                       }}
                     >
                       😃
@@ -126,7 +162,7 @@ const HelpArticleDetail = ({ openChat }) => {
                       onClick={() => {
                         setSelectedEmoji('neutral');
                         setIsChatOpen(true);
-                        window.Intercom('show');
+                        window.Intercom && window.Intercom('show');
                       }}
                     >
                       😐
@@ -142,7 +178,7 @@ const HelpArticleDetail = ({ openChat }) => {
                       onClick={() => {
                         setSelectedEmoji('sad');
                         setIsChatOpen(true);
-                        window.Intercom('show');
+                        window.Intercom && window.Intercom('show');
                       }}
                     >
                       😞
@@ -157,21 +193,35 @@ const HelpArticleDetail = ({ openChat }) => {
                   <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-gray-300"></div>
                   <h3 className="text-lg font-semibold text-black ml-4">On this page</h3>
                   <ul className="mt-4 space-y-2 ml-4" ref={listRef}>
-                    {['title', 'features', 'accounts', 'msaccounts', 'imap', 'faq', 'feedback'].map((id) => (
-                      <li key={id}>
-                        <button
-                          className={`block w-full text-left py-1 pl-4 transition-all ${
-                            activeSection === id ? 'text-black font-semibold' : 'text-gray-700'
-                          }`}
-                          onClick={() => {
-                            sectionsRef.current[id]?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                            setActiveSection(id);
-                          }}
-                        >
-                          {id === 'title' ? 'Introduction' : id.charAt(0).toUpperCase() + id.slice(1)}
-                        </button>
-                      </li>
-                    ))}
+                    {(() => {
+                      if (!article) return null;
+                      const tocSections = [
+                        { id: 'title', label: 'Introduction' },
+                        { id: 'features', label: 'Features' },
+                        ...(['accounts', 'msaccounts', 'imap', 'faq'] as SectionId[])
+                          .filter((section) => Array.isArray(article[section]) && (article[section] as any[]).length > 0)
+                          .map((id) => ({
+                            id,
+                            label: id === 'msaccounts' ? 'Microsoft/O365 Accounts' : id.charAt(0).toUpperCase() + id.slice(1)
+                          })),
+                        { id: 'feedback', label: 'Feedback' }
+                      ];
+                      return tocSections.map(({ id, label }) => (
+                        <li key={id}>
+                          <button
+                            className={`block w-full text-left py-1 pl-4 transition-all cursor-pointer ${
+                              activeSection === id ? 'text-black font-semibold' : 'text-gray-700'
+                            }`}
+                            onClick={() => {
+                              (sectionsRef.current[id as SectionId] as HTMLElement | null)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                              setActiveSection(id as SectionId);
+                            }}
+                          >
+                            {label}
+                          </button>
+                        </li>
+                      ));
+                    })()}
                   </ul>
                 </div>
               </div>
