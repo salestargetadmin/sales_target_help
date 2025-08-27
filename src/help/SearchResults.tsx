@@ -7,7 +7,7 @@ import HelpLayout from "./HelpLayout";
 const SearchResults = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const [filteredArticles, setFilteredArticles] = useState([]);
+  const [filteredArticles, setFilteredArticles] = useState<any[]>([]);
 
   // Extract query from URL
   const searchParams = new URLSearchParams(location.search);
@@ -17,19 +17,37 @@ const SearchResults = () => {
     if (query) {
       const results = mockArticles.filter(
         (article) =>
-          article.title.toLowerCase().includes(query) ||
-          article.content.toLowerCase().includes(query) ||
+          article.title?.toLowerCase().includes(query) ||
+          article.content?.toLowerCase().includes(query) ||
           (article.features &&
             article.features.some(
               (feature) =>
-                feature.title.toLowerCase().includes(query) ||
-                feature.description.toLowerCase().includes(query)
+                feature?.title?.toLowerCase().includes(query) ||
+                feature?.description?.toLowerCase().includes(query)
             )) ||
           (article.accounts &&
             article.accounts.some(
               (account) =>
-                account.title.toLowerCase().includes(query) ||
-                account.description.toLowerCase().includes(query)
+                account?.title?.toLowerCase().includes(query) ||
+                account?.description?.toLowerCase().includes(query)
+            )) ||
+          (article.msaccounts &&
+            article.msaccounts.some(
+              (account) =>
+                account?.title?.toLowerCase().includes(query) ||
+                account?.description?.toLowerCase().includes(query)
+            )) ||
+          (article.imap &&
+            article.imap.some(
+              (imap) =>
+                imap?.title?.toLowerCase().includes(query) ||
+                imap?.description?.toLowerCase().includes(query)
+            )) ||
+          (article.faq &&
+            article.faq.some(
+              (faq) =>
+                faq?.title?.toLowerCase().includes(query) ||
+                faq?.description?.toLowerCase().includes(query)
             ))
       );
 
@@ -39,7 +57,7 @@ const SearchResults = () => {
 
   return (
     <HelpLayout>
-      {(searchQuery, setIsChatOpen) => (
+      {(_: any, __: any) => (
         <div className="max-w-4xl mx-auto p-6">
           <button
             className="flex items-center gap-2 text-gray-700 hover:text-purple-600 transition-colors mb-4"

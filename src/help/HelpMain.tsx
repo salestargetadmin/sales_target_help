@@ -178,6 +178,7 @@ const categories = [
     ],
   },
   
+  
 ];
 
 const HelpMain = () => {

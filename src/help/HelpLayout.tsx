@@ -1,29 +1,29 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import ChatWidget from "./ChatWidget";
 import { MagnifyingGlassIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useSearch } from "./SearchContext";
 import mockArticles from "../utilities/constants";
 
-const HelpLayout = ({ children }) => {
+const HelpLayout = ({ children }: { children: any }) => {
   const { searchQuery, setSearchQuery } = useSearch();
   const [isChatOpen, setIsChatOpen] = useState(false);
-  const [filteredArticles, setFilteredArticles] = useState([]);
-  const navigate = useNavigate();
+  const [filteredArticles, setFilteredArticles] = useState<any[]>([]);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  // Filter articles whenever search query changes
+  const navigate = useNavigate();
+  const searchContainerRef = useRef<HTMLDivElement>(null);
 
+  // Filter articles for dropdown only - don't affect current page content
   useEffect(() => {
     if (searchQuery.trim()) {
-      const queryWords = searchQuery.toLowerCase().split(/\s+/); // split by spaces
+      const queryWords = searchQuery.toLowerCase().split(/\s+/);
 
       const results = mockArticles.filter((article) => {
-        const title = article.title.toLowerCase();
+        const title = article.title?.toLowerCase() || "";
         const content = article.content?.toLowerCase() || "";
         const featureText = article.features
-          .map((feature) => `${feature.title} ${feature.description}`)
+          ?.map((feature) => `${feature?.title || ""} ${feature?.description || ""}`)
           .join(" ")
-          .toLowerCase();
+          .toLowerCase() || "";
 
         // Combine all searchable text
         const searchableText = `${title} ${content} ${featureText}`;
@@ -40,10 +40,28 @@ const HelpLayout = ({ children }) => {
     }
   }, [searchQuery]);
 
-  const handleKeyPress = (e) => {
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (searchContainerRef.current && !searchContainerRef.current.contains(event.target as Node)) {
+        setIsDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
+  const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && searchQuery.trim() !== "") {
-      navigate(`/search?query=${encodeURIComponent(searchQuery)}`);
-      setIsDropdownOpen(false); // Close the dropdown after navigation
+      const query = searchQuery; // Store query before clearing
+      setSearchQuery(""); // Clear search query immediately
+      setIsDropdownOpen(false); // Close the dropdown immediately
+      setFilteredArticles([]); // Clear filtered articles immediately
+      navigate(`/search?query=${encodeURIComponent(query)}`); // Navigate with stored query
+      (e.target as HTMLInputElement).blur(); // Remove focus from input
     }
   };
 
@@ -67,7 +85,7 @@ const HelpLayout = ({ children }) => {
         </div>
 
         {/* Search Bar with Suggestions */}
-        <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-4xl mx-auto" ref={searchContainerRef}>
           <div className="relative z-20">
             <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-4 text-gray-400" />
             <input
@@ -91,29 +109,62 @@ const HelpLayout = ({ children }) => {
           </div>
 
           {/* Suggestions Dropdown */}
-          {/* Suggestions Dropdown */}
           {isDropdownOpen && (
-            <div className="absolute z-50 w-full mt-2 bg-white rounded-lg shadow-xl max-h-60 overflow-y-auto">
+            <div className="absolute z-50 w-full mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 h-screen overflow-y-auto backdrop-blur-sm">
               {filteredArticles.length > 0 ? (
-                filteredArticles.map((article) => (
-                  <button
-                    key={article.id}
-                    onClick={() => {
-                      navigate(`/articles/${article.category}/${article.id}`);
-
-                      setIsDropdownOpen(false); // Close the dropdown after navigation
-                    }}
-                    className="w-full px-4 py-3 text-left hover:bg-gray-50 text-gray-700 border-b last:border-b-0"
-                  >
-                    <p className="font-medium">{article.title}</p>
-                    <p className="text-sm text-gray-500 mt-1">
-                      {article.content}
-                    </p>
-                  </button>
-                ))
+                <div className="p-2">
+                  <div className="text-xs font-medium text-gray-500 px-4 py-2 uppercase tracking-wide">
+                    Search Results ({filteredArticles.length})
+                  </div>
+                  {filteredArticles.map((article) => (
+                    <button
+                      key={article.id}
+                      onClick={() => {
+                        navigate(`/articles/${article.category}/${article.id}`);
+                        setSearchQuery(""); // Clear search query
+                        setIsDropdownOpen(false); // Close the dropdown after navigation
+                        setFilteredArticles([]); // Clear filtered articles
+                      }}
+                      className="w-full px-4 py-4 text-left hover:bg-gradient-to-r hover:from-purple-50 hover:to-blue-50 text-gray-700 rounded-lg mb-2 transition-all duration-200 hover:shadow-md border border-transparent hover:border-purple-100 group"
+                    >
+                      <div className="flex items-start gap-3">
+                        <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-purple-100 to-blue-100 rounded-full flex items-center justify-center group-hover:from-purple-200 group-hover:to-blue-200 transition-colors">
+                          <svg className="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                          </svg>
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <p className="font-semibold text-gray-900 group-hover:text-purple-700 transition-colors mb-1 line-clamp-2">
+                            {article.title}
+                          </p>
+                          <p className="text-sm text-gray-500 group-hover:text-gray-600 transition-colors line-clamp-2">
+                            {article.content}
+                          </p>
+                          <div className="flex items-center mt-2 text-xs text-gray-400">
+                            <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            {article.updated}
+                          </div>
+                        </div>
+                        <div className="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity">
+                          <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          </svg>
+                        </div>
+                      </div>
+                    </button>
+                  ))}
+                </div>
               ) : (
-                <div className="p-4 text-gray-500">
-                  No articles found for "{searchQuery}"
+                <div className="p-8 text-center">
+                  <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                  </div>
+                  <p className="text-gray-500 font-medium">No articles found</p>
+                  <p className="text-sm text-gray-400 mt-1">Try searching with different keywords</p>
                 </div>
               )}
             </div>
@@ -126,7 +177,7 @@ const HelpLayout = ({ children }) => {
 
       {/* Content Area */}
       <div className="max-w-4xl mx-auto p-8 pt-2 mt-5">
-        {children(searchQuery, setIsChatOpen)}
+        {children("", setIsChatOpen)} {/* Pass empty string so current page content doesn't filter */}
       </div>
     </div>
   );
