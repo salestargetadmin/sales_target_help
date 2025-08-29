@@ -91,7 +91,7 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
                         {feature.title}
                       </h2>
                     ) : feature.isParagraph ? (
-                      <p key={index} className="text-gray-700 mb-4 leading-relaxed">
+                      <p key={index} className="text-gray-700 mb-4 mt-4 leading-relaxed">
                         {feature.content}
                       </p>
                     ) : feature.isStep ? (
@@ -134,7 +134,7 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
                         <img 
                           src={feature.src} 
                           alt={feature.alt} 
-                          className="w-full max-w-2xl rounded-lg shadow-md mx-auto block"
+                          className="w-full mt-4 max-w-2xl rounded-lg shadow-md mx-auto block"
                         />
                         {feature.caption && (
                           <p className="text-sm text-gray-500 mt-2 text-center italic">
@@ -170,17 +170,25 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
       <h2 className="text-xl text-black font-semibold">
         {section === 'msaccounts' ? 'Microsoft/O365 Accounts' : section.charAt(0).toUpperCase() + section.slice(1)}
       </h2>
-      <ul className="mt-4 list-disc pl-6 text-gray-700">
+      <div className="mt-4">
         {(article[section] as any[]).map((item: any, index: number) => (
-          <li key={index} className="mt-2">
-            <strong>{item.title}</strong>
-            {item.image && (
-              <img src={item.image} alt={item.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
-            )}
-            <p className="text-gray-600">{item.description}</p>
-          </li>
+          item.isHeading ? (
+            <h2 key={index} className="text-lg font-semibold mb-4 mt-6 text-black">
+              {item.title}
+            </h2>
+          ) : (
+            <ul key={index} className="list-disc pl-6 text-gray-700">
+              <li className="mt-2">
+                <strong>{item.title}</strong>
+                {item.image && (
+                  <img src={item.image} alt={item.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
+                )}
+                <p className="text-gray-600">{item.description}</p>
+              </li>
+            </ul>
+          )
         ))}
-      </ul>
+      </div>
     </div>
   )
 ))}

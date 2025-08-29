@@ -1805,7 +1805,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
          
           src : "/memory1.jpg",
            alt: "Image description",
-            caption: "Optional caption",
+            caption: "",
             isImage: true
         },
          {
@@ -2096,52 +2096,34 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       
       {
         title:"What you get (at a glance)",
+        isHeading:true
 
       },
       {
-        title: "Product/Feature",
-        description: "Free Access | What it lets you do"
+        isTable: true,
+        headers: ["Product/Feature", "Free Access " , " What it lets you do "],
+        rows : [["AI Email Outreach", "7-day trial + 100 credits" , "Create multi-step sequences, have AI write &amp; personalize copy, A/B test subject lines, and automate follow-ups."] ,
+
+
+        ["CRM", "7-day trial" , "Track opportunities, stages, tasks, notes, and pipeline analytics—all in one place."],
+
+        ["Lead Explorer (AI-powered)" , "7-day trial + 100 credits" , "Find ICP-matched, verified B2B contacts with AI suggestions for lookalike accounts; enrich and save lists to campaigns."],
+
+        ["Copilot (AI assistant)" , "Free" , "Ask for campaign ideas, write copy, summarize activity, and get next-best actions anywhere in the app."] ,
+
+        ["Upload Your Data (BYO leads)" , "100 credits" , "Import a CSV and we'll automatically add missing details, remove duplicates, and put each column in the right place—ready for AI Email Outreach and CRM ."]
+      ]
       },
+
       {
-        title: "AI Email Outreach",
-        description: "7-day trial + 100 credits"
+        title: "Credits dashboard:",
+        description:"You get three separate 100-credit buckets—Lead Explorer, AI Email Outreach, and Upload Your Data. Your live balances are visible in the app so you can plan usage with no surprises."
       },
-      {
-        description: "Create multi-step sequences, have AI write & personalize copy, A/B test subject lines, and automate follow-ups."
-      },
-      {
-        title: "CRM",
-        description: "7-day trial"
-      },
-      {
-        description: "Track opportunities, stages, tasks, notes, and pipeline analytics—all in one place."
-      },
-      {
-        title: "Lead Explorer (AI-powered)",
-        description: "7-day trial + 100 credits"
-      },
-      {
-        description: "Find ICP-matched, verified B2B contacts with AI suggestions for lookalike accounts; enrich and save lists to campaigns."
-      },
-      {
-        title: "Copilot (AI assistant)",
-        description: "Free"
-      },
-      {
-        description: "Ask for campaign ideas, write copy, summarize activity, and get next-best actions anywhere in the app."
-      },
-      {
-        title: "Upload Your Data (BYO leads)",
-        description: "100 credits"
-      },
-      {
-        description: "Import a CSV and we'll automatically add missing details, remove duplicates, and put each column in the right place—ready for AI Email Outreach and CRM ."
-      },
-      {
-        description:"Credits dashboard: You get three separate 100-credit buckets—LeadExplorer, AI Email Outreach, and Upload Your Data. Your live balances are visible in the app so you can plan usage with no surprises."
-      },
+  
+    
       {
         title: "Why start with a trial?",
+        isHeading:true
       },
       {
         title:"Low risk, high signal.",
@@ -2157,6 +2139,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "Get started in minutes",
+        isHeading:true
       },
       {
         description:"Create your workspace at salestarget.ai and log in.",
@@ -2174,10 +2157,11 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:"Launch a small batch (e.g., 25 contacts), then scale what works.",
       },
       {
-        title:"A 7-day blueprint (so you get real signal)"
+        title:"A 7-day blueprint (so you get real signal)",
+        isHeading:true
       },
       {
-        title:"Day 1 — Setup &amp; strategy",
+        title:"Day 1 — Setup & strategy",
         description:"Connect your sender email, define your ICP, and ask Copilot for angles and subject lines."
       },
       {
@@ -2189,11 +2173,11 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:"Use Copilot to draft and personalize a 3–5 step sequence. Add a clear CTA."
       },
       {
-        title:"Day 4 — Send &amp; monitor",
+        title:"Day 4 — Send &; monitor",
         description:"Start with a small cohort. Track opens, clicks, and replies. Push engaged contacts into CRM."
       },
       {
-        title:"Day 5 — Follow-ups &amp; deals (CRM)",
+        title:"Day 5 — Follow-ups &; deals (CRM)",
         description:"Log calls/notes, move opportunities through stages, set tasks. Ask Copilot to summarize progress."
       },
       {
@@ -2205,7 +2189,8 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:"Check replies and meetings booked, opportunities created, and pipeline value. Decide what to scale."
       },
       {
-        title:"Tips to stretch your credits"
+        title:"Tips to stretch your credits",
+        isHeading:true
       },
       {
         description:"Aim for quality &gt; quantity: one tightly defined segment beats a broad blast.",
@@ -2242,7 +2227,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "Ready to try it?",
-      
+        isHeading:true
       },
       {
         title:"AI Email Outreach:",
