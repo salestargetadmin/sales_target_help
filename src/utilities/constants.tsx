@@ -2076,7 +2076,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title:"Ready to Try Copilot?",
-        description:"Log in to SalesTarget.ai, enter your ICP and sales goal, and let Copilot handle outreach, lead generation, CRM insights, analytics, and website-based Memory — all in one placee"
+        description:"Log in to SalesTarget.ai, enter your ICP and sales goal, and let Copilot handle outreach, lead generation, CRM insights, analytics, and website-based Memory — all in one place"
       },
       {
         title:"Need help? Email support@salestarget.ai for a quick start playbook."
