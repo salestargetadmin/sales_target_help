@@ -1,6 +1,6 @@
 
 // Section types must be defined before usage
-type SectionId = 'title' | 'features' | 'accounts' | 'msaccounts' | 'imap' | 'faq' | 'feedback';
+type SectionId = 'title' | 'features' | 'accounts' | 'msaccounts' | 'imap' | 'faq' | 'feedback' ; 
 type SectionRefs = Partial<Record<SectionId, HTMLElement | null>>;
 
 import { useEffect, useState, useRef } from 'react';
@@ -84,17 +84,77 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
                 >
                   Features
                 </h2>
-               <ul className="mt-4 list-disc pl-6 text-gray-700">
-  {(article.features as any[]).map((feature: any, index: number) => (
-    <li key={index} className="mt-2">
-      <strong>{feature.title}</strong>
-      {feature.image && (
-        <img src={feature.image} alt={feature.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
-      )}
-      <p className="text-gray-600">{feature.description}</p>
-    </li>
-  ))}
-</ul>
+                <div className="mt-4">
+                  {(article.features as any[]).map((feature: any, index: number) => (
+                    feature.isHeading ? (
+                      <h2 key={index} className="text-lg font-semibold mb-4 mt-6 text-black">
+                        {feature.title}
+                      </h2>
+                    ) : feature.isParagraph ? (
+                      <p key={index} className="text-gray-700 mb-4 mt-4 leading-relaxed">
+                        {feature.content}
+                      </p>
+                    ) : feature.isStep ? (
+                      <h2 key={index} className="text-base font-bold mb-4 mt-8 text-black">
+                        {feature.stepTitle}
+                      </h2>
+                    ) : feature.isTable ? (
+                      <div key={index} className="mb-6 overflow-x-auto">
+                        <table className="w-full border-collapse bg-white rounded-lg shadow-sm">
+                          <thead>
+                            <tr className="bg-gray-50">
+                              {feature.headers.map((header: string, headerIndex: number) => (
+                                <th 
+                                  key={headerIndex} 
+                                  className="border border-gray-200 px-4 py-3 text-left font-semibold text-gray-900"
+                                >
+                                  {header}
+                                </th>
+                              ))}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {feature.rows.map((row: string[], rowIndex: number) => (
+                              <tr key={rowIndex} className={rowIndex % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                                {row.map((cell: string, cellIndex: number) => (
+                                  <td 
+                                    key={cellIndex} 
+                                    className="border border-gray-200 px-4 py-3 text-gray-700"
+                                  >
+                                    {cell}
+                                  </td>
+                                ))}
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    ) : feature.isImage ? (
+                      <div key={index} className="mb-6">
+                        <img 
+                          src={feature.src} 
+                          alt={feature.alt} 
+                          className="w-full mt-4 max-w-2xl rounded-lg shadow-md mx-auto block"
+                        />
+                        {feature.caption && (
+                          <p className="text-sm text-gray-500 mt-2 text-center italic">
+                            {feature.caption}
+                          </p>
+                        )}
+                      </div>
+                    ) : (
+                      <ul key={index} className="list-disc pl-6 text-gray-700">
+                        <li className="mt-2">
+                          <strong>{feature.title}</strong>
+                          {feature.image && (
+                            <img src={feature.image} alt={feature.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
+                          )}
+                          <p className="text-gray-600">{feature.description}</p>
+                        </li>
+                      </ul>
+                    )
+                  ))}
+                </div>
 
 
                 {/* Related Sections */}
@@ -110,17 +170,25 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
       <h2 className="text-xl text-black font-semibold">
         {section === 'msaccounts' ? 'Microsoft/O365 Accounts' : section.charAt(0).toUpperCase() + section.slice(1)}
       </h2>
-      <ul className="mt-4 list-disc pl-6 text-gray-700">
+      <div className="mt-4">
         {(article[section] as any[]).map((item: any, index: number) => (
-          <li key={index} className="mt-2">
-            <strong>{item.title}</strong>
-            {item.image && (
-              <img src={item.image} alt={item.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
-            )}
-            <p className="text-gray-600">{item.description}</p>
-          </li>
+          item.isHeading ? (
+            <h2 key={index} className="text-lg font-semibold mb-4 mt-6 text-black">
+              {item.title}
+            </h2>
+          ) : (
+            <ul key={index} className="list-disc pl-6 text-gray-700">
+              <li className="mt-2">
+                <strong>{item.title}</strong>
+                {item.image && (
+                  <img src={item.image} alt={item.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
+                )}
+                <p className="text-gray-600">{item.description}</p>
+              </li>
+            </ul>
+          )
         ))}
-      </ul>
+      </div>
     </div>
   )
 ))}

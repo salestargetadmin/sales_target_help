@@ -19,6 +19,11 @@ const mockArticles = [
         description:
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
+      {
+        title: "What Copilot Can Do",
+        type: "heading",
+        isHeading: true
+      },
     ],
     accounts: [
       {
@@ -1620,7 +1625,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
   },
   {
     id: "65",
-    title: "How to handle DNS propagation and account setup delay?",
+    title: "what is Co-pilot?",
     updated: "",
     content: ``,
     features: [
@@ -1631,7 +1636,655 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     faq: [
       
     ],
+
+    
   },
+
+  {
+    id: "67",
+    title: "Meet Copilot - The Free AI Sales Assistant in SalesTarget.ai",
+    updated: "",
+    content: `Copilot in SalesTarget.ai is your always-on AI sales assistant that helps with cold email outreach, lead generation, CRM updates, sales analytics, and Memory — all in one place.
+
+
+`,
+    features: [
+      {
+        content:"👉It works across AI Email Outreach, Lead Explorer,  CRM, Sales Analytics, and Memory, so you can move from ICP → outreach → deals → pipeline growth without switching tools.",
+        type:"paragraph",
+        isParagraph:true
+      },
+      {
+        content:"👉Copilot is completely free to use.",
+        type:"paragraph",
+        isParagraph:true
+      },
+      {
+        src: "/intro.jpg",
+        alt: " SalesTarget.ai Copilot dashboard showing options to find prospects, generate campaigns, write sequences, and view analytics with an AI-powered chat interface.",
+        caption: "",
+        type: "image",
+        isImage: true
+      },
+        {
+         title : "Quick Highlights",
+         type: "heading",
+         isHeading: true
+       },
+       {
+        title : "What is Copilot?",
+        description: "A free AI assistant inside SalesTarget.ai ",
+        },
+        {
+        title : "What does it do? ",
+        description: "Writes cold email sequences, suggests audiences, summarizes CRM activity, reads your website for context, and recommends next steps."
+        },
+        {
+          title : "Who is it for? ",
+          description : " Founders, SDRs, sales teams, agencies "
+        },
+        {
+          title : "Why does it matter? ",
+          description : "Less manual work, faster pipeline, more meetings booked"
+        },
+        {
+          title : "How much does it cost? ",
+          description : "Copilot is free. Other modules have 7-day free trials and credits",
+        },
+       {
+  title: "What Copilot Can Do",
+  type: "heading", 
+  isHeading: true
+},
+        {
+          title: "1. AI Email Outreach (Cold Email Writer)",
+          type:"heading",
+          isHeading:true
+        },
+        {
+          description : "	Generate 3–5 step email sequences from a short brief",
+  
+        },
+        {
+          description : "	Personalize intros using company, role, or industry context.",
+        },
+        {
+          description: "	Suggest subject lines, CTAs, and A/B test variations.",
+        },
+        {
+          description: "	Adjust tone: friendly, formal, concise, or persuasive.",
+        },
+        {
+           content: "Example Prompt:",
+    isParagraph: true
+        },
+        {
+           src: "/hello.jpg",
+  alt: "Image description",
+  caption: "Create a 4-step cold email sequence for Heads of Sales at US SaaS companies (50–200 employees). Keep each email under 120 words",
+  type: "image",
+  isImage: true
+        },
+    
+        {
+          title: "2. AI Lead Generation (Lead Explorer) ",
+            type:"heading",
+          isHeading:true
+        },
+        {
+          description : "	Turn your ICP (Ideal Customer Profile) into filters.	",
+    
+  
+        },
+        {
+          description : "	Suggest lookalike accounts and adjacent segments.",
+        },
+        {
+          description : "	Recommend safe sending list sizes for testing.",
+        },
+          {
+           content: "Example Prompt:",
+    isParagraph: true
+        },
+        {
+           src: "/Leads.jpg",
+  alt: "Image description",
+  caption: "Suggest 3 ICP filters for APAC SaaS companies likely to care about lowering CAC. Then propose a 25-contact test list",
+  type: "image",
+  isImage: true
+        },
+     
+        {
+          title: "3.Sales Analytics Assistant ",
+            type:"heading",
+          isHeading:true
+        },
+        {
+          description : "	Summarize campaign results.",
+        },
+        {
+          description : "	Highlight which sequences and subject lines perform best.",
+        },
+        {
+          description : "	Recommend next steps to improve reply and conversion rates.",
+        },
+        {
+           content: "Example Prompt:",
+    isParagraph: true
+        },
+          {
+           content: "Summarize the last 3 campaigns and suggest 2 optimizations to improve open rates.",
+    isParagraph: true
+        },
+      
+        {
+          title:"4. Memory (Business Data Awareness) ",
+            type:"heading",
+          isHeading:true,
+        },
+        {
+          content:"Memory is where Copilot becomes truly context-aware. Instead of starting from scratch, you can add your website and ICP details, and Copilot will personalize everything.",
+          isParagraph: true
+        },
+        {
+            src: "/memory.jpg",
+            alt: "Image description",
+            caption: "Optional caption text",
+            type: "image",
+            isImage: true
+        },
+        {
+            stepTitle: "Step 1. Add Your Website",
+            isStep: true
+        },  
+        {
+          content: "Enter your website URL, and Copilot instantly extracts your company name, description, awards, and outreach goals. This ensures Copilot understands your positioning, messaging, and sales objectives",
+            isParagraph: true    
+        },
+        {
+         
+          src : "/memory1.jpg",
+           alt: "Image description",
+            caption: "",
+            isImage: true
+        },
+         {
+            stepTitle: "Step 2. Define Customer Profiles",
+            isStep: true
+        },  
+        {
+            content: "Add Ideal Customer Profiles (ICPs) — company size, problems solved, benefits, and unique selling points.",
+            isParagraph: true
+        },
+        {
+              src: "/memory3.jpg",
+              alt: "Image description",
+              caption: "",
+              isImage: true
+        },
+         {
+            stepTitle: "Step 3. Add Guidance Rules",
+            isStep: true
+        },  
+         {
+            content: "Set up smart rules (up to 10) to guide tone, style, and outreach strategy.",
+            isParagraph: true
+        },
+       {
+         content: "Example Rules:",
+         isParagraph: true
+       },
+        {
+          description : " Keep subject lines under 6 words.",
+        },
+        {
+          description : "Always include a calendar link in the last email ",
+        },
+        {
+          description : " Prioritize SaaS companies in APAC  ",
+        },
+        {
+  src: "/Picture9.jpg",
+  alt: "Image description",
+  caption: "",
+  isImage: true
+},     
+      {
+  src: "/Picture10.jpg",
+  alt: "Image description",
+  caption: "",
+  isImage: true
+},
+        
+     
+        {
+          title:"Why Memory Matters",
+            type:"heading",
+          isHeading:true
+        },
+        {
+          title: "Consistent Messaging ",
+          description:"Copilot always speaks in your brand voice"
+        },
+        {
+          title: "Faster Setup ",
+          description:" No need to repeat background info; Copilot already knows your company. "
+        },
+        {
+          title:"Smarter Outreach ",
+          description:"Recommendations tied to your real business data."
+        },
+        
+         {
+              content: " Example Prompt:",
+              isParagraph: true
+        },
+         {
+              content: "Based on our website and ICP for mid-market SaaS teams, draft a 3-step cold email sequence to highlight automation benefits.”",
+              isParagraph: true
+        },
+        {
+            title: "Your Copilot Workspace",
+            isHeading: true
+        },
+        {
+              content: "With the SalesTarget.ai Copilot dashboard, you can:",
+              isParagraph: true
+        },
+        {
+          title:"New Chat ",
+          description:"Ask Copilot anything (e.g., “Find ideal prospects” or “Summarize this deal”)."
+        },
+        {
+          title:"Memory",
+          description:"Add your website so Copilot can read and use your business data."
+        },
+        {
+          title:"Analytics",
+          description:"Review campaign outcomes and get improvement suggestions."
+        },
+        {
+          title:"How Copilot Fits Your Sales Workflow",
+          isHeading: true
+        },
+        {
+          title:"	Define ICP ",
+          description:"Copilot builds filters (Lead Explorer)."
+        },
+        {
+          title:"Generate List ",
+          description:"Copilot recommends size + adjacent segments."
+        },
+        {
+          title:"	Write Outreach Sequence ",
+          description:"→ Copilot drafts, personalizes, and A/B tests."
+        },
+        {
+          title:" Send in Batches ",
+          description:"→ Copilot monitors and optimizes"
+        },
+        {
+          title: " Work Deals",
+          description: "→ Copilot summarizes CRM and recommends next steps"
+        },
+        {
+          title : "	Use Memory",
+          description: "→ Copilot references your website content for context-aware responses." 
+        },
+        {
+          title : " Quick Start (In 10 Minutes) ",
+          isHeading: true
+        },
+        {
+          description: "Log in to SalesTarget.ai → find Copilot in the sidebar."
+        },
+        {
+          description : "Pick a goal (e.g., “Book 5 FinTech discovery calls this week”)."
+        },
+        {
+          description : "Paste your ICP (or let Copilot ask questions"
+        },
+        {
+          description : " Generate a sequence → pick tone + personalization "
+        },
+        {
+          description : "	Create a 25-contact test list → hit send."
+        },
+        {
+          description : "	Add your website to Memory → let Copilot tailor outputs to your business."
+        },
+        {
+          title: "Free Access Recap",
+          isHeading: true
+        },
+        {
+          title:"Copilot (AI sales assistant",
+          description: "Always free"
+        },
+        {
+          title:"AI Email Outreach",
+          description:"7-day trial + 100 credits"
+        },
+        {
+          title: "Lead Explorer",
+          description: "7-day trial + 100 credits"
+        },
+        {
+          title:"Upload Data",
+          description:"100 credits (CSV + enrichment)"
+        },
+     
+        {
+          title: "Prompt Recipes (Copy/Paste)",
+          isHeading: true
+        },
+       {
+        title:"Subject lines",
+        description:"10 subject lines for SaaS Heads of Sales about reducing prospecting time by 50%"
+       },
+       {
+        title:"Personalization:",
+        description:"1-sentence opener using {first_name}, {company}, and {recent_news}"
+       },
+       {
+        title:"Objection handling",
+        description:"Reply to ‘We’re doing this in-house’ with a short invite for a 15-minute teardown."
+       },
+       {
+        title:"Follow-ups",
+        description:"Day-3 follow-up if opened but no reply. Offer 2 time slots"
+       },
+       {
+        title:"Deals Summary",
+        description:"Summarize last 5 emails with Contoso and propose next action"
+       },
+       {
+        title:"Memory prompt",
+        description:"Use our website content and generate a 3-step outreach for SMB FinTech prospects."
+       },
+       {
+        title:"Best Practices",
+        isHeading: true
+       },
+       {
+        description:"Start with 25–50 contacts, then scale"
+       },
+       {
+        description:"Keep ICP segments tight (industry + role + region)"
+       },
+       {
+        description:"Cold emails ≤120 words, subject lines 4–6 words"
+       },
+       {
+        description:"Use one clear CTA per email."
+       },
+       {
+        description:"Move replies into CRM for tracking."
+       },
+       {
+        description:"Add your website to Memory early so Copilot learns your messaging"
+       },
+       {
+        title:"Who Benefits Most",
+        isHeading: true
+       },
+       {
+        title:"Founders & Solo Sellers",
+        description:"Faster to first meetings"
+       },
+       {
+        title:"SDRs / BDRs",
+        description:"Build lists + launch campaigns faster."
+       },
+       {
+        title:"Sales Leaders / RevOps",
+        description:"Cleaner pipeline, weekly clarity"
+       },
+       {
+        title:"Agencies",
+        description:"Reusable playbooks for multiple clients"
+       }
+
+    ],
+    
+
+    faq: [
+
+      {
+      title:"Is Copilot free?",
+      description:"Yes. Copilot is completely free inside SalesTarget.ai"
+      },
+
+      {
+        title:"Does Copilot replace sales reps?",
+        description:"No. It assists reps with writing, research, and recommendations. Strategy and relationships stay human."
+      },
+
+      {
+        title:"How do trials/credits work?",
+        description:"Copilot is free. Email Outreach, Lead Explorer, and Upload Data come with 100 credits each. CRM has a 7-day trial."
+      },
+
+      {
+        title:"Is my sales data secure?",
+        description : "Yes. Your workspace data stays in your account. Imports, lists, and enrichment are private to you"
+      },
+
+      {
+        title:"Does Memory store my website data?",
+        description:"Yes. When you add your website, Copilot securely pulls content for context-aware responses. Data remains private to your account."
+      },
+      {
+        title:"Ready to Try Copilot?",
+        description:"Log in to SalesTarget.ai, enter your ICP and sales goal, and let Copilot handle outreach, lead generation, CRM insights, analytics, and website-based Memory — all in one place"
+      },
+      {
+        title:"Need help? Email support@salestarget.ai for a quick start playbook."
+      }
+    ],
+
+    
+    
+  },
+
+  {
+    id: "68",
+    title: "Try SalesTarget.ai Free — Do Real Sales Work in 7 Days",
+    updated: "",
+    content: `Choosing a sales platform shouldn’t feel like a leap of faith. You need proof it fits your workflow and actually moves pipeline. That’s why SalesTarget.ai gives you hands-on access to the core tools—so you can build lists, run AI email outreach, and track deals before you ever pay.Below is a clear breakdown of what’s included, how credits work (with separate buckets you can track), and a one-week plan to see results fast.`,
+    features: [
+      
+      {
+        title:"What you get (at a glance)",
+        isHeading:true
+
+      },
+      {
+        isTable: true,
+        headers: ["Product/Feature", "Free Access " , " What it lets you do "],
+        rows : [["AI Email Outreach", "7-day trial + 100 credits" , "Create multi-step sequences, have AI write &amp; personalize copy, A/B test subject lines, and automate follow-ups."] ,
+
+
+        ["CRM", "7-day trial" , "Track opportunities, stages, tasks, notes, and pipeline analytics—all in one place."],
+
+        ["Lead Explorer (AI-powered)" , "7-day trial + 100 credits" , "Find ICP-matched, verified B2B contacts with AI suggestions for lookalike accounts; enrich and save lists to campaigns."],
+
+        ["Copilot (AI assistant)" , "Free" , "Ask for campaign ideas, write copy, summarize activity, and get next-best actions anywhere in the app."] ,
+
+        ["Upload Your Data (BYO leads)" , "100 credits" , "Import a CSV and we'll automatically add missing details, remove duplicates, and put each column in the right place—ready for AI Email Outreach and CRM ."]
+      ]
+      },
+
+      {
+        title: "Credits dashboard:",
+        description:"You get three separate 100-credit buckets—Lead Explorer, AI Email Outreach, and Upload Your Data. Your live balances are visible in the app so you can plan usage with no surprises."
+      },
+  
+    
+      {
+        title: "Why start with a trial?",
+        isHeading:true
+      },
+      {
+        title:"Low risk, high signal.",
+        description:"In a week you’ll know if SalesTarget.ai fits your team."
+      },
+      {
+        title:"Real work, not demos.",
+        description:"Build a list, run AI outreach, log replies, move deals."
+      },
+      {
+        title:"Everything connected.",
+        description:"Lead Explorer ↔ AI Email ↔ CRM, with Copilot helping at each step."
+      },
+      {
+        title: "Get started in minutes",
+        isHeading:true
+      },
+      {
+        description:"Create your workspace at salestarget.ai and log in.",
+      },
+      {
+        description:"Activate trials for AI Email Outreach, CRM, and Lead Explorer (Copilot is free and ready).",
+      },
+      {
+        description:"Define your ICP (industry, role, company size, region).",
+      },
+      {
+        description:"Draft a sequence with Copilot (3–5 steps), personalize with variables, and set your sending window.",
+      },
+      {
+        description:"Launch a small batch (e.g., 25 contacts), then scale what works.",
+      },
+      {
+        title:"A 7-day blueprint (so you get real signal)",
+        isHeading:true
+      },
+      {
+        title:"Day 1 — Setup & strategy",
+        description:"Connect your sender email, define your ICP, and ask Copilot for angles and subject lines."
+      },
+      {
+        title:"Day 2 — Build your first list (Lead Explorer)",
+        description:"Use filters + AI suggestions to generate a tight segment. Spend Lead Explorer credits on best-fit contacts."
+      },
+      {
+        title:"Day 3 — Sequence (AI Email Outreach)",
+        description:"Use Copilot to draft and personalize a 3–5 step sequence. Add a clear CTA."
+      },
+      {
+        title:"Day 4 — Send &; monitor",
+        description:"Start with a small cohort. Track opens, clicks, and replies. Push engaged contacts into CRM."
+      },
+      {
+        title:"Day 5 — Follow-ups &; deals (CRM)",
+        description:"Log calls/notes, move opportunities through stages, set tasks. Ask Copilot to summarize progress."
+      },
+      {
+        title:"Day 6 — Improve",
+        description:"Test a new subject line or opener. Try a second micro-segment (different industry or seniority)."
+      },
+      {
+        title:"Day 7 — Review outcomes",
+        description:"Check replies and meetings booked, opportunities created, and pipeline value. Decide what to scale."
+      },
+      {
+        title:"Tips to stretch your credits",
+        isHeading:true
+      },
+      {
+        description:"Aim for quality &gt; quantity: one tightly defined segment beats a broad blast.",
+      },
+      {
+        description:"Use Copilot for fast personalization to lift replies without manual work.",
+      },
+      {
+        description:"Batch test 2 subject lines × 2 openers; keep the winner, pause the loser.",
+      },
+      {
+        description:"Keep CRM stages tidy—clean data makes your week-one analytics meaningful..",
+      },
+
+    ],
+    
+
+    faq: [
+      {
+        title: "How do the credits work?",
+        description: "You have three 100-credit buckets during your free access: Lead Explorer (100), AI Email Outreach (100), and Upload Your Data (100). Your remaining balances update in real time in the app."
+      },
+      {
+        title: "Is Copilot really free?",
+        description: "Yes. Copilot remains free for ideation, writing, summaries, and guidance—before, during, and after your trials."
+      },
+      {
+        title: "What happens when the 7-day trials end?",
+        description: "Access to AI Email Outreach, Lead Explorer, and CRM pauses until you upgrade. Your workspace and data remain intact. Copilot stays free."
+      },
+      {
+        title: "Can I invite my team?",
+        description: "Absolutely—add teammates so you can test collaboration, assignments, and shared pipeline."
+      },
+      {
+        title: "Ready to try it?",
+        isHeading:true
+      },
+      {
+        title:"AI Email Outreach:",
+        description:"7-day free trial + 100 credits"
+      },
+      {
+        title:"CRM:",
+        description:"7-day free trial "
+      },
+      {
+        title:"Lead Explorer (AI-powered):",
+        description:"7-day free trial + 100 credits"
+      },
+      {
+        title:"Upload Your Data:",
+        description:"100 credits"
+      },
+      {
+        title:"Copilot (AI assistant):",
+        description:"Free"
+      },
+      {
+        title:"Start here: salestarget.ai → create your workspace → enable the trials. Need help? Email support@salestarget.ai—we’ll get you productive on Day 1."
+      }
+    ],
+  },
+
+  {
+    id: "69",
+    title: "The Ultimate Cold Email Warm-Up Plan to Build a Strong Sender Reputation",
+    updated: "",
+    content: `Cold email outreach is still one of the fastest ways to generate B2B leads. But here’s the
+catch — if your emails don’t land in the inbox, they’ll never be read. Deliverability is
+everything.
+Think about it: You can write the perfect subject line, the smartest copy, and have a killer
+offer. But if Gmail or Outlook thinks you’re spammy, your prospects won’t even see it.
+That’s why having a solid email warm-up plan is non-negotiable. Whether you’re launching
+your very first outbound campaign or adding new domains to scale, a structured warm-up
+process ensures your messages reach inboxes — not spam folders.
+In this guide, I’ll walk you through a proven warm-up strategy we use at SalesTarget.ai, plus
+how our automated warm-up tool can save you from all the manual effort.`,
+
+    features: [
+      {
+        label:"1 Hi",
+        title:""
+      }
+    ],
+    
+
+    faq: [
+      
+    ],
+  },
+  
+ 
+     
 ];
 
 export default mockArticles;
