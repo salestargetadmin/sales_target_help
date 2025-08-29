@@ -177,7 +177,34 @@ const categories = [
      
     ],
   },
-  
+
+  {
+    title: 'Meet copilot - The Free AI Sales Assistant in SalesTarget.ai',
+    icon: '📂',
+    articles: [
+      { title: 'Meet Copilot - The Free AI Sales Assistant in SalesTarget.ai', id: 67 },
+    
+    ],
+  },
+
+
+  {
+    title: 'Try SalesTarget.ai Free — Do Real Sales Work in 7 Days',
+    icon: '📂',
+    articles: [
+      { title: 'Try SalesTarget.ai Free — Do Real Sales Work in 7 Days', id: 68 },
+    
+    ],
+  },
+
+  {
+    title: 'The Ultimate Cold Email Warm-Up Plan to Build a Strong Sender Reputation',
+    icon: '📂',
+    articles: [
+      { title: 'The Ultimate Cold Email Warm-Up Plan to Build a Strong Sender Reputation', id: 69 },
+    ],
+  },
+    
   
 ];
 

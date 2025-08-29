@@ -214,6 +214,33 @@ const categories = [
      
     ],
   },
+  {
+    title: 'Meet copilot - The Free AI Sales Assistant in SalesTarget.ai',
+    icon: '🔍',
+    articles: [
+      { title: 'Meet Copilot - The Free AI Sales Assistant in SalesTarget.ai', id: 67, icon: Shield, color: '#FF00FF' }, // Orange
+        
+    ],
+  },
+
+  {
+    title: 'Try SalesTarget.ai Free — Do Real Sales Work in 7 Days',
+    icon: '🔍',
+    articles: [
+      { title: 'Try SalesTarget.ai Free — Do Real SalesWork in 7 Days', id: 68, icon: Shield, color: '#FF00FF' }, // Orange
+        
+    ],
+  },
+
+  {
+    title: 'The Ultimate Cold Email Warm-Up Plan to Build a Strong Sender Reputation',
+    icon: '🔍',
+    articles: [
+      { title: 'The Ultimate Cold Email Warm-Up Plan to Build a Strong Sender Reputation', id: 69, icon: Shield, color: '#FF00FF' }, // Orange
+        
+    ],
+  },
+  
 ];
 
 import { useSearch } from './SearchContext';
