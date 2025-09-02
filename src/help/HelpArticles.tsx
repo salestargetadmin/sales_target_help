@@ -227,7 +227,7 @@ const categories = [
     title: 'Try SalesTarget.ai Free — Do Real Sales Work in 7 Days',
     icon: '🔍',
     articles: [
-      { title: 'Try SalesTarget.ai Free — Do Real SalesWork in 7 Days', id: 68, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'Try SalesTarget.ai Free — Do Real Sales Work in 7 Days', id: 68, icon: Shield, color: '#FF00FF' }, // Orange
         
     ],
   },
