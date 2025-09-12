@@ -6,6 +6,7 @@ type SectionRefs = Partial<Record<SectionId, HTMLElement | null>>;
 import { useEffect, useState, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 import HelpLayout from './HelpLayout';
 import mockArticles from '../utilities/constants';
 
@@ -58,6 +59,21 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
     <HelpLayout>
   {(_: unknown, setIsChatOpen: (open: boolean) => void) => (
         <div className="bg-white p-6 rounded-lg pt-0 pb-55 relative">
+          {/* Add Helmet for meta tags */}
+          {article && (
+            <Helmet>
+              <title>{article.metaTitle || article.title}</title>
+              <meta name="description" content={article.metaDescription || article.content?.substring(0, 160)} />
+              <meta name="keywords" content={article.metaKeywords || ''} />
+              <meta property="og:title" content={article.metaTitle || article.title} />
+              <meta property="og:description" content={article.metaDescription || article.content?.substring(0, 160)} />
+              <meta property="og:type" content="article" />
+              <meta name="twitter:card" content="summary" />
+              <meta name="twitter:title" content={article.metaTitle || article.title} />
+              <meta name="twitter:description" content={article.metaDescription || article.content?.substring(0, 160)} />
+            </Helmet>
+          )}
+          
           <button className="flex items-center cursor-pointer gap-2 text-black mb-4" onClick={() => navigate(-1)}>
             <ArrowLeft className="w-5 h-5" /> Back to Articles
           </button>

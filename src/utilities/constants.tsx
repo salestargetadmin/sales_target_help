@@ -1644,13 +1644,16 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     id: "67",
     title: "Meet Copilot - The Free AI Sales Assistant in SalesTarget.ai",
     updated: "",
-    content: `Copilot in SalesTarget.ai is your always-on AI sales assistant that helps with cold email outreach, lead generation, CRM updates, sales analytics, and Memory — all in one place.
+    content: `Copilot in SalesTarget.ai is your always-on AI sales assistant that helps with cold email outreach, lead generation, sales analytics, and Memory — all in one place.
 
 
 `,
+    metaTitle: "Meet Copilot — Free AI Sales Assistant in SalesTarget.ai",
+    metaDescription: "Copilot is your free AI sales assistant inside SalesTarget.ai. Write cold emails, generate leads, update CRM, analyze pipeline, and use Memory for context-aware outreach.",
+    metaKeywords: "Salestarget.ai, Copilot ,AI sales assistant ,sales automation ,AI email outreach,lead generation,CRM AI,sales analytics,B2B sales AI ",
     features: [
       {
-        content:"👉It works across AI Email Outreach, Lead Explorer,  CRM, Sales Analytics, and Memory, so you can move from ICP → outreach → deals → pipeline growth without switching tools.",
+        content:"👉It works across AI Email Outreach, Lead Explorer, Sales Analytics, and Memory, so you can move from ICP → outreach → deals → pipeline growth without switching tools.",
         type:"paragraph",
         isParagraph:true
       },
@@ -1677,7 +1680,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         },
         {
         title : "What does it do? ",
-        description: "Writes cold email sequences, suggests audiences, summarizes CRM activity, reads your website for context, and recommends next steps."
+        description: "Writes cold email sequences, suggests audiences, summarizes activity, reads your website for context, and recommends next steps."
         },
         {
           title : "Who is it for? ",
@@ -1720,7 +1723,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         },
         {
            src: "/hello.jpg",
-  alt: "Image description",
+  alt: "SalesTarget.ai Copilot generating a 4-step cold email outreach sequence for Heads of Sales at US SaaS companies with AI-written subject lines and personalized email copy.",
   caption: "Create a 4-step cold email sequence for Heads of Sales at US SaaS companies (50–200 employees). Keep each email under 120 words",
   type: "image",
   isImage: true
@@ -1748,7 +1751,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         },
         {
            src: "/Leads.jpg",
-  alt: "Image description",
+  alt: " SalesTarget.ai Copilot suggesting ICP filters for APAC SaaS companies and generating a 25-contact test list for cold email outreach.",
   caption: "Suggest 3 ICP filters for APAC SaaS companies likely to care about lowering CAC. Then propose a 25-contact test list",
   type: "image",
   isImage: true
@@ -1788,7 +1791,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         },
         {
             src: "/memory.jpg",
-            alt: "Image description",
+            alt: "SalesTarget Copilot Memory feature asking the user to enter their website URL to extract business data.",
             caption: "Optional caption text",
             type: "image",
             isImage: true
@@ -1798,17 +1801,23 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
             isStep: true
         },  
         {
-          content: "Enter your website URL, and Copilot instantly extracts your company name, description, awards, and outreach goals. This ensures Copilot understands your positioning, messaging, and sales objectives",
-            isParagraph: true    
+          content: "Enter your website URL, and Copilot instantly extracts your company name, description, awards, and outreach goals. ",
+          isParagraph: true
         },
         {
          
           src : "/memory1.jpg",
-           alt: "Image description",
+           alt: "SalesTarget Copilot Memory panel for entering website details including URL,company name, description, awards, and outreach goals.",
             caption: "",
             isImage: true
         },
-         {
+        {
+          src:"/memory2.jpg",
+          alt: "SalesTarget Copilot Memory screen for defining Ideal Customer Profiles with fields like company size, challenges, and unique selling points.",
+          caption: "",
+          isImage: true
+        },
+        {
             stepTitle: "Step 2. Define Customer Profiles",
             isStep: true
         },  
@@ -1845,13 +1854,13 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         },
         {
   src: "/Picture9.jpg",
-  alt: "Image description",
+  alt: " SalesTarget Copilot Memory Guidance tab where users can add up to 10 smart rules to guide outreach preferences.",
   caption: "",
   isImage: true
 },     
       {
   src: "/Picture10.jpg",
-  alt: "Image description",
+  alt: " SalesTarget Copilot popup for adding a new rule, with example text: “Always include a calendar link in the last email.”",
   caption: "",
   isImage: true
 },
@@ -1867,8 +1876,12 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           description:"Copilot always speaks in your brand voice"
         },
         {
+          title:"Context-Aware Responses",
+          description:"Prompts and drafts reflect your ICP and positioning."
+        },
+        {
           title: "Faster Setup ",
-          description:" No need to repeat background info; Copilot already knows your company. "
+          description:" No need to repeat background info. "
         },
         {
           title:"Smarter Outreach ",
@@ -1893,7 +1906,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         },
         {
           title:"New Chat ",
-          description:"Ask Copilot anything (e.g., “Find ideal prospects” or “Summarize this deal”)."
+          description:"Ask Copilot anything (e.g., “Find ideal prospects” or “Summarize this campaign”)."
         },
         {
           title:"Memory",
@@ -1909,7 +1922,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         },
         {
           title:"	Define ICP ",
-          description:"Copilot builds filters (Lead Explorer)."
+          description:"Copilot builds filters in Lead Explorer."
         },
         {
           title:"Generate List ",
@@ -1917,19 +1930,15 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         },
         {
           title:"	Write Outreach Sequence ",
-          description:"→ Copilot drafts, personalizes, and A/B tests."
+          description:"Copilot drafts, personalizes, and A/B tests."
         },
         {
           title:" Send in Batches ",
           description:"→ Copilot monitors and optimizes"
         },
         {
-          title: " Work Deals",
-          description: "→ Copilot summarizes CRM and recommends next steps"
-        },
-        {
           title : "	Use Memory",
-          description: "→ Copilot references your website content for context-aware responses." 
+          description: "Copilot references your website for smarter outputs." 
         },
         {
           title : " Quick Start (In 10 Minutes) ",
@@ -1942,23 +1951,23 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           description : "Pick a goal (e.g., “Book 5 FinTech discovery calls this week”)."
         },
         {
-          description : "Paste your ICP (or let Copilot ask questions"
+          description : "Paste your ICP (or let Copilot ask questions)"
         },
         {
-          description : " Generate a sequence → pick tone + personalization "
+          description : " Generate a sequence → choose tone + personalization "
         },
         {
           description : "	Create a 25-contact test list → hit send."
         },
         {
-          description : "	Add your website to Memory → let Copilot tailor outputs to your business."
+          description : "	Add your website to Memory → let Copilot tailor outputs."
         },
         {
           title: "Free Access Recap",
           isHeading: true
         },
         {
-          title:"Copilot (AI sales assistant",
+          title:"Copilot (AI sales assistant)",
           description: "Always free"
         },
         {
@@ -1980,7 +1989,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         },
        {
         title:"Subject lines",
-        description:"10 subject lines for SaaS Heads of Sales about reducing prospecting time by 50%"
+        description:"10 subject lines for SaaS Heads of Sales about reducing prospecting time "
        },
        {
         title:"Personalization:",
@@ -2017,9 +2026,6 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
        },
        {
         description:"Use one clear CTA per email."
-       },
-       {
-        description:"Move replies into CRM for tracking."
        },
        {
         description:"Add your website to Memory early so Copilot learns your messaging"
@@ -2092,6 +2098,10 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     title: "Try SalesTarget.ai Free — Do Real Sales Work in 7 Days",
     updated: "",
     content: `Choosing a sales platform shouldn’t feel like a leap of faith. You need proof it fits your workflow and actually moves pipeline. That’s why SalesTarget.ai gives you hands-on access to the core tools—so you can build lists, run AI email outreach, and track deals before you ever pay.Below is a clear breakdown of what’s included, how credits work (with separate buckets you can track), and a one-week plan to see results fast.`,
+   metaTitle: "Try SalesTarget.ai Free | 7-Day Trial with AI Email, CRM & Copilot",
+    metaDescription: "Start a 7-day free trial of SalesTarget.ai. Build lead lists, run AI-powered outreach, manage CRM, and get unlimited help from Copilot—all before you pay.",
+    metaKeywords: "SalesTarget.ai, free trial, AI email outreach, CRM trial, B2B leads, sales automation, AI sales assistant, Copilot",
+
     features: [
       
       {
@@ -2269,17 +2279,256 @@ your very first outbound campaign or adding new domains to scale, a structured w
 process ensures your messages reach inboxes — not spam folders.
 In this guide, I’ll walk you through a proven warm-up strategy we use at SalesTarget.ai, plus
 how our automated warm-up tool can save you from all the manual effort.`,
+metaTitle: "The Ultimate Cold Email Warm-Up Plan | Build Strong Sender Reputation",
+    metaDescription: "Learn how to warm up cold email accounts the right way. Follow our proven 3-step warm-up plan and automate the process with SalesTarget.ai to boost deliverability.",
+    metaKeywords: "cold email warm-up , email deliverability,sender reputation,B2B outreach,SalesTarget.ai warm-up tool,inbox placement,AI email automation",
 
     features: [
       {
-        label:"1 Hi",
-        title:""
+        title:"What Is Email Warm-Up (and Why Does It Matter)?",
+        isHeading:true,
+      
+      },
+      {
+        content : "Email warm-up is the process of gradually building trust with inbox providers before you send cold campaigns at scale.Inbox providers like Gmail, Outlook, and Yahoo constantly monitor how people interact with your emails. If you suddenly blast hundreds of cold emails from a fresh domain, it raises red flags — and your messages are likely to land in spam.",
+        isParagraph:true
+      },
+      {
+        content:"A warm-up plan fixes this by:",
+        isParagraph:true
+      },
+      {
+        description:"Gradually increasing sending volume."
+      },
+      {
+        description:"Simulating natural email behavior (opens, replies, forwards)."
+      },
+      {
+        description:"Improving engagement signals.",
+      },
+      {
+        description:"Protecting your domain reputation for the long term."
+      },
+      {
+        content:"Without warm-up, even the best-crafted campaigns risk being wasted in spam.",
+        isParagraph:true
+      },
+      {
+        title:"The SalesTarget.ai Warm-Up Formula",
+        isHeading:true
+      },
+      {
+        content:"We recommend a simple, structured approach for every new domain and email account.",
+        isParagraph: true
+      },
+      {
+        description:"Each domain can connect up to 5 email accounts."
+      },
+      {
+        description:"Each account can safely send 30 emails per day once warmed up."
+      },
+      {
+        description:"That means one domain = 150 high-quality cold emails/day at full strength."
+      },
+      {
+        content:"Here’s how to get there:",
+        isParagraph:true
+      },
+      {
+        stepTitle:"Step 1: Start Small",
+        isStep: true
+      },
+      {
+        description:"Begin with 5 emails per account per day."
+      },
+      {
+        description:"Keep this steady during the first week."
+      },
+      {
+        description:"Focus on sending personalized messages unlikely to be flagged as spam."
+      },
+      {
+         stepTitle:"Step 2: Gradually Increase Volume",
+        isStep: true
+      },
+      {
+        description:"After week 1, increase sending by +10 emails per account per week."
+      },
+      {
+        description:"Example timeline:"
+      },
+      {
+        description:"Week 1 → 5 emails/account"
+      },
+      {
+        description:"Week 2 → 15 emails/account"
+      },
+      {
+        description:"Week 3 → 25 emails/account "
+      },
+      {
+        description:"Week 4 → 35 emails/account"
+      },
+      {
+        stepTitle:"Step 3: Maintain the Reputation",
+        isStep:true
+      },
+      {
+        description:"Stay consistent at 30/day/account."
+      },
+      {
+        description:"Add new domains/accounts if you need more volume."
+      },
+      {
+        description:"Never jump from low to high overnight."
+      },
+      {
+        content:"Think of warm-up like going to the gym — you wouldn’t lift 200 lbs on Day 1. Build gradually to avoid injury (or in this case, the spam folder).",
+        isParagraph:true
+      },
+      {
+        title:"Automating Warm-Up with SalesTarget.ai",
+        isHeading:true
+      },
+      {
+        content:"Manually sticking to a warm-up schedule takes discipline. And honestly, most teams forget or get inconsistent.",
+        isParagraph:true
+      },
+      {
+        content:"That’s why we built the SalesTarget.ai automated warm-up tool. With one click, it handles everything for you:",
+        isParagraph:true
+      
+      },
+      {
+        description:"Positive engagement simulation → Generates realistic opens, replies, and forwards."
+      },
+      {
+        description:"Reputation training → Inbox providers begin trusting your domain."
+      },
+      {
+        description:"Set-and-forget convenience → No micromanaging."
+      },
+      {
+        content:"This means you’ll never have to worry about your cold emails being stuck in spam again.",
+        isParagraph:true
+      },
+      {
+        title:"Putting It All Together",
+        isHeading:true
+      },
+      {
+        content:"A successful cold email strategy starts with one thing: deliverability. Without it, even the best campaign won’t convert.",
+        isParagraph:true
+      },
+      {
+        content:"Here’s the winning formula to remember:",
+        isParagraph:true
+      },
+      {
+        description:"Use 5 accounts per domain."
+      },
+      {
+        description:"Stick to 30 emails/day/account."
+      },
+      {
+        description:"Follow the gradual warm-up schedule (5 → 15 → 25 → 30)."
+      },
+      {
+        description:"Use SalesTarget.ai’s automated warm-up tool to stay consistent."
+      },
+      {
+        content:"Combine discipline with automation, and you’ll build a bulletproof sender reputation that gets you into more inboxes and books more meetings.",
+        isParagraph:true
+      },
+      {
+        title:" Beyond Warm-Up: Meet Copilot",
+        isHeading:true
+      },
+      {
+        content:"Warm-up gets your emails into the inbox. But what do you say once you’re there? That’s where Copilot in SalesTarget.ai comes in.",
+        isParagraph:true
+      },
+      {
+        title:"Copilot is your AI-powered sales assistant that helps you:",
+        isHeading:true
+      },
+      {
+        description:"Find the right leads instantly from a 50M+ verified database."
+      },
+      {
+        description:"Generate complete cold email campaigns with sequences and follow-ups."
+      },
+      {
+        description:"Analyze performance and show you which campaigns drive revenue."
+      },
+      {
+        description:"Recommend expert next steps to improve results."
+      },
+      {
+        content:"Think of it this way: Warm-up = delivery. Copilot = conversion. Together, they cover the entire cold email journey.",
+        isParagraph:true
+      },
+      {
+        title:"Ready to Scale Cold Email Outreach?",
+        isHeading:true
+      },
+      {
+        content:"SalesTarget.ai is more than just a warm-up tool. It’s a complete outbound sales platform that gives you:",
+        isParagraph:true
+      },
+      {
+        title:"Cold Email Outreach",
+        description:"with deliverability safeguards."
+      },
+      {
+        title:"Lead Explorer",
+        description:"with 50M+ verified B2B contacts."
+      },
+      {
+        title:"CRM",
+        description:"to manage conversations and deals."
+      },
+      {
+        title:"Copilot AI",
+        description:"to plan, launch, and optimize campaigns."
+      },
+      {
+        content:"Start with a free trial today and launch inbox-ready campaigns in minutes.",
+        isParagraph:true
+      },
+      {
+        content:"Get Started with SalesTarget.ai",
+        isParagraph:true
       }
+
     ],
     
 
     faq: [
-      
+      {
+      title:"How long does email warm-up take?",
+      description: "Typically, it takes 3–4 weeks to fully warm up a new account. The exact time depends on your sending volume, engagement rates, and how consistent you are with the process."
+      },
+      {
+        title:"Can I skip warm-up if I already have an old domain?",
+        description:"Not recommended. Even if your domain is aged, if it hasn’t been used for outreach recently, inbox providers may still flag sudden spikes in volume. A light warm-up is always a safe step."
+      },
+      {
+        title:"How many emails should I start with during warm-up?",
+        description:"We suggest starting with 5 emails per account per day and gradually increasing by +10 each week until you reach 30/day/account."
+      },
+      {
+        title:"What happens if I send too many emails too soon?",
+        description:"Your domain reputation could suffer, leading to emails going to spam or promotions tab. In some cases, providers may even suspend your account."
+      },
+      {
+        title:"Do I need multiple domains for cold outreach?",
+        description:"Yes, if you plan to scale. Each domain can safely manage up to 5 accounts, sending about 150 emails/day in total. More domains = higher safe sending volume."
+      },
+      {
+        title:"Why use an automated warm-up tool instead of manual warm-up? ",
+        description:" Manual warm-up requires discipline and consistency, but most teams forget or lose track. Automated tools like SalesTarget.ai simulate real engagement (opens, replies, forwards) — ensuring your reputation grows steadily without manual effort."
+      }
     ],
   },
   
