@@ -6,31 +6,112 @@ import mockArticles from "../utilities/constants";
 
 const HelpLayout = ({ children }: { children: any }) => {
   const { searchQuery, setSearchQuery } = useSearch();
-  const [isChatOpen, setIsChatOpen] = useState(false);
   const [filteredArticles, setFilteredArticles] = useState<any[]>([]);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const navigate = useNavigate();
   const searchContainerRef = useRef<HTMLDivElement>(null);
 
-  // Filter articles for dropdown only - don't affect current page content
+  // Filter articles for dropdown with prioritization
   useEffect(() => {
     if (searchQuery.trim()) {
-      const queryWords = searchQuery.toLowerCase().split(/\s+/);
+      const query = searchQuery.toLowerCase();
+      
+      // TIER 1: Title matches (highest priority)
+      const titleMatches: any[] = [];
+      // TIER 2: Heading matches (medium priority) 
+      const headingMatches: any[] = [];
+      // TIER 3: Content matches (lowest priority)
+      const contentMatches: any[] = [];
+      const processedArticles = new Set<string>();
 
-      const results = mockArticles.filter((article) => {
-        const title = article.title?.toLowerCase() || "";
-        const content = article.content?.toLowerCase() || "";
-        const featureText = article.features
-          ?.map((feature) => `${feature?.title || ""} ${feature?.description || ""}`)
-          .join(" ")
-          .toLowerCase() || "";
+      mockArticles.forEach((article) => {
+        // Check for main title match first
+        if (article.title?.toLowerCase().includes(query)) {
+          titleMatches.push({ ...article, matchType: 'title' });
+          processedArticles.add(article.id);
+          return;
+        }
 
-        // Combine all searchable text
-        const searchableText = `${title} ${content} ${featureText}`;
+        // Check for heading matches (isHeading: true items)
+        const hasHeadingMatch = 
+          (article as any).features?.some((item: any) => 
+            item?.isHeading && item?.title?.toLowerCase().includes(query)
+          ) ||
+          (article as any).accounts?.some((item: any) => 
+            item?.isHeading && item?.title?.toLowerCase().includes(query)
+          ) ||
+          (article as any).msaccounts?.some((item: any) => 
+            item?.isHeading && item?.title?.toLowerCase().includes(query)
+          ) ||
+          (article as any).imap?.some((item: any) => 
+            item?.isHeading && item?.title?.toLowerCase().includes(query)
+          ) ||
+          (article as any).faq?.some((item: any) => 
+            item?.isHeading && item?.title?.toLowerCase().includes(query)
+          );
 
-        // Return true only if all words are found somewhere in the text
-        return queryWords.every((word) => searchableText.includes(word));
+        if (hasHeadingMatch) {
+          headingMatches.push({ ...article, matchType: 'heading' });
+          processedArticles.add(article.id);
+          return;
+        }
+
+        // Check for content matches (only if not already matched)
+        if (!processedArticles.has(article.id)) {
+          const content = article.content?.toLowerCase() || "";
+          const featureText = article.features
+            ?.map((feature) => `${feature?.title || ""} ${feature?.description || ""}`)
+            .join(" ")
+            .toLowerCase() || "";
+
+          const searchableText = `${content} ${featureText}`;
+          
+          // Check for content match (excluding headings we already checked)
+          const hasContentMatch = 
+            (article as any).features?.some((item: any) => 
+              !item?.isHeading && (
+                item?.title?.toLowerCase().includes(query) ||
+                item?.description?.toLowerCase().includes(query)
+              )
+            ) ||
+            (article as any).accounts?.some((item: any) => 
+              !item?.isHeading && (
+                item?.title?.toLowerCase().includes(query) ||
+                item?.description?.toLowerCase().includes(query)
+              )
+            ) ||
+            (article as any).msaccounts?.some((item: any) => 
+              !item?.isHeading && (
+                item?.title?.toLowerCase().includes(query) ||
+                item?.description?.toLowerCase().includes(query)
+              )
+            ) ||
+            (article as any).imap?.some((item: any) => 
+              !item?.isHeading && (
+                item?.title?.toLowerCase().includes(query) ||
+                item?.description?.toLowerCase().includes(query)
+              )
+            ) ||
+            (article as any).faq?.some((item: any) => 
+              !item?.isHeading && (
+                item?.title?.toLowerCase().includes(query) ||
+                item?.description?.toLowerCase().includes(query)
+              )
+            ) ||
+            searchableText.includes(query);
+
+          if (hasContentMatch) {
+            contentMatches.push({ ...article, matchType: 'content' });
+          }
+        }
       });
+
+      // Combine results with proper prioritization
+      const results = [
+        ...titleMatches,    // "Setting up your account" appears FIRST
+        ...headingMatches,  // Heading matches appear SECOND
+        ...contentMatches   // Content matches appear LAST
+      ];
 
       setFilteredArticles(results);
       setIsDropdownOpen(true);
@@ -177,7 +258,7 @@ const HelpLayout = ({ children }: { children: any }) => {
 
       {/* Content Area */}
       <div className="max-w-4xl mx-auto p-8 pt-2 mt-5">
-        {children("", setIsChatOpen)} {/* Pass empty string so current page content doesn't filter */}
+        {children("")} {/* Pass empty string so current page content doesn't filter */}
       </div>
     </div>
   );
