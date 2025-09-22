@@ -242,10 +242,10 @@ const categories = [
   },
 
   {
-    title: 'SalesTarget.ai CRM - FAQ Guide',
+    title: 'CRM Setup & FAQ Guide',
     icon: '🔍',
     articles: [
-      { title: 'SalesTarget.ai CRM - FAQ Guide', id: 70, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'CRM Setup & FAQ Guide', id: 70, icon: Shield, color: '#FF00FF' }, // Orange
 
     ],
   },

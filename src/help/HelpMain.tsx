@@ -206,10 +206,10 @@ const categories = [
   },
     
     {
-    title: 'SalesTarget.ai CRM - FAQ Guide',
+    title: 'CRM Setup & FAQ Guide',
     icon: '📂',
     articles: [
-      { title: 'SalesTarget.ai CRM - FAQ Guide', id: 70 },
+      { title: 'CRM Setup & FAQ Guide', id: 70 },
     ],
   },
   

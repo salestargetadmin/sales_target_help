@@ -2534,7 +2534,7 @@ metaTitle: "The Ultimate Cold Email Warm-Up Plan | Build Strong Sender Reputatio
   
  {
     id: "70",
-    title: "SalesTarget.ai CRM - FAQ Guide",
+    title: "CRM Setup & FAQ Guide",
     updated: "",
     content: `Welcome to the SalesTarget.ai CRM FAQ Guide. This resource provides clear,
 step-by-step answers to common questions so you can maximize our CRM’s
@@ -2991,9 +2991,8 @@ meetings, tasks, reports, and team members effectively.`,
         isParagraph: true
       },
       {
-        content:"To schedule a Meeting:",
-        type:"paragraph",
-        isParagraph: true
+        stepTitle:"To schedule a Meeting:",
+        isStep: true
       },
       {
         description:"Go to CRM → Meetings"
@@ -3042,9 +3041,8 @@ meetings, tasks, reports, and team members effectively.`,
         isParagraph: true
       },
       {
-        content:"To create/assign a Task:",
-        type:"paragraph",
-        isParagraph: true
+        stepTitle:"To create/assign a Task:",
+        isStep: true
       },
       {
         description:"Go to CRM → Tasks"
@@ -3124,9 +3122,8 @@ meetings, tasks, reports, and team members effectively.`,
         isParagraph: true
       },
       {
-        content:"To add a new member:",
-        type:"paragraph",
-        isParagraph: true
+        stepTitle:"To add a new member:",
+        isStep: true
       },
       {
         description:"Go to \"Configurations\" → \"Members\"."
