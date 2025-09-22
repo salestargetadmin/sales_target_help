@@ -2532,8 +2532,656 @@ metaTitle: "The Ultimate Cold Email Warm-Up Plan | Build Strong Sender Reputatio
     ],
   },
   
+ {
+    id: "70",
+    title: "SalesTarget.ai CRM - FAQ Guide",
+    updated: "",
+    content: `Welcome to the SalesTarget.ai CRM FAQ Guide. This resource provides clear,
+step-by-step answers to common questions so you can maximize our CRM’s
+features. Use it as a quick reference to manage your dashboard, emails, deals,
+meetings, tasks, reports, and team members effectively.`,
+// metaTitle: "The Ultimate Cold Email Warm-Up Plan | Build Strong Sender Reputation",
+//     metaDescription: "Learn how to warm up cold email accounts the right way. Follow our proven 3-step warm-up plan and automate the process with SalesTarget.ai to boost deliverability.",
+//     metaKeywords: "cold email warm-up , email deliverability,sender reputation,B2B outreach,SalesTarget.ai warm-up tool,inbox placement,AI email automation",
+
+    features: [
+      {
+        title:"1. What is the core value of SalesTarget.ai CRM?",
+        type:"heading",
+        isHeading: true
+      
+      },
+      {
+        content:"Answer: SalesTarget.ai CRM provides a centralized hub to manage your entire sales process—emails, tasks, meetings, deals, reports, and team collaboration—without switching between multiple tools. It’s designed to streamline lead management,improve productivity, and give leadership a clear overview of sales performance.",
+        type:"paragraph",
+        isParagraph: true
+      },
+
+       {
+        title:"2. How does the Dashboard help me?",
+        type:"heading",
+        isHeading: true
+      
+      },
+      {
+        content:" Answer: The Dashboard gives you a snapshot view of your organization’s activity.You can instantly see:",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Email stats"
+      },
+      {
+        description:"Tasks and Meetings"
+      },
+      {
+        description:"Closed Deals"
+      },
+      {
+        description:"Recommended Leads"
+      },
+      {
+        content: "This means you don’t need to dig through multiple reports to understand where your pipeline stands.",
+        type: "paragraph",
+        isParagraph: true
+      },
+
+      {
+        title:"3. Can my team manage emails directly inside the CRM?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Yes. Once your email is linked, you can send, receive, and reply to emails directly from the platform—keeping communication centralized.",
+        type:"paragraph",
+        isParagraph: true
+      },
+
+      {
+        title:"4. How do Deals work inside SalesTarget.ai?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Deals can be created, assigned, and tracked through customizable stages. You can drag-and-drop deals as they progress, giving full pipeline visibility.",
+        type:"paragraph",
+        isParagraph: true
+      },
+
+      {
+        title:"5. How does the Meetings feature integrate with my workflow?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: You can schedule and assign meetings directly from the CRM. Meetings can also be dragged across different statuses (e.g., scheduled, completed), ensuring follow-ups are tracked.",
+        type:"paragraph",
+        isParagraph: true
+      },
+
+      {
+        title:"6. How do Tasks help my team stay accountable?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Managers can assign tasks to team members, and agents update the status upon completion. This ensures visibility for admins and accountability for team members.",
+        type:"paragraph",
+        isParagraph: true
+      },
+
+      {
+        title:"7. What type of reporting can I access?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: The Reports section provides insights into:",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Emails sent and delivered"
+      },
+      {
+        description:"Email trends"
+      },
+      {
+        description:"Analytics and organizational statistics"
+      },
+      {
+        content:"This helps you track performance and optimize sales strategies.",
+        type:"paragraph",
+        isParagraph: true
+      },
+
+      {
+        title:"8. How easy is it to onboard new team members?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Adding members is simple: go to Configurations → Members, click \"Add Member,\" enter their email, assign a role, and send an invite.",
+        type:"paragraph",
+        isParagraph: true
+      },
+
+      {
+        title:"9. Does SalesTarget.ai CRM integrate with other tools we already use?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Yes, however, the integration is still under progress and will be available once the platform is updated.",
+        type:"paragraph",
+        isParagraph: true
+      },
+
+      {
+        title:"10. Is there automation for repetitive tasks (e.g., email sequences, reminders)?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Yes. SalesTarget.ai automates repetitive tasks to save time and boost efficiency.",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Email automation: Multi-step sequences, smart follow-ups, and response tracking that stop when a reply is received."
+      },
+      {
+        description:"Task automation: Auto-scheduled tasks, reminders, and lead assignment to keep workflows moving."
+      },
+      {
+        description:"Other automation: Lead cleanup, contact validation, and CRM syncing to stay organized with less manual effort."
+      },
+      {
+        content:"These features significantly boost productivity by eliminating manual work while maintaining professional communication flow.",
+        type:"paragraph",
+        isParagraph: true
+      },
+
+      {
+        title:"11. How secure is my company's data on SalesTarget.ai?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: We prioritize your data security with multiple layers of protection.",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Safeguards: Technical, organizational, and physical measures are in place, though no system is 100% risk-free."
+      },
+      {
+        description:"Compliance: Data is processed under laws like CCPA, with strict confidentiality obligations"
+      },
+      {
+        description:"Usage: Your data is only used for authorized purposes defined in our agreement."
+      },
+      {
+        description:"Rights: You can access, update, or delete your information anytime. European users have additional GDPR rights."
+      },
+      {
+        description:"Transfers: International data transfers follow standard contractual safeguards."
+      },
+
+      {
+        title:"12. Can I customize pipelines, reports, or dashboards for my business needs?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Yes. SalesTarget.ai CRM offers extensive customization to fit your business needs.",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Workflows: Create custom workflows tailored to your processes for maximum efficiency."
+      },
+      {
+        description:"Reports: Generate detailed, customizable reports for data-driven decisions."
+      },
+      {
+        description:"Configuration: Easily configure the CRM setup to align with your business requirements."
+      },
+      {
+        description:"Advanced options: Custom workflows, fully customizable filters & segments, and dynamic segmentation for smarter, personalized outreach."
+      },
+      {
+        content:"Our flexible customization ensures your CRM adapts seamlessly to your workflow and customer management needs.",
+        type:"paragraph",
+        isParagraph: true
+      },
+
+      {
+        title:"13. Does the CRM support mobile access for my sales team?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Yes. Our CRM supports mobile access for your sales team.",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Comprehensive features: Lead management, task scheduling, smart inbox for communications, and automated workflows."
+      },
+      {
+        description:"All-in-one dashboard: Manage emails and pipelines seamlessly on the go."
+      },
+      {
+        description:"One-click integrations: Connect with major platforms and use auto-sync to keep pipelines organized and conversion-ready."
+      },
+      {
+        description:"Clean interface: A clutter-free design makes it easy to manage leads, track interactions, and close deals faster from anywhere."
+      },
+
+      {
+        title:"14. How scalable is SalesTarget.ai CRM as my team grows?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: SalesTarget.ai CRM is built for performance and scalability as your team grows.",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Enterprise-ready architecture: Supports everything from individual users to large enterprise teams."
+      },
+      {
+        description:"Flexible credit system: Scalable pricing plans with generous lead credits that expand with your usage."
+      },
+      {
+        description:"Advanced integration capabilities: One-click integrations, auto-sync for high lead volumes, and duplicate detection for clean data."
+      },
+      {
+        description:"Real-time performance: Instant updates to lead lists with 99%+ verified contact accuracy."
+      },
+      {
+        description:"Whether you're scaling from startup to enterprise, the platform adapts seamlessly with minimal setup.",
+      },
+
+      {
+        title:"15. How does the Dashboard help me stay on top of my sales activity?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: The Dashboard provides a quick overview of your activity, including:",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Email statistics"
+      },
+      {
+        description:"Tasks and Meetings"
+      },
+      {
+        description:"Closed Deals"
+      },
+      {
+        description:"Recommended Leads"
+      },
+      {
+        content:"This allows you to track performance at a glance without digging into multiple sections.",
+        type:"paragraph",
+        isParagraph: true
+      },
+        {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+
+      {
+        title:"16. Can I manage emails directly from the Inbox?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Yes. The Inbox integrates your email directly into the CRM for seamless communication. You can:",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Link your email account"
+      },
+      {
+        description:"Send and receive emails"
+      },
+      {
+        description:"Compose replies without leaving the platform"
+      },
+      {
+        stepTitle:"Status",
+        isStep: true
+      },
+        {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+      {
+        stepTitle:"All inbox",
+        isStep: true,
+
+      },
+        {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+     {
+      
+        stepTitle:"Campaigns",
+        isStep: true
+      },
+        {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+
+
+      {
+        title:"17. What can I find under the Lists section?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: The Lists section contains all your assigned lists, including:",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Tasks"
+      },
+      {
+        description:"Meetings"
+      },
+      {
+        description:"Deals"
+      },
+      {
+        content:"This ensures everything is organized and easy to access in one place.",
+        type:"paragraph",
+        isParagraph: true
+      },
+    
+        {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },     
+         {
+    stepTitle: "Leads",
+    isStep: true
+  },     
+       {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+
+
+      {
+        title:"18. How do I create and manage Deals in SalesTarget.ai CRM?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Deals can be easily created, assigned, and tracked through your pipeline stages.",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+       stepTitle:"To create a Deal:",
+        isStep: true
+      },
+      {
+        description:"Go to CRM → Deals"
+      },
+      {
+        description:"Click Add New (top-left corner)"
+      },
+      {
+        description:"Fill in the required fields"
+      },
+      {
+        description:"Click Save"
+      },
+      {
+        content:"Once created, you can drag the deal across statuses as it progresses.",
+        type:"paragraph",
+        isParagraph: true
+      },
+        {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+
+      {
+        title:"19. How do I schedule and track Meetings inside the CRM?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Meetings can be managed and scheduled directly from the platform.",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        content:"To schedule a Meeting:",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Go to CRM → Meetings"
+      },
+      {
+        description:"Click Add New (top-left corner)"
+      },
+      {
+        description:"Fill in the required fields"
+      },
+      {
+        description:"Click Save"
+      },
+      {
+        content:"You can then move meetings across statuses (e.g., scheduled, completed) as they progress.",
+        type:"paragraph",
+        isParagraph: true
+      },
+       {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+    {
+      stepTitle:"Add meeting",
+      isStep: true
+    },
+    {
+       src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+
+      {
+        title:"20. How do Tasks keep my team accountable?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Tasks allow managers to assign and track work for team members.",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        content:"To create/assign a Task:",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Go to CRM → Tasks"
+      },
+      {
+        description:"Click Add New (top-left corner)"
+      },
+      {
+        description:"Fill in the required fields"
+      },
+      {
+        description:"Select the Assignee (agent name)"
+      },
+      {
+        description:"Click Save"
+      },
+      {
+        content:"Agents update the status upon completion, ensuring visibility for admins.",
+        type:"paragraph",
+        isParagraph: true
+      },
+        {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },   
+    {
+    stepTitle: "Add Task",
+    isStep: true
+  },
+   {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
  
-     
+
+      {
+        title:"21. What type of Reports can I generate?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Reports provide detailed analytics to optimize performance. You can access:",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Emails sent and delivered"
+      },
+      {
+        description:"Email performance trends"
+      },
+      {
+        description:"Organization-wide analytics and statistics"
+      },
+        {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+
+      {
+        title:"22. How do I add new team members to the CRM?",
+        type:"heading",
+        isHeading: true
+      },
+      {
+        content:"Answer: Adding new members is quick and simple.",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        content:"To add a new member:",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+        description:"Go to \"Configurations\" → \"Members\"."
+      },
+      {
+        description:"Click \"Add Member\"."
+      },
+      {
+        description:"Enter the email address"
+      },
+      {
+        description:"Select a \"Role\"."
+      },
+      {
+        description:"Click \"Invite\"."
+      },
+      {
+        content:"This ensures your team can collaborate effectively inside the CRM.",
+        type:"paragraph",
+        isParagraph: true
+      },
+      {
+         src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+      },
+       {
+    stepTitle: "Add",
+    isStep: true
+  },
+   {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+  {
+    stepTitle: "Workspace and Teams",
+    isStep: true
+  },
+   {
+    src: "/dashboard-screenshot.png",
+    alt: "SalesTarget dashboard interface",
+    caption:"",
+    type: "image",
+    isImage: true
+  },
+
+
+    ]
+
+ }
 ];
 
 export default mockArticles;
