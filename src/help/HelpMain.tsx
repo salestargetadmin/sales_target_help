@@ -205,6 +205,14 @@ const categories = [
     ],
   },
     
+    {
+    title: 'CRM Setup & FAQ Guide',
+    icon: '📂',
+    articles: [
+      { title: 'CRM Setup & FAQ Guide', id: 70 },
+    ],
+  },
+  
   
 ];
 
