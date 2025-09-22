@@ -2832,13 +2832,13 @@ meetings, tasks, reports, and team members effectively.`,
         type:"paragraph",
         isParagraph: true
       },
-        {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
+  //       {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
 
       {
         title:"16. Can I manage emails directly from the Inbox?",
@@ -2859,41 +2859,41 @@ meetings, tasks, reports, and team members effectively.`,
       {
         description:"Compose replies without leaving the platform"
       },
-      {
-        stepTitle:"Status",
-        isStep: true
-      },
-        {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
-      {
-        stepTitle:"All inbox",
-        isStep: true,
+  //     {
+  //       stepTitle:"Status",
+  //       isStep: true
+  //     },
+  //       {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
+  //     {
+  //       stepTitle:"All inbox",
+  //       isStep: true,
 
-      },
-        {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
-     {
+  //     },
+  //       {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
+  //    {
       
-        stepTitle:"Campaigns",
-        isStep: true
-      },
-        {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
+  //       stepTitle:"Campaigns",
+  //       isStep: true
+  //     },
+  //       {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
 
 
       {
@@ -2921,24 +2921,24 @@ meetings, tasks, reports, and team members effectively.`,
         isParagraph: true
       },
     
-        {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },     
-         {
-    stepTitle: "Leads",
-    isStep: true
-  },     
-       {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
+  //       {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },     
+  //        {
+  //   stepTitle: "Leads",
+  //   isStep: true
+  // },     
+  //      {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
 
 
       {
@@ -2972,13 +2972,13 @@ meetings, tasks, reports, and team members effectively.`,
         type:"paragraph",
         isParagraph: true
       },
-        {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
+  //       {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
 
       {
         title:"19. How do I schedule and track Meetings inside the CRM?",
@@ -3011,24 +3011,24 @@ meetings, tasks, reports, and team members effectively.`,
         type:"paragraph",
         isParagraph: true
       },
-       {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
-    {
-      stepTitle:"Add meeting",
-      isStep: true
-    },
-    {
-       src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
+  //      {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
+    // {
+    //   stepTitle:"Add meeting",
+    //   isStep: true
+    // },
+  //   {
+  //      src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
 
       {
         title:"20. How do Tasks keep my team accountable?",
@@ -3064,24 +3064,24 @@ meetings, tasks, reports, and team members effectively.`,
         type:"paragraph",
         isParagraph: true
       },
-        {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },   
-    {
-    stepTitle: "Add Task",
-    isStep: true
-  },
-   {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
+  //       {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },   
+  //   {
+  //   stepTitle: "Add Task",
+  //   isStep: true
+  // },
+  //  {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
  
 
       {
@@ -3103,13 +3103,13 @@ meetings, tasks, reports, and team members effectively.`,
       {
         description:"Organization-wide analytics and statistics"
       },
-        {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
+  //       {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
 
       {
         title:"22. How do I add new team members to the CRM?",
@@ -3145,35 +3145,35 @@ meetings, tasks, reports, and team members effectively.`,
         type:"paragraph",
         isParagraph: true
       },
-      {
-         src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-      },
-       {
-    stepTitle: "Add",
-    isStep: true
-  },
-   {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
-  {
-    stepTitle: "Workspace and Teams",
-    isStep: true
-  },
-   {
-    src: "/dashboard-screenshot.png",
-    alt: "SalesTarget dashboard interface",
-    caption:"",
-    type: "image",
-    isImage: true
-  },
+    //   {
+    //      src: "/dashboard-screenshot.png",
+    // alt: "SalesTarget dashboard interface",
+    // caption:"",
+    // type: "image",
+    // isImage: true
+    //   },
+  //      {
+  //   stepTitle: "Add",
+  //   isStep: true
+  // },
+  // {
+  //    src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
+  // {
+  //   stepTitle: "Workspace and Teams",
+  //   isStep: true
+  // },
+  //  {
+  //   src: "/dashboard-screenshot.png",
+  //   alt: "SalesTarget dashboard interface",
+  //   caption:"",
+  //   type: "image",
+  //   isImage: true
+  // },
 
 
     ]
