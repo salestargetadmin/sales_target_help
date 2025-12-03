@@ -3471,7 +3471,440 @@ Then, with one click, you can insert everything into your campaign using “Use 
       description: "A dedicated cold email platform with deliverability protection, not a basic Gmail or Outlook account."
     }
   ]
+} ,
+
+{
+  id: "72",
+  title: "LinkedIn Automation — Complete Help Center Guide",
+  updated: "",
+  metaTitle: "LinkedIn Automation — Full Guide for SalesTarget",
+  metaDescription:
+    "Automate LinkedIn connection requests, messages, profile views, likes, endorsements, and follow actions using SalesTarget. Learn how to build sequences, set limits, import leads, and track campaign performance.",
+  content: `LinkedIn Automation in SalesTarget.ai lets you automate connection requests, profile visits, post likes, skill endorsements, follow-up messages, and profile follows — all inside a single workflow.
+
+This guide explains how to create campaigns, select leads, build sequences, configure limits, and track performance.`,
+  features: [
+    {
+      title: "What You Can Automate in SalesTarget",
+      description:
+        "SalesTarget supports a full set of LinkedIn engagement actions and automation behaviors so you can run complete outreach workflows from one place."
+    },
+
+    // Supported LinkedIn Actions
+    {
+      isHeading: true,
+      title: "Supported LinkedIn Actions"
+    },
+    { description: "Send Connection Request" },
+    { description: "Send Message (after connection is accepted)" },
+    { description: "Send Email (if an email account is selected in Step 1)" },
+    { description: "View Profile" },
+    { description: "Like Post" },
+    { description: "Follow Profile" },
+    { description: "Endorse Skills" },
+
+    // Supported Automation Behaviors
+    {
+      isHeading: true,
+      title: "Supported Automation Behaviors"
+    },
+    { description: "Multi-step follow-up sequences with timed steps" },
+    { description: "If/else conditions based on connection accepted, email opened, or email clicked" },
+    { description: "Multichannel outreach combining LinkedIn and email" },
+    { description: "Support for multiple LinkedIn accounts per workspace" },
+    { description: "Safe daily limits and warm-up mode" },
+    { description: "Working hours and timezone controls" },
+    { description: "LinkedIn Inbox to view and reply to all responses" },
+    { description: "CRM activity logging for every interaction" },
+
+    {
+      stepTitle: "How LinkedIn Automation Works",
+      isStep: true
+    },
+    {
+      description: "LinkedIn Automation in SalesTarget.ai runs through a simple four-step setup so you can go from campaign idea to live outreach in minutes."
+    },
+
+    // 1. Create a Campaign
+    {
+      stepTitle: "1. Create a Campaign",
+      isStep: true
+    },
+    {
+      description: "Start by creating a new LinkedIn campaign and choosing which accounts will send your actions."
+    },
+    { description: "Enter a Campaign Name." },
+    { description: "Select a LinkedIn account (multiple accounts are supported)." },
+    { description: "Optionally select an email account if you plan to include email steps." },
+    {
+      description:
+        "If no email account is selected, Send Email actions will be disabled so your workflow remains LinkedIn-only."
+    },
+
+    {
+      isHeading: true,
+      title: "Warmup Mode"
+    },
+    {
+      description:
+        "Warmup Mode gradually increases your daily action limits each week to keep your LinkedIn account safe."
+    },
+    {
+      description:
+        "For example, if your safe limit for this week is 5 connection requests per day, next week it may increase to 10 depending on account behavior."
+    },
+    {
+      description: "Recommended starting limits include:"
+    },
+    { description: "5 connection requests per day" },
+    { description: "10 messages per day" },
+    { description: "20 profile views per day" },
+    { description: "20 post likes per day" },
+    { description: "20 skill endorsements per day" },
+    { description: "20 find email actions per day" },
+    {
+      description:
+        "Warmup Mode automatically adjusts these limits over time so you can scale outreach without triggering LinkedIn restrictions."
+    },
+
+    // 2. Select Your Leads
+    {
+      stepTitle: "2. Select Your Leads",
+      isStep: true
+    },
+    {
+      description:
+        "You can add leads from LinkedIn searches or from a CSV file, depending on where your prospect lists live today."
+    },
+
+    {
+      isHeading: true,
+      title: "A. LinkedIn Search URLs"
+    },
+    {
+      description: "Paste a LinkedIn search URL from regular LinkedIn, Sales Navigator, or Recruiter."
+    },
+    {
+      description: "Choose how many profiles to import, for example 100–500 prospects at a time."
+    },
+
+    {
+      isHeading: true,
+      title: "B. CSV Upload"
+    },
+    {
+      description: "Upload a CSV file when you already have a lead list outside LinkedIn."
+    },
+    { description: "Required fields: First Name, Last Name, and LinkedIn URL." },
+    {
+      description:
+        "Optional fields: Email, Company, Job Title, Location, and Industry — these improve personalization and filtering."
+    },
+    {
+      description: "A sample CSV template is provided so you can format your file correctly."
+    },
+
+    // 3. Build Your LinkedIn Sequence
+    {
+      stepTitle: "3. Build Your LinkedIn Sequence",
+      isStep: true
+    },
+    {
+      description:
+        "Use Add Step to define which LinkedIn actions, conditions, and delays run for each lead in your campaign."
+    },
+
+    {
+      isHeading: true,
+      title: "A. Available LinkedIn Actions"
+    },
+    {
+      description: "Send Connection — write a manual note or generate an AI-personalized message."
+    },
+    {
+      description: "Send Connection supports variables such as {{firstName}} with a 300-character message limit."
+    },
+    {
+      description:
+        "Send Message — sends follow-up messages after a connection request is accepted and can be chained into multi-step messaging."
+    },
+    {
+      description:
+        "Send Email — appears only if an email account was selected during campaign setup so you can add email touchpoints."
+    },
+    {
+      description: "View Profile — warms up the lead by visiting their profile before you send a connection request."
+    },
+    {
+      description: "Like Post — adds soft engagement on recent posts to increase visibility before outreach."
+    },
+    {
+      description: "Follow Profile — follows the prospect so your content appears more often in their feed."
+    },
+    {
+      description: "Endorse Skills — endorses displayed skills to create a friendly, value-first interaction."
+    },
+
+    {
+      isHeading: true,
+      title: "B. Conditions"
+    },
+    {
+      description:
+        "Conditions control the logic of your workflow so different actions run depending on how a prospect responds."
+    },
+    { description: "If Connected — only run the next steps when the connection request has been accepted." },
+    { description: "If Email Opened — branch when an email has been opened at least once." },
+    { description: "If Email Clicked — branch when a tracked link in your email has been clicked." },
+    {
+      description: "Example flow: Send Connection → Wait 2 days → If Connected → Send Message."
+    },
+
+    {
+      isHeading: true,
+      title: "C. Delays"
+    },
+    {
+      description: "Each step can wait for a specific amount of time before running so your outreach feels natural."
+    },
+    { description: "Use delays measured in hours for same-day follow-ups." },
+    { description: "Use delays measured in days for slower, long-term nurturing." },
+    {
+      description:
+        "Proper delays help prevent over-activity and keep your sending patterns aligned with real human behavior."
+    },
+
+    {
+      isHeading: true,
+      title: "D. AI Personalization"
+    },
+    {
+      description:
+        "SalesTarget.ai can personalize both connection request messages and follow-up messages after someone connects."
+    },
+    {
+      description:
+        "AI analyzes public LinkedIn profile details such as the headline, biography, job title, and company information."
+    },
+    {
+      description: "You can choose from preset personalization styles including Professional Insight, Role Mention, Activity-Based, and Interest Opener."
+    },
+    {
+      description:
+        "If AI cannot generate a personalized output for a specific lead, your fallback template is used automatically so the sequence never breaks."
+    },
+
+    // 4. Verify & Launch
+    {
+      stepTitle: "4. Verify & Launch",
+      isStep: true
+    },
+    {
+      description:
+        "Before launching your LinkedIn campaign, review each step to make sure the flow, limits, and personalization look correct."
+    },
+    { description: "Check personalization variables and tokens for errors." },
+    { description: "Validate that each step has the correct action, condition, and delay." },
+    { description: "Confirm your LinkedIn and email account selections." },
+    { description: "Ensure daily limits and warm-up settings are safe for your account history." },
+    {
+      description: "When everything looks good, click Launch to start the campaign."
+    },
+
+    {
+      isHeading: true,
+      title: "LinkedIn Inbox"
+    },
+    {
+      description:
+        "The LinkedIn Inbox collects all conversations from every connected LinkedIn account in one place."
+    },
+    { description: "Read new messages without switching between LinkedIn accounts." },
+    { description: "Reply manually to keep responses natural and context-aware." },
+    { description: "View full chat history for each prospect so you always know the previous touchpoints." },
+
+    {
+      isHeading: true,
+      title: "My Network"
+    },
+    {
+      description: "My Network shows all LinkedIn connections synced from your connected accounts."
+    },
+    { description: "View contact details for each connection." },
+    { description: "Filter or export parts of your network for deeper analysis or external use." },
+    { description: "Start manual outreach flows directly from your synced network." },
+
+    {
+      isHeading: true,
+      title: "LinkedIn Accounts Management"
+    },
+    {
+      description:
+        "Under the Accounts section you can manage every LinkedIn account linked to SalesTarget.ai."
+    },
+    { description: "Add multiple LinkedIn accounts for different team members or brands." },
+    { description: "View which accounts are connected, paused, or suspended." },
+    { description: "Check average usage for each account to understand daily activity levels." },
+    { description: "Sync account data if changes were made directly in LinkedIn." },
+    { description: "Remove accounts that no longer need to run campaigns." },
+    { description: "Reconnect accounts if access has expired or permissions changed." },
+
+    {
+      isHeading: true,
+      title: "Account Settings"
+    },
+
+    // Account Limits as separate descriptions
+    {
+      isHeading: true,
+      title: "A. Account Limits"
+    },
+    { description: "Adjust daily limits for your LinkedIn actions so they stay within safe ranges." },
+    { description: "Connections — control how many invitations are sent per day." },
+    { description: "Messages — cap the number of automated messages per day." },
+    { description: "Views — limit how many profiles are viewed daily." },
+    { description: "Likes — define how many posts can be liked per day." },
+    { description: "Endorsements — control how many skills are endorsed daily." },
+    {
+      description: "Warmup Mode gradually increases these limits over time based on account behavior."
+    },
+
+    // Profile Settings as separate descriptions (matching your point format)
+    {
+      isHeading: true,
+      title: "B. Profile Settings"
+    },
+    { description: "First Name" },
+    { description: "Last Name" },
+    { description: "Company" },
+    { description: "Job Title" },
+    { description: "Timezone" },
+    { description: "Working Days" },
+    { description: "Working Hours" },
+    {
+      description:
+        "LinkedIn actions only run within your selected working days, hours, and timezone so outreach looks human."
+    },
+
+    // Analytics & Reporting
+    {
+      isHeading: true,
+      title: "Analytics & Reporting"
+    },
+    {
+      description:
+        "The Analytics dashboard tracks all major LinkedIn automation metrics so you can measure campaign performance."
+    },
+
+    {
+      isHeading: true,
+      title: "Metrics Displayed"
+    },
+    { description: "Connection Requests" },
+    { description: "Accepted Connections" },
+    { description: "Messages Sent" },
+    { description: "Replies Received" },
+    { description: "Response Rate" },
+    { description: "Active Accounts" },
+    { description: "Total Accounts" },
+
+    {
+      isHeading: true,
+      title: "Views"
+    },
+    { description: "Daily performance view" },
+    { description: "Weekly performance view" },
+    { description: "Monthly performance view" },
+    { description: "Yearly performance view" },
+    {
+      description: "A per-account table provides a detailed breakdown of activity for each LinkedIn account."
+    },
+
+    // Troubleshooting
+    {
+      isHeading: true,
+      title: "Troubleshooting"
+    },
+
+    {
+      isHeading: true,
+      title: "1. Connection Request Not Sent"
+    },
+    { description: "Daily connection limit reached." },
+    { description: "The person is already a connection." },
+    { description: "Temporary LinkedIn restriction on your account." },
+    { description: "Invalid or unsupported profile URL." },
+
+    {
+      isHeading: true,
+      title: "2. Message Not Sent"
+    },
+    { description: "The prospect is not yet a 1st-degree connection." },
+    { description: "Your daily message limit has been reached." },
+    { description: "A required personalization variable is missing or empty." },
+
+    {
+      isHeading: true,
+      title: "3. No Leads Imported"
+    },
+    { description: "The LinkedIn URL is invalid or not supported for import." },
+    { description: "Search results are restricted or not accessible." }
+  ],
+
+  faq: [
+    {
+      title: "Are LinkedIn actions automated?",
+      description:
+        "Yes. All actions you add to a sequence — such as connection requests, profile views, likes, follows, endorsements, and messages — run automatically within your daily limits and working hours after you launch the campaign."
+    },
+    {
+      title: "Do I need a Chrome extension?",
+      description:
+        "No. SalesTarget.ai runs LinkedIn automation entirely in the cloud, so your campaigns continue even if your browser is closed or your device is offline."
+    },
+    {
+      title: "Can I combine LinkedIn and Email steps?",
+      description:
+        "Yes. If you select an email account during campaign setup, you can mix LinkedIn and email actions in a single workflow. If no email account is selected, email steps remain disabled."
+    },
+    {
+      title: "Can I automate LinkedIn follow-up messages?",
+      description:
+        "Yes. You can add multiple Send Message steps with delays so follow-ups are sent automatically once a lead becomes a 1st-degree connection."
+    },
+    {
+      title: "Do replies sync into SalesTarget?",
+      description:
+        "Yes. Replies from your connected LinkedIn accounts appear in the LinkedIn Inbox, and activity logs are recorded on each lead’s timeline."
+    },
+    {
+      title: "Can I upload my own lead list?",
+      description:
+        "Yes. You can upload leads via CSV as long as the file includes First Name, Last Name, and LinkedIn URL. Optional fields like Email or Job Title improve personalization and targeting."
+    },
+    {
+      title: "Does SalesTarget support multiple LinkedIn accounts?",
+      description:
+        "Yes. You can connect multiple LinkedIn accounts and choose which one runs each campaign. Limits and warm-up settings are applied per account."
+    },
+    {
+      title: "Is LinkedIn automation safe?",
+      description:
+        "Yes. SalesTarget.ai uses warm-up mode, daily action limits, random pacing, and working-hour controls to keep your outreach safe and aligned with typical LinkedIn usage patterns."
+    },
+    {
+      title: "How do I track campaign performance?",
+      description:
+        "Use the Analytics dashboard to monitor connection requests, acceptance rate, messages sent, replies, and response rate, with views available by day, week, month, or year."
+    },
+    {
+      title: "What happens if someone is already a connection?",
+      description:
+        "SalesTarget.ai automatically skips the connection request step for existing connections, and you can use the If Connected condition to route them directly into message-based follow-ups."
+    }
+  ]
 }
+
 
 
 ];

@@ -213,7 +213,24 @@ const categories = [
     ],
   },
 
-  
+  {
+    title: 'Creating Your First Email Sequence: A Beginner’s Guide to Cold Email Outreach',
+    icon: '📂',
+    articles: [
+      { title: 'Creating Your First Email Sequence: A Beginner’s Guide to Cold Email Outreach', id: 71 },
+    ],
+  },
+
+  {
+    title: 'LinkedIn Automation — Complete Help Center Guide',
+    icon: '📂',
+    articles: [
+      { title: 'LinkedIn Automation — Complete Help Center Guide', id: 72 },
+    ],
+  },
+
+
+ 
   
   
 ];
