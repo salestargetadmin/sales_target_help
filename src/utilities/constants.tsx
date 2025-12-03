@@ -3178,7 +3178,302 @@ meetings, tasks, reports, and team members effectively.`,
 
     ]
 
- }
+    
+
+ },
+
+ {
+  id: "71",
+  title: "Creating Your First Email Sequence: A Beginner’s Guide to Cold Email Outreach",
+  updated: "",
+  content: `Cold email outreach is one of the most effective ways to start conversations, book meetings, and generate revenue — especially when powered by the right cold email platform and AI-assisted tools. If you’re new to outbound email automation, building your first sequence might seem complex. With SalesTarget.ai’s clean workflow and AI sequence generator, however, you can create high-converting outreach flows in minutes.
+
+This guide walks you through the exact steps to create, personalize, automate, and launch your email sequence.`,
+  metaTitle: "Creating Your First Email Sequence | Cold Email Outreach Guide",
+  metaDescription: "Learn how to create your first email sequence using AI-powered cold email outreach tools. Step-by-step setup, personalization, automation, and best practices.",
+  features: [
+    {
+      title: "What Is Cold Email Outreach?",
+      description: `Cold email outreach is the practice of contacting prospects who haven’t interacted with you before — with a focus on relevance, personalization, and clear value. Modern teams rely heavily on AI email automation and outreach tools to personalize messaging, schedule follow-ups, and maintain high deliverability.
+
+Cold email outreach works even better when you start with verified business data that helps you reach the right decision-makers with confidence. A good cold outreach sequence helps you stay consistent without doing all the work manually.`
+    },
+
+    {
+      title: "How to Create Your First Email Sequence in SalesTarget.ai",
+      description: "You can build email sequences in two ways:"
+    },
+
+    {
+      stepTitle: "1) Manually using the Campaign Editor",
+      isStep: true
+    },
+    {
+      content: "(Templates → Leads → Settings → Schedule)",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      stepTitle: "2) Automatically using the AI Sequence Generator",
+      isStep: true
+    },
+    {
+      content: "(Enter company details → Select steps → Auto-generate)",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      content: "Both options simplify the cold email outreach process — even for beginners.",
+      type: "paragraph",
+      isParagraph: true
+    },
+
+    {
+      stepTitle: "1. Add Steps (Your Email Flow)",
+      isStep: true
+    },
+    {
+      content: `Inside the Templates tab, each step is organized into clean cards:`,
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Configure each step",
+      description: `● Add subject line variants
+● Write the email body
+● Set the delay (for example, “Send next message in 3 days”)
+● Duplicate or delete steps as needed`
+    },
+    {
+      content: `A solid cold email sequence typically includes 3–5 steps:`,
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Common sequence structure",
+      description: `● Initial introduction
+● Follow-up
+● Value or case study email
+● Soft bump
+● Final nudge
+
+This structure gives your outreach a natural flow while keeping everything automated.`
+    },
+
+    {
+      stepTitle: "2. Add Delays Between Follow-Ups",
+      isStep: true
+    },
+    {
+      content: `Every step includes a delay field so you can control timing with options like “Send next message in X days”.`,
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Why spacing matters",
+      description: `Spreading out messages helps with:
+● Better deliverability
+● Healthier sender reputation
+● A less intrusive experience for prospects`
+    },
+    {
+      title: "How SalesTarget.ai handles sending rules",
+      description: `SalesTarget.ai also ensures that:
+● Once someone replies, the sequence stops
+● Bounced contacts are skipped
+● Sending follows your configured schedule`
+    },
+
+    {
+      stepTitle: "3. Personalization (Tokens + AI Tools)",
+      isStep: true
+    },
+    {
+      content: "Personalization significantly improves cold email performance. In SalesTarget.ai, you can use tokens such as:",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Personalization tokens",
+      description: `● {{firstName}}
+● {{companyName}}
+● {{signature}}`
+    },
+    {
+      content: "You can also enhance messaging with built-in AI tools:",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "AI tools inside SalesTarget.ai",
+      description: `● AI Sequence Generator
+● AI Spintax Generator
+● AI Content Generator
+
+These help your outreach stay human, relevant, and scalable.`
+    },
+
+    {
+      stepTitle: "Copy-Paste Personalization Examples",
+      isStep: true
+    },
+    {
+      isHeading: true,
+      title: "Example 1: Short Intro Email"
+    },
+    {
+      content: `Subject: Quick question, {{firstName}}
+
+Body:
+Hey {{firstName}}, noticed {{companyName}} has been exploring ways to improve {{goal/challenge}}. Thought I’d reach out because we’ve helped similar teams save time and get faster results with simple, automated outreach.
+
+Would it make sense to share a quick idea?`,
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      isHeading: true,
+      title: "Example 2: Case-Study Style Email"
+    },
+    {
+      content: `Subject: A quick idea for {{companyName}}
+
+Body:
+Hi {{firstName}},
+We recently helped a company in your industry improve {{specific metric}} by {{X%}} using AI-powered outreach. Since many teams struggle with {{pain point}}, this might be useful for you as well.
+
+Happy to share what worked if you’re exploring new approaches.`,
+      type: "paragraph",
+      isParagraph: true
+    },
+
+    {
+      stepTitle: "4. Configure Sending Logic (Settings + Schedule)",
+      isStep: true
+    },
+    {
+      content: "SalesTarget.ai gives you full control over when and how emails send.",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Schedule controls",
+      description: `● Sending days`
+    },
+    {
+      description:` Time windows`
+    },
+    {
+      description: `Timezone`
+    },
+    {
+      description: ` Daily email limit`
+    },
+    {
+      title: "Settings controls",
+    },
+    {
+      description: ` Domain and sender controls`
+    },
+    {
+      description: `Reply management`
+    },
+    {
+      description: `Unsubscribe and compliance options`
+    },
+    {
+      content:`These settings help maintain high email deliverability and improve cold outreach performance`,
+      isParagraph: true
+    },
+
+    {
+      stepTitle: "5. Preview and Test Your Sequence",
+      isStep: true
+    },
+      {
+      content: "Before activating your sequence, use the Send Test Email option and preview the full flow.",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "What to check before going live",
+      description: `A quick test helps you catch: 
+● Personalization token issues
+● Formatting errors
+● Broken links
+● Long paragraphs
+● Tone inconsistencies`
+    },
+    {
+      content: "Once your sequence goes live, you can track replies and manage conversations directly inside your CRM so every lead is followed up on.",
+      type: "paragraph",
+      isParagraph: true
+    },
+
+    {
+      stepTitle: "Using the AI Sequence Generator",
+      isStep: true
+    },
+    {
+      content: "The AI Sequence Generator is the fastest way to create a full multi-step email sequence. It asks for:",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Inputs required",
+      description: `1. Company name
+2. Your services
+3. Target audience
+4. Case studies
+5. Number of steps`
+    },
+    {
+      title: "What the AI generates",
+      description: `Based on your inputs, it generates:
+● Subject line variants
+● Full email bodies
+● Suggested delays
+● Multiple versions you can choose from
+
+Then, with one click, you can insert everything into your campaign using “Use Sequence”.`
+    },
+
+    {
+      stepTitle: "Final Thoughts",
+      isStep: true
+    },
+    {
+      content: `Creating your first email sequence doesn’t need to be complicated. With SalesTarget.ai’s intuitive editor, AI-powered outreach tools, and smart sending logic, anyone can build high-performing cold email sequences that drive real replies and results.`,
+      type: "paragraph",
+      isParagraph: true
+    }
+  ],
+
+  faq: [
+    {
+      title: "How do I start cold email outreach as a beginner?",
+      description: "Use short, personalized messaging and build a multi-step sequence. Let the platform automate follow-ups."
+    },
+    {
+      title: "How do I automate cold outreach emails?",
+      description: "Create steps, set delays, configure schedules, and let your AI email automation tool handle the rest."
+    },
+    {
+      title: "How do I improve cold email deliverability?",
+      description: "Warm up your domain, limit sending volume, avoid spam-triggering text, and personalize your emails."
+    },
+    {
+      title: "What’s the best cold email software for sales teams?",
+      description: "Use a platform with personalization, AI generation, smart scheduling, and reputation controls — like SalesTarget.ai."
+    },
+    {
+      title: "What’s the best platform to send cold emails from?",
+      description: "A dedicated cold email platform with deliverability protection, not a basic Gmail or Outlook account."
+    }
+  ]
+}
+
+
 ];
 
 export default mockArticles;
