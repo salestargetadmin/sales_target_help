@@ -3178,7 +3178,735 @@ meetings, tasks, reports, and team members effectively.`,
 
     ]
 
- }
+    
+
+ },
+
+ {
+  id: "71",
+  title: "Creating Your First Email Sequence: A Beginner’s Guide to Cold Email Outreach",
+  updated: "",
+  content: `Cold email outreach is one of the most effective ways to start conversations, book meetings, and generate revenue — especially when powered by the right cold email platform and AI-assisted tools. If you’re new to outbound email automation, building your first sequence might seem complex. With SalesTarget.ai’s clean workflow and AI sequence generator, however, you can create high-converting outreach flows in minutes.
+
+This guide walks you through the exact steps to create, personalize, automate, and launch your email sequence.`,
+  metaTitle: "Creating Your First Email Sequence | Cold Email Outreach Guide",
+  metaDescription: "Learn how to create your first email sequence using AI-powered cold email outreach tools. Step-by-step setup, personalization, automation, and best practices.",
+  features: [
+    {
+      title: "What Is Cold Email Outreach?",
+      description: `Cold email outreach is the practice of contacting prospects who haven’t interacted with you before — with a focus on relevance, personalization, and clear value. Modern teams rely heavily on AI email automation and outreach tools to personalize messaging, schedule follow-ups, and maintain high deliverability.
+
+Cold email outreach works even better when you start with verified business data that helps you reach the right decision-makers with confidence. A good cold outreach sequence helps you stay consistent without doing all the work manually.`
+    },
+
+    {
+      title: "How to Create Your First Email Sequence in SalesTarget.ai",
+      description: "You can build email sequences in two ways:"
+    },
+
+    {
+      stepTitle: "1) Manually using the Campaign Editor",
+      isStep: true
+    },
+    {
+      content: "(Templates → Leads → Settings → Schedule)",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      stepTitle: "2) Automatically using the AI Sequence Generator",
+      isStep: true
+    },
+    {
+      content: "(Enter company details → Select steps → Auto-generate)",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      content: "Both options simplify the cold email outreach process — even for beginners.",
+      type: "paragraph",
+      isParagraph: true
+    },
+
+    {
+      stepTitle: "1. Add Steps (Your Email Flow)",
+      isStep: true
+    },
+    {
+      content: `Inside the Templates tab, each step is organized into clean cards:`,
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Configure each step",
+      description: `● Add subject line variants
+● Write the email body
+● Set the delay (for example, “Send next message in 3 days”)
+● Duplicate or delete steps as needed`
+    },
+    {
+      content: `A solid cold email sequence typically includes 3–5 steps:`,
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Common sequence structure",
+      description: `● Initial introduction
+● Follow-up
+● Value or case study email
+● Soft bump
+● Final nudge
+
+This structure gives your outreach a natural flow while keeping everything automated.`
+    },
+
+    {
+      stepTitle: "2. Add Delays Between Follow-Ups",
+      isStep: true
+    },
+    {
+      content: `Every step includes a delay field so you can control timing with options like “Send next message in X days”.`,
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Why spacing matters",
+      description: `Spreading out messages helps with:
+● Better deliverability
+● Healthier sender reputation
+● A less intrusive experience for prospects`
+    },
+    {
+      title: "How SalesTarget.ai handles sending rules",
+      description: `SalesTarget.ai also ensures that:
+● Once someone replies, the sequence stops
+● Bounced contacts are skipped
+● Sending follows your configured schedule`
+    },
+
+    {
+      stepTitle: "3. Personalization (Tokens + AI Tools)",
+      isStep: true
+    },
+    {
+      content: "Personalization significantly improves cold email performance. In SalesTarget.ai, you can use tokens such as:",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Personalization tokens",
+      description: `● {{firstName}}
+● {{companyName}}
+● {{signature}}`
+    },
+    {
+      content: "You can also enhance messaging with built-in AI tools:",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "AI tools inside SalesTarget.ai",
+      description: `● AI Sequence Generator
+● AI Spintax Generator
+● AI Content Generator
+
+These help your outreach stay human, relevant, and scalable.`
+    },
+
+    {
+      stepTitle: "Copy-Paste Personalization Examples",
+      isStep: true
+    },
+    {
+      isHeading: true,
+      title: "Example 1: Short Intro Email"
+    },
+    {
+      content: `Subject: Quick question, {{firstName}}
+
+Body:
+Hey {{firstName}}, noticed {{companyName}} has been exploring ways to improve {{goal/challenge}}. Thought I’d reach out because we’ve helped similar teams save time and get faster results with simple, automated outreach.
+
+Would it make sense to share a quick idea?`,
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      isHeading: true,
+      title: "Example 2: Case-Study Style Email"
+    },
+    {
+      content: `Subject: A quick idea for {{companyName}}
+
+Body:
+Hi {{firstName}},
+We recently helped a company in your industry improve {{specific metric}} by {{X%}} using AI-powered outreach. Since many teams struggle with {{pain point}}, this might be useful for you as well.
+
+Happy to share what worked if you’re exploring new approaches.`,
+      type: "paragraph",
+      isParagraph: true
+    },
+
+    {
+      stepTitle: "4. Configure Sending Logic (Settings + Schedule)",
+      isStep: true
+    },
+    {
+      content: "SalesTarget.ai gives you full control over when and how emails send.",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Schedule controls",
+      description: `● Sending days`
+    },
+    {
+      description:` Time windows`
+    },
+    {
+      description: `Timezone`
+    },
+    {
+      description: ` Daily email limit`
+    },
+    {
+      title: "Settings controls",
+    },
+    {
+      description: ` Domain and sender controls`
+    },
+    {
+      description: `Reply management`
+    },
+    {
+      description: `Unsubscribe and compliance options`
+    },
+    {
+      content:`These settings help maintain high email deliverability and improve cold outreach performance`,
+      isParagraph: true
+    },
+
+    {
+      stepTitle: "5. Preview and Test Your Sequence",
+      isStep: true
+    },
+      {
+      content: "Before activating your sequence, use the Send Test Email option and preview the full flow.",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "What to check before going live",
+      description: `A quick test helps you catch: 
+● Personalization token issues
+● Formatting errors
+● Broken links
+● Long paragraphs
+● Tone inconsistencies`
+    },
+    {
+      content: "Once your sequence goes live, you can track replies and manage conversations directly inside your CRM so every lead is followed up on.",
+      type: "paragraph",
+      isParagraph: true
+    },
+
+    {
+      stepTitle: "Using the AI Sequence Generator",
+      isStep: true
+    },
+    {
+      content: "The AI Sequence Generator is the fastest way to create a full multi-step email sequence. It asks for:",
+      type: "paragraph",
+      isParagraph: true
+    },
+    {
+      title: "Inputs required",
+      description: `1. Company name
+2. Your services
+3. Target audience
+4. Case studies
+5. Number of steps`
+    },
+    {
+      title: "What the AI generates",
+      description: `Based on your inputs, it generates:
+● Subject line variants
+● Full email bodies
+● Suggested delays
+● Multiple versions you can choose from
+
+Then, with one click, you can insert everything into your campaign using “Use Sequence”.`
+    },
+
+    {
+      stepTitle: "Final Thoughts",
+      isStep: true
+    },
+    {
+      content: `Creating your first email sequence doesn’t need to be complicated. With SalesTarget.ai’s intuitive editor, AI-powered outreach tools, and smart sending logic, anyone can build high-performing cold email sequences that drive real replies and results.`,
+      type: "paragraph",
+      isParagraph: true
+    }
+  ],
+
+  faq: [
+    {
+      title: "How do I start cold email outreach as a beginner?",
+      description: "Use short, personalized messaging and build a multi-step sequence. Let the platform automate follow-ups."
+    },
+    {
+      title: "How do I automate cold outreach emails?",
+      description: "Create steps, set delays, configure schedules, and let your AI email automation tool handle the rest."
+    },
+    {
+      title: "How do I improve cold email deliverability?",
+      description: "Warm up your domain, limit sending volume, avoid spam-triggering text, and personalize your emails."
+    },
+    {
+      title: "What’s the best cold email software for sales teams?",
+      description: "Use a platform with personalization, AI generation, smart scheduling, and reputation controls — like SalesTarget.ai."
+    },
+    {
+      title: "What’s the best platform to send cold emails from?",
+      description: "A dedicated cold email platform with deliverability protection, not a basic Gmail or Outlook account."
+    }
+  ]
+} ,
+
+{
+  id: "72",
+  title: "LinkedIn Automation — Complete Help Center Guide",
+  updated: "",
+  metaTitle: "LinkedIn Automation — Full Guide for SalesTarget",
+  metaDescription:
+    "Automate LinkedIn connection requests, messages, profile views, likes, endorsements, and follow actions using SalesTarget. Learn how to build sequences, set limits, import leads, and track campaign performance.",
+  content: `LinkedIn Automation in SalesTarget.ai lets you automate connection requests, profile visits, post likes, skill endorsements, follow-up messages, and profile follows — all inside a single workflow.
+
+This guide explains how to create campaigns, select leads, build sequences, configure limits, and track performance.`,
+  features: [
+    {
+      title: "What You Can Automate in SalesTarget",
+      description:
+        "SalesTarget supports a full set of LinkedIn engagement actions and automation behaviors so you can run complete outreach workflows from one place."
+    },
+
+    // Supported LinkedIn Actions
+    {
+      isHeading: true,
+      title: "Supported LinkedIn Actions"
+    },
+    { description: "Send Connection Request" },
+    { description: "Send Message (after connection is accepted)" },
+    { description: "Send Email (if an email account is selected in Step 1)" },
+    { description: "View Profile" },
+    { description: "Like Post" },
+    { description: "Follow Profile" },
+    { description: "Endorse Skills" },
+
+    // Supported Automation Behaviors
+    {
+      isHeading: true,
+      title: "Supported Automation Behaviors"
+    },
+    { description: "Multi-step follow-up sequences with timed steps" },
+    { description: "If/else conditions based on connection accepted, email opened, or email clicked" },
+    { description: "Multichannel outreach combining LinkedIn and email" },
+    { description: "Support for multiple LinkedIn accounts per workspace" },
+    { description: "Safe daily limits and warm-up mode" },
+    { description: "Working hours and timezone controls" },
+    { description: "LinkedIn Inbox to view and reply to all responses" },
+    { description: "CRM activity logging for every interaction" },
+
+    {
+      stepTitle: "How LinkedIn Automation Works",
+      isStep: true
+    },
+    {
+      description: "LinkedIn Automation in SalesTarget.ai runs through a simple four-step setup so you can go from campaign idea to live outreach in minutes."
+    },
+
+    // 1. Create a Campaign
+    {
+      stepTitle: "1. Create a Campaign",
+      isStep: true
+    },
+    {
+      description: "Start by creating a new LinkedIn campaign and choosing which accounts will send your actions."
+    },
+    { description: "Enter a Campaign Name." },
+    { description: "Select a LinkedIn account (multiple accounts are supported)." },
+    { description: "Optionally select an email account if you plan to include email steps." },
+    {
+      description:
+        "If no email account is selected, Send Email actions will be disabled so your workflow remains LinkedIn-only."
+    },
+
+    {
+      isHeading: true,
+      title: "Warmup Mode"
+    },
+    {
+      description:
+        "Warmup Mode gradually increases your daily action limits each week to keep your LinkedIn account safe."
+    },
+    {
+      description:
+        "For example, if your safe limit for this week is 5 connection requests per day, next week it may increase to 10 depending on account behavior."
+    },
+    {
+      description: "Recommended starting limits include:"
+    },
+    { description: "5 connection requests per day" },
+    { description: "10 messages per day" },
+    { description: "20 profile views per day" },
+    { description: "20 post likes per day" },
+    { description: "20 skill endorsements per day" },
+    { description: "20 find email actions per day" },
+    {
+      description:
+        "Warmup Mode automatically adjusts these limits over time so you can scale outreach without triggering LinkedIn restrictions."
+    },
+
+    // 2. Select Your Leads
+    {
+      stepTitle: "2. Select Your Leads",
+      isStep: true
+    },
+    {
+      description:
+        "You can add leads from LinkedIn searches or from a CSV file, depending on where your prospect lists live today."
+    },
+
+    {
+      isHeading: true,
+      title: "A. LinkedIn Search URLs"
+    },
+    {
+      description: "Paste a LinkedIn search URL from regular LinkedIn, Sales Navigator, or Recruiter."
+    },
+    {
+      description: "Choose how many profiles to import, for example 100–500 prospects at a time."
+    },
+
+    {
+      isHeading: true,
+      title: "B. CSV Upload"
+    },
+    {
+      description: "Upload a CSV file when you already have a lead list outside LinkedIn."
+    },
+    { description: "Required fields: First Name, Last Name, and LinkedIn URL." },
+    {
+      description:
+        "Optional fields: Email, Company, Job Title, Location, and Industry — these improve personalization and filtering."
+    },
+    {
+      description: "A sample CSV template is provided so you can format your file correctly."
+    },
+
+    // 3. Build Your LinkedIn Sequence
+    {
+      stepTitle: "3. Build Your LinkedIn Sequence",
+      isStep: true
+    },
+    {
+      description:
+        "Use Add Step to define which LinkedIn actions, conditions, and delays run for each lead in your campaign."
+    },
+
+    {
+      isHeading: true,
+      title: "A. Available LinkedIn Actions"
+    },
+    {
+      description: "Send Connection — write a manual note or generate an AI-personalized message."
+    },
+    {
+      description: "Send Connection supports variables such as {{firstName}} with a 300-character message limit."
+    },
+    {
+      description:
+        "Send Message — sends follow-up messages after a connection request is accepted and can be chained into multi-step messaging."
+    },
+    {
+      description:
+        "Send Email — appears only if an email account was selected during campaign setup so you can add email touchpoints."
+    },
+    {
+      description: "View Profile — warms up the lead by visiting their profile before you send a connection request."
+    },
+    {
+      description: "Like Post — adds soft engagement on recent posts to increase visibility before outreach."
+    },
+    {
+      description: "Follow Profile — follows the prospect so your content appears more often in their feed."
+    },
+    {
+      description: "Endorse Skills — endorses displayed skills to create a friendly, value-first interaction."
+    },
+
+    {
+      isHeading: true,
+      title: "B. Conditions"
+    },
+    {
+      description:
+        "Conditions control the logic of your workflow so different actions run depending on how a prospect responds."
+    },
+    { description: "If Connected — only run the next steps when the connection request has been accepted." },
+    { description: "If Email Opened — branch when an email has been opened at least once." },
+    { description: "If Email Clicked — branch when a tracked link in your email has been clicked." },
+    {
+      description: "Example flow: Send Connection → Wait 2 days → If Connected → Send Message."
+    },
+
+    {
+      isHeading: true,
+      title: "C. Delays"
+    },
+    {
+      description: "Each step can wait for a specific amount of time before running so your outreach feels natural."
+    },
+    { description: "Use delays measured in hours for same-day follow-ups." },
+    { description: "Use delays measured in days for slower, long-term nurturing." },
+    {
+      description:
+        "Proper delays help prevent over-activity and keep your sending patterns aligned with real human behavior."
+    },
+
+    {
+      isHeading: true,
+      title: "D. AI Personalization"
+    },
+    {
+      description:
+        "SalesTarget.ai can personalize both connection request messages and follow-up messages after someone connects."
+    },
+    {
+      description:
+        "AI analyzes public LinkedIn profile details such as the headline, biography, job title, and company information."
+    },
+    {
+      description: "You can choose from preset personalization styles including Professional Insight, Role Mention, Activity-Based, and Interest Opener."
+    },
+    {
+      description:
+        "If AI cannot generate a personalized output for a specific lead, your fallback template is used automatically so the sequence never breaks."
+    },
+
+    // 4. Verify & Launch
+    {
+      stepTitle: "4. Verify & Launch",
+      isStep: true
+    },
+    {
+      description:
+        "Before launching your LinkedIn campaign, review each step to make sure the flow, limits, and personalization look correct."
+    },
+    { description: "Check personalization variables and tokens for errors." },
+    { description: "Validate that each step has the correct action, condition, and delay." },
+    { description: "Confirm your LinkedIn and email account selections." },
+    { description: "Ensure daily limits and warm-up settings are safe for your account history." },
+    {
+      description: "When everything looks good, click Launch to start the campaign."
+    },
+
+    {
+      isHeading: true,
+      title: "LinkedIn Inbox"
+    },
+    {
+      description:
+        "The LinkedIn Inbox collects all conversations from every connected LinkedIn account in one place."
+    },
+    { description: "Read new messages without switching between LinkedIn accounts." },
+    { description: "Reply manually to keep responses natural and context-aware." },
+    { description: "View full chat history for each prospect so you always know the previous touchpoints." },
+
+    {
+      isHeading: true,
+      title: "My Network"
+    },
+    {
+      description: "My Network shows all LinkedIn connections synced from your connected accounts."
+    },
+    { description: "View contact details for each connection." },
+    { description: "Filter or export parts of your network for deeper analysis or external use." },
+    { description: "Start manual outreach flows directly from your synced network." },
+
+    {
+      isHeading: true,
+      title: "LinkedIn Accounts Management"
+    },
+    {
+      description:
+        "Under the Accounts section you can manage every LinkedIn account linked to SalesTarget.ai."
+    },
+    { description: "Add multiple LinkedIn accounts for different team members or brands." },
+    { description: "View which accounts are connected, paused, or suspended." },
+    { description: "Check average usage for each account to understand daily activity levels." },
+    { description: "Sync account data if changes were made directly in LinkedIn." },
+    { description: "Remove accounts that no longer need to run campaigns." },
+    { description: "Reconnect accounts if access has expired or permissions changed." },
+
+    {
+      isHeading: true,
+      title: "Account Settings"
+    },
+
+    // Account Limits as separate descriptions
+    {
+      isHeading: true,
+      title: "A. Account Limits"
+    },
+    { description: "Adjust daily limits for your LinkedIn actions so they stay within safe ranges." },
+    { description: "Connections — control how many invitations are sent per day." },
+    { description: "Messages — cap the number of automated messages per day." },
+    { description: "Views — limit how many profiles are viewed daily." },
+    { description: "Likes — define how many posts can be liked per day." },
+    { description: "Endorsements — control how many skills are endorsed daily." },
+    {
+      description: "Warmup Mode gradually increases these limits over time based on account behavior."
+    },
+
+    // Profile Settings as separate descriptions (matching your point format)
+    {
+      isHeading: true,
+      title: "B. Profile Settings"
+    },
+    { description: "First Name" },
+    { description: "Last Name" },
+    { description: "Company" },
+    { description: "Job Title" },
+    { description: "Timezone" },
+    { description: "Working Days" },
+    { description: "Working Hours" },
+    {
+      description:
+        "LinkedIn actions only run within your selected working days, hours, and timezone so outreach looks human."
+    },
+
+    // Analytics & Reporting
+    {
+      isHeading: true,
+      title: "Analytics & Reporting"
+    },
+    {
+      description:
+        "The Analytics dashboard tracks all major LinkedIn automation metrics so you can measure campaign performance."
+    },
+
+    {
+      isHeading: true,
+      title: "Metrics Displayed"
+    },
+    { description: "Connection Requests" },
+    { description: "Accepted Connections" },
+    { description: "Messages Sent" },
+    { description: "Replies Received" },
+    { description: "Response Rate" },
+    { description: "Active Accounts" },
+    { description: "Total Accounts" },
+
+    {
+      isHeading: true,
+      title: "Views"
+    },
+    { description: "Daily performance view" },
+    { description: "Weekly performance view" },
+    { description: "Monthly performance view" },
+    { description: "Yearly performance view" },
+    {
+      description: "A per-account table provides a detailed breakdown of activity for each LinkedIn account."
+    },
+
+    // Troubleshooting
+    {
+      isHeading: true,
+      title: "Troubleshooting"
+    },
+
+    {
+      isHeading: true,
+      title: "1. Connection Request Not Sent"
+    },
+    { description: "Daily connection limit reached." },
+    { description: "The person is already a connection." },
+    { description: "Temporary LinkedIn restriction on your account." },
+    { description: "Invalid or unsupported profile URL." },
+
+    {
+      isHeading: true,
+      title: "2. Message Not Sent"
+    },
+    { description: "The prospect is not yet a 1st-degree connection." },
+    { description: "Your daily message limit has been reached." },
+    { description: "A required personalization variable is missing or empty." },
+
+    {
+      isHeading: true,
+      title: "3. No Leads Imported"
+    },
+    { description: "The LinkedIn URL is invalid or not supported for import." },
+    { description: "Search results are restricted or not accessible." }
+  ],
+
+  faq: [
+    {
+      title: "Are LinkedIn actions automated?",
+      description:
+        "Yes. All actions you add to a sequence — such as connection requests, profile views, likes, follows, endorsements, and messages — run automatically within your daily limits and working hours after you launch the campaign."
+    },
+    {
+      title: "Do I need a Chrome extension?",
+      description:
+        "No. SalesTarget.ai runs LinkedIn automation entirely in the cloud, so your campaigns continue even if your browser is closed or your device is offline."
+    },
+    {
+      title: "Can I combine LinkedIn and Email steps?",
+      description:
+        "Yes. If you select an email account during campaign setup, you can mix LinkedIn and email actions in a single workflow. If no email account is selected, email steps remain disabled."
+    },
+    {
+      title: "Can I automate LinkedIn follow-up messages?",
+      description:
+        "Yes. You can add multiple Send Message steps with delays so follow-ups are sent automatically once a lead becomes a 1st-degree connection."
+    },
+    {
+      title: "Do replies sync into SalesTarget?",
+      description:
+        "Yes. Replies from your connected LinkedIn accounts appear in the LinkedIn Inbox, and activity logs are recorded on each lead’s timeline."
+    },
+    {
+      title: "Can I upload my own lead list?",
+      description:
+        "Yes. You can upload leads via CSV as long as the file includes First Name, Last Name, and LinkedIn URL. Optional fields like Email or Job Title improve personalization and targeting."
+    },
+    {
+      title: "Does SalesTarget support multiple LinkedIn accounts?",
+      description:
+        "Yes. You can connect multiple LinkedIn accounts and choose which one runs each campaign. Limits and warm-up settings are applied per account."
+    },
+    {
+      title: "Is LinkedIn automation safe?",
+      description:
+        "Yes. SalesTarget.ai uses warm-up mode, daily action limits, random pacing, and working-hour controls to keep your outreach safe and aligned with typical LinkedIn usage patterns."
+    },
+    {
+      title: "How do I track campaign performance?",
+      description:
+        "Use the Analytics dashboard to monitor connection requests, acceptance rate, messages sent, replies, and response rate, with views available by day, week, month, or year."
+    },
+    {
+      title: "What happens if someone is already a connection?",
+      description:
+        "SalesTarget.ai automatically skips the connection request step for existing connections, and you can use the If Connected condition to route them directly into message-based follow-ups."
+    }
+  ]
+}
+
+
+
 ];
 
 export default mockArticles;
