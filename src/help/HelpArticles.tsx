@@ -267,6 +267,14 @@ const categories = [
         
     ],
   },
+
+  {
+    title: 'CRM Guide: Lead Activity, Meetings,Tasks &amp; Activity Feed',
+    icon: '🔍', 
+    articles: [
+      { title: 'CRM Guide: Lead Activity, Meetings,Tasks &amp; Activity Feed', id:73, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  }
   
 ];
 
