@@ -3194,9 +3194,9 @@ This guide walks you through the exact steps to create, personalize, automate, a
   features: [
     {
       title: "What Is Cold Email Outreach?",
-      description: `Cold email outreach is the practice of contacting prospects who haven’t interacted with you before — with a focus on relevance, personalization, and clear value. Modern teams rely heavily on AI email automation and outreach tools to personalize messaging, schedule follow-ups, and maintain high deliverability.
+      description: `Cold email outreach is the practice of contacting prospects who haven't interacted with you before — with a focus on relevance, personalization, and clear value. Modern teams rely heavily on {{ <a href='https://salestarget.ai/email-outreach'>AI email automation</a> }}  and outreach tools to personalize messaging, schedule follow-ups, and maintain high deliverability.
 
-Cold email outreach works even better when you start with verified business data that helps you reach the right decision-makers with confidence. A good cold outreach sequence helps you stay consistent without doing all the work manually.`
+Cold email outreach works even better when you start with {{ <a href='https://salestarget.ai/lead-explorer' > verified business data </a>  }} that helps you reach the right decision-makers with confidence. A good cold outreach sequence helps you stay consistent without doing all the work manually.`
     },
 
     {
@@ -3238,11 +3238,20 @@ Cold email outreach works even better when you start with verified business data
       isParagraph: true
     },
     {
-      title: "Configure each step",
-      description: `● Add subject line variants
-● Write the email body
-● Set the delay (for example, “Send next message in 3 days”)
-● Duplicate or delete steps as needed`
+      stepTitle: "Configure each step",
+      isStep: true
+    },
+    {
+      description:` Add subject line variants`
+    },
+    {
+      description: `Write the email body`
+    },
+    {
+      description: `Set the delay (for example, “Send next message in 3 days”)`
+    },
+    {
+      description: `Duplicate or delete steps as needed`
     },
     {
       content: `A solid cold email sequence typically includes 3–5 steps:`,
@@ -3250,16 +3259,28 @@ Cold email outreach works even better when you start with verified business data
       isParagraph: true
     },
     {
-      title: "Common sequence structure",
-      description: `● Initial introduction
-● Follow-up
-● Value or case study email
-● Soft bump
-● Final nudge
-
-This structure gives your outreach a natural flow while keeping everything automated.`
+      stepTitle: "Common sequence structure",
+      isStep: true
     },
-
+    {
+      description: `Initial introduction`
+    },
+    {
+      description: `Follow-up`
+    },
+    {
+      description: `Value or case study email`
+    },
+    {
+      description: `Soft bump`
+    },
+    {
+      description: `Final nudge`
+    },
+    {
+      content:`This structure gives your outreach a natural flow while keeping everything automated.`,
+      isParagraph: true
+    },
     {
       stepTitle: "2. Add Delays Between Follow-Ups",
       isStep: true
@@ -3270,20 +3291,39 @@ This structure gives your outreach a natural flow while keeping everything autom
       isParagraph: true
     },
     {
-      title: "Why spacing matters",
-      description: `Spreading out messages helps with:
-● Better deliverability
-● Healthier sender reputation
-● A less intrusive experience for prospects`
+      stepTitle: "Why spacing matters",
+      isStep: true
     },
     {
-      title: "How SalesTarget.ai handles sending rules",
-      description: `SalesTarget.ai also ensures that:
-● Once someone replies, the sequence stops
-● Bounced contacts are skipped
-● Sending follows your configured schedule`
+      content: `Spreading out messages helps with:`,
+      isParagraph: true
     },
-
+    {
+      description:`Better deliverability`
+    },
+    {
+      description: ` Healthier sender reputation`
+    },
+    {
+      description: `A less intrusive experience for prospects`
+    },
+    {
+      stepTitle: "How SalesTarget.ai handles sending rules",
+      isStep: `true`
+    },
+    {
+      content:`SalesTarget.ai also ensures that:`,
+      isParagraph: true
+    },
+    {
+      description: `Once someone replies, the sequence stops`
+    },
+    {
+      description: `Bounced contacts are skipped`
+    },
+    {
+      description: ` Sending follows your configured schedule`
+    },
     {
       stepTitle: "3. Personalization (Tokens + AI Tools)",
       isStep: true
@@ -3294,10 +3334,17 @@ This structure gives your outreach a natural flow while keeping everything autom
       isParagraph: true
     },
     {
-      title: "Personalization tokens",
-      description: `● {{firstName}}
-● {{companyName}}
-● {{signature}}`
+      stepTitle: "Personalization tokens",
+      isStep: true
+    },
+    {
+      description: ` firstName`
+    },
+    {
+      description: `{{companyName}} `
+    },
+    {
+      description:  ` {{signature}} `
     },
     {
       content: "You can also enhance messaging with built-in AI tools:",
@@ -3305,12 +3352,27 @@ This structure gives your outreach a natural flow while keeping everything autom
       isParagraph: true
     },
     {
-      title: "AI tools inside SalesTarget.ai",
-      description: `● AI Sequence Generator
-● AI Spintax Generator
-● AI Content Generator
-
-These help your outreach stay human, relevant, and scalable.`
+      stepTitle: "AI tools inside SalesTarget.ai",
+      isStep: true
+    },
+    {
+      description: `AI Sequence Generator`
+    },
+    {
+      description: `AI tools inside SalesTarget.ai`
+    },
+    {
+      description: `AI Sequence Generator`
+    },
+    {
+      description: `AI Spintax Generator`
+    },
+    {
+      description: `AI Content Generator`
+    },
+    {
+     content: `These help your outreach stay human, relevant, and scalable.`,
+     isParagraph: true
     },
 
     {
@@ -3357,8 +3419,11 @@ Happy to share what worked if you’re exploring new approaches.`,
       isParagraph: true
     },
     {
-      title: "Schedule controls",
-      description: `● Sending days`
+      stepTitle: "Schedule controls",
+      isStep: true
+    },
+    {
+      description: `Sending days`
     },
     {
       description:` Time windows`
@@ -3370,7 +3435,8 @@ Happy to share what worked if you’re exploring new approaches.`,
       description: ` Daily email limit`
     },
     {
-      title: "Settings controls",
+      stepTitle: "Settings controls",
+      isStep: true
     },
     {
       description: ` Domain and sender controls`
@@ -3396,13 +3462,26 @@ Happy to share what worked if you’re exploring new approaches.`,
       isParagraph: true
     },
     {
-      title: "What to check before going live",
-      description: `A quick test helps you catch: 
-● Personalization token issues
-● Formatting errors
-● Broken links
-● Long paragraphs
-● Tone inconsistencies`
+      stepTitle: "What to check before going live",
+      isStep: true
+    },
+    {
+      description:`A quick test helps you catch: `
+    },
+    {
+      description:`Personalization token issues`
+    },
+    {
+      description:`Formatting errors`
+    },
+    {
+      description:`Broken links`
+    },
+    {
+      description:`Long paragraphs`
+    },
+    {
+      description: `Tone inconsistencies`
     },
     {
       content: "Once your sequence goes live, you can track replies and manage conversations directly inside your CRM so every lead is followed up on.",
@@ -3420,24 +3499,48 @@ Happy to share what worked if you’re exploring new approaches.`,
       isParagraph: true
     },
     {
-      title: "Inputs required",
-      description: `1. Company name
-2. Your services
-3. Target audience
-4. Case studies
-5. Number of steps`
+      stepTitle: "Inputs required",
+      isStep: true
     },
     {
-      title: "What the AI generates",
-      description: `Based on your inputs, it generates:
-● Subject line variants
-● Full email bodies
-● Suggested delays
-● Multiple versions you can choose from
-
-Then, with one click, you can insert everything into your campaign using “Use Sequence”.`
+      description: ` Company name`
     },
-
+    {
+      description: `Your services`
+    },
+    {
+      description: `Target audience`
+    },
+    {
+      description: `Case studies`
+    },
+    {
+      description: `Number of steps`
+    },
+    {
+      stepTitle: "What the AI generates",
+      isStep: true
+    },
+    {
+      content: `Based on your inputs, it generates:`,
+      isParagraph: true
+    },
+    {
+      description: `Subject line variants`
+    },
+    {
+      description: ` Full email bodies`
+    },
+    {
+      description: `Suggested delays`
+    },
+    {
+      description: `Multiple versions you can choose from`
+    },
+    {
+      content: `Then, with one click, you can insert everything into your campaign using “Use Sequence”.`,
+      isParagraph:true
+    },
     {
       stepTitle: "Final Thoughts",
       isStep: true
