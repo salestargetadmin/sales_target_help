@@ -15,7 +15,7 @@ const HelpLayout = ({ children }: { children: any }) => {
   useEffect(() => {
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
-      
+
       // TIER 1: Title matches (highest priority)
       const titleMatches: any[] = [];
       // TIER 2: Heading matches (medium priority) 
@@ -33,20 +33,20 @@ const HelpLayout = ({ children }: { children: any }) => {
         }
 
         // Check for heading matches (isHeading: true items)
-        const hasHeadingMatch = 
-          (article as any).features?.some((item: any) => 
+        const hasHeadingMatch =
+          (article as any).features?.some((item: any) =>
             item?.isHeading && item?.title?.toLowerCase().includes(query)
           ) ||
-          (article as any).accounts?.some((item: any) => 
+          (article as any).accounts?.some((item: any) =>
             item?.isHeading && item?.title?.toLowerCase().includes(query)
           ) ||
-          (article as any).msaccounts?.some((item: any) => 
+          (article as any).msaccounts?.some((item: any) =>
             item?.isHeading && item?.title?.toLowerCase().includes(query)
           ) ||
-          (article as any).imap?.some((item: any) => 
+          (article as any).imap?.some((item: any) =>
             item?.isHeading && item?.title?.toLowerCase().includes(query)
           ) ||
-          (article as any).faq?.some((item: any) => 
+          (article as any).faq?.some((item: any) =>
             item?.isHeading && item?.title?.toLowerCase().includes(query)
           );
 
@@ -65,34 +65,34 @@ const HelpLayout = ({ children }: { children: any }) => {
             .toLowerCase() || "";
 
           const searchableText = `${content} ${featureText}`;
-          
+
           // Check for content match (excluding headings we already checked)
-          const hasContentMatch = 
-            (article as any).features?.some((item: any) => 
+          const hasContentMatch =
+            (article as any).features?.some((item: any) =>
               !item?.isHeading && (
                 item?.title?.toLowerCase().includes(query) ||
                 item?.description?.toLowerCase().includes(query)
               )
             ) ||
-            (article as any).accounts?.some((item: any) => 
+            (article as any).accounts?.some((item: any) =>
               !item?.isHeading && (
                 item?.title?.toLowerCase().includes(query) ||
                 item?.description?.toLowerCase().includes(query)
               )
             ) ||
-            (article as any).msaccounts?.some((item: any) => 
+            (article as any).msaccounts?.some((item: any) =>
               !item?.isHeading && (
                 item?.title?.toLowerCase().includes(query) ||
                 item?.description?.toLowerCase().includes(query)
               )
             ) ||
-            (article as any).imap?.some((item: any) => 
+            (article as any).imap?.some((item: any) =>
               !item?.isHeading && (
                 item?.title?.toLowerCase().includes(query) ||
                 item?.description?.toLowerCase().includes(query)
               )
             ) ||
-            (article as any).faq?.some((item: any) => 
+            (article as any).faq?.some((item: any) =>
               !item?.isHeading && (
                 item?.title?.toLowerCase().includes(query) ||
                 item?.description?.toLowerCase().includes(query)
@@ -155,11 +155,19 @@ const HelpLayout = ({ children }: { children: any }) => {
   return (
     <div className="relative min-h-screen bg-white">
       <div className="w-full layoutbg p-5 pb-[80px] pt-[26px] relative overflow-hidden">
-        <div className="flex justify-between items-center max-w-4xl mx-auto text-white mb-10">
-          <h1 className="text-[18px] font-[500]">Salestarget Help Center</h1>
+        <div className="flex flex-col md:flex-row md:justify-between md:items-center max-w-4xl mx-auto text-white mb-10 gap-4">
+          <div className="flex items-center justify-center md:justify-start">
+            <a href="https://salestarget.ai/" target="_blank" rel="noopener noreferrer">
+              <img
+                src="/salestarget-logo.svg"
+                alt="SalesTarget Logo"
+                className="h-8 w-auto hover:opacity-80 transition-opacity"
+              />
+            </a>
+          </div>
           <Link
             to="/calculate"
-            className="text-[16px] px-4 py-1 border-0 outline-0 bg-white text-black rounded-[20px] font-[500] hover:bg-purple-400 hover:text-white hover:shadow-[1px_1px_1px_black]"
+            className="text-[14px] md:text-[16px] px-4 py-2 md:py-1 border-0 outline-0 bg-white text-black rounded-[20px] font-[500] hover:bg-purple-400 hover:text-white hover:shadow-[1px_1px_1px_black] self-center md:self-auto"
           >
             Calculate Your Cost
           </Link>
