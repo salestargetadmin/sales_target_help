@@ -127,7 +127,7 @@ const mockArticles = [
     id: "5", // Unique ID for routing
     title: "Navigating the dashboard",
     updated: "Updated over 8 months ago",
-    content: `The SalesTarget dashboard provides an intuitive interface to manage your cold email campaigns efficiently. Here’s a breakdown of key sections:`,
+    content: `The SalesTarget dashboard provides an intuitive interface to manage your cold email campaigns efficiently. Here's a breakdown of key sections:`,
     features: [
       {
         title: " Dashboard Overview 📊",
@@ -175,7 +175,7 @@ const mockArticles = [
     id: "7", // Unique ID for routing
     title: "Api Connection",
     updated: "Updated over 8 months ago",
-    content: `SalesTarget allows seamless API integration to automate lead management, campaign creation, and email tracking. Here’s how to connect via API:`,
+    content: `SalesTarget allows seamless API integration to automate lead management, campaign creation, and email tracking. Here's how to connect via API:`,
     features: [
       {
         title: "Generate API Key 🔑",
@@ -423,13 +423,13 @@ With this feature. it will try to match the users sending inboxes with the recip
     faq: [
       {
         title:
-          " What will happen if none of my mailboxes match my lead’s mailboxes?",
+          " What will happen if none of my mailboxes match my lead's mailboxes?",
         description:
           "No worries, if none of your mailboxes match your prospect's mailboxes, the campaign will go out as normal.",
       },
       {
         title:
-          "What happens if only 1 inbox matches 80% of your leads’ inboxes (Google for example)",
+          "What happens if only 1 inbox matches 80% of your leads' inboxes (Google for example)",
         description:
           "If only 1 inbox matches 80% of your leads' inboxes, the campaign needs to wait for the 1 account to be available for 80% of the leads. As for the remaining 20%, even if there is no match, the campaign will work still as usual.",
       },
@@ -514,7 +514,7 @@ With this feature. it will try to match the users sending inboxes with the recip
       {
         title: "",
         description:
-          "The warmup functionality mimics human conversations between email accounts.But in this case, your ‘friends’ are other salestarget.ai users who have also enabled the warmup feature. You can be sure that all of them will open your email and a high percentage will write you back with a ‘thoughtful’ and positive sentimentThe emails written by the salestarget AI algorithm signal to Google, Outlook, and other ESPs that your email account and sending domain are relevant and legitimate. This increases the likelihood that the messages that are sent to the cold leads in your outreach campaigns will also actually land in their inbox and subsequently be opened and replied to.The bottom line is that the warmup will improve the deliverability of your cold email accounts by mimicking human conversations in the salestarget.ai user pooWhen you connect a sending account to salestarget, warming up the accounts also warms up your SMTP sending server and IMAP servers as welOn top of the deliverability benefits, your outreach email accounts will also stay alive for longer and the likelihood of you ‘burning’ through an account is significantly lower.",
+          "The warmup functionality mimics human conversations between email accounts.But in this case, your 'friends' are other salestarget.ai users who have also enabled the warmup feature. You can be sure that all of them will open your email and a high percentage will write you back with a 'thoughtful' and positive sentimentThe emails written by the salestarget AI algorithm signal to Google, Outlook, and other ESPs that your email account and sending domain are relevant and legitimate. This increases the likelihood that the messages that are sent to the cold leads in your outreach campaigns will also actually land in their inbox and subsequently be opened and replied to.The bottom line is that the warmup will improve the deliverability of your cold email accounts by mimicking human conversations in the salestarget.ai user pooWhen you connect a sending account to salestarget, warming up the accounts also warms up your SMTP sending server and IMAP servers as welOn top of the deliverability benefits, your outreach email accounts will also stay alive for longer and the likelihood of you 'burning' through an account is significantly lower.",
       },
       
     ],
@@ -3194,9 +3194,9 @@ This guide walks you through the exact steps to create, personalize, automate, a
   features: [
     {
       title: "What Is Cold Email Outreach?",
-      description: `Cold email outreach is the practice of contacting prospects who haven’t interacted with you before — with a focus on relevance, personalization, and clear value. Modern teams rely heavily on AI email automation and outreach tools to personalize messaging, schedule follow-ups, and maintain high deliverability.
+      description: `Cold email outreach is the practice of contacting prospects who haven't interacted with you before — with a focus on relevance, personalization, and clear value. Modern teams rely heavily on {{ <a href='https://salestarget.ai/email-outreach'>AI email automation</a> }}  and outreach tools to personalize messaging, schedule follow-ups, and maintain high deliverability.
 
-Cold email outreach works even better when you start with verified business data that helps you reach the right decision-makers with confidence. A good cold outreach sequence helps you stay consistent without doing all the work manually.`
+Cold email outreach works even better when you start with {{ <a href='https://salestarget.ai/lead-explorer' > verified business data </a>  }} that helps you reach the right decision-makers with confidence. A good cold outreach sequence helps you stay consistent without doing all the work manually.`
     },
 
     {
@@ -3238,11 +3238,20 @@ Cold email outreach works even better when you start with verified business data
       isParagraph: true
     },
     {
-      title: "Configure each step",
-      description: `● Add subject line variants
-● Write the email body
-● Set the delay (for example, “Send next message in 3 days”)
-● Duplicate or delete steps as needed`
+      stepTitle: "Configure each step",
+      isStep: true
+    },
+    {
+      description:` Add subject line variants`
+    },
+    {
+      description: `Write the email body`
+    },
+    {
+      description: `Set the delay (for example, “Send next message in 3 days”)`
+    },
+    {
+      description: `Duplicate or delete steps as needed`
     },
     {
       content: `A solid cold email sequence typically includes 3–5 steps:`,
@@ -3250,16 +3259,28 @@ Cold email outreach works even better when you start with verified business data
       isParagraph: true
     },
     {
-      title: "Common sequence structure",
-      description: `● Initial introduction
-● Follow-up
-● Value or case study email
-● Soft bump
-● Final nudge
-
-This structure gives your outreach a natural flow while keeping everything automated.`
+      stepTitle: "Common sequence structure",
+      isStep: true
     },
-
+    {
+      description: `Initial introduction`
+    },
+    {
+      description: `Follow-up`
+    },
+    {
+      description: `Value or case study email`
+    },
+    {
+      description: `Soft bump`
+    },
+    {
+      description: `Final nudge`
+    },
+    {
+      content:`This structure gives your outreach a natural flow while keeping everything automated.`,
+      isParagraph: true
+    },
     {
       stepTitle: "2. Add Delays Between Follow-Ups",
       isStep: true
@@ -3270,20 +3291,39 @@ This structure gives your outreach a natural flow while keeping everything autom
       isParagraph: true
     },
     {
-      title: "Why spacing matters",
-      description: `Spreading out messages helps with:
-● Better deliverability
-● Healthier sender reputation
-● A less intrusive experience for prospects`
+      stepTitle: "Why spacing matters",
+      isStep: true
     },
     {
-      title: "How SalesTarget.ai handles sending rules",
-      description: `SalesTarget.ai also ensures that:
-● Once someone replies, the sequence stops
-● Bounced contacts are skipped
-● Sending follows your configured schedule`
+      content: `Spreading out messages helps with:`,
+      isParagraph: true
     },
-
+    {
+      description:`Better deliverability`
+    },
+    {
+      description: ` Healthier sender reputation`
+    },
+    {
+      description: `A less intrusive experience for prospects`
+    },
+    {
+      stepTitle: "How SalesTarget.ai handles sending rules",
+      isStep: `true`
+    },
+    {
+      content:`SalesTarget.ai also ensures that:`,
+      isParagraph: true
+    },
+    {
+      description: `Once someone replies, the sequence stops`
+    },
+    {
+      description: `Bounced contacts are skipped`
+    },
+    {
+      description: ` Sending follows your configured schedule`
+    },
     {
       stepTitle: "3. Personalization (Tokens + AI Tools)",
       isStep: true
@@ -3294,10 +3334,17 @@ This structure gives your outreach a natural flow while keeping everything autom
       isParagraph: true
     },
     {
-      title: "Personalization tokens",
-      description: `● {{firstName}}
-● {{companyName}}
-● {{signature}}`
+      stepTitle: "Personalization tokens",
+      isStep: true
+    },
+    {
+      description: ` firstName`
+    },
+    {
+      description: `{{companyName}} `
+    },
+    {
+      description:  ` {{signature}} `
     },
     {
       content: "You can also enhance messaging with built-in AI tools:",
@@ -3305,12 +3352,27 @@ This structure gives your outreach a natural flow while keeping everything autom
       isParagraph: true
     },
     {
-      title: "AI tools inside SalesTarget.ai",
-      description: `● AI Sequence Generator
-● AI Spintax Generator
-● AI Content Generator
-
-These help your outreach stay human, relevant, and scalable.`
+      stepTitle: "AI tools inside SalesTarget.ai",
+      isStep: true
+    },
+    {
+      description: `AI Sequence Generator`
+    },
+    {
+      description: `AI tools inside SalesTarget.ai`
+    },
+    {
+      description: `AI Sequence Generator`
+    },
+    {
+      description: `AI Spintax Generator`
+    },
+    {
+      description: `AI Content Generator`
+    },
+    {
+     content: `These help your outreach stay human, relevant, and scalable.`,
+     isParagraph: true
     },
 
     {
@@ -3357,8 +3419,11 @@ Happy to share what worked if you’re exploring new approaches.`,
       isParagraph: true
     },
     {
-      title: "Schedule controls",
-      description: `● Sending days`
+      stepTitle: "Schedule controls",
+      isStep: true
+    },
+    {
+      description: `Sending days`
     },
     {
       description:` Time windows`
@@ -3370,7 +3435,8 @@ Happy to share what worked if you’re exploring new approaches.`,
       description: ` Daily email limit`
     },
     {
-      title: "Settings controls",
+      stepTitle: "Settings controls",
+      isStep: true
     },
     {
       description: ` Domain and sender controls`
@@ -3396,13 +3462,26 @@ Happy to share what worked if you’re exploring new approaches.`,
       isParagraph: true
     },
     {
-      title: "What to check before going live",
-      description: `A quick test helps you catch: 
-● Personalization token issues
-● Formatting errors
-● Broken links
-● Long paragraphs
-● Tone inconsistencies`
+      stepTitle: "What to check before going live",
+      isStep: true
+    },
+    {
+      description:`A quick test helps you catch: `
+    },
+    {
+      description:`Personalization token issues`
+    },
+    {
+      description:`Formatting errors`
+    },
+    {
+      description:`Broken links`
+    },
+    {
+      description:`Long paragraphs`
+    },
+    {
+      description: `Tone inconsistencies`
     },
     {
       content: "Once your sequence goes live, you can track replies and manage conversations directly inside your CRM so every lead is followed up on.",
@@ -3420,24 +3499,48 @@ Happy to share what worked if you’re exploring new approaches.`,
       isParagraph: true
     },
     {
-      title: "Inputs required",
-      description: `1. Company name
-2. Your services
-3. Target audience
-4. Case studies
-5. Number of steps`
+      stepTitle: "Inputs required",
+      isStep: true
     },
     {
-      title: "What the AI generates",
-      description: `Based on your inputs, it generates:
-● Subject line variants
-● Full email bodies
-● Suggested delays
-● Multiple versions you can choose from
-
-Then, with one click, you can insert everything into your campaign using “Use Sequence”.`
+      description: ` Company name`
     },
-
+    {
+      description: `Your services`
+    },
+    {
+      description: `Target audience`
+    },
+    {
+      description: `Case studies`
+    },
+    {
+      description: `Number of steps`
+    },
+    {
+      stepTitle: "What the AI generates",
+      isStep: true
+    },
+    {
+      content: `Based on your inputs, it generates:`,
+      isParagraph: true
+    },
+    {
+      description: `Subject line variants`
+    },
+    {
+      description: ` Full email bodies`
+    },
+    {
+      description: `Suggested delays`
+    },
+    {
+      description: `Multiple versions you can choose from`
+    },
+    {
+      content: `Then, with one click, you can insert everything into your campaign using “Use Sequence”.`,
+      isParagraph:true
+    },
     {
       stepTitle: "Final Thoughts",
       isStep: true
@@ -3903,6 +4006,321 @@ This guide explains how to create campaigns, select leads, build sequences, conf
         "SalesTarget.ai automatically skips the connection request step for existing connections, and you can use the If Connected condition to route them directly into message-based follow-ups."
     }
   ]
+},
+
+{
+  id: "73",
+  title: "CRM Guide: Lead Activity, Meetings, Tasks & Activity Feed",
+  updated: "",
+  content: `
+<p>This guide walks you through how Lead Activity, Meetings, Tasks, and the Activity Feed
+work inside SalesTarget.ai CRM — including auto-sync for Zoom and Google Meet
+meetings.</p> 
+`,
+  metaTitle: "CRM Guide: Lead Activity, Meetings, Tasks & Activity Feed",
+  metaDescription:"",
+  features: [
+    // 1) Section heading: Lead Activity
+    {
+      isHeading: true,
+      title: '1. Lead Activity'
+    },
+    {
+      isStep: true,
+      stepTitle: 'Track every interaction with a lead in one timeline.'
+    },
+    {
+      isParagraph: true,
+      content: `
+        <p>The Lead Activity page gives you a complete history of everything that has happened with</p>
+        <p>a lead. Every email, task, meeting, follow-up, or data update is logged automatically..</p>
+      `
+    },
+    {
+      title: 'What Lead Activity shows',
+      description: `
+        <p>Inside a lead’s activity timeline you can see:</p>
+        <ul>
+          <li><strong>Email events:</strong> <br/> sent, opened, clicked, delivered, bounced, and replied.</li>
+          <br/><li><strong>Campaign engagement:</strong> <br/> Engagement from Email Outreach campaigns</li>
+          <br/><li><strong>Status changes:</strong> <br/> New → Contacted → Interested → Meeting → Deal → Won.</li>
+          <br/><li><strong>Meetings:</strong> <br/> Zoom/Google Meet events created inside the CRM,<br/> Scheduled → Rescheduled → Completed → Cancelled</li>
+          <br/><li><strong>Tasks:</strong> <br/> follow-ups, completed tasks, and overdue items linked to the lead.</li>
+          <br/><li><strong>Notes:</strong><br/> internal comments and context from your team.</li>
+          <br/><li><strong>Assignment &amp; ownership:</strong> <br/> when a lead is assigned or reassigned.</li>
+          <br/><li><strong>Data updates:</strong> <br/> Email, phone, company, enrichment changes</li>
+        </ul>
+      `
+    },
+    {
+      title: 'Automatic meeting sync ',
+      description: `
+        <p>Whenever you schedule a meeting (Zoom or Google Meet) <br/> </p>
+        <ul type="none">
+          <li>✔ It appears in <strong> Lead Activity </strong> </li> <br/>
+          <li>✔ It appears in<strong> Meetings </strong> </li> <br/>
+          <li>✔ It’s added to the<strong> Activity Feed </strong> </li><br/>
+          <li> ✔ And if linked to a deal → updated in the<strong> Deal Timeline </strong> </li>
+        </ul>
+         <p> No manual logging required.</p>
+      `
+    },
+    
+    // 2) Section heading: Meetings
+    {
+      isHeading: true,
+      title: '2. Meetings (Zoom + Google Meet Integration)'
+    },
+    {
+      isStep: true,
+      stepTitle: 'Manage all your calls without leaving the CRM.'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <p>The <strong>Meetings</strong> section is your centralized view for all upcoming and completed meetings.</p>
+      `
+    },
+    {
+      title: 'What you can do in Meetings',
+     
+    },
+    {
+      description: 'Create Zoom meetings'
+    },
+    {
+      description: 'Create Google Meet meetings'
+    },
+    {
+      description: 'Add meetings manually'
+    },
+    {
+      description: 'Sync meetings to the correct lead'
+    },
+    {
+      description: `Track meeting outcome: <br/>
+      <ul>
+        <li>Scheduled</li><br/>
+        <li>Completed</li><br/>
+        <li>Rescheduled</li><br/>
+        <li>Cancelled</li>
+      </ul>`
+    },
+    {
+      description: 'View past & upcoming meetings at a glance'
+    },
+    {
+      title: 'CRM Auto-Sync Behavior',
+      description: `
+      <p>Every meeting created from the CRM is automatically displayed in:</p>
+      `
+    },
+    {
+      description: 'Lead Activity'
+    },
+    {
+      description: 'Meetings page'
+    },
+    {
+      description: 'Global Activity Feed'
+    },
+    {
+      description: 'Deal Timeline (if linked to a deal)'
+    },
+    // {
+    //   isImage: true,
+    //   src: '/images/help/crm-create-meeting.png',
+    //   alt: 'Create Meeting popup in SalesTarget.ai CRM',
+    //   caption: 'Schedule Zoom or Google Meet calls directly from the Create Meeting popup.'
+    // },
+    // 3) Section heading: Task Management
+    {
+      isHeading: true,
+      title: '3. Task Management'
+    },
+    {
+      isStep: true,
+      stepTitle: 'Stay organized with follow-ups, reminders, and to-dos.'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <p>The Tasks section helps you manage actionable next steps so nothing slips through the cracks.</p>
+      `
+    },
+    {
+      stepTitle: 'Features',
+      isStep: true
+    },
+    {
+      description: 'Create tasks anywhere in the CRM'
+    },
+    {
+      description: 'Assign tasks to yourself or team members'
+    },
+    {
+      description: 'Add due dates, notes, and reminders.'
+    },
+    {
+      description: `Track status with:<br/>
+      <ul>
+        <li>Pending</li><br/>
+        <li>In Progress</li><br/>
+        <li>Completed</li>
+      </ul>`
+    },
+    {
+      description: 'Task shows inside the Lead Activity timeline'
+    },
+    {
+      description: 'Overdue tasks highlighted'
+    },
+    {
+      title: 'Auto-Sync',
+      description: `
+      <p>Every task created in the CRM is logged in:</p>
+      <ul type="none">
+        <li>✔ The Tasks page </li> <br/>
+        <li>✔ Lead Activity  </li> <br/>
+        <li>✔ Global Activity Feed  </li> <br/>
+      </ul>
+      
+      `
+    },
+    // {
+    //   isImage: true,
+    //   src: '/images/help/crm-tasks-dashboard.png',
+    //   alt: 'Tasks dashboard in SalesTarget.ai CRM',
+    //   caption: 'Use the Tasks dashboard to track follow-ups, due dates, and overdue items.'
+    // },
+    // 4) Section heading: Activity Feed
+    {
+      isHeading: true,
+      title: '4. Activity Feed (Global Log)'
+    },
+    {
+      isStep: true,
+      stepTitle: 'See everything happening across your CRM.'
+    },
+    {
+      isParagraph: true,
+      content: `<p> The Activity Feed shows all actions performed across your SalesTarget.ai workspace.</p>`
+    },
+    {
+      stepTitle: 'What You’ll See',
+      isStep: true
+    },
+    {
+      description: 'Emails sent, opened, clicked, replied'
+    },
+    {
+      description: 'Tasks created, updated, completed'
+    },
+    {
+      description: 'Meetings scheduled (Zoom + Google Meet)'
+    },
+    {
+      description: `Notes added`
+    },
+    {
+      description: `Leads created or updated`
+    },
+    {
+      description: `Deals created, moved, or won`
+    },
+    {
+      description: `Campaign replies`
+    },
+    {
+      description: `Status changes`
+    },
+    {
+      description: `Owner assignments`
+    },
+    {
+      stepTitle: 'Why it matters',
+      isStep: true
+    },
+    {
+      description: `Full visibility for managers`
+    },
+    {
+      description: `Clear audit trail`
+    },
+    {
+      description: `Team transparency`
+    },
+    {
+      description: `Easy tracking of high-intent interactions`
+    }
+    // {
+    //   isImage: true,
+    //   src: '/images/help/crm-activity-feed.png',
+    //   alt: 'Activity Feed view in SalesTarget.ai CRM',
+    //   caption: 'Use filters in the Activity Feed to focus on specific teams, channels, or interaction types.'
+    // }
+  ],
+
+  faq: [
+    {
+      title: 'What is Lead Activity in SalesTarget.ai?',
+      description: `
+      <p> Lead Activity is a timeline showing all emails, meetings, tasks, and updates related to a
+specific lead. </p>
+        
+      `
+    },
+    {
+      title: 'Will my Zoom or Google Meet meetings appear automatically?',
+      description: `
+        <p>Yes. Any meeting scheduled inside SalesTarget.ai automatically appears in Lead Activity,
+Meetings, Activity Feed, and Deals (if linked).</p>
+      `
+    },
+    {
+      title: 'Can I assign tasks to team members?',
+      description: `
+        <p>Yes. You can create tasks and assign them to any team member, along with a due date and
+notes.</p>
+       
+      `
+    },
+    {
+      title: 'Where do I see meetings linked to a lead?',
+      description: `
+        <p>Inside Lead Activity → look for “Meeting Scheduled.”</p>
+        <p>You can also view all meetings in the Meetings page.</p>
+      `
+    },
+    {
+      title: 'Do tasks show inside Lead Activity?',
+      description: `
+        <p>Yes — tasks created for a lead are automatically shown in the timeline.</p>
+      `
+    },
+    {
+      title: 'Are email engagement metrics logged here?',
+      description: `
+        <p>Yes. Opens, clicks, replies, and bounces are visible in Lead Activity and the Activity Feed.</p>
+      `
+    },
+    {
+      title: 'Does the CRM track campaign analytics?',
+      description: `
+        <p>Not inside Lead Activity — but it shows individual engagements (opens/replies) triggered by
+campaigns.</p>
+        
+      `
+    },
+    {
+      title: 'Can I view previous conversations with a lead?',
+      description: `
+        <p>Yes — all replies are visible through Inbox + Lead Activity integration.</p>
+      `
+    }
+  ]
+  
+    
 }
 
 

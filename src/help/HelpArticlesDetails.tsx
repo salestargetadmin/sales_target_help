@@ -1,6 +1,5 @@
-
 // Section types must be defined before usage
-type SectionId = 'title' | 'features' | 'accounts' | 'msaccounts' | 'imap' | 'faq' | 'feedback' ; 
+type SectionId = 'title' | 'features' | 'accounts' | 'msaccounts' | 'imap' | 'faq' | 'feedback'; 
 type SectionRefs = Partial<Record<SectionId, HTMLElement | null>>;
 
 import { useEffect, useState, useRef } from 'react';
@@ -9,8 +8,20 @@ import { ArrowLeft } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 import HelpLayout from './HelpLayout';
 import mockArticles from '../utilities/constants';
+import DOMPurify from 'dompurify';
 
+const parseContent = (content: string): string => {
+  if (!content) return '';
+  // Extract just the HTML link from {{ <a href='url'>text</a> }}
+  return content.replace(/\{\{\s*(<a[^>]*>.*?<\/a>)\s*\}\}/gi, '$1');
+};
 
+const sanitizeHtml = (content: string): string => {
+  return DOMPurify.sanitize(parseContent(content), {
+    ALLOWED_TAGS: ['a', 'b', 'strong', 'em', 'br', 'p', 'div'],
+    ALLOWED_ATTR: ['href', 'target', 'rel']
+  });
+};
 
 // Add Intercom to window type
 declare global {
@@ -24,7 +35,7 @@ interface HelpArticleDetailProps {
 }
 
 const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
-  const { articleId } = useParams();
+  const { articleId } = useParams<{ articleId: string }>();
   const navigate = useNavigate();
   const [article, setArticle] = useState<any>(null);
   const sectionsRef = useRef<SectionRefs>({});
@@ -57,7 +68,7 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
 
   return (
     <HelpLayout>
-  {(_: unknown, setIsChatOpen: (open: boolean) => void) => (
+      {(_: unknown, setIsChatOpen: (open: boolean) => void) => (
         <div className="bg-white p-6 rounded-lg pt-0 pb-55 relative">
           {/* Add Helmet for meta tags */}
           {article && (
@@ -90,7 +101,12 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
                   {article.title}
                 </h1>
                 <p className="text-gray-500 text-sm mt-1">{article.updated}</p>
-                <p className="mt-4 text-gray-700">{article.content}</p>
+                <p 
+                  className="mt-4 text-gray-700 leading-relaxed"
+                  dangerouslySetInnerHTML={{ 
+                    __html: sanitizeHtml(article.content || '') 
+                  }}
+                />
 
                 <h2
                   className="mt-6 text-xl text-black font-semibold"
@@ -107,9 +123,13 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
                         {feature.title}
                       </h2>
                     ) : feature.isParagraph ? (
-                      <p key={index} className="text-gray-700 mb-4 mt-4 leading-relaxed">
-                        {feature.content}
-                      </p>
+                      <p 
+                        key={index} 
+                        className="text-gray-700 mb-4 mt-4 leading-relaxed"
+                        dangerouslySetInnerHTML={{ 
+                          __html: sanitizeHtml(feature.content || '') 
+                        }}
+                      />
                     ) : feature.isStep ? (
                       <h2 key={index} className="text-base font-bold mb-4 mt-8 text-black">
                         {feature.stepTitle}
@@ -165,50 +185,58 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
                           {feature.image && (
                             <img src={feature.image} alt={feature.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
                           )}
-                          <p className="text-gray-600">{feature.description}</p>
+                          <p 
+                            className="text-gray-600"
+                            dangerouslySetInnerHTML={{ 
+                              __html: sanitizeHtml(feature.description || '') 
+                            }}
+                          />
                         </li>
                       </ul>
                     )
                   ))}
                 </div>
 
-
                 {/* Related Sections */}
-                {['accounts', 'msaccounts', 'imap', 'faq'].map((section) => (
-  article[section] && (article[section] as any[]).length > 0 && (
-    <div
-      key={section}
-      className="mt-6"
-      ref={(el) => {
-        sectionsRef.current[section as SectionId] = el;
-      }}
-    >
-      <h2 className="text-xl text-black font-semibold">
-        {section === 'msaccounts' ? 'Microsoft/O365 Accounts' : section.charAt(0).toUpperCase() + section.slice(1)}
-      </h2>
-      <div className="mt-4">
-        {(article[section] as any[]).map((item: any, index: number) => (
-          item.isHeading ? (
-            <h2 key={index} className="text-lg font-semibold mb-4 mt-6 text-black">
-              {item.title}
-            </h2>
-          ) : (
-            <ul key={index} className="list-disc pl-6 text-gray-700">
-              <li className="mt-2">
-                <strong>{item.title}</strong>
-                {item.image && (
-                  <img src={item.image} alt={item.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
+                {['accounts', 'msaccounts', 'imap', 'faq'].map((section) => 
+                  article[section] && Array.isArray(article[section]) && (article[section] as any[]).length > 0 && (
+                    <div
+                      key={section}
+                      className="mt-6"
+                      ref={(el) => {
+                        sectionsRef.current[section as SectionId] = el;
+                      }}
+                    >
+                      <h2 className="text-xl text-black font-semibold">
+                        {section === 'msaccounts' ? 'Microsoft/O365 Accounts' : section.charAt(0).toUpperCase() + section.slice(1)}
+                      </h2>
+                      <div className="mt-4">
+                        {(article[section] as any[]).map((item: any, index: number) => (
+                          item.isHeading ? (
+                            <h2 key={index} className="text-lg font-semibold mb-4 mt-6 text-black">
+                              {item.title}
+                            </h2>
+                          ) : (
+                            <ul key={index} className="list-disc pl-6 text-gray-700">
+                              <li className="mt-2">
+                                <strong>{item.title}</strong>
+                                {item.image && (
+                                  <img src={item.image} alt={item.title} className="mt-2 mb-2 rounded-md w-full max-w-md" />
+                                )}
+                                <p 
+                                  className="text-gray-600"
+                                  dangerouslySetInnerHTML={{ 
+                                    __html: sanitizeHtml(item.description || '') 
+                                  }}
+                                />
+                              </li>
+                            </ul>
+                          )
+                        ))}
+                      </div>
+                    </div>
+                  )
                 )}
-                <p className="text-gray-600">{item.description}</p>
-              </li>
-            </ul>
-          )
-        ))}
-      </div>
-    </div>
-  )
-))}
-
 
                 <div
                   className="mt-8 border-t pt-4"
