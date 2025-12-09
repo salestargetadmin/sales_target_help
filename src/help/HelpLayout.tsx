@@ -260,8 +260,7 @@ const HelpLayout = ({ children }: { children: any }) => {
           )}
         </div>
 
-        <img src="/bg3.svg" alt="" className="image1 absolute z-0 hidden md:block" />
-        <img src="/bg2.svg" alt="" className="image2 absolute z-0 hidden md:block" />
+        
       </div>
 
       {/* Content Area */}
