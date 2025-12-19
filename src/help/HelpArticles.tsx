@@ -274,6 +274,14 @@ const categories = [
     articles: [
       { title: 'CRM Guide: Lead Activity, Meetings,Tasks &amp; Activity Feed', id:73, icon: Shield, color: '#FF00FF' }, // Orange
     ],
+  },
+
+  {
+    title: 'A/B Testing in SalesTarget',
+    icon: '🔍', 
+    articles: [
+      { title: 'A/B Testing in SalesTarget', id:74, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
   }
   
 ];
