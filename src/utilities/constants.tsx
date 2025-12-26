@@ -4321,7 +4321,344 @@ campaigns.</p>
   ]
   
     
+},
+
+{
+  id: "74",
+  title: "A/B Testing in SalesTarget",
+  updated: "",
+  content: `
+<p>A/B testing in SalesTarget helps you identify which version of your email performs better by
+automatically testing two variants and continuing with the best-performing one.<br/>
+Instead of guessing, SalesTarget splits traffic, tracks performance, and selects the winner for
+you.</p>
+`,
+  metaTitle: "A/B Testing in SalesTarget",
+  metaDescription: "",
+  features: [
+    {
+      isHeading: true,
+      title: 'What Can You A/B Test?'
+    },
+    {
+      isStep: true,
+      stepTitle: 'In a campaign step, you can create two variants and test:'
+    },
+    {
+      description: 'Subject lines'
+    },
+    {
+      description: 'Email content'
+    },
+    {
+      description: 'Subject line + email content together'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <p>Only <strong> 2 variants </strong> are allowed per step to keep results clear and reliable.</p>
+      `
+    },
+
+    {
+      isHeading: true,
+      title: 'Where A/B Testing Is Configured'
+    },
+   
+    {
+      isParagraph: true,
+      content: `
+      <p>A/B testing is configured inside your Campaign Settings.</p>
+      <p>Path:<br/>
+      <strong>Campaign → Settings → Auto optimize A/B Testing</strong></p>
+      `
+    },
+
+    {
+      isHeading: true,
+      title: 'How to Set Up A/B Testing in SalesTarget'
+    },
+    {
+      isStep: true,
+      stepTitle: 'Step 1: Create Variants in Templates'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <ol>
+        <li>&nbsp; 1. Go to <strong>Campaign → Templates</strong></li><br/>
+        <li>&nbsp; 2. Open a campaign step (e.g., Step 1)</li><br/>
+        <li>&nbsp; 3. Create: <br/>
+          <ul style="list-style-type: circle;">
+            <li>&nbsp; &nbsp; &nbsp; <strong> Variant 1 </strong></li><br/>
+            <li>&nbsp; &nbsp; &nbsp; <strong> Variant 2 </strong></li>
+          </ul>
+        </li><br/>
+        <li>&nbsp; 4. Add different subject lines and/or email content for each variant</li>
+      </ol>
+      `
+    },
+
+    {
+      isStep: true,
+      stepTitle: 'Step 2: Enable Auto Optimize A/B Testing'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <ol>
+        <li>&nbsp; 1. Go to <strong>Campaign → Settings</strong></li><br/>
+        <li>&nbsp; 2. Scroll to <strong>Auto optimize A/B Testing</strong></li><br/>
+        <li>&nbsp; 3. Enable:</li> <br/>
+        <li>
+         &nbsp; &nbsp;  ✅ Automatically select the best performing variant after a certain number of emails
+        </li>
+      </ol>
+      `
+    },
+
+    {
+      isStep: true,
+      stepTitle: 'Step 3: Choose the Winning Metric'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <p>Under <strong>Choose winning metric</strong>, select one:</p>
+      <ul>
+        <li>&nbsp; &bull; Open Rate → Best for testing subject lines</li><br/>
+        <li>&nbsp; &bull; Reply Rate → Best for testing email content</li><br/>
+        <li>&nbsp; &bull; Click Rate → Best for emails with links</li><br/>
+        <li>&nbsp; &bull; None → Disables winner selection</li>
+      </ul>
+      <p>This metric is used to decide which variant wins.</p>
+      `
+    },
+
+    {
+      isStep: true,
+      stepTitle: 'Step 4: Add Leads and Schedule the Campaign'
+    },
+    {
+      isParagraph: true,
+      content : `
+      <ul>
+        <li>1. Go to <strong>Leads</strong></li><br/>
+        <li>2. Add leads using: <br/>
+          <ul>
+            <li>&nbsp; Upload CSV</li><br/>
+            <li>&nbsp; Lead Explorer</li><br/>
+            <li>&nbsp; Add List to Campaign</li><br/>
+          </ul>
+        </li><br/>
+        <li>3. Go to <strong>Schedule</strong></li><br/>
+        <li>4. Set: <br/>
+          <ul>
+            <li>&nbsp; Start date</li><br/>
+            <li>&nbsp; Time zone</li><br/>
+            <li>&nbsp; Sending days and hours</li> <br/>
+          </ul>
+        </li><br/>
+        <li>Click <strong>Launch</strong></li>
+      </ul>
+      `
+    },
+
+    {
+      isHeading: true,
+      title: ' How Traffic Is Split'
+    },
+    {
+      isParagraph: true,
+      content: `SalesTarget splits leads <strong> 50/50 </strong> during the testing phase.`
+    },
+    {
+      isParagraph: true,
+      content: `
+      <p>SalesTarget automatically splits leads 50/50 between both variants during the testing phase.</p>
+      <p>Example:</p>
+      <ul>
+        <li><strong> &bull; Total leads:</strong> 200</li><br/>
+        <li><strong> &bull; Variants:</strong> 2</li>
+      </ul>
+      <p><strong>Testing Phase</strong></p>
+      <ul>
+        <li> &bull; First <strong>100 leads</strong> are used for testing</li><br/>
+        <li> &bull; 50 leads → Variant A</li><br/>
+        <li> &bull; 50 leads → Variant B</li><br/>
+      </ul>
+      <p><strong>Winner Phase</strong></p><br/>
+      <ul>
+        <li> &bull; Remaining <strong>100 leads</strong> are sent only to the winning variant</li><br/>
+      </ul>
+      `
+    },
+
+    {
+      isHeading: true,
+      title: ' How the Winner Is Chosen'
+    },
+    {
+      isStep: true,
+      stepTitle: 'SalesTarget automatically compares both variants using the selected metric.'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <ul>
+        <li> &bull; SalesTarget compares both variants using the<strong> selected metric. </strong></li><br/>
+        <li> &bull; Once enough data is collected (from the first 50% of leads), the system:<br/>
+          <ul>
+            <li>&nbsp; &nbsp;Automatically selects the winner</li><br/>
+            <li>&nbsp; &nbsp;Disables the losing variant</li><br/>
+          </ul>
+        </li>
+      </ul>
+      <p>No manual action is required.</p>
+      `
+    },
+
+    {
+      isHeading: true,
+      title: ' Minimum Sample Size'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <ul>
+        <li>&nbsp; &bull; A/B testing always uses 50% of total leads</li><br/>
+        <li>&nbsp; &bull; This ensures statistically meaningful results</li><br/>
+        <li>&nbsp; &bull; The sample size is handled automatically</li><br/>
+      </ul>
+      `
+    },
+
+    {
+      isHeading: true,
+      title: ' What Happens After a Winner Is Selected?'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <p>Once the winner is chosen:</p>
+      <ul>
+        <li>● ❌Losing variant is disabled automatically</li><br/>
+        <li>● ✅ Winning variant continues for:<br/>
+          <ul>
+            <li>○ All remaining leads</li><br/>
+            <li>○ Any new leads added later</li>
+          </ul>
+        </li>
+      </ul>
+      `
+    },
+
+    {
+      isHeading: true,
+      title: 'Important Rules to Know'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <ul>
+        <li> &bull; Only 2 variants are allowed per step</li><br/>
+        <li> &bull; Editing variants during an active test is not recommended</li><br/>
+        <li> &bull; If a campaign is running or completed, some settings become read-only</li><br/>
+      </ul>
+      `
+    },
+
+    {
+      isHeading: true,
+      title: 'When You Should Avoid A/B Testing'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <ul>
+        <li> &bull; Very small lead lists</li><br/>
+        <li> &bull; Time-sensitive campaigns</li><br/>
+        <li> &bull; Testing multiple changes at once</li><br/>
+      </ul>
+      `
+    },
+
+    {
+      isHeading: true,
+      title: 'Best Practices (Quick Tips)'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <ul>
+        <li>  &bull; Test one change at a time</li><br/>
+        <li>  &bull; Use Open Rate for subject line tests</li><br/>
+        <li> &bull; Use Reply Rate for email content tests</li><br/>
+        <li> &bull; Make sure email open or click tracking is enabled when required</li><br/>
+        <li> &bull; Allow enough leads for meaningful results</li>
+      </ul>
+      `
+    },
+
+    {
+      isHeading: true,
+      title: ' In Short'
+    },
+    {
+      isParagraph: true,
+      content: `
+      <p>A/B testing in SalesTarget is:</p>
+      <ul>
+        <li> &bull; Automatic</li><br/>
+        <li> &bull; Easy to configure</li><br/>
+        <li> &bull; Fully optimized for cold outreach</li>
+      </ul>
+      <p>Create variants → choose a metric → launch the campaign.<br/>
+      SalesTarget takes care of the rest.</p>
+      `
+    }
+  ],
+
+  faq: [
+    {
+      title: 'How many variants can I create in one step?',
+      description: `
+      <p>You can create up to 2 variants per step.</p>
+      `
+    },
+    {
+      title: 'How is traffic split?',
+      description: `
+      <p>Traffic is split 50/50 automatically during the testing phase.</p>
+      `
+    },
+    {
+      title: 'How is the winner selected?',
+      description: `
+      <p>The winner is selected based on the metric you choose:</p>
+      <ul>
+        <li>Open Rate</li><br/>
+        <li>Reply Rate</li><br/>
+        <li>Click Rate</li>
+      </ul>
+      `
+    },
+    {
+      title: 'Can I manually select a winner?',
+      description: `
+      <p>No. Winner selection is fully automatic to avoid bias.</p>
+      `
+    },
+    {
+      title: 'What happens to future leads?',
+      description: `
+      <p>All future leads are sent only to the winning variant.</p>
+      `
+    }
+  ]
 }
+
+
 
 
 
