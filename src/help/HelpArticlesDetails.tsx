@@ -18,8 +18,16 @@ const parseContent = (content: string): string => {
 
 const sanitizeHtml = (content: string): string => {
   return DOMPurify.sanitize(parseContent(content), {
-    ALLOWED_TAGS: ['a', 'b', 'strong', 'em', 'br', 'p', 'div'],
-    ALLOWED_ATTR: ['href', 'target', 'rel']
+    ALLOWED_TAGS: [
+      'a', 'b', 'strong', 'em', 'i', 'br', 'p', 'div', 'span',
+      'ul', 'ol', 'li', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+      'blockquote', 'code', 'pre', 'table', 'thead', 'tbody', 
+      'tr', 'td', 'th', 'img', 'hr', 'u', 'strike', 'sub', 'sup'
+    ],
+    ALLOWED_ATTR: [
+      'href', 'target', 'rel', 'class', 'id', 'style',
+      'src', 'alt', 'width', 'height', 'title', 'type'
+    ]
   });
 };
 

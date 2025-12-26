@@ -4319,8 +4319,7 @@ campaigns.</p>
       `
     }
   ]
-  
-    
+ 
 },
 
 {
@@ -4656,9 +4655,694 @@ you.</p>
       `
     }
   ]
+},
+
+{
+  id: "75",
+  title: "Campaigns Overview: How Campaigns Work in SalesTarget.ai",
+  updated: "",
+  content: `Campaigns are the core of email outreach in SalesTarget.ai.<br/>  A campaign controls:<br/> <ul className="type-disc ml-4"> <li>&nbsp; ● Who you contact</li> <li>&nbsp; ● What emails are sent</li> <li> &nbsp; ● When emails are sent</li> <li>&nbsp; ●  What happens after someone replies.</li> </ul>
+
+This article explains how campaigns work at a high level, so you understand the full flow before creating or managing one.`,
+  metaTitle: "Campaigns Overview | How Email Campaigns Work in SalesTarget.ai",
+  metaDescription: "Learn how campaigns work in SalesTarget.ai. Understand campaign tabs, lead management, email templates, scheduling, and reply handling for effective cold email outreach.",
+  metaKeywords: "SalesTarget.ai campaigns, email outreach campaigns, cold email automation, campaign management, email sequences, lead management, campaign analytics",
+  features: [
+    {
+      title: "What Is a Campaign in SalesTarget.ai?",
+      isHeading: true
+    },
+    {
+      content: "If you've used cold email tools before, a campaign is similar to an automated email sequence tied to a lead list.",
+      isParagraph: true
+    },
+    {
+      content: "A campaign is a complete outreach setup that connects:",
+      isParagraph: true
+    },
+    {
+      description: "Leads (people you want to contact)"
+    },
+    {
+      description: "Email templates (what messages are sent)"
+    },
+    {
+      description: "Email accounts (from where emails are sent)"
+    },
+    {
+      description: "Schedule and settings (when and how emails are sent)"
+    },
+    {
+      description: "Unibox and CRM (what happens after replies)"
+    },
+    {
+      content: "Once a campaign is active, SalesTarget.ai handles sending, follow-ups, reply tracking, and analytics automatically.",
+      isParagraph: true
+    },
+
+    {
+      title: "Where Campaigns Fit in SalesTarget.ai",
+      isHeading: true
+    },
+    {
+      content: `Campaigns are part of the <strong>Email Outreach (Cold Email Outreach)</strong> module. They act as the link between:`,
+      isParagraph: true
+    },
+    {
+      description: `<strong>Lead Explorer </strong>(finding leads)`
+    },
+    {
+      description: `<strong>Email Accounts </strong>(sending emails)`
+    },
+    {
+      description: `<strong>Templates </strong>(email sequences)`
+    },
+    {
+      description: `<strong>Unibox </strong>(managing replies)`
+    },
+    {
+      description: `<strong>CRM </strong>(tracking deals, tasks, and meetings)`
+    },
+    {
+      content: `In simple terms:<br/> 👉 Campaigns bring everything together and make outreach run automatically.`,
+      isParagraph: true
+    },
+
+    {
+      title: "Campaign Tabs in SalesTarget.ai",
+      isHeading: true
+    },
+    {
+      content: `Each campaign is organized into<strong> five main tabs.</strong> <br/> Each tab controls a different part of the campaign.`,
+      isParagraph: true
+    },
+
+    {
+      title: "1. Analytics",
+      isHeading: true
+    },
+    {
+      content: `Shows how your campaign is performing once it is active.<br/> You can track:`,
+      isParagraph: true
+    },
+    {
+      description: "Emails sent"
+    },
+    {
+      description: "Opens"
+    },
+    {
+      description: "Clicks"
+    },
+    {
+      description: "Replies"
+    },
+    {
+      description: "Bounces"
+    },
+    {
+      description: "Unsubscribes"
+    },
+    {
+      content: "Analytics become visible only after the campaign starts sending emails.",
+      isParagraph: true
+    },
+
+    {
+      title: "2. Templates",
+      isHeading: true
+    },
+    {
+      content: "This is where you create and manage the email sequence used in the campaign. Templates define:",
+      isParagraph: true
+    },
+    {
+      description: "The first cold email"
+    },
+    {
+      description: "Follow-up emails"
+    },
+    {
+      description: "Time gap between each step"
+    },
+    {
+      description: "A/B variants for testing"
+    },
+    {
+      content: `Templates control<strong> what emails are sent and in what order.</strong>`,
+      isParagraph: true
+    },
+
+    {
+      title: "3. Leads",
+      isHeading: true
+    },
+    {
+      content: "This tab shows all leads added to the campaign. <br/>Leads can be added in three ways:",
+      isParagraph: true
+    },
+    {
+      description: "Upload a CSV file"
+    },
+    {
+      description: "Add leads directly from Lead Explorer"
+    },
+    {
+      description: "Attach an existing saved list"
+    },
+    {
+      content: "Each lead moves through the campaign based on replies, bounces, and completion of steps.",
+      isParagraph: true
+    },
+
+    {
+      title: "4. Settings",
+      isHeading: true
+    },
+    {
+      content: "Settings control<strong> how emails are </strong>sent and<strong> when follow-ups stop.</strong> <br/> Here you manage:",
+      isParagraph: true
+    },
+    {
+      description: "Which email account is used"
+    },
+    {
+      description: "Whether follow-ups stop after a reply"
+    },
+    {
+      description: "Open and link tracking"
+    },
+    {
+      description: "Plain-text or HTML sending"
+    },
+    {
+      description: "A/B testing rules"
+    },
+    {
+      content: "These settings help protect deliverability and control campaign behavior.",
+      isParagraph: true
+    },
+
+    {
+      title: "5. Schedule",
+      isHeading: true
+    },
+    {
+      content: "The Schedule tab controls <strong>when emails are sent.</strong><br/> You can:",
+      isParagraph: true
+    },
+    {
+      description: "Send the campaign immediately"
+    },
+    {
+      description: "Schedule a start date and time"
+    },
+    {
+      description: "Choose the time zone"
+    },
+    {
+      description: "Set a gap between emails"
+    },
+    {
+      content: "This helps emails go out at the right time and avoids sending too fast.",
+      isParagraph: true
+    },
+
+    {
+      title: "How a Campaign Works (Simple Flow)",
+      isHeading: true
+    },
+    {
+      content: "Here's what happens when you run a campaign:",
+      isParagraph: true
+    },
+    {
+      description: "Leads are added to the campaign"
+    },
+    {
+      description: "Templates define the email sequence"
+    },
+    {
+      description: "Email accounts send emails based on settings and schedule"
+    },
+    {
+      description: "Follow-ups are sent automatically if no reply is received"
+    },
+    {
+      description: "Replies appear in Unibox"
+    },
+    {
+      description: "Campaign analytics update in real time"
+    },
+    {
+      content: "This process runs automatically once the campaign is active.",
+      isParagraph: true
+    },
+
+    {
+      title: "What Happens When a Lead Replies?",
+      isHeading: true
+    },
+    {
+      content: "When a lead replies to a campaign email:",
+      isParagraph: true
+    },
+    {
+      description: `The reply appears in <strong>Unibox</strong>`
+    },
+    {
+      description: "Follow-up emails stop automatically (if enabled)"
+    },
+    {
+      description: "You can update the lead status (Interested, Follow-up Needed, etc.)"
+    },
+    {
+      description: "The lead can be added to CRM with one click"
+    },
+    {
+      content: "This helps you move from outreach to sales without losing context.",
+      isParagraph: true
+    },
+
+    {
+      title: "Lead Status Inside a Campaign",
+      isHeading: true
+    },
+    {
+      content: "Each lead in a campaign has a clear status:",
+      isParagraph: true
+    },
+    {
+      description: `<strong>Active</strong> – Currently receiving campaign emails`
+    },
+    {
+      description: `<strong>Replied</strong> – Lead has replied and exited the sequence`
+    },
+    {
+      description: `<strong>Bounced</strong> – Email could not be delivered`
+    },
+    {
+      description: `<strong>Skipped</strong> – Lead did not meet campaign conditions`
+    },
+    {
+      description: `<strong>Completed</strong> – All sequence steps are finished`
+    },
+    {
+      content: "These statuses help you understand campaign progress quickly.",
+      isParagraph: true
+    },
+
+    {
+      title: "Campaigns vs Templates (Quick Clarification)",
+      isHeading: true
+    },
+    {
+      description: `<strong>Campaign</strong> controls execution (leads, accounts, schedule, analytics)`
+    },
+    {
+      description: `<strong>Template</strong> controls messaging (email content and follow-ups)`
+    },
+    {
+      content: "A campaign uses one template to send emails to many leads.",
+      isParagraph: true
+    },
+
+    {
+      title: "Why Campaigns Matter",
+      isHeading: true
+    },
+    {
+      content: "Campaigns help you:",
+      isParagraph: true
+    },
+    {
+      description: "Run outreach at scale without manual work"
+    },
+    {
+      description: "Protect sender reputation with controlled sending"
+    },
+    {
+      description: "Track replies and engagement in one place"
+    },
+    {
+      description: "Move interested leads directly into CRM"
+    },
+    {
+      content: "Once set up correctly, campaigns run in the background while you focus on replies and conversions.",
+      isParagraph: true
+    },
+
+    {
+      title: "What This Article Covers (and What It Doesn't)",
+      isHeading: true
+    },
+    {
+      content: "This article explains<strong> how campaigns work at a high level.</strong><br/> Detailed guides for:",
+      isParagraph: true
+    },
+    {
+      description: "Creating a campaign"
+    },
+    {
+      description: "Adding leads"
+    },
+    {
+      description: "Setting up templates"
+    },
+    {
+      description: "Email account setup"
+    },
+    {
+      description: "Campaign optimization"
+    },
+    {
+      content: "are covered in separate articles.",
+      isParagraph: true
+    }
+  ]
+
+ 
+  
+},
+
+{
+  id: "76",
+  title: "Campaign vs Sequence: Understanding the Difference",
+  updated: "",
+  content: `Campaigns and sequences are closely related in SalesTarget.ai, but they serve <strong> two different purposes.</strong> <br/><br/> This article explains the difference in simple terms, so you know <strong> when you're working with a campaign and when you're working with a sequence (template).</strong>`,
+  metaTitle: "Campaign vs Sequence | Understanding the Difference in SalesTarget.ai",
+  metaDescription: "Learn the difference between campaigns and sequences in SalesTarget.ai. Understand when to create campaigns, when to reuse sequences, and how they work together for email outreach.",
+  metaKeywords: "campaign vs sequence, email templates, campaign management, sequence templates, email outreach, SalesTarget.ai campaigns, email automation",
+  features: [
+    {
+      title: "What Is a Campaign?",
+      isHeading: true
+    },
+    {
+      content: `A<strong> campaign </strong>controls<strong> how outreach is executed. </strong> <br/>A campaign decides:`,
+      isParagraph: true
+    },
+    {
+      description: "Which leads will receive emails"
+    },
+    {
+      description: "Which email accounts are used"
+    },
+    {
+      description: "When emails are sent (schedule and time zone)"
+    },
+    {
+      description: "When follow-ups should stop"
+    },
+    {
+      description: "How replies, bounces, and analytics are handled"
+    },
+    {
+      content: `In short: <br/>👉 <strong>A campaign runs the outreach.</strong>`,
+      isParagraph: true
+    },
+    {
+      content: "Once a campaign is active, SalesTarget.ai automatically sends emails, tracks replies, and updates analytics.",
+      isParagraph: true
+    },
+
+    {
+      title: "What Is a Sequence (Template)?",
+      isHeading: true
+    },
+    {
+      content: `A <strong>sequence</strong> (also called a template) controls<strong> what emails are sent. </strong> <br/>A sequence defines:`,
+      isParagraph: true
+    },
+    {
+      description: "The email content"
+    },
+    {
+      description: "The order of emails"
+    },
+    {
+      description: "Follow-up messages"
+    },
+    {
+      description: "The gap between each step"
+    },
+    {
+      description: "A/B variants for testing"
+    },
+    {
+      content: `In short:<br/> 👉<strong> A sequence defines the message flow.</strong>`,
+      isParagraph: true
+    },
+    {
+      content: "A sequence does not send emails by itself. It is used inside a campaign.",
+      isParagraph: true
+    },
+
+    {
+      title: "Simple Way to Remember the Difference",
+      isHeading: true
+    },
+    {
+      description: `<strong>Campaign = Execution</strong>`
+    },
+    {
+      description: `<strong>Sequence = Messaging</strong>`
+    },
+    {
+      content: "Or another way:",
+      isParagraph: true
+    },
+    {
+      description: `Campaign decides <strong>who, when, and how</strong>`
+    },
+    {
+      description: `Sequence decides <strong>what to say and in what order</strong>`
+    },
+
+    {
+      title: "How Campaigns and Sequences Work Together",
+      isHeading: true
+    },
+    {
+      content: "In SalesTarget.ai:",
+      isParagraph: true
+    },
+    {
+      description: "You create a sequence (email template)"
+    },
+    {
+      description: "You create a campaign"
+    },
+    {
+      description: "You attach the sequence to the campaign"
+    },
+    {
+      description: "The campaign sends the sequence to selected leads"
+    },
+    {
+      content: `One campaign uses<strong> one sequence, </strong>but the same sequence can be reused across<strong> multiple campaigns.</strong>`,
+      isParagraph: true
+    },
+
+    {
+      title: "What Campaigns Handle (Not Sequences)",
+      isHeading: true
+    },
+    {
+      content: "Campaigns manage:",
+      isParagraph: true
+    },
+    {
+      description: "Lead lists"
+    },
+    {
+      description: "Email accounts and domains"
+    },
+    {
+      description: "Sending limits and schedules"
+    },
+    {
+      description: "Reply handling"
+    },
+    {
+      description: "Analytics and performance tracking"
+    },
+    {
+      description: "Lead status updates"
+    },
+    {
+      content: `Sequences do<strong> not </strong>manage any of these.`,
+      isParagraph: true
+    },
+
+    {
+      title: "What Sequences Handle (Not Campaigns)",
+      isHeading: true
+    },
+    {
+      content: "Sequences manage:",
+      isParagraph: true
+    },
+    {
+      description: "Email copy"
+    },
+    {
+      description: "Follow-up structure"
+    },
+    {
+      description: "Timing between steps"
+    },
+    {
+      description: "A/B testing of content"
+    },
+    {
+      content: `Sequences do<strong> not:</strong>`,
+      isParagraph: true
+    },
+    {
+      description: "Choose leads"
+    },
+    {
+      description: "Send emails"
+    },
+    {
+      description: "Track analytics on their own"
+    },
+
+    {
+      title: "Example to Make It Clear",
+      isHeading: true
+    },
+    {
+      content: `Example:`,
+      isParagraph: true
+    },
+    {
+      description:`You want to reach 500 SaaS founders`
+    },
+    {
+      description: `You write a 3-step cold email follow-up.`
+    },
+    {
+      content: "What you do:",
+      isParagraph: true
+    },
+    {
+      description: "Create a sequence with 3 emails"
+    },
+    {
+      description: "Create a campaign"
+    },
+    {
+      description: "Add 500 leads to the campaign"
+    },
+    {
+      description: "Attach the sequence"
+    },
+    {
+      description: "Set schedule and email accounts"
+    },
+    {
+      description: "Start the campaign"
+    },
+    {
+      content: "The campaign sends the sequence to all 500 leads automatically.",
+      isParagraph: true
+    },
+
+    {
+      title: "When Should You Create a New Campaign?",
+      isHeading: true
+    },
+    {
+      content: "Create a new campaign when:",
+      isParagraph: true
+    },
+    {
+      description: "You are targeting a different audience"
+    },
+    {
+      description: "You want to use different email accounts or domains"
+    },
+    {
+      description: "You want a different sending schedule"
+    },
+    {
+      description: "You want to isolate performance or risk"
+    },
+
+    {
+      title: "When Should You Reuse a Sequence?",
+      isHeading: true
+    },
+    {
+      content: "Reuse a sequence when:",
+      isParagraph: true
+    },
+    {
+      description: "The message stays the same"
+    },
+    {
+      description: "Only the audience changes"
+    },
+    {
+      description: "You want consistent messaging across campaigns"
+    },
+    {
+      content: "This saves time and keeps outreach consistent.",
+      isParagraph: true
+    },
+
+    {
+      title: "Common Mistakes to Avoid",
+      isHeading: true
+    },
+    {
+      description: "Editing sequences when you actually want to change campaign settings"
+    },
+    {
+      description: "Creating multiple sequences when only the audience is different"
+    },
+    {
+      description: "Expecting a sequence to send emails without a campaign"
+    },
+    {
+      content: `Remember:<br/> <strong> 👉 Sequences don't send emails — campaigns do.</strong>`,
+      isParagraph: true
+    },
+
+    {
+      title: "Quick Summary",
+      isHeading: true
+    },
+    {
+      isTable: true,
+      headers: ["Campaign", "Sequence"],
+      rows: [
+        ["Runs the outreach", "Defines email content"],
+        ["Manages leads and accounts", "Manages message steps"],
+        ["Controls schedule and limits", "Controls follow-up flow"],
+        ["Tracks analytics", "Supports A/B testing"],
+        ["Required to send emails", "Used inside a campaign"]
+      ]
+    },
+
+    {
+      title: "Final Takeaway",
+      isHeading: true
+    },
+    {
+      content: `If you remember one thing:  <br/>&nbsp; <strong>Campaigns execute outreach. <br/> &nbsp; Sequences define what is sent.</strong>`,
+      isParagraph: true
+    },
+    {
+      content: "Understanding this difference helps you build cleaner campaigns, reuse templates effectively, and avoid confusion as you scale outreach.",
+      isParagraph: true
+    }
+  ],
+
+  
 }
-
-
 
 
 

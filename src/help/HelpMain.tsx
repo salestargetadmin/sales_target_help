@@ -243,6 +243,22 @@ const categories = [
     articles: [
       { title: 'A/B Testing in SalesTarget', id: 74 },
     ],
+  },
+
+  {
+    title: 'Campaigns Overview: How Campaigns Work in SalesTarget.ai',
+    icon: '📂', 
+    articles: [
+      { title: 'Campaigns Overview: How Campaigns Work in SalesTarget.ai', id: 75 },
+    ],
+  },
+
+  {
+    title: 'Campaign vs Sequence: Understanding the Difference',
+    icon: '📂', 
+    articles: [
+      { title: 'Campaign vs Sequence: Understanding the Difference', id: 76 },
+    ],
   }
 
 
