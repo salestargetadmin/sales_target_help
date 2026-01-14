@@ -5342,7 +5342,325 @@ This article explains how campaigns work at a high level, so you understand the 
   ],
 
   
-}
+},
+
+ {
+    id: "77",
+    title: "Campaign Limits Explained (Domains, Accounts & Volume)",
+    updated: "",
+    content: `Campaign limits in SalesTarget.ai exist to<strong> protect deliverability, prevent spam issues, and keep email sending safe and predictable.</strong><br/><br/>This article explains the three main types of limits:<br/>
+  <ul class="type-disc ml-4">
+    <li>&nbsp; ● Domains</li>
+    <li>&nbsp; ● Email accounts</li>
+    <li>&nbsp; ● Sending volume</li>
+  </ul><br/>
+  Understanding these limits helps you run campaigns without burning inboxes or domains.`,
+    metaTitle: "Campaign Limits Explained | Domains, Accounts & Volume in SalesTarget.ai",
+    metaDescription: "Learn how campaign limits work in SalesTarget.ai. Understand domain limits, email account capacity, and sending volume to protect deliverability and scale safely.",
+    metaKeywords: "campaign limits, email sending limits, domain limits, email account limits, sending volume, deliverability protection, email outreach limits, SalesTarget.ai",
+    features: [
+      {
+        title: "Why Campaign Limits Exist",
+        isHeading: true
+      },
+      {
+        content: `Email providers closely monitor sending behavior.<br/>Sending too fast or from too many leads can damage sender reputation.`,
+        isParagraph: true
+      },
+      {
+        content: "SalesTarget.ai applies limits to:",
+        isParagraph: true
+      },
+      {
+        description: "Keep sending patterns natural"
+      },
+      {
+        description: "Protect inbox placement"
+      },
+      {
+        description: "Stop sudden volume spikes"
+      },
+      {
+        description: "Reduce bounces and spam flags"
+      },
+      {
+        content: `Limits are not restrictions — they are<strong> safety controls.</strong>`,
+        isParagraph: true
+      },
+
+      {
+        title: "Domain Limits",
+        isHeading: true
+      },
+      {
+        content: `A <strong>domain</strong> is the part after @ in your email address <br/>&nbsp; (example: yourdomain.com).`,
+        isParagraph: true
+      },
+
+      {
+        title: "How domains are used in campaigns",
+        isHeading: true
+      },
+      {
+        description: "Campaigns send emails from email accounts connected to a domain"
+      },
+      {
+        description: "One domain can have multiple email accounts"
+      },
+      {
+        description: "Each domain has its own reputation"
+      },
+
+      {
+        title: "Domain limits in SalesTarget.ai",
+        isHeading: true
+      },
+      {
+        description: `One domain can have<strong> up to 5 email accounts </strong>`
+      },
+      {
+        description: `You can connect or purchase<strong> multiple domains </strong>`
+      },
+      {
+        description: `Campaign volume is spread across domains to reduce risk`
+      },
+
+      {
+        title: "Why domain limits matter",
+        isHeading: true
+      },
+      {
+        content: "Sending too many emails from one domain can:",
+        isParagraph: true
+      },
+      {
+        description: "Lower inbox placement"
+      },
+      {
+        description: "Increase spam complaints"
+      },
+      {
+        description: "Cause domain-level blocks"
+      },
+      {
+        content: "Using multiple domains helps isolate risk and scale safely.",
+        isParagraph: true
+      },
+
+      {
+        title: "Email Account Limits",
+        isHeading: true
+      },
+      {
+        content: `An<strong> email account</strong> is a single inbox<br/>&nbsp; (example: name@yourdomain.com).`,
+        isParagraph: true
+      },
+
+      {
+        title: "How email accounts work in campaigns",
+        isHeading: true
+      },
+      {
+        description: "Campaigns send emails through connected email accounts"
+      },
+      {
+        description: "Each account has its own daily sending capacity"
+      },
+      {
+        description: "Accounts can be rotated across campaigns"
+      },
+
+      {
+        title: "Recommended sending volume per account",
+        isHeading: true
+      },
+      {
+        description: `<strong>Around 30 emails per day per account</strong> (recommended)`
+      },
+      {
+        description: "Sending gradually helps maintain a healthy sender reputation"
+      },
+
+      {
+        title: "Why account limits matter",
+        isHeading: true
+      },
+      {
+        content: "Sending too many emails from one inbox can:",
+        isParagraph: true
+      },
+      {
+        description: "Trigger spam filters"
+      },
+      {
+        description: "Increase bounce rates"
+      },
+      {
+        description: "Cause temporary or permanent blocks"
+      },
+      {
+        content: "Campaigns respect these limits automatically.",
+        isParagraph: true
+      },
+
+      {
+        title: "Campaign Sending Volume",
+        isHeading: true
+      },
+      {
+        content: "Campaign volume is calculated using:",
+        isParagraph: true
+      },
+      {
+        description: "Number of active email accounts"
+      },
+      {
+        description: "Sending limits per account"
+      },
+      {
+        description: "Campaign schedule and gaps between emails"
+      },
+
+      {
+        title: "Example",
+        isHeading: true
+      },
+      {
+        content: `If you have:`,
+        isParagraph: true
+      },
+      {
+        description: "1 domain"
+      },
+      {
+        description: "5 email accounts"
+      },
+      {
+        description: "~30 emails per account per day"
+      },
+      {
+        content: "You can safely send:",
+        isParagraph: true
+      },
+      {
+        description: `<strong>~150 emails per day </strong>across that campaign`
+      },
+      {
+        content: "To increase volume safely, you add:",
+        isParagraph: true
+      },
+      {
+        description: "More email accounts"
+      },
+      {
+        description: "More domains"
+      },
+
+      {
+        title: "How SalesTarget.ai Handles Volume Automatically",
+        isHeading: true
+      },
+      {
+        content: "SalesTarget.ai automatically:",
+        isParagraph: true
+      },
+      {
+        description: "Distributes emails across connected accounts"
+      },
+      {
+        description: "Respects daily sending limits"
+      },
+      {
+        description: "Applies gaps between emails"
+      },
+      {
+        description: "Stops follow-ups when a lead replies"
+      },
+      {
+        content: "You don't need to manually calculate sending limits.",
+        isParagraph: true
+      },
+
+      {
+        title: "What Happens If You Exceed Limits?",
+        isHeading: true
+      },
+      {
+        content: "If limits are reached:",
+        isParagraph: true
+      },
+      {
+        description: "Emails are queued and automatically sent the next day during your defined sending hours"
+      },
+      {
+        description: "Sending continues gradually"
+      },
+      {
+        description: "No emails are dropped"
+      },
+      {
+        description: "Deliverability protection remains active"
+      },
+      {
+        content: "This prevents sudden spikes and keeps sending safe.",
+        isParagraph: true
+      },
+
+      {
+        title: "Best Practices for Campaign Limits",
+        isHeading: true
+      },
+      {
+        description: "Start with low volume and increase gradually"
+      },
+      {
+        description: "Use multiple email accounts per domain"
+      },
+      {
+        description: "Avoid sending high volume from a single inbox"
+      },
+      {
+        description: "Separate campaigns by domain if scaling"
+      },
+      {
+        description: "Monitor bounces and replies regularly"
+      },
+      {
+        content: "Following limits leads to better replies and inbox placement.",
+        isParagraph: true
+      },
+
+      {
+        title: "Quick Summary",
+        isHeading: true
+      },
+      {
+        description: `<strong>Domains</strong> control reputation at a higher level`
+      },
+      {
+        description: `<strong>Email accounts</strong> control daily sending capacity`
+      },
+      {
+        description: `<strong>Campaign volume</strong> is the total safe output across accounts`
+      },
+      {
+        description: "Limits exist to protect deliverability, not slow you down"
+      },
+
+      {
+        title: "Final Takeaway",
+        isHeading: true
+      },
+      {
+        content: `If you want to scale campaigns safely:<br/> &nbsp;<strong> Increase accounts and domains — not per-account volume.</strong>`,
+        isParagraph: true
+      },
+      {
+        content: "Campaign limits help you grow outreach while keeping inboxes healthy.",
+        isParagraph: true
+      }
+    ]
+  }
 
 
 

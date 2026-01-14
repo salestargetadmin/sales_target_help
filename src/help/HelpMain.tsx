@@ -259,7 +259,16 @@ const categories = [
     articles: [
       { title: 'Campaign vs Sequence: Understanding the Difference', id: 76 },
     ],
+  },
+
+   {
+    title: 'Campaign Limits Explained (Domains,Accounts & Volume)',
+    icon: '📂', 
+    articles: [
+      { title: 'ampaign Limits Explained (Domains,Accounts & Volume)', id: 77 },
+    ],
   }
+
 
 
  

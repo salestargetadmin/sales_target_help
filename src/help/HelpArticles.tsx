@@ -298,6 +298,14 @@ const categories = [
     articles: [
       { title: 'Campaign vs Sequence: Understanding the Difference', id:76, icon: Shield, color: '#FF00FF' }, // Orange
     ],
+  },
+
+   {
+    title: 'Campaign Limits Explained (Domains,Accounts & Volume)',
+    icon: '🔍', 
+    articles: [
+      { title: 'Campaign Limits Explained (Domains,Accounts & Volume)', id:77, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
   }
   
 ];
