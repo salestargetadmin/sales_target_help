@@ -306,8 +306,16 @@ const categories = [
     articles: [
       { title: 'Campaign Limits Explained (Domains,Accounts & Volume)', id:77, icon: Shield, color: '#FF00FF' }, // Orange
     ],
+  },
+
+  {
+    title: 'Creating Your First Campaign (Email & Multichannel)',
+    icon: '🔍', 
+    articles: [
+      { title: 'Creating Your First Campaign (Email & Multichannel)', id:78, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
   }
-  
+
 ];
 
 import { useSearch } from './SearchContext';

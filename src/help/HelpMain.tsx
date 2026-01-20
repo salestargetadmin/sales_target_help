@@ -267,6 +267,14 @@ const categories = [
     articles: [
       { title: 'ampaign Limits Explained (Domains,Accounts & Volume)', id: 77 },
     ],
+  },
+
+  {
+    title: 'Creating Your First Campaign (Email & Multichannel)',
+    icon: '📂', 
+    articles: [
+      { title: 'Creating Your First Campaign (Email & Multichannel)', id: 78 },
+    ],
   }
 
 
