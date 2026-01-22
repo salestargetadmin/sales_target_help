@@ -74,9 +74,9 @@ const mockArticles = [
         description:
           "Connecting your Google Workspace account to salestarget using OAuth authentication allows seamless access and integration between the two platforms. Follow these step-by-step instructions to set up OAuth access in your Google Workspace account and connect it with salestarget. ",
       },
-      
+
     ],
-   
+
   },
   {
     id: "3", // Unique ID for routing
@@ -95,9 +95,9 @@ const mockArticles = [
         description:
           "Unlike many cold email tools that rely on static IPs and lack blacklist monitoring or rotation capabilities, salestarget.ai offers:\n A vast pool of rotating proxy IPs. \n Constant monitoring and proactive management of IP reputation. \n Location Independence: Using salestarget.ai from different locations does not impact deliverability because our rotating proxy IPs, not user IP addresses, interact directly with email servers.",
       },
-      
+
     ],
-   
+
   },
   {
     id: "4", // Unique ID for routing
@@ -121,7 +121,7 @@ const mockArticles = [
           "Link multiple email accounts for sending campaigns. Enable email warm-up to improve deliverability. Verify email settings and SPF, DKIM, and DMARC records.",
       },
     ],
-    
+
   },
   {
     id: "5", // Unique ID for routing
@@ -145,7 +145,7 @@ const mockArticles = [
           "Connect multiple email accounts for sending. Configure integrations with CRM, Zapier, or webhooks. Adjust user permissions and manage billing details.",
       },
     ],
-   
+
   },
   {
     id: "6", // Unique ID for routing
@@ -169,7 +169,7 @@ const mockArticles = [
           "Start the campaign and track performance (open, click, reply rates). Use AI Inbox Manager for automated replies. Adjust messaging and audience based on analytics.",
       },
     ],
-    
+
   },
   {
     id: "7", // Unique ID for routing
@@ -193,7 +193,7 @@ const mockArticles = [
           "Sync SalesTarget with HubSpot, Zapier, or custom CRMs via API. Automate lead transfers and follow-ups.",
       },
     ],
-    
+
   },
   {
     id: "8", // Unique ID for routing
@@ -217,7 +217,7 @@ const mockArticles = [
           "GDPR-compliant lead data handling. Secure encryption for all stored information. API/Webhook support for seamless CRM synchronization.",
       },
     ],
-    
+
   },
   {
     id: "9", // Unique ID for routing
@@ -241,7 +241,7 @@ const mockArticles = [
           "Verify Email Sources – Avoid clicking on unknown links. Educate Team Members – Train them on recognizing security threats. Report Suspicious Activity – Contact support if you notice anomalies.",
       },
     ],
-   
+
   },
   {
     id: "10", // Unique ID for routing
@@ -263,7 +263,7 @@ const mockArticles = [
         description: "Get the latest lead insights and changes.",
       },
     ],
-    
+
   },
   {
     id: "11", // Unique ID for routing
@@ -287,7 +287,7 @@ const mockArticles = [
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-   
+
   },
   {
     id: "12", // Unique ID for routing
@@ -311,7 +311,7 @@ const mockArticles = [
           "GDPR and CCPA compliance, along with opt-in email lists, ensure legal and ethical outreach.",
       },
     ],
-    
+
   },
   {
     id: "13",
@@ -335,7 +335,7 @@ const mockArticles = [
           "Now that you have deleted the necessary DNS records, it's time to add your domain to your new email service provider. Here are the steps on how to add a domain to the new email service provider.Log in to your new email service provider's workspace.Navigate to the section where you can add a domain. This might be under settings or domain management.Enter your domain name and follow the on-screen instructions to complete the addition process.",
       },
     ],
-   
+
   },
   {
     id: "14",
@@ -353,9 +353,9 @@ const mockArticles = [
         description:
           "Set the reply-to address when connecting an account through the IMAP/SMTP method by checking the 'Set reply-to' in the SMTP part.",
       },
-     
+
     ],
-   
+
   },
   {
     id: "15",
@@ -368,9 +368,9 @@ const mockArticles = [
         description:
           "For domains, you may use SPF and DKIM check. For email deliverability, try our inbox placement feature.",
       },
-      
+
     ],
-    
+
   },
   {
     id: "16",
@@ -388,9 +388,9 @@ const mockArticles = [
         description:
           "You no longer need to share the same login with your team members to access the account since they can have their own credentials. If a person is already an salestarget user, this workspace will be added to their list. If they are not using salestarget, they will be asked to create a new account.",
       },
-     
+
     ],
-   
+
   },
   {
     id: "17",
@@ -418,7 +418,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-    
+
 
     faq: [
       {
@@ -463,7 +463,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "And that is also why users need to warm up their specific domains / sending accounts for 3-4 weeks minimum.",
       },
     ],
-    
+
   },
   {
     id: "19",
@@ -484,7 +484,7 @@ With this feature. it will try to match the users sending inboxes with the recip
         description: "SPF, DKIM",
       },
     ],
-    
+
   },
   {
     id: "20",
@@ -503,7 +503,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "Get the HTML code. You may use some of the online signature generators to get the HTML code. Once you have the HTML code, paste it to the Sequence editors in the Code View.",
       },
     ],
-   
+
   },
   {
     id: "21",
@@ -516,9 +516,9 @@ With this feature. it will try to match the users sending inboxes with the recip
         description:
           "The warmup functionality mimics human conversations between email accounts.But in this case, your 'friends' are other salestarget.ai users who have also enabled the warmup feature. You can be sure that all of them will open your email and a high percentage will write you back with a 'thoughtful' and positive sentimentThe emails written by the salestarget AI algorithm signal to Google, Outlook, and other ESPs that your email account and sending domain are relevant and legitimate. This increases the likelihood that the messages that are sent to the cold leads in your outreach campaigns will also actually land in their inbox and subsequently be opened and replied to.The bottom line is that the warmup will improve the deliverability of your cold email accounts by mimicking human conversations in the salestarget.ai user pooWhen you connect a sending account to salestarget, warming up the accounts also warms up your SMTP sending server and IMAP servers as welOn top of the deliverability benefits, your outreach email accounts will also stay alive for longer and the likelihood of you 'burning' through an account is significantly lower.",
       },
-      
+
     ],
-    
+
   },
   {
     id: "22",
@@ -526,7 +526,7 @@ With this feature. it will try to match the users sending inboxes with the recip
     updated: "Updated over 8 months ago",
     content: `Read Emulation is an advanced warmup feature that mimics reading warm-up emails like a real human. It sends signals to ESPs (the email provider) that your messages are relevant as they will be "read" by the email receiver which has a positive impact on the deliverability and reputation of your domains.`,
     features: [
-      
+
     ],
 
     faq: [
@@ -553,9 +553,9 @@ With this feature. it will try to match the users sending inboxes with the recip
         description:
           'If you use an Outlook account and you want to create the warmup filter, follow these steps.Open the warmup settings for any of your accounts (the warmup tag is the same for all the accounts connected to a workspace). Copy the filter tag.On your email, navigate to Rules.In the condition, select Rules or body includes.Enter the warmup tag.Add two actionsMark the email as read.Move to the salestarget Warmup folder. If this folder does not exist, create a new one.Click Save.To run this rule, click the triangle icon "Run this rule now" in the Rules sectio',
       },
-      
+
     ],
-   
+
   },
   {
     id: "24",
@@ -579,7 +579,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-    
+
   },
   {
     id: "25",
@@ -602,7 +602,7 @@ With this feature. it will try to match the users sending inboxes with the recip
         description: "Avoid hyphens and numbers, use letters only.",
       },
     ],
-   
+
   },
   {
     id: "26",
@@ -621,9 +621,9 @@ With this feature. it will try to match the users sending inboxes with the recip
         description:
           "For some offers, we found a working campaign after 3 tries, for others it took 3 months and 40 campaigns. You need to get into the habit of testing new things daily and weekly.",
       },
-      
+
     ],
-    
+
   },
   {
     id: "27",
@@ -647,7 +647,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "If you haven't warmed up your emails for at least 2-3 weeks before sending cold emails, you might see lower open rates. Your own domain's reputation and how old it is, along with the reputation of your sending accounts affect your deliverability.",
       },
     ],
-    
+
   },
   {
     id: "28",
@@ -671,7 +671,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "In this case, the best course of action would be to stop your cold outreach and only let warmup run for a few weeks. After a few weeks, you can start sending cold emails again and monitor if there is any improvement in bounces. Also, consider lowering your overall cold outreach volume.",
       },
     ],
-   
+
   },
   {
     id: "29",
@@ -695,7 +695,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-   
+
   },
   {
     id: "30",
@@ -724,7 +724,7 @@ With this feature. it will try to match the users sending inboxes with the recip
           "Importing leads from Pipedrive, Importing leads from Hubspot, ​Importing leads from Salesforce",
       },
     ],
-    
+
   },
   {
     id: "31",
@@ -736,9 +736,9 @@ With this feature. it will try to match the users sending inboxes with the recip
         title: "Unlimited Email Accounts",
         description: "You may connect as many email accounts as you need.",
       },
-      
+
     ],
-   
+
   },
   {
     id: "32",
@@ -755,9 +755,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "salestarget webhook notifications are sent via a POST request, while the request body (with response data) is in JSON format. salestarget users who understand how to handle webhooks will be able to take advantage of this advanced feature. Our team cannot troubleshoot your code or provide step-by-step development instructions.",
       },
-     
+
     ],
-   
+
   },
   {
     id: "33",
@@ -782,7 +782,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Verify the leads. Once finished verifying the leads, start uploading the leads to the campaign.",
       },
     ],
-    
+
   },
   {
     id: "34",
@@ -802,9 +802,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "If you are a TikTok ad agency, search for TikTok tracking pixel trends to get the list of websites that track conversions from TikTok ads.",
       },
-     
+
     ],
-    
+
   },
   {
     id: "35",
@@ -817,9 +817,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "They also provide reports and data about Inc. 5000 (fastest-growing companies), Y combinator batches, and Companies founded by former Facebook employees. Having this type of fresh and segmented data also is a great way to do generic personalization/ice-breakers at scale, e.g. “Congrats on getting funding for {{companyName}}!”, “Congrats on your recent ProductHunt launch!”",
       },
-      
+
     ],
-   
+
   },
   {
     id: "36",
@@ -840,9 +840,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "All emails, Interested, Meeting booked, Meeting complete, Closed, Out of Office, Wrong person,Not interested",
       },
-     
+
     ],
-   
+
   },
   {
     id: "37",
@@ -855,9 +855,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Scheduling a reply involves setting a specific time for a message or response to be sent. This can be done in various communication platforms, such as email clients, messaging apps, or social media management tools.",
       },
-     
+
     ],
-   
+
   },
   {
     id: "38",
@@ -875,9 +875,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Go to the Leads section of the campaign or CRM --> Leads section, Click on the lead, Change the status in the pop-up window",
       },
-      
+
     ],
-   
+
   },
   {
     id: "39",
@@ -889,9 +889,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         title: "Check below",
         description: "You may connect as many email accounts as you need.",
       },
-     
+
     ],
-   
+
 
     faq: [
       {
@@ -932,9 +932,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         title: "",
         description: "check below faqs",
       },
-    
+
     ],
-   
+
 
     faq: [
       {
@@ -961,9 +961,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "You can purchase add-ons (available for Supersonic leads and higher lead plans) to get more lead credits.",
       },
-     
+
     ],
-   
+
   },
   {
     id: "42",
@@ -982,9 +982,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Under the CCPA, California residents have the right to opt out of “sales” of their business information. Similarly, under the GDPR (and other European data protection laws), individuals in the EEA, the UK, and Switzerland have the right to object to our processing of their business data. ",
       },
-     
+
     ],
-   
+
   },
   {
     id: "43",
@@ -1006,7 +1006,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-    
+
   },
   {
     id: "44",
@@ -1019,9 +1019,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Our DPA supplements our Terms of Service and Privacy Policy, and contains contractual terms that address the GDPR’s requirements for data processing agreements between controllers and processors, including with respect to personal data transfer, and that reflect our data privacy and security commitments to our clients. You can see our Data Processing Addendum Document here. The PDF version is attached to this article.",
       },
-     
+
     ],
-    
+
   },
   {
     id: "45",
@@ -1045,7 +1045,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Opportunity Management You can track different stages of lead statuses such as interested, meetings booked, completed, won, and custom",
       },
     ],
-    
+
   },
   {
     id: "46",
@@ -1069,7 +1069,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Opportunities give you a consolidated view of all your interested prospects from campaigns and Lists. You can switch between the two by selecting the desired source of opportunities.",
       },
     ],
-    
+
   },
   {
     id: "47",
@@ -1087,9 +1087,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "If there's a problem or your registration has failed right after submitting, contact support via chat.",
       },
-     
+
     ],
-   
+
   },
   {
     id: "48",
@@ -1112,7 +1112,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
       },
     ],
-   
+
   },
   {
     id: "49",
@@ -1130,9 +1130,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "The visitor information does not come from your existing campaigns or lists. Instead, it is discovered and enriched by our powerful AI-powered algorithm. Long story short, this helps you discover data for all warm/inbound leads that you'd have otherwise missed.  ",
       },
-      
+
     ],
-   
+
   },
   {
     id: "50",
@@ -1150,9 +1150,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Ultimately, it is your responsibility to ensure that you are collecting and using personal information in compliance with all applicable laws and regulations. If you have any questions please consult legal counsel.",
       },
-     
+
     ],
-    
+
   },
   {
     id: "51",
@@ -1170,9 +1170,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "That's what the Inbox Placement feature helps with - providing you with the tools and insights to help your emails reach your ideal clients.",
       },
-      
+
     ],
-    
+
   },
   {
     id: "52",
@@ -1185,9 +1185,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "Before running Inbox Placement tests, set the maximum number of inbox placement tests per day in the sending account settings:",
       },
-      
+
     ],
-    
+
   },
   {
     id: "53",
@@ -1200,9 +1200,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "It’s a feature that automatically checks if your emails land in the inbox, promotions, or spam folders and gives detailed deliverability insights.It helps by automating placement tests, providing insights into blacklists, spam triggers, and email health, allowing you to optimize campaigns and improve deliverability while spending less time on manual tasks.",
       },
-     
+
     ],
-    
+
   },
   {
     id: "54",
@@ -1216,7 +1216,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Our average monthly email volume refers to the total number of emails we send out through our platform each month. This includes newsletters, promotional emails, transactional messages, and automated campaigns. On average, we send approximately [X,000 to Y,000 emails/month], but this number can fluctuate based on campaign schedules, customer segmentation, and seasonal marketing efforts. If you're referring to your own monthly email usage, you can typically find this data in your account dashboard under 'Email Analytics' or 'Usage Reports.'",
       },
     ],
-    
+
   },
   {
     id: "55",
@@ -1230,9 +1230,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Only one email account is required to send monthly emails, regardless of the volume. This account will be used as the sender for all outgoing emails to maintain consistency and ensure deliverability. If you're managing multiple brands or campaigns, additional email accounts can be added, but they are not mandatory unless you need separate sender identities.",
       },
 
-    
+
     ],
-   
+
   },
   {
     id: "56",
@@ -1246,7 +1246,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "You need at least one verified domain to send emails effectively. This domain is used for the sender address (e.g., yourname@yourdomain.com) and must be properly authenticated using SPF, DKIM, and optionally DMARC to ensure high deliverability and avoid spam filters. While one domain is sufficient for most cases, multiple domains can be used if you're sending emails on behalf of different brands or departments.",
       },
     ],
-   
+
   },
   {
     id: "57",
@@ -1364,7 +1364,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "That brings your total monthly cost to $165/month for unwarmed accounts, or $215/month if you go with warmed-up accounts.",
       },
     ],
-   
+
   },
   {
     id: "58",
@@ -1383,7 +1383,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         description:
           "By gradually increasing the volume of sent emails, your email accounts and domain establish a positive reputation with ISPs. This increases the likelihood of your emails landing in the inbox rather than being flagged as spam.",
       },
-       {
+      {
         title: "Warm-Up Plan – Initial Phase (Days 1–7)",
         description:
           "Send 5–10 emails per day to trusted/internal contacts. The goal is to build initial engagement and avoid triggering spam filters.",
@@ -1400,7 +1400,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Send up to 30 emails per day per account. Maintain quality and relevance to preserve domain reputation and inbox placement.",
       },
     ],
-   
+
   },
   {
     id: "59",
@@ -1436,7 +1436,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "As you build your sender reputation, recipients are more likely to open your emails, thus improving engagement and making future email campaigns more effective. Warmed-up email accounts tend to have better open rates, which is crucial for email marketing success.",
       },
     ],
-   
+
   },
   {
     id: "60",
@@ -1450,8 +1450,8 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "Each domain can have up to 5 email accounts. All accounts share the domain reputation, so warm-up should be managed carefully. Each account is limited to sending 30 emails per day to maintain a healthy sender profile.",
         image: "",
       },
-     
-      
+
+
       {
         title: "",
         description:
@@ -1466,7 +1466,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         title: "",
         description:
           "Full Capacity Phase (Days 15 and Beyond): Daily Emails per Account: Once your domain and email accounts have gained a good reputation, increase the daily limit to 30 emails per account. Focus: Continue sending relevant, personalized emails with a high level of engagement. Now that the accounts have a strong reputation, you can scale up email outreach while ensuring ongoing engagement. Goal: At this point, your email accounts should be fully warmed up, and you should aim to maintain high engagement while expanding your outreach to larger lists.",
-        image:"/Blog9_img2.png"
+        image: "/Blog9_img2.png"
       },
       {
         title: "What is the warm-up plan for SalesTarget.ai users?",
@@ -1474,7 +1474,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "SalesTarget.ai recommends a strategic warm-up plan for users to gradually increase email volume over time. This ensures that both the domain and individual email accounts maintain a good reputation and helps to improve deliverability. Below is a detailed breakdown of the warm-up phases:",
       },
     ],
-   
+
   },
   {
     id: "61",
@@ -1487,9 +1487,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           "• Monitor email activity like open rates, replies, and bounces.\n• Avoid spammy content (all-caps, too many links, or attachments).\n• Encourage engagement to signal trust.\n• Use warm-up and reputation monitoring tools.",
         image: "",
       },
-      
+
     ],
-    
+
   },
   {
     id: "62",
@@ -1509,7 +1509,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
           'After logging in, go to the left sidebar of your dashboard. Click on "Email Accounts" to begin setting up your email account.',
         image: "",
       },
-       {
+      {
         title: 'Step 3: Click "Add New" to Start Adding Your Domain',
         description:
           'In the Email Accounts section, click "Add New" to begin configuring your email.',
@@ -1552,7 +1552,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         image: "",
       },
     ],
-    
+
     faq: [
       {
         title: "How long does it take for my email account to be fully set up?",
@@ -1599,12 +1599,12 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     updated: "",
     content: ``,
     features: [
-     
+
     ],
-    
+
 
     faq: [
-      
+
     ],
   },
   {
@@ -1614,12 +1614,12 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     updated: "",
     content: ``,
     features: [
-      
+
     ],
-   
+
 
     faq: [
-      
+
       ,
     ],
   },
@@ -1629,15 +1629,15 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     updated: "",
     content: ``,
     features: [
-      
+
     ],
-    
+
 
     faq: [
-      
+
     ],
 
-    
+
   },
 
   {
@@ -1653,14 +1653,14 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     metaKeywords: "Salestarget.ai, Copilot ,AI sales assistant ,sales automation ,AI email outreach,lead generation,CRM AI,sales analytics,B2B sales AI ",
     features: [
       {
-        content:"👉It works across AI Email Outreach, Lead Explorer, Sales Analytics, and Memory, so you can move from ICP → outreach → deals → pipeline growth without switching tools.",
-        type:"paragraph",
-        isParagraph:true
+        content: "👉It works across AI Email Outreach, Lead Explorer, Sales Analytics, and Memory, so you can move from ICP → outreach → deals → pipeline growth without switching tools.",
+        type: "paragraph",
+        isParagraph: true
       },
       {
-        content:"👉Copilot is completely free to use.",
-        type:"paragraph",
-        isParagraph:true
+        content: "👉Copilot is completely free to use.",
+        type: "paragraph",
+        isParagraph: true
       },
       {
         src: "/intro.jpg",
@@ -1669,428 +1669,428 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         type: "image",
         isImage: true
       },
-        {
-         title : "Quick Highlights",
-         type: "heading",
-         isHeading: true
-       },
-       {
-        title : "What is Copilot?",
-        description: "A free AI assistant inside SalesTarget.ai ",
-        },
-        {
-        title : "What does it do? ",
-        description: "Writes cold email sequences, suggests audiences, summarizes activity, reads your website for context, and recommends next steps."
-        },
-        {
-          title : "Who is it for? ",
-          description : " Founders, SDRs, sales teams, agencies "
-        },
-        {
-          title : "Why does it matter? ",
-          description : "Less manual work, faster pipeline, more meetings booked"
-        },
-        {
-          title : "How much does it cost? ",
-          description : "Copilot is free. Other modules have 7-day free trials and credits",
-        },
-       {
-  title: "What Copilot Can Do",
-  type: "heading", 
-  isHeading: true
-},
-        {
-          title: "1. AI Email Outreach (Cold Email Writer)",
-          type:"heading",
-          isHeading:true
-        },
-        {
-          description : "	Generate 3–5 step email sequences from a short brief",
-  
-        },
-        {
-          description : "	Personalize intros using company, role, or industry context.",
-        },
-        {
-          description: "	Suggest subject lines, CTAs, and A/B test variations.",
-        },
-        {
-          description: "	Adjust tone: friendly, formal, concise, or persuasive.",
-        },
-        {
-           content: "Example Prompt:",
-    isParagraph: true
-        },
-        {
-           src: "/hello.jpg",
-  alt: "SalesTarget.ai Copilot generating a 4-step cold email outreach sequence for Heads of Sales at US SaaS companies with AI-written subject lines and personalized email copy.",
-  caption: "Create a 4-step cold email sequence for Heads of Sales at US SaaS companies (50–200 employees). Keep each email under 120 words",
-  type: "image",
-  isImage: true
-        },
-    
-        {
-          title: "2. AI Lead Generation (Lead Explorer) ",
-            type:"heading",
-          isHeading:true
-        },
-        {
-          description : "	Turn your ICP (Ideal Customer Profile) into filters.	",
-    
-  
-        },
-        {
-          description : "	Suggest lookalike accounts and adjacent segments.",
-        },
-        {
-          description : "	Recommend safe sending list sizes for testing.",
-        },
-          {
-           content: "Example Prompt:",
-    isParagraph: true
-        },
-        {
-           src: "/Leads.jpg",
-  alt: " SalesTarget.ai Copilot suggesting ICP filters for APAC SaaS companies and generating a 25-contact test list for cold email outreach.",
-  caption: "Suggest 3 ICP filters for APAC SaaS companies likely to care about lowering CAC. Then propose a 25-contact test list",
-  type: "image",
-  isImage: true
-        },
-     
-        {
-          title: "3.Sales Analytics Assistant ",
-            type:"heading",
-          isHeading:true
-        },
-        {
-          description : "	Summarize campaign results.",
-        },
-        {
-          description : "	Highlight which sequences and subject lines perform best.",
-        },
-        {
-          description : "	Recommend next steps to improve reply and conversion rates.",
-        },
-        {
-           content: "Example Prompt:",
-    isParagraph: true
-        },
-          {
-           content: "Summarize the last 3 campaigns and suggest 2 optimizations to improve open rates.",
-    isParagraph: true
-        },
-      
-        {
-          title:"4. Memory (Business Data Awareness) ",
-            type:"heading",
-          isHeading:true,
-        },
-        {
-          content:"Memory is where Copilot becomes truly context-aware. Instead of starting from scratch, you can add your website and ICP details, and Copilot will personalize everything.",
-          isParagraph: true
-        },
-        {
-            src: "/memory.jpg",
-            alt: "SalesTarget Copilot Memory feature asking the user to enter their website URL to extract business data.",
-            caption: "Optional caption text",
-            type: "image",
-            isImage: true
-        },
-        {
-            stepTitle: "Step 1. Add Your Website",
-            isStep: true
-        },  
-        {
-          content: "Enter your website URL, and Copilot instantly extracts your company name, description, awards, and outreach goals. ",
-          isParagraph: true
-        },
-        {
-         
-          src : "/memory1.jpg",
-           alt: "SalesTarget Copilot Memory panel for entering website details including URL,company name, description, awards, and outreach goals.",
-            caption: "",
-            isImage: true
-        },
-        {
-          src:"/memory2.jpg",
-          alt: "SalesTarget Copilot Memory screen for defining Ideal Customer Profiles with fields like company size, challenges, and unique selling points.",
-          caption: "",
-          isImage: true
-        },
-        {
-            stepTitle: "Step 2. Define Customer Profiles",
-            isStep: true
-        },  
-        {
-            content: "Add Ideal Customer Profiles (ICPs) — company size, problems solved, benefits, and unique selling points.",
-            isParagraph: true
-        },
-        {
-              src: "/memory3.jpg",
-              alt: "Image description",
-              caption: "",
-              isImage: true
-        },
-         {
-            stepTitle: "Step 3. Add Guidance Rules",
-            isStep: true
-        },  
-         {
-            content: "Set up smart rules (up to 10) to guide tone, style, and outreach strategy.",
-            isParagraph: true
-        },
-       {
-         content: "Example Rules:",
-         isParagraph: true
-       },
-        {
-          description : " Keep subject lines under 6 words.",
-        },
-        {
-          description : "Always include a calendar link in the last email ",
-        },
-        {
-          description : " Prioritize SaaS companies in APAC  ",
-        },
-        {
-  src: "/Picture9.jpg",
-  alt: " SalesTarget Copilot Memory Guidance tab where users can add up to 10 smart rules to guide outreach preferences.",
-  caption: "",
-  isImage: true
-},     
       {
-  src: "/Picture10.jpg",
-  alt: " SalesTarget Copilot popup for adding a new rule, with example text: “Always include a calendar link in the last email.”",
-  caption: "",
-  isImage: true
-},
-        
-     
-        {
-          title:"Why Memory Matters",
-            type:"heading",
-          isHeading:true
-        },
-        {
-          title: "Consistent Messaging ",
-          description:"Copilot always speaks in your brand voice"
-        },
-        {
-          title:"Context-Aware Responses",
-          description:"Prompts and drafts reflect your ICP and positioning."
-        },
-        {
-          title: "Faster Setup ",
-          description:" No need to repeat background info. "
-        },
-        {
-          title:"Smarter Outreach ",
-          description:"Recommendations tied to your real business data."
-        },
-        
-         {
-              content: " Example Prompt:",
-              isParagraph: true
-        },
-         {
-              content: "Based on our website and ICP for mid-market SaaS teams, draft a 3-step cold email sequence to highlight automation benefits.”",
-              isParagraph: true
-        },
-        {
-            title: "Your Copilot Workspace",
-            isHeading: true
-        },
-        {
-              content: "With the SalesTarget.ai Copilot dashboard, you can:",
-              isParagraph: true
-        },
-        {
-          title:"New Chat ",
-          description:"Ask Copilot anything (e.g., “Find ideal prospects” or “Summarize this campaign”)."
-        },
-        {
-          title:"Memory",
-          description:"Add your website so Copilot can read and use your business data."
-        },
-        {
-          title:"Analytics",
-          description:"Review campaign outcomes and get improvement suggestions."
-        },
-        {
-          title:"How Copilot Fits Your Sales Workflow",
-          isHeading: true
-        },
-        {
-          title:"	Define ICP ",
-          description:"Copilot builds filters in Lead Explorer."
-        },
-        {
-          title:"Generate List ",
-          description:"Copilot recommends size + adjacent segments."
-        },
-        {
-          title:"	Write Outreach Sequence ",
-          description:"Copilot drafts, personalizes, and A/B tests."
-        },
-        {
-          title:" Send in Batches ",
-          description:"→ Copilot monitors and optimizes"
-        },
-        {
-          title : "	Use Memory",
-          description: "Copilot references your website for smarter outputs." 
-        },
-        {
-          title : " Quick Start (In 10 Minutes) ",
-          isHeading: true
-        },
-        {
-          description: "Log in to SalesTarget.ai → find Copilot in the sidebar."
-        },
-        {
-          description : "Pick a goal (e.g., “Book 5 FinTech discovery calls this week”)."
-        },
-        {
-          description : "Paste your ICP (or let Copilot ask questions)"
-        },
-        {
-          description : " Generate a sequence → choose tone + personalization "
-        },
-        {
-          description : "	Create a 25-contact test list → hit send."
-        },
-        {
-          description : "	Add your website to Memory → let Copilot tailor outputs."
-        },
-        {
-          title: "Free Access Recap",
-          isHeading: true
-        },
-        {
-          title:"Copilot (AI sales assistant)",
-          description: "Always free"
-        },
-        {
-          title:"AI Email Outreach",
-          description:"7-day trial + 100 credits"
-        },
-        {
-          title: "Lead Explorer",
-          description: "7-day trial + 100 credits"
-        },
-        {
-          title:"Upload Data",
-          description:"100 credits (CSV + enrichment)"
-        },
-     
-        {
-          title: "Prompt Recipes (Copy/Paste)",
-          isHeading: true
-        },
-       {
-        title:"Subject lines",
-        description:"10 subject lines for SaaS Heads of Sales about reducing prospecting time "
-       },
-       {
-        title:"Personalization:",
-        description:"1-sentence opener using {first_name}, {company}, and {recent_news}"
-       },
-       {
-        title:"Objection handling",
-        description:"Reply to ‘We’re doing this in-house’ with a short invite for a 15-minute teardown."
-       },
-       {
-        title:"Follow-ups",
-        description:"Day-3 follow-up if opened but no reply. Offer 2 time slots"
-       },
-       {
-        title:"Deals Summary",
-        description:"Summarize last 5 emails with Contoso and propose next action"
-       },
-       {
-        title:"Memory prompt",
-        description:"Use our website content and generate a 3-step outreach for SMB FinTech prospects."
-       },
-       {
-        title:"Best Practices",
+        title: "Quick Highlights",
+        type: "heading",
         isHeading: true
-       },
-       {
-        description:"Start with 25–50 contacts, then scale"
-       },
-       {
-        description:"Keep ICP segments tight (industry + role + region)"
-       },
-       {
-        description:"Cold emails ≤120 words, subject lines 4–6 words"
-       },
-       {
-        description:"Use one clear CTA per email."
-       },
-       {
-        description:"Add your website to Memory early so Copilot learns your messaging"
-       },
-       {
-        title:"Who Benefits Most",
+      },
+      {
+        title: "What is Copilot?",
+        description: "A free AI assistant inside SalesTarget.ai ",
+      },
+      {
+        title: "What does it do? ",
+        description: "Writes cold email sequences, suggests audiences, summarizes activity, reads your website for context, and recommends next steps."
+      },
+      {
+        title: "Who is it for? ",
+        description: " Founders, SDRs, sales teams, agencies "
+      },
+      {
+        title: "Why does it matter? ",
+        description: "Less manual work, faster pipeline, more meetings booked"
+      },
+      {
+        title: "How much does it cost? ",
+        description: "Copilot is free. Other modules have 7-day free trials and credits",
+      },
+      {
+        title: "What Copilot Can Do",
+        type: "heading",
         isHeading: true
-       },
-       {
-        title:"Founders & Solo Sellers",
-        description:"Faster to first meetings"
-       },
-       {
-        title:"SDRs / BDRs",
-        description:"Build lists + launch campaigns faster."
-       },
-       {
-        title:"Sales Leaders / RevOps",
-        description:"Cleaner pipeline, weekly clarity"
-       },
-       {
-        title:"Agencies",
-        description:"Reusable playbooks for multiple clients"
-       }
+      },
+      {
+        title: "1. AI Email Outreach (Cold Email Writer)",
+        type: "heading",
+        isHeading: true
+      },
+      {
+        description: "	Generate 3–5 step email sequences from a short brief",
+
+      },
+      {
+        description: "	Personalize intros using company, role, or industry context.",
+      },
+      {
+        description: "	Suggest subject lines, CTAs, and A/B test variations.",
+      },
+      {
+        description: "	Adjust tone: friendly, formal, concise, or persuasive.",
+      },
+      {
+        content: "Example Prompt:",
+        isParagraph: true
+      },
+      {
+        src: "/hello.jpg",
+        alt: "SalesTarget.ai Copilot generating a 4-step cold email outreach sequence for Heads of Sales at US SaaS companies with AI-written subject lines and personalized email copy.",
+        caption: "Create a 4-step cold email sequence for Heads of Sales at US SaaS companies (50–200 employees). Keep each email under 120 words",
+        type: "image",
+        isImage: true
+      },
+
+      {
+        title: "2. AI Lead Generation (Lead Explorer) ",
+        type: "heading",
+        isHeading: true
+      },
+      {
+        description: "	Turn your ICP (Ideal Customer Profile) into filters.	",
+
+
+      },
+      {
+        description: "	Suggest lookalike accounts and adjacent segments.",
+      },
+      {
+        description: "	Recommend safe sending list sizes for testing.",
+      },
+      {
+        content: "Example Prompt:",
+        isParagraph: true
+      },
+      {
+        src: "/Leads.jpg",
+        alt: " SalesTarget.ai Copilot suggesting ICP filters for APAC SaaS companies and generating a 25-contact test list for cold email outreach.",
+        caption: "Suggest 3 ICP filters for APAC SaaS companies likely to care about lowering CAC. Then propose a 25-contact test list",
+        type: "image",
+        isImage: true
+      },
+
+      {
+        title: "3.Sales Analytics Assistant ",
+        type: "heading",
+        isHeading: true
+      },
+      {
+        description: "	Summarize campaign results.",
+      },
+      {
+        description: "	Highlight which sequences and subject lines perform best.",
+      },
+      {
+        description: "	Recommend next steps to improve reply and conversion rates.",
+      },
+      {
+        content: "Example Prompt:",
+        isParagraph: true
+      },
+      {
+        content: "Summarize the last 3 campaigns and suggest 2 optimizations to improve open rates.",
+        isParagraph: true
+      },
+
+      {
+        title: "4. Memory (Business Data Awareness) ",
+        type: "heading",
+        isHeading: true,
+      },
+      {
+        content: "Memory is where Copilot becomes truly context-aware. Instead of starting from scratch, you can add your website and ICP details, and Copilot will personalize everything.",
+        isParagraph: true
+      },
+      {
+        src: "/memory.jpg",
+        alt: "SalesTarget Copilot Memory feature asking the user to enter their website URL to extract business data.",
+        caption: "Optional caption text",
+        type: "image",
+        isImage: true
+      },
+      {
+        stepTitle: "Step 1. Add Your Website",
+        isStep: true
+      },
+      {
+        content: "Enter your website URL, and Copilot instantly extracts your company name, description, awards, and outreach goals. ",
+        isParagraph: true
+      },
+      {
+
+        src: "/memory1.jpg",
+        alt: "SalesTarget Copilot Memory panel for entering website details including URL,company name, description, awards, and outreach goals.",
+        caption: "",
+        isImage: true
+      },
+      {
+        src: "/memory2.jpg",
+        alt: "SalesTarget Copilot Memory screen for defining Ideal Customer Profiles with fields like company size, challenges, and unique selling points.",
+        caption: "",
+        isImage: true
+      },
+      {
+        stepTitle: "Step 2. Define Customer Profiles",
+        isStep: true
+      },
+      {
+        content: "Add Ideal Customer Profiles (ICPs) — company size, problems solved, benefits, and unique selling points.",
+        isParagraph: true
+      },
+      {
+        src: "/memory3.jpg",
+        alt: "Image description",
+        caption: "",
+        isImage: true
+      },
+      {
+        stepTitle: "Step 3. Add Guidance Rules",
+        isStep: true
+      },
+      {
+        content: "Set up smart rules (up to 10) to guide tone, style, and outreach strategy.",
+        isParagraph: true
+      },
+      {
+        content: "Example Rules:",
+        isParagraph: true
+      },
+      {
+        description: " Keep subject lines under 6 words.",
+      },
+      {
+        description: "Always include a calendar link in the last email ",
+      },
+      {
+        description: " Prioritize SaaS companies in APAC  ",
+      },
+      {
+        src: "/Picture9.jpg",
+        alt: " SalesTarget Copilot Memory Guidance tab where users can add up to 10 smart rules to guide outreach preferences.",
+        caption: "",
+        isImage: true
+      },
+      {
+        src: "/Picture10.jpg",
+        alt: " SalesTarget Copilot popup for adding a new rule, with example text: “Always include a calendar link in the last email.”",
+        caption: "",
+        isImage: true
+      },
+
+
+      {
+        title: "Why Memory Matters",
+        type: "heading",
+        isHeading: true
+      },
+      {
+        title: "Consistent Messaging ",
+        description: "Copilot always speaks in your brand voice"
+      },
+      {
+        title: "Context-Aware Responses",
+        description: "Prompts and drafts reflect your ICP and positioning."
+      },
+      {
+        title: "Faster Setup ",
+        description: " No need to repeat background info. "
+      },
+      {
+        title: "Smarter Outreach ",
+        description: "Recommendations tied to your real business data."
+      },
+
+      {
+        content: " Example Prompt:",
+        isParagraph: true
+      },
+      {
+        content: "Based on our website and ICP for mid-market SaaS teams, draft a 3-step cold email sequence to highlight automation benefits.”",
+        isParagraph: true
+      },
+      {
+        title: "Your Copilot Workspace",
+        isHeading: true
+      },
+      {
+        content: "With the SalesTarget.ai Copilot dashboard, you can:",
+        isParagraph: true
+      },
+      {
+        title: "New Chat ",
+        description: "Ask Copilot anything (e.g., “Find ideal prospects” or “Summarize this campaign”)."
+      },
+      {
+        title: "Memory",
+        description: "Add your website so Copilot can read and use your business data."
+      },
+      {
+        title: "Analytics",
+        description: "Review campaign outcomes and get improvement suggestions."
+      },
+      {
+        title: "How Copilot Fits Your Sales Workflow",
+        isHeading: true
+      },
+      {
+        title: "	Define ICP ",
+        description: "Copilot builds filters in Lead Explorer."
+      },
+      {
+        title: "Generate List ",
+        description: "Copilot recommends size + adjacent segments."
+      },
+      {
+        title: "	Write Outreach Sequence ",
+        description: "Copilot drafts, personalizes, and A/B tests."
+      },
+      {
+        title: " Send in Batches ",
+        description: "→ Copilot monitors and optimizes"
+      },
+      {
+        title: "	Use Memory",
+        description: "Copilot references your website for smarter outputs."
+      },
+      {
+        title: " Quick Start (In 10 Minutes) ",
+        isHeading: true
+      },
+      {
+        description: "Log in to SalesTarget.ai → find Copilot in the sidebar."
+      },
+      {
+        description: "Pick a goal (e.g., “Book 5 FinTech discovery calls this week”)."
+      },
+      {
+        description: "Paste your ICP (or let Copilot ask questions)"
+      },
+      {
+        description: " Generate a sequence → choose tone + personalization "
+      },
+      {
+        description: "	Create a 25-contact test list → hit send."
+      },
+      {
+        description: "	Add your website to Memory → let Copilot tailor outputs."
+      },
+      {
+        title: "Free Access Recap",
+        isHeading: true
+      },
+      {
+        title: "Copilot (AI sales assistant)",
+        description: "Always free"
+      },
+      {
+        title: "AI Email Outreach",
+        description: "7-day trial + 100 credits"
+      },
+      {
+        title: "Lead Explorer",
+        description: "7-day trial + 100 credits"
+      },
+      {
+        title: "Upload Data",
+        description: "100 credits (CSV + enrichment)"
+      },
+
+      {
+        title: "Prompt Recipes (Copy/Paste)",
+        isHeading: true
+      },
+      {
+        title: "Subject lines",
+        description: "10 subject lines for SaaS Heads of Sales about reducing prospecting time "
+      },
+      {
+        title: "Personalization:",
+        description: "1-sentence opener using {first_name}, {company}, and {recent_news}"
+      },
+      {
+        title: "Objection handling",
+        description: "Reply to ‘We’re doing this in-house’ with a short invite for a 15-minute teardown."
+      },
+      {
+        title: "Follow-ups",
+        description: "Day-3 follow-up if opened but no reply. Offer 2 time slots"
+      },
+      {
+        title: "Deals Summary",
+        description: "Summarize last 5 emails with Contoso and propose next action"
+      },
+      {
+        title: "Memory prompt",
+        description: "Use our website content and generate a 3-step outreach for SMB FinTech prospects."
+      },
+      {
+        title: "Best Practices",
+        isHeading: true
+      },
+      {
+        description: "Start with 25–50 contacts, then scale"
+      },
+      {
+        description: "Keep ICP segments tight (industry + role + region)"
+      },
+      {
+        description: "Cold emails ≤120 words, subject lines 4–6 words"
+      },
+      {
+        description: "Use one clear CTA per email."
+      },
+      {
+        description: "Add your website to Memory early so Copilot learns your messaging"
+      },
+      {
+        title: "Who Benefits Most",
+        isHeading: true
+      },
+      {
+        title: "Founders & Solo Sellers",
+        description: "Faster to first meetings"
+      },
+      {
+        title: "SDRs / BDRs",
+        description: "Build lists + launch campaigns faster."
+      },
+      {
+        title: "Sales Leaders / RevOps",
+        description: "Cleaner pipeline, weekly clarity"
+      },
+      {
+        title: "Agencies",
+        description: "Reusable playbooks for multiple clients"
+      }
 
     ],
-    
+
 
     faq: [
 
       {
-      title:"Is Copilot free?",
-      description:"Yes. Copilot is completely free inside SalesTarget.ai"
+        title: "Is Copilot free?",
+        description: "Yes. Copilot is completely free inside SalesTarget.ai"
       },
 
       {
-        title:"Does Copilot replace sales reps?",
-        description:"No. It assists reps with writing, research, and recommendations. Strategy and relationships stay human."
+        title: "Does Copilot replace sales reps?",
+        description: "No. It assists reps with writing, research, and recommendations. Strategy and relationships stay human."
       },
 
       {
-        title:"How do trials/credits work?",
-        description:"Copilot is free. Email Outreach, Lead Explorer, and Upload Data come with 100 credits each. CRM has a 7-day trial."
+        title: "How do trials/credits work?",
+        description: "Copilot is free. Email Outreach, Lead Explorer, and Upload Data come with 100 credits each. CRM has a 7-day trial."
       },
 
       {
-        title:"Is my sales data secure?",
-        description : "Yes. Your workspace data stays in your account. Imports, lists, and enrichment are private to you"
+        title: "Is my sales data secure?",
+        description: "Yes. Your workspace data stays in your account. Imports, lists, and enrichment are private to you"
       },
 
       {
-        title:"Does Memory store my website data?",
-        description:"Yes. When you add your website, Copilot securely pulls content for context-aware responses. Data remains private to your account."
+        title: "Does Memory store my website data?",
+        description: "Yes. When you add your website, Copilot securely pulls content for context-aware responses. Data remains private to your account."
       },
       {
-        title:"Ready to Try Copilot?",
-        description:"Log in to SalesTarget.ai, enter your ICP and sales goal, and let Copilot handle outreach, lead generation, CRM insights, analytics, and website-based Memory — all in one place"
+        title: "Ready to Try Copilot?",
+        description: "Log in to SalesTarget.ai, enter your ICP and sales goal, and let Copilot handle outreach, lead generation, CRM insights, analytics, and website-based Memory — all in one place"
       },
       {
-        title:"Need help? Email support@salestarget.ai for a quick start playbook."
+        title: "Need help? Email support@salestarget.ai for a quick start playbook."
       }
     ],
 
-    
-    
+
+
   },
 
   {
@@ -2098,125 +2098,125 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     title: "Try SalesTarget.ai Free — Do Real Sales Work in 7 Days",
     updated: "",
     content: `Choosing a sales platform shouldn’t feel like a leap of faith. You need proof it fits your workflow and actually moves pipeline. That’s why SalesTarget.ai gives you hands-on access to the core tools—so you can build lists, run AI email outreach, and track deals before you ever pay.Below is a clear breakdown of what’s included, how credits work (with separate buckets you can track), and a one-week plan to see results fast.`,
-   metaTitle: "Try SalesTarget.ai Free | 7-Day Trial with AI Email, CRM & Copilot",
+    metaTitle: "Try SalesTarget.ai Free | 7-Day Trial with AI Email, CRM & Copilot",
     metaDescription: "Start a 7-day free trial of SalesTarget.ai. Build lead lists, run AI-powered outreach, manage CRM, and get unlimited help from Copilot—all before you pay.",
     metaKeywords: "SalesTarget.ai, free trial, AI email outreach, CRM trial, B2B leads, sales automation, AI sales assistant, Copilot",
 
     features: [
-      
+
       {
-        title:"What you get (at a glance)",
-        isHeading:true
+        title: "What you get (at a glance)",
+        isHeading: true
 
       },
       {
         isTable: true,
-        headers: ["Product/Feature", "Free Access " , " What it lets you do "],
-        rows : [["AI Email Outreach", "7-day trial + 100 credits" , "Create multi-step sequences, have AI write &amp; personalize copy, A/B test subject lines, and automate follow-ups."] ,
+        headers: ["Product/Feature", "Free Access ", " What it lets you do "],
+        rows: [["AI Email Outreach", "7-day trial + 100 credits", "Create multi-step sequences, have AI write &amp; personalize copy, A/B test subject lines, and automate follow-ups."],
 
 
-        ["CRM", "7-day trial" , "Track opportunities, stages, tasks, notes, and pipeline analytics—all in one place."],
+        ["CRM", "7-day trial", "Track opportunities, stages, tasks, notes, and pipeline analytics—all in one place."],
 
-        ["Lead Explorer (AI-powered)" , "7-day trial + 100 credits" , "Find ICP-matched, verified B2B contacts with AI suggestions for lookalike accounts; enrich and save lists to campaigns."],
+        ["Lead Explorer (AI-powered)", "7-day trial + 100 credits", "Find ICP-matched, verified B2B contacts with AI suggestions for lookalike accounts; enrich and save lists to campaigns."],
 
-        ["Copilot (AI assistant)" , "Free" , "Ask for campaign ideas, write copy, summarize activity, and get next-best actions anywhere in the app."] ,
+        ["Copilot (AI assistant)", "Free", "Ask for campaign ideas, write copy, summarize activity, and get next-best actions anywhere in the app."],
 
-        ["Upload Your Data (BYO leads)" , "100 credits" , "Import a CSV and we'll automatically add missing details, remove duplicates, and put each column in the right place—ready for AI Email Outreach and CRM ."]
-      ]
+        ["Upload Your Data (BYO leads)", "100 credits", "Import a CSV and we'll automatically add missing details, remove duplicates, and put each column in the right place—ready for AI Email Outreach and CRM ."]
+        ]
       },
 
       {
         title: "Credits dashboard:",
-        description:"You get three separate 100-credit buckets—Lead Explorer, AI Email Outreach, and Upload Your Data. Your live balances are visible in the app so you can plan usage with no surprises."
+        description: "You get three separate 100-credit buckets—Lead Explorer, AI Email Outreach, and Upload Your Data. Your live balances are visible in the app so you can plan usage with no surprises."
       },
-  
-    
+
+
       {
         title: "Why start with a trial?",
-        isHeading:true
+        isHeading: true
       },
       {
-        title:"Low risk, high signal.",
-        description:"In a week you’ll know if SalesTarget.ai fits your team."
+        title: "Low risk, high signal.",
+        description: "In a week you’ll know if SalesTarget.ai fits your team."
       },
       {
-        title:"Real work, not demos.",
-        description:"Build a list, run AI outreach, log replies, move deals."
+        title: "Real work, not demos.",
+        description: "Build a list, run AI outreach, log replies, move deals."
       },
       {
-        title:"Everything connected.",
-        description:"Lead Explorer ↔ AI Email ↔ CRM, with Copilot helping at each step."
+        title: "Everything connected.",
+        description: "Lead Explorer ↔ AI Email ↔ CRM, with Copilot helping at each step."
       },
       {
         title: "Get started in minutes",
-        isHeading:true
+        isHeading: true
       },
       {
-        description:"Create your workspace at salestarget.ai and log in.",
+        description: "Create your workspace at salestarget.ai and log in.",
       },
       {
-        description:"Activate trials for AI Email Outreach, CRM, and Lead Explorer (Copilot is free and ready).",
+        description: "Activate trials for AI Email Outreach, CRM, and Lead Explorer (Copilot is free and ready).",
       },
       {
-        description:"Define your ICP (industry, role, company size, region).",
+        description: "Define your ICP (industry, role, company size, region).",
       },
       {
-        description:"Draft a sequence with Copilot (3–5 steps), personalize with variables, and set your sending window.",
+        description: "Draft a sequence with Copilot (3–5 steps), personalize with variables, and set your sending window.",
       },
       {
-        description:"Launch a small batch (e.g., 25 contacts), then scale what works.",
+        description: "Launch a small batch (e.g., 25 contacts), then scale what works.",
       },
       {
-        title:"A 7-day blueprint (so you get real signal)",
-        isHeading:true
+        title: "A 7-day blueprint (so you get real signal)",
+        isHeading: true
       },
       {
-        title:"Day 1 — Setup & strategy",
-        description:"Connect your sender email, define your ICP, and ask Copilot for angles and subject lines."
+        title: "Day 1 — Setup & strategy",
+        description: "Connect your sender email, define your ICP, and ask Copilot for angles and subject lines."
       },
       {
-        title:"Day 2 — Build your first list (Lead Explorer)",
-        description:"Use filters + AI suggestions to generate a tight segment. Spend Lead Explorer credits on best-fit contacts."
+        title: "Day 2 — Build your first list (Lead Explorer)",
+        description: "Use filters + AI suggestions to generate a tight segment. Spend Lead Explorer credits on best-fit contacts."
       },
       {
-        title:"Day 3 — Sequence (AI Email Outreach)",
-        description:"Use Copilot to draft and personalize a 3–5 step sequence. Add a clear CTA."
+        title: "Day 3 — Sequence (AI Email Outreach)",
+        description: "Use Copilot to draft and personalize a 3–5 step sequence. Add a clear CTA."
       },
       {
-        title:"Day 4 — Send &; monitor",
-        description:"Start with a small cohort. Track opens, clicks, and replies. Push engaged contacts into CRM."
+        title: "Day 4 — Send &; monitor",
+        description: "Start with a small cohort. Track opens, clicks, and replies. Push engaged contacts into CRM."
       },
       {
-        title:"Day 5 — Follow-ups &; deals (CRM)",
-        description:"Log calls/notes, move opportunities through stages, set tasks. Ask Copilot to summarize progress."
+        title: "Day 5 — Follow-ups &; deals (CRM)",
+        description: "Log calls/notes, move opportunities through stages, set tasks. Ask Copilot to summarize progress."
       },
       {
-        title:"Day 6 — Improve",
-        description:"Test a new subject line or opener. Try a second micro-segment (different industry or seniority)."
+        title: "Day 6 — Improve",
+        description: "Test a new subject line or opener. Try a second micro-segment (different industry or seniority)."
       },
       {
-        title:"Day 7 — Review outcomes",
-        description:"Check replies and meetings booked, opportunities created, and pipeline value. Decide what to scale."
+        title: "Day 7 — Review outcomes",
+        description: "Check replies and meetings booked, opportunities created, and pipeline value. Decide what to scale."
       },
       {
-        title:"Tips to stretch your credits",
-        isHeading:true
+        title: "Tips to stretch your credits",
+        isHeading: true
       },
       {
-        description:"Aim for quality &gt; quantity: one tightly defined segment beats a broad blast.",
+        description: "Aim for quality &gt; quantity: one tightly defined segment beats a broad blast.",
       },
       {
-        description:"Use Copilot for fast personalization to lift replies without manual work.",
+        description: "Use Copilot for fast personalization to lift replies without manual work.",
       },
       {
-        description:"Batch test 2 subject lines × 2 openers; keep the winner, pause the loser.",
+        description: "Batch test 2 subject lines × 2 openers; keep the winner, pause the loser.",
       },
       {
-        description:"Keep CRM stages tidy—clean data makes your week-one analytics meaningful..",
+        description: "Keep CRM stages tidy—clean data makes your week-one analytics meaningful..",
       },
 
     ],
-    
+
 
     faq: [
       {
@@ -2237,30 +2237,30 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "Ready to try it?",
-        isHeading:true
+        isHeading: true
       },
       {
-        title:"AI Email Outreach:",
-        description:"7-day free trial + 100 credits"
+        title: "AI Email Outreach:",
+        description: "7-day free trial + 100 credits"
       },
       {
-        title:"CRM:",
-        description:"7-day free trial "
+        title: "CRM:",
+        description: "7-day free trial "
       },
       {
-        title:"Lead Explorer (AI-powered):",
-        description:"7-day free trial + 100 credits"
+        title: "Lead Explorer (AI-powered):",
+        description: "7-day free trial + 100 credits"
       },
       {
-        title:"Upload Your Data:",
-        description:"100 credits"
+        title: "Upload Your Data:",
+        description: "100 credits"
       },
       {
-        title:"Copilot (AI assistant):",
-        description:"Free"
+        title: "Copilot (AI assistant):",
+        description: "Free"
       },
       {
-        title:"Start here: salestarget.ai → create your workspace → enable the trials. Need help? Email support@salestarget.ai—we’ll get you productive on Day 1."
+        title: "Start here: salestarget.ai → create your workspace → enable the trials. Need help? Email support@salestarget.ai—we’ll get you productive on Day 1."
       }
     ],
   },
@@ -2279,260 +2279,260 @@ your very first outbound campaign or adding new domains to scale, a structured w
 process ensures your messages reach inboxes — not spam folders.
 In this guide, I’ll walk you through a proven warm-up strategy we use at SalesTarget.ai, plus
 how our automated warm-up tool can save you from all the manual effort.`,
-metaTitle: "The Ultimate Cold Email Warm-Up Plan | Build Strong Sender Reputation",
+    metaTitle: "The Ultimate Cold Email Warm-Up Plan | Build Strong Sender Reputation",
     metaDescription: "Learn how to warm up cold email accounts the right way. Follow our proven 3-step warm-up plan and automate the process with SalesTarget.ai to boost deliverability.",
     metaKeywords: "cold email warm-up , email deliverability,sender reputation,B2B outreach,SalesTarget.ai warm-up tool,inbox placement,AI email automation",
 
     features: [
       {
-        title:"What Is Email Warm-Up (and Why Does It Matter)?",
-        isHeading:true,
-      
+        title: "What Is Email Warm-Up (and Why Does It Matter)?",
+        isHeading: true,
+
       },
       {
-        content : "Email warm-up is the process of gradually building trust with inbox providers before you send cold campaigns at scale.Inbox providers like Gmail, Outlook, and Yahoo constantly monitor how people interact with your emails. If you suddenly blast hundreds of cold emails from a fresh domain, it raises red flags — and your messages are likely to land in spam.",
-        isParagraph:true
-      },
-      {
-        content:"A warm-up plan fixes this by:",
-        isParagraph:true
-      },
-      {
-        description:"Gradually increasing sending volume."
-      },
-      {
-        description:"Simulating natural email behavior (opens, replies, forwards)."
-      },
-      {
-        description:"Improving engagement signals.",
-      },
-      {
-        description:"Protecting your domain reputation for the long term."
-      },
-      {
-        content:"Without warm-up, even the best-crafted campaigns risk being wasted in spam.",
-        isParagraph:true
-      },
-      {
-        title:"The SalesTarget.ai Warm-Up Formula",
-        isHeading:true
-      },
-      {
-        content:"We recommend a simple, structured approach for every new domain and email account.",
+        content: "Email warm-up is the process of gradually building trust with inbox providers before you send cold campaigns at scale.Inbox providers like Gmail, Outlook, and Yahoo constantly monitor how people interact with your emails. If you suddenly blast hundreds of cold emails from a fresh domain, it raises red flags — and your messages are likely to land in spam.",
         isParagraph: true
       },
       {
-        description:"Each domain can connect up to 5 email accounts."
+        content: "A warm-up plan fixes this by:",
+        isParagraph: true
       },
       {
-        description:"Each account can safely send 30 emails per day once warmed up."
+        description: "Gradually increasing sending volume."
       },
       {
-        description:"That means one domain = 150 high-quality cold emails/day at full strength."
+        description: "Simulating natural email behavior (opens, replies, forwards)."
       },
       {
-        content:"Here’s how to get there:",
-        isParagraph:true
+        description: "Improving engagement signals.",
       },
       {
-        stepTitle:"Step 1: Start Small",
+        description: "Protecting your domain reputation for the long term."
+      },
+      {
+        content: "Without warm-up, even the best-crafted campaigns risk being wasted in spam.",
+        isParagraph: true
+      },
+      {
+        title: "The SalesTarget.ai Warm-Up Formula",
+        isHeading: true
+      },
+      {
+        content: "We recommend a simple, structured approach for every new domain and email account.",
+        isParagraph: true
+      },
+      {
+        description: "Each domain can connect up to 5 email accounts."
+      },
+      {
+        description: "Each account can safely send 30 emails per day once warmed up."
+      },
+      {
+        description: "That means one domain = 150 high-quality cold emails/day at full strength."
+      },
+      {
+        content: "Here’s how to get there:",
+        isParagraph: true
+      },
+      {
+        stepTitle: "Step 1: Start Small",
         isStep: true
       },
       {
-        description:"Begin with 5 emails per account per day."
+        description: "Begin with 5 emails per account per day."
       },
       {
-        description:"Keep this steady during the first week."
+        description: "Keep this steady during the first week."
       },
       {
-        description:"Focus on sending personalized messages unlikely to be flagged as spam."
+        description: "Focus on sending personalized messages unlikely to be flagged as spam."
       },
       {
-         stepTitle:"Step 2: Gradually Increase Volume",
+        stepTitle: "Step 2: Gradually Increase Volume",
         isStep: true
       },
       {
-        description:"After week 1, increase sending by +10 emails per account per week."
+        description: "After week 1, increase sending by +10 emails per account per week."
       },
       {
-        description:"Example timeline:"
+        description: "Example timeline:"
       },
       {
-        description:"Week 1 → 5 emails/account"
+        description: "Week 1 → 5 emails/account"
       },
       {
-        description:"Week 2 → 15 emails/account"
+        description: "Week 2 → 15 emails/account"
       },
       {
-        description:"Week 3 → 25 emails/account "
+        description: "Week 3 → 25 emails/account "
       },
       {
-        description:"Week 4 → 35 emails/account"
+        description: "Week 4 → 35 emails/account"
       },
       {
-        stepTitle:"Step 3: Maintain the Reputation",
-        isStep:true
+        stepTitle: "Step 3: Maintain the Reputation",
+        isStep: true
       },
       {
-        description:"Stay consistent at 30/day/account."
+        description: "Stay consistent at 30/day/account."
       },
       {
-        description:"Add new domains/accounts if you need more volume."
+        description: "Add new domains/accounts if you need more volume."
       },
       {
-        description:"Never jump from low to high overnight."
+        description: "Never jump from low to high overnight."
       },
       {
-        content:"Think of warm-up like going to the gym — you wouldn’t lift 200 lbs on Day 1. Build gradually to avoid injury (or in this case, the spam folder).",
-        isParagraph:true
+        content: "Think of warm-up like going to the gym — you wouldn’t lift 200 lbs on Day 1. Build gradually to avoid injury (or in this case, the spam folder).",
+        isParagraph: true
       },
       {
-        title:"Automating Warm-Up with SalesTarget.ai",
-        isHeading:true
+        title: "Automating Warm-Up with SalesTarget.ai",
+        isHeading: true
       },
       {
-        content:"Manually sticking to a warm-up schedule takes discipline. And honestly, most teams forget or get inconsistent.",
-        isParagraph:true
+        content: "Manually sticking to a warm-up schedule takes discipline. And honestly, most teams forget or get inconsistent.",
+        isParagraph: true
       },
       {
-        content:"That’s why we built the SalesTarget.ai automated warm-up tool. With one click, it handles everything for you:",
-        isParagraph:true
-      
+        content: "That’s why we built the SalesTarget.ai automated warm-up tool. With one click, it handles everything for you:",
+        isParagraph: true
+
       },
       {
-        description:"Positive engagement simulation → Generates realistic opens, replies, and forwards."
+        description: "Positive engagement simulation → Generates realistic opens, replies, and forwards."
       },
       {
-        description:"Reputation training → Inbox providers begin trusting your domain."
+        description: "Reputation training → Inbox providers begin trusting your domain."
       },
       {
-        description:"Set-and-forget convenience → No micromanaging."
+        description: "Set-and-forget convenience → No micromanaging."
       },
       {
-        content:"This means you’ll never have to worry about your cold emails being stuck in spam again.",
-        isParagraph:true
+        content: "This means you’ll never have to worry about your cold emails being stuck in spam again.",
+        isParagraph: true
       },
       {
-        title:"Putting It All Together",
-        isHeading:true
+        title: "Putting It All Together",
+        isHeading: true
       },
       {
-        content:"A successful cold email strategy starts with one thing: deliverability. Without it, even the best campaign won’t convert.",
-        isParagraph:true
+        content: "A successful cold email strategy starts with one thing: deliverability. Without it, even the best campaign won’t convert.",
+        isParagraph: true
       },
       {
-        content:"Here’s the winning formula to remember:",
-        isParagraph:true
+        content: "Here’s the winning formula to remember:",
+        isParagraph: true
       },
       {
-        description:"Use 5 accounts per domain."
+        description: "Use 5 accounts per domain."
       },
       {
-        description:"Stick to 30 emails/day/account."
+        description: "Stick to 30 emails/day/account."
       },
       {
-        description:"Follow the gradual warm-up schedule (5 → 15 → 25 → 30)."
+        description: "Follow the gradual warm-up schedule (5 → 15 → 25 → 30)."
       },
       {
-        description:"Use SalesTarget.ai’s automated warm-up tool to stay consistent."
+        description: "Use SalesTarget.ai’s automated warm-up tool to stay consistent."
       },
       {
-        content:"Combine discipline with automation, and you’ll build a bulletproof sender reputation that gets you into more inboxes and books more meetings.",
-        isParagraph:true
+        content: "Combine discipline with automation, and you’ll build a bulletproof sender reputation that gets you into more inboxes and books more meetings.",
+        isParagraph: true
       },
       {
-        title:" Beyond Warm-Up: Meet Copilot",
-        isHeading:true
+        title: " Beyond Warm-Up: Meet Copilot",
+        isHeading: true
       },
       {
-        content:"Warm-up gets your emails into the inbox. But what do you say once you’re there? That’s where Copilot in SalesTarget.ai comes in.",
-        isParagraph:true
+        content: "Warm-up gets your emails into the inbox. But what do you say once you’re there? That’s where Copilot in SalesTarget.ai comes in.",
+        isParagraph: true
       },
       {
-        title:"Copilot is your AI-powered sales assistant that helps you:",
-        isHeading:true
+        title: "Copilot is your AI-powered sales assistant that helps you:",
+        isHeading: true
       },
       {
-        description:"Find the right leads instantly from a 50M+ verified database."
+        description: "Find the right leads instantly from a 50M+ verified database."
       },
       {
-        description:"Generate complete cold email campaigns with sequences and follow-ups."
+        description: "Generate complete cold email campaigns with sequences and follow-ups."
       },
       {
-        description:"Analyze performance and show you which campaigns drive revenue."
+        description: "Analyze performance and show you which campaigns drive revenue."
       },
       {
-        description:"Recommend expert next steps to improve results."
+        description: "Recommend expert next steps to improve results."
       },
       {
-        content:"Think of it this way: Warm-up = delivery. Copilot = conversion. Together, they cover the entire cold email journey.",
-        isParagraph:true
+        content: "Think of it this way: Warm-up = delivery. Copilot = conversion. Together, they cover the entire cold email journey.",
+        isParagraph: true
       },
       {
-        title:"Ready to Scale Cold Email Outreach?",
-        isHeading:true
+        title: "Ready to Scale Cold Email Outreach?",
+        isHeading: true
       },
       {
-        content:"SalesTarget.ai is more than just a warm-up tool. It’s a complete outbound sales platform that gives you:",
-        isParagraph:true
+        content: "SalesTarget.ai is more than just a warm-up tool. It’s a complete outbound sales platform that gives you:",
+        isParagraph: true
       },
       {
-        title:"Cold Email Outreach",
-        description:"with deliverability safeguards."
+        title: "Cold Email Outreach",
+        description: "with deliverability safeguards."
       },
       {
-        title:"Lead Explorer",
-        description:"with 50M+ verified B2B contacts."
+        title: "Lead Explorer",
+        description: "with 50M+ verified B2B contacts."
       },
       {
-        title:"CRM",
-        description:"to manage conversations and deals."
+        title: "CRM",
+        description: "to manage conversations and deals."
       },
       {
-        title:"Copilot AI",
-        description:"to plan, launch, and optimize campaigns."
+        title: "Copilot AI",
+        description: "to plan, launch, and optimize campaigns."
       },
       {
-        content:"Start with a free trial today and launch inbox-ready campaigns in minutes.",
-        isParagraph:true
+        content: "Start with a free trial today and launch inbox-ready campaigns in minutes.",
+        isParagraph: true
       },
       {
-        content:"Get Started with SalesTarget.ai",
-        isParagraph:true
+        content: "Get Started with SalesTarget.ai",
+        isParagraph: true
       }
 
     ],
-    
+
 
     faq: [
       {
-      title:"How long does email warm-up take?",
-      description: "Typically, it takes 3–4 weeks to fully warm up a new account. The exact time depends on your sending volume, engagement rates, and how consistent you are with the process."
+        title: "How long does email warm-up take?",
+        description: "Typically, it takes 3–4 weeks to fully warm up a new account. The exact time depends on your sending volume, engagement rates, and how consistent you are with the process."
       },
       {
-        title:"Can I skip warm-up if I already have an old domain?",
-        description:"Not recommended. Even if your domain is aged, if it hasn’t been used for outreach recently, inbox providers may still flag sudden spikes in volume. A light warm-up is always a safe step."
+        title: "Can I skip warm-up if I already have an old domain?",
+        description: "Not recommended. Even if your domain is aged, if it hasn’t been used for outreach recently, inbox providers may still flag sudden spikes in volume. A light warm-up is always a safe step."
       },
       {
-        title:"How many emails should I start with during warm-up?",
-        description:"We suggest starting with 5 emails per account per day and gradually increasing by +10 each week until you reach 30/day/account."
+        title: "How many emails should I start with during warm-up?",
+        description: "We suggest starting with 5 emails per account per day and gradually increasing by +10 each week until you reach 30/day/account."
       },
       {
-        title:"What happens if I send too many emails too soon?",
-        description:"Your domain reputation could suffer, leading to emails going to spam or promotions tab. In some cases, providers may even suspend your account."
+        title: "What happens if I send too many emails too soon?",
+        description: "Your domain reputation could suffer, leading to emails going to spam or promotions tab. In some cases, providers may even suspend your account."
       },
       {
-        title:"Do I need multiple domains for cold outreach?",
-        description:"Yes, if you plan to scale. Each domain can safely manage up to 5 accounts, sending about 150 emails/day in total. More domains = higher safe sending volume."
+        title: "Do I need multiple domains for cold outreach?",
+        description: "Yes, if you plan to scale. Each domain can safely manage up to 5 accounts, sending about 150 emails/day in total. More domains = higher safe sending volume."
       },
       {
-        title:"Why use an automated warm-up tool instead of manual warm-up? ",
-        description:" Manual warm-up requires discipline and consistency, but most teams forget or lose track. Automated tools like SalesTarget.ai simulate real engagement (opens, replies, forwards) — ensuring your reputation grows steadily without manual effort."
+        title: "Why use an automated warm-up tool instead of manual warm-up? ",
+        description: " Manual warm-up requires discipline and consistency, but most teams forget or lose track. Automated tools like SalesTarget.ai simulate real engagement (opens, replies, forwards) — ensuring your reputation grows steadily without manual effort."
       }
     ],
   },
-  
- {
+
+  {
     id: "70",
     title: "CRM Setup & FAQ Guide",
     updated: "",
@@ -2540,45 +2540,45 @@ metaTitle: "The Ultimate Cold Email Warm-Up Plan | Build Strong Sender Reputatio
 step-by-step answers to common questions so you can maximize our CRM’s
 features. Use it as a quick reference to manage your dashboard, emails, deals,
 meetings, tasks, reports, and team members effectively.`,
-// metaTitle: "The Ultimate Cold Email Warm-Up Plan | Build Strong Sender Reputation",
-//     metaDescription: "Learn how to warm up cold email accounts the right way. Follow our proven 3-step warm-up plan and automate the process with SalesTarget.ai to boost deliverability.",
-//     metaKeywords: "cold email warm-up , email deliverability,sender reputation,B2B outreach,SalesTarget.ai warm-up tool,inbox placement,AI email automation",
+    // metaTitle: "The Ultimate Cold Email Warm-Up Plan | Build Strong Sender Reputation",
+    //     metaDescription: "Learn how to warm up cold email accounts the right way. Follow our proven 3-step warm-up plan and automate the process with SalesTarget.ai to boost deliverability.",
+    //     metaKeywords: "cold email warm-up , email deliverability,sender reputation,B2B outreach,SalesTarget.ai warm-up tool,inbox placement,AI email automation",
 
     features: [
       {
-        title:"1. What is the core value of SalesTarget.ai CRM?",
-        type:"heading",
+        title: "1. What is the core value of SalesTarget.ai CRM?",
+        type: "heading",
         isHeading: true
-      
+
       },
       {
-        content:"Answer: SalesTarget.ai CRM provides a centralized hub to manage your entire sales process—emails, tasks, meetings, deals, reports, and team collaboration—without switching between multiple tools. It’s designed to streamline lead management,improve productivity, and give leadership a clear overview of sales performance.",
-        type:"paragraph",
+        content: "Answer: SalesTarget.ai CRM provides a centralized hub to manage your entire sales process—emails, tasks, meetings, deals, reports, and team collaboration—without switching between multiple tools. It’s designed to streamline lead management,improve productivity, and give leadership a clear overview of sales performance.",
+        type: "paragraph",
         isParagraph: true
       },
 
-       {
-        title:"2. How does the Dashboard help me?",
-        type:"heading",
+      {
+        title: "2. How does the Dashboard help me?",
+        type: "heading",
         isHeading: true
-      
+
       },
       {
-        content:" Answer: The Dashboard gives you a snapshot view of your organization’s activity.You can instantly see:",
-        type:"paragraph",
+        content: " Answer: The Dashboard gives you a snapshot view of your organization’s activity.You can instantly see:",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Email stats"
+        description: "Email stats"
       },
       {
-        description:"Tasks and Meetings"
+        description: "Tasks and Meetings"
       },
       {
-        description:"Closed Deals"
+        description: "Closed Deals"
       },
       {
-        description:"Recommended Leads"
+        description: "Recommended Leads"
       },
       {
         content: "This means you don’t need to dig through multiple reports to understand where your pipeline stands.",
@@ -2587,1458 +2587,1458 @@ meetings, tasks, reports, and team members effectively.`,
       },
 
       {
-        title:"3. Can my team manage emails directly inside the CRM?",
-        type:"heading",
+        title: "3. Can my team manage emails directly inside the CRM?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Yes. Once your email is linked, you can send, receive, and reply to emails directly from the platform—keeping communication centralized.",
-        type:"paragraph",
+        content: "Answer: Yes. Once your email is linked, you can send, receive, and reply to emails directly from the platform—keeping communication centralized.",
+        type: "paragraph",
         isParagraph: true
       },
 
       {
-        title:"4. How do Deals work inside SalesTarget.ai?",
-        type:"heading",
+        title: "4. How do Deals work inside SalesTarget.ai?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Deals can be created, assigned, and tracked through customizable stages. You can drag-and-drop deals as they progress, giving full pipeline visibility.",
-        type:"paragraph",
+        content: "Answer: Deals can be created, assigned, and tracked through customizable stages. You can drag-and-drop deals as they progress, giving full pipeline visibility.",
+        type: "paragraph",
         isParagraph: true
       },
 
       {
-        title:"5. How does the Meetings feature integrate with my workflow?",
-        type:"heading",
+        title: "5. How does the Meetings feature integrate with my workflow?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: You can schedule and assign meetings directly from the CRM. Meetings can also be dragged across different statuses (e.g., scheduled, completed), ensuring follow-ups are tracked.",
-        type:"paragraph",
+        content: "Answer: You can schedule and assign meetings directly from the CRM. Meetings can also be dragged across different statuses (e.g., scheduled, completed), ensuring follow-ups are tracked.",
+        type: "paragraph",
         isParagraph: true
       },
 
       {
-        title:"6. How do Tasks help my team stay accountable?",
-        type:"heading",
+        title: "6. How do Tasks help my team stay accountable?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Managers can assign tasks to team members, and agents update the status upon completion. This ensures visibility for admins and accountability for team members.",
-        type:"paragraph",
+        content: "Answer: Managers can assign tasks to team members, and agents update the status upon completion. This ensures visibility for admins and accountability for team members.",
+        type: "paragraph",
         isParagraph: true
       },
 
       {
-        title:"7. What type of reporting can I access?",
-        type:"heading",
+        title: "7. What type of reporting can I access?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: The Reports section provides insights into:",
-        type:"paragraph",
+        content: "Answer: The Reports section provides insights into:",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Emails sent and delivered"
+        description: "Emails sent and delivered"
       },
       {
-        description:"Email trends"
+        description: "Email trends"
       },
       {
-        description:"Analytics and organizational statistics"
+        description: "Analytics and organizational statistics"
       },
       {
-        content:"This helps you track performance and optimize sales strategies.",
-        type:"paragraph",
+        content: "This helps you track performance and optimize sales strategies.",
+        type: "paragraph",
         isParagraph: true
       },
 
       {
-        title:"8. How easy is it to onboard new team members?",
-        type:"heading",
+        title: "8. How easy is it to onboard new team members?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Adding members is simple: go to Configurations → Members, click \"Add Member,\" enter their email, assign a role, and send an invite.",
-        type:"paragraph",
+        content: "Answer: Adding members is simple: go to Configurations → Members, click \"Add Member,\" enter their email, assign a role, and send an invite.",
+        type: "paragraph",
         isParagraph: true
       },
 
       {
-        title:"9. Does SalesTarget.ai CRM integrate with other tools we already use?",
-        type:"heading",
+        title: "9. Does SalesTarget.ai CRM integrate with other tools we already use?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Yes, however, the integration is still under progress and will be available once the platform is updated.",
-        type:"paragraph",
+        content: "Answer: Yes, however, the integration is still under progress and will be available once the platform is updated.",
+        type: "paragraph",
         isParagraph: true
       },
 
       {
-        title:"10. Is there automation for repetitive tasks (e.g., email sequences, reminders)?",
-        type:"heading",
+        title: "10. Is there automation for repetitive tasks (e.g., email sequences, reminders)?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Yes. SalesTarget.ai automates repetitive tasks to save time and boost efficiency.",
-        type:"paragraph",
+        content: "Answer: Yes. SalesTarget.ai automates repetitive tasks to save time and boost efficiency.",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Email automation: Multi-step sequences, smart follow-ups, and response tracking that stop when a reply is received."
+        description: "Email automation: Multi-step sequences, smart follow-ups, and response tracking that stop when a reply is received."
       },
       {
-        description:"Task automation: Auto-scheduled tasks, reminders, and lead assignment to keep workflows moving."
+        description: "Task automation: Auto-scheduled tasks, reminders, and lead assignment to keep workflows moving."
       },
       {
-        description:"Other automation: Lead cleanup, contact validation, and CRM syncing to stay organized with less manual effort."
+        description: "Other automation: Lead cleanup, contact validation, and CRM syncing to stay organized with less manual effort."
       },
       {
-        content:"These features significantly boost productivity by eliminating manual work while maintaining professional communication flow.",
-        type:"paragraph",
+        content: "These features significantly boost productivity by eliminating manual work while maintaining professional communication flow.",
+        type: "paragraph",
         isParagraph: true
       },
 
       {
-        title:"11. How secure is my company's data on SalesTarget.ai?",
-        type:"heading",
+        title: "11. How secure is my company's data on SalesTarget.ai?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: We prioritize your data security with multiple layers of protection.",
-        type:"paragraph",
+        content: "Answer: We prioritize your data security with multiple layers of protection.",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Safeguards: Technical, organizational, and physical measures are in place, though no system is 100% risk-free."
+        description: "Safeguards: Technical, organizational, and physical measures are in place, though no system is 100% risk-free."
       },
       {
-        description:"Compliance: Data is processed under laws like CCPA, with strict confidentiality obligations"
+        description: "Compliance: Data is processed under laws like CCPA, with strict confidentiality obligations"
       },
       {
-        description:"Usage: Your data is only used for authorized purposes defined in our agreement."
+        description: "Usage: Your data is only used for authorized purposes defined in our agreement."
       },
       {
-        description:"Rights: You can access, update, or delete your information anytime. European users have additional GDPR rights."
+        description: "Rights: You can access, update, or delete your information anytime. European users have additional GDPR rights."
       },
       {
-        description:"Transfers: International data transfers follow standard contractual safeguards."
+        description: "Transfers: International data transfers follow standard contractual safeguards."
       },
 
       {
-        title:"12. Can I customize pipelines, reports, or dashboards for my business needs?",
-        type:"heading",
+        title: "12. Can I customize pipelines, reports, or dashboards for my business needs?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Yes. SalesTarget.ai CRM offers extensive customization to fit your business needs.",
-        type:"paragraph",
+        content: "Answer: Yes. SalesTarget.ai CRM offers extensive customization to fit your business needs.",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Workflows: Create custom workflows tailored to your processes for maximum efficiency."
+        description: "Workflows: Create custom workflows tailored to your processes for maximum efficiency."
       },
       {
-        description:"Reports: Generate detailed, customizable reports for data-driven decisions."
+        description: "Reports: Generate detailed, customizable reports for data-driven decisions."
       },
       {
-        description:"Configuration: Easily configure the CRM setup to align with your business requirements."
+        description: "Configuration: Easily configure the CRM setup to align with your business requirements."
       },
       {
-        description:"Advanced options: Custom workflows, fully customizable filters & segments, and dynamic segmentation for smarter, personalized outreach."
+        description: "Advanced options: Custom workflows, fully customizable filters & segments, and dynamic segmentation for smarter, personalized outreach."
       },
       {
-        content:"Our flexible customization ensures your CRM adapts seamlessly to your workflow and customer management needs.",
-        type:"paragraph",
+        content: "Our flexible customization ensures your CRM adapts seamlessly to your workflow and customer management needs.",
+        type: "paragraph",
         isParagraph: true
       },
 
       {
-        title:"13. Does the CRM support mobile access for my sales team?",
-        type:"heading",
+        title: "13. Does the CRM support mobile access for my sales team?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Yes. Our CRM supports mobile access for your sales team.",
-        type:"paragraph",
+        content: "Answer: Yes. Our CRM supports mobile access for your sales team.",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Comprehensive features: Lead management, task scheduling, smart inbox for communications, and automated workflows."
+        description: "Comprehensive features: Lead management, task scheduling, smart inbox for communications, and automated workflows."
       },
       {
-        description:"All-in-one dashboard: Manage emails and pipelines seamlessly on the go."
+        description: "All-in-one dashboard: Manage emails and pipelines seamlessly on the go."
       },
       {
-        description:"One-click integrations: Connect with major platforms and use auto-sync to keep pipelines organized and conversion-ready."
+        description: "One-click integrations: Connect with major platforms and use auto-sync to keep pipelines organized and conversion-ready."
       },
       {
-        description:"Clean interface: A clutter-free design makes it easy to manage leads, track interactions, and close deals faster from anywhere."
+        description: "Clean interface: A clutter-free design makes it easy to manage leads, track interactions, and close deals faster from anywhere."
       },
 
       {
-        title:"14. How scalable is SalesTarget.ai CRM as my team grows?",
-        type:"heading",
+        title: "14. How scalable is SalesTarget.ai CRM as my team grows?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: SalesTarget.ai CRM is built for performance and scalability as your team grows.",
-        type:"paragraph",
+        content: "Answer: SalesTarget.ai CRM is built for performance and scalability as your team grows.",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Enterprise-ready architecture: Supports everything from individual users to large enterprise teams."
+        description: "Enterprise-ready architecture: Supports everything from individual users to large enterprise teams."
       },
       {
-        description:"Flexible credit system: Scalable pricing plans with generous lead credits that expand with your usage."
+        description: "Flexible credit system: Scalable pricing plans with generous lead credits that expand with your usage."
       },
       {
-        description:"Advanced integration capabilities: One-click integrations, auto-sync for high lead volumes, and duplicate detection for clean data."
+        description: "Advanced integration capabilities: One-click integrations, auto-sync for high lead volumes, and duplicate detection for clean data."
       },
       {
-        description:"Real-time performance: Instant updates to lead lists with 99%+ verified contact accuracy."
+        description: "Real-time performance: Instant updates to lead lists with 99%+ verified contact accuracy."
       },
       {
-        description:"Whether you're scaling from startup to enterprise, the platform adapts seamlessly with minimal setup.",
+        description: "Whether you're scaling from startup to enterprise, the platform adapts seamlessly with minimal setup.",
       },
 
       {
-        title:"15. How does the Dashboard help me stay on top of my sales activity?",
-        type:"heading",
+        title: "15. How does the Dashboard help me stay on top of my sales activity?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: The Dashboard provides a quick overview of your activity, including:",
-        type:"paragraph",
+        content: "Answer: The Dashboard provides a quick overview of your activity, including:",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Email statistics"
+        description: "Email statistics"
       },
       {
-        description:"Tasks and Meetings"
+        description: "Tasks and Meetings"
       },
       {
-        description:"Closed Deals"
+        description: "Closed Deals"
       },
       {
-        description:"Recommended Leads"
+        description: "Recommended Leads"
       },
       {
-        content:"This allows you to track performance at a glance without digging into multiple sections.",
-        type:"paragraph",
+        content: "This allows you to track performance at a glance without digging into multiple sections.",
+        type: "paragraph",
         isParagraph: true
       },
-  //       {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
+      //       {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
 
       {
-        title:"16. Can I manage emails directly from the Inbox?",
-        type:"heading",
+        title: "16. Can I manage emails directly from the Inbox?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Yes. The Inbox integrates your email directly into the CRM for seamless communication. You can:",
-        type:"paragraph",
+        content: "Answer: Yes. The Inbox integrates your email directly into the CRM for seamless communication. You can:",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Link your email account"
+        description: "Link your email account"
       },
       {
-        description:"Send and receive emails"
+        description: "Send and receive emails"
       },
       {
-        description:"Compose replies without leaving the platform"
+        description: "Compose replies without leaving the platform"
       },
-  //     {
-  //       stepTitle:"Status",
-  //       isStep: true
-  //     },
-  //       {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
-  //     {
-  //       stepTitle:"All inbox",
-  //       isStep: true,
+      //     {
+      //       stepTitle:"Status",
+      //       isStep: true
+      //     },
+      //       {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
+      //     {
+      //       stepTitle:"All inbox",
+      //       isStep: true,
 
-  //     },
-  //       {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
-  //    {
-      
-  //       stepTitle:"Campaigns",
-  //       isStep: true
-  //     },
-  //       {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
+      //     },
+      //       {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
+      //    {
+
+      //       stepTitle:"Campaigns",
+      //       isStep: true
+      //     },
+      //       {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
 
 
       {
-        title:"17. What can I find under the Lists section?",
-        type:"heading",
+        title: "17. What can I find under the Lists section?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: The Lists section contains all your assigned lists, including:",
-        type:"paragraph",
+        content: "Answer: The Lists section contains all your assigned lists, including:",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Tasks"
+        description: "Tasks"
       },
       {
-        description:"Meetings"
+        description: "Meetings"
       },
       {
-        description:"Deals"
+        description: "Deals"
       },
       {
-        content:"This ensures everything is organized and easy to access in one place.",
-        type:"paragraph",
+        content: "This ensures everything is organized and easy to access in one place.",
+        type: "paragraph",
         isParagraph: true
       },
-    
-  //       {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },     
-  //        {
-  //   stepTitle: "Leads",
-  //   isStep: true
-  // },     
-  //      {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
+
+      //       {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },     
+      //        {
+      //   stepTitle: "Leads",
+      //   isStep: true
+      // },     
+      //      {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
 
 
       {
-        title:"18. How do I create and manage Deals in SalesTarget.ai CRM?",
-        type:"heading",
+        title: "18. How do I create and manage Deals in SalesTarget.ai CRM?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Deals can be easily created, assigned, and tracked through your pipeline stages.",
-        type:"paragraph",
+        content: "Answer: Deals can be easily created, assigned, and tracked through your pipeline stages.",
+        type: "paragraph",
         isParagraph: true
       },
       {
-       stepTitle:"To create a Deal:",
+        stepTitle: "To create a Deal:",
         isStep: true
       },
       {
-        description:"Go to CRM → Deals"
+        description: "Go to CRM → Deals"
       },
       {
-        description:"Click Add New (top-left corner)"
+        description: "Click Add New (top-left corner)"
       },
       {
-        description:"Fill in the required fields"
+        description: "Fill in the required fields"
       },
       {
-        description:"Click Save"
+        description: "Click Save"
       },
       {
-        content:"Once created, you can drag the deal across statuses as it progresses.",
-        type:"paragraph",
+        content: "Once created, you can drag the deal across statuses as it progresses.",
+        type: "paragraph",
         isParagraph: true
       },
-  //       {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
+      //       {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
 
       {
-        title:"19. How do I schedule and track Meetings inside the CRM?",
-        type:"heading",
+        title: "19. How do I schedule and track Meetings inside the CRM?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Meetings can be managed and scheduled directly from the platform.",
-        type:"paragraph",
+        content: "Answer: Meetings can be managed and scheduled directly from the platform.",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        stepTitle:"To schedule a Meeting:",
+        stepTitle: "To schedule a Meeting:",
         isStep: true
       },
       {
-        description:"Go to CRM → Meetings"
+        description: "Go to CRM → Meetings"
       },
       {
-        description:"Click Add New (top-left corner)"
+        description: "Click Add New (top-left corner)"
       },
       {
-        description:"Fill in the required fields"
+        description: "Fill in the required fields"
       },
       {
-        description:"Click Save"
+        description: "Click Save"
       },
       {
-        content:"You can then move meetings across statuses (e.g., scheduled, completed) as they progress.",
-        type:"paragraph",
+        content: "You can then move meetings across statuses (e.g., scheduled, completed) as they progress.",
+        type: "paragraph",
         isParagraph: true
       },
-  //      {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
-    // {
-    //   stepTitle:"Add meeting",
-    //   isStep: true
-    // },
-  //   {
-  //      src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
+      //      {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
+      // {
+      //   stepTitle:"Add meeting",
+      //   isStep: true
+      // },
+      //   {
+      //      src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
 
       {
-        title:"20. How do Tasks keep my team accountable?",
-        type:"heading",
+        title: "20. How do Tasks keep my team accountable?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Tasks allow managers to assign and track work for team members.",
-        type:"paragraph",
+        content: "Answer: Tasks allow managers to assign and track work for team members.",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        stepTitle:"To create/assign a Task:",
+        stepTitle: "To create/assign a Task:",
         isStep: true
       },
       {
-        description:"Go to CRM → Tasks"
+        description: "Go to CRM → Tasks"
       },
       {
-        description:"Click Add New (top-left corner)"
+        description: "Click Add New (top-left corner)"
       },
       {
-        description:"Fill in the required fields"
+        description: "Fill in the required fields"
       },
       {
-        description:"Select the Assignee (agent name)"
+        description: "Select the Assignee (agent name)"
       },
       {
-        description:"Click Save"
+        description: "Click Save"
       },
       {
-        content:"Agents update the status upon completion, ensuring visibility for admins.",
-        type:"paragraph",
+        content: "Agents update the status upon completion, ensuring visibility for admins.",
+        type: "paragraph",
         isParagraph: true
       },
-  //       {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },   
-  //   {
-  //   stepTitle: "Add Task",
-  //   isStep: true
-  // },
-  //  {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
- 
+      //       {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },   
+      //   {
+      //   stepTitle: "Add Task",
+      //   isStep: true
+      // },
+      //  {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
+
 
       {
-        title:"21. What type of Reports can I generate?",
-        type:"heading",
+        title: "21. What type of Reports can I generate?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Reports provide detailed analytics to optimize performance. You can access:",
-        type:"paragraph",
+        content: "Answer: Reports provide detailed analytics to optimize performance. You can access:",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        description:"Emails sent and delivered"
+        description: "Emails sent and delivered"
       },
       {
-        description:"Email performance trends"
+        description: "Email performance trends"
       },
       {
-        description:"Organization-wide analytics and statistics"
+        description: "Organization-wide analytics and statistics"
       },
-  //       {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
+      //       {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
 
       {
-        title:"22. How do I add new team members to the CRM?",
-        type:"heading",
+        title: "22. How do I add new team members to the CRM?",
+        type: "heading",
         isHeading: true
       },
       {
-        content:"Answer: Adding new members is quick and simple.",
-        type:"paragraph",
+        content: "Answer: Adding new members is quick and simple.",
+        type: "paragraph",
         isParagraph: true
       },
       {
-        stepTitle:"To add a new member:",
+        stepTitle: "To add a new member:",
         isStep: true
       },
       {
-        description:"Go to \"Configurations\" → \"Members\"."
+        description: "Go to \"Configurations\" → \"Members\"."
       },
       {
-        description:"Click \"Add Member\"."
+        description: "Click \"Add Member\"."
       },
       {
-        description:"Enter the email address"
+        description: "Enter the email address"
       },
       {
-        description:"Select a \"Role\"."
+        description: "Select a \"Role\"."
       },
       {
-        description:"Click \"Invite\"."
+        description: "Click \"Invite\"."
       },
       {
-        content:"This ensures your team can collaborate effectively inside the CRM.",
-        type:"paragraph",
+        content: "This ensures your team can collaborate effectively inside the CRM.",
+        type: "paragraph",
         isParagraph: true
       },
-    //   {
-    //      src: "/dashboard-screenshot.png",
-    // alt: "SalesTarget dashboard interface",
-    // caption:"",
-    // type: "image",
-    // isImage: true
-    //   },
-  //      {
-  //   stepTitle: "Add",
-  //   isStep: true
-  // },
-  // {
-  //    src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
-  // {
-  //   stepTitle: "Workspace and Teams",
-  //   isStep: true
-  // },
-  //  {
-  //   src: "/dashboard-screenshot.png",
-  //   alt: "SalesTarget dashboard interface",
-  //   caption:"",
-  //   type: "image",
-  //   isImage: true
-  // },
+      //   {
+      //      src: "/dashboard-screenshot.png",
+      // alt: "SalesTarget dashboard interface",
+      // caption:"",
+      // type: "image",
+      // isImage: true
+      //   },
+      //      {
+      //   stepTitle: "Add",
+      //   isStep: true
+      // },
+      // {
+      //    src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
+      // {
+      //   stepTitle: "Workspace and Teams",
+      //   isStep: true
+      // },
+      //  {
+      //   src: "/dashboard-screenshot.png",
+      //   alt: "SalesTarget dashboard interface",
+      //   caption:"",
+      //   type: "image",
+      //   isImage: true
+      // },
 
 
     ]
 
-    
 
- },
 
- {
-  id: "71",
-  title: "Creating Your First Email Sequence: A Beginner’s Guide to Cold Email Outreach",
-  updated: "",
-  content: `Cold email outreach is one of the most effective ways to start conversations, book meetings, and generate revenue — especially when powered by the right cold email platform and AI-assisted tools. If you’re new to outbound email automation, building your first sequence might seem complex. With SalesTarget.ai’s clean workflow and AI sequence generator, however, you can create high-converting outreach flows in minutes.
+  },
+
+  {
+    id: "71",
+    title: "Creating Your First Email Sequence: A Beginner’s Guide to Cold Email Outreach",
+    updated: "",
+    content: `Cold email outreach is one of the most effective ways to start conversations, book meetings, and generate revenue — especially when powered by the right cold email platform and AI-assisted tools. If you’re new to outbound email automation, building your first sequence might seem complex. With SalesTarget.ai’s clean workflow and AI sequence generator, however, you can create high-converting outreach flows in minutes.
 
 This guide walks you through the exact steps to create, personalize, automate, and launch your email sequence.`,
-  metaTitle: "Creating Your First Email Sequence | Cold Email Outreach Guide",
-  metaDescription: "Learn how to create your first email sequence using AI-powered cold email outreach tools. Step-by-step setup, personalization, automation, and best practices.",
-  features: [
-    {
-      title: "What Is Cold Email Outreach?",
-      description: `Cold email outreach is the practice of contacting prospects who haven't interacted with you before — with a focus on relevance, personalization, and clear value. Modern teams rely heavily on {{ <a href='https://salestarget.ai/email-outreach'>AI email automation</a> }}  and outreach tools to personalize messaging, schedule follow-ups, and maintain high deliverability.
+    metaTitle: "Creating Your First Email Sequence | Cold Email Outreach Guide",
+    metaDescription: "Learn how to create your first email sequence using AI-powered cold email outreach tools. Step-by-step setup, personalization, automation, and best practices.",
+    features: [
+      {
+        title: "What Is Cold Email Outreach?",
+        description: `Cold email outreach is the practice of contacting prospects who haven't interacted with you before — with a focus on relevance, personalization, and clear value. Modern teams rely heavily on {{ <a href='https://salestarget.ai/email-outreach'>AI email automation</a> }}  and outreach tools to personalize messaging, schedule follow-ups, and maintain high deliverability.
 
 Cold email outreach works even better when you start with {{ <a href='https://salestarget.ai/lead-explorer' > verified business data </a>  }} that helps you reach the right decision-makers with confidence. A good cold outreach sequence helps you stay consistent without doing all the work manually.`
-    },
+      },
 
-    {
-      title: "How to Create Your First Email Sequence in SalesTarget.ai",
-      description: "You can build email sequences in two ways:"
-    },
+      {
+        title: "How to Create Your First Email Sequence in SalesTarget.ai",
+        description: "You can build email sequences in two ways:"
+      },
 
-    {
-      stepTitle: "1) Manually using the Campaign Editor",
-      isStep: true
-    },
-    {
-      content: "(Templates → Leads → Settings → Schedule)",
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      stepTitle: "2) Automatically using the AI Sequence Generator",
-      isStep: true
-    },
-    {
-      content: "(Enter company details → Select steps → Auto-generate)",
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      content: "Both options simplify the cold email outreach process — even for beginners.",
-      type: "paragraph",
-      isParagraph: true
-    },
+      {
+        stepTitle: "1) Manually using the Campaign Editor",
+        isStep: true
+      },
+      {
+        content: "(Templates → Leads → Settings → Schedule)",
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        stepTitle: "2) Automatically using the AI Sequence Generator",
+        isStep: true
+      },
+      {
+        content: "(Enter company details → Select steps → Auto-generate)",
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        content: "Both options simplify the cold email outreach process — even for beginners.",
+        type: "paragraph",
+        isParagraph: true
+      },
 
-    {
-      stepTitle: "1. Add Steps (Your Email Flow)",
-      isStep: true
-    },
-    {
-      content: `Inside the Templates tab, each step is organized into clean cards:`,
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      stepTitle: "Configure each step",
-      isStep: true
-    },
-    {
-      description:` Add subject line variants`
-    },
-    {
-      description: `Write the email body`
-    },
-    {
-      description: `Set the delay (for example, “Send next message in 3 days”)`
-    },
-    {
-      description: `Duplicate or delete steps as needed`
-    },
-    {
-      content: `A solid cold email sequence typically includes 3–5 steps:`,
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      stepTitle: "Common sequence structure",
-      isStep: true
-    },
-    {
-      description: `Initial introduction`
-    },
-    {
-      description: `Follow-up`
-    },
-    {
-      description: `Value or case study email`
-    },
-    {
-      description: `Soft bump`
-    },
-    {
-      description: `Final nudge`
-    },
-    {
-      content:`This structure gives your outreach a natural flow while keeping everything automated.`,
-      isParagraph: true
-    },
-    {
-      stepTitle: "2. Add Delays Between Follow-Ups",
-      isStep: true
-    },
-    {
-      content: `Every step includes a delay field so you can control timing with options like “Send next message in X days”.`,
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      stepTitle: "Why spacing matters",
-      isStep: true
-    },
-    {
-      content: `Spreading out messages helps with:`,
-      isParagraph: true
-    },
-    {
-      description:`Better deliverability`
-    },
-    {
-      description: ` Healthier sender reputation`
-    },
-    {
-      description: `A less intrusive experience for prospects`
-    },
-    {
-      stepTitle: "How SalesTarget.ai handles sending rules",
-      isStep: `true`
-    },
-    {
-      content:`SalesTarget.ai also ensures that:`,
-      isParagraph: true
-    },
-    {
-      description: `Once someone replies, the sequence stops`
-    },
-    {
-      description: `Bounced contacts are skipped`
-    },
-    {
-      description: ` Sending follows your configured schedule`
-    },
-    {
-      stepTitle: "3. Personalization (Tokens + AI Tools)",
-      isStep: true
-    },
-    {
-      content: "Personalization significantly improves cold email performance. In SalesTarget.ai, you can use tokens such as:",
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      stepTitle: "Personalization tokens",
-      isStep: true
-    },
-    {
-      description: ` firstName`
-    },
-    {
-      description: `{{companyName}} `
-    },
-    {
-      description:  ` {{signature}} `
-    },
-    {
-      content: "You can also enhance messaging with built-in AI tools:",
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      stepTitle: "AI tools inside SalesTarget.ai",
-      isStep: true
-    },
-    {
-      description: `AI Sequence Generator`
-    },
-    {
-      description: `AI tools inside SalesTarget.ai`
-    },
-    {
-      description: `AI Sequence Generator`
-    },
-    {
-      description: `AI Spintax Generator`
-    },
-    {
-      description: `AI Content Generator`
-    },
-    {
-     content: `These help your outreach stay human, relevant, and scalable.`,
-     isParagraph: true
-    },
+      {
+        stepTitle: "1. Add Steps (Your Email Flow)",
+        isStep: true
+      },
+      {
+        content: `Inside the Templates tab, each step is organized into clean cards:`,
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        stepTitle: "Configure each step",
+        isStep: true
+      },
+      {
+        description: ` Add subject line variants`
+      },
+      {
+        description: `Write the email body`
+      },
+      {
+        description: `Set the delay (for example, “Send next message in 3 days”)`
+      },
+      {
+        description: `Duplicate or delete steps as needed`
+      },
+      {
+        content: `A solid cold email sequence typically includes 3–5 steps:`,
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        stepTitle: "Common sequence structure",
+        isStep: true
+      },
+      {
+        description: `Initial introduction`
+      },
+      {
+        description: `Follow-up`
+      },
+      {
+        description: `Value or case study email`
+      },
+      {
+        description: `Soft bump`
+      },
+      {
+        description: `Final nudge`
+      },
+      {
+        content: `This structure gives your outreach a natural flow while keeping everything automated.`,
+        isParagraph: true
+      },
+      {
+        stepTitle: "2. Add Delays Between Follow-Ups",
+        isStep: true
+      },
+      {
+        content: `Every step includes a delay field so you can control timing with options like “Send next message in X days”.`,
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        stepTitle: "Why spacing matters",
+        isStep: true
+      },
+      {
+        content: `Spreading out messages helps with:`,
+        isParagraph: true
+      },
+      {
+        description: `Better deliverability`
+      },
+      {
+        description: ` Healthier sender reputation`
+      },
+      {
+        description: `A less intrusive experience for prospects`
+      },
+      {
+        stepTitle: "How SalesTarget.ai handles sending rules",
+        isStep: `true`
+      },
+      {
+        content: `SalesTarget.ai also ensures that:`,
+        isParagraph: true
+      },
+      {
+        description: `Once someone replies, the sequence stops`
+      },
+      {
+        description: `Bounced contacts are skipped`
+      },
+      {
+        description: ` Sending follows your configured schedule`
+      },
+      {
+        stepTitle: "3. Personalization (Tokens + AI Tools)",
+        isStep: true
+      },
+      {
+        content: "Personalization significantly improves cold email performance. In SalesTarget.ai, you can use tokens such as:",
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        stepTitle: "Personalization tokens",
+        isStep: true
+      },
+      {
+        description: ` firstName`
+      },
+      {
+        description: `{{companyName}} `
+      },
+      {
+        description: ` {{signature}} `
+      },
+      {
+        content: "You can also enhance messaging with built-in AI tools:",
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        stepTitle: "AI tools inside SalesTarget.ai",
+        isStep: true
+      },
+      {
+        description: `AI Sequence Generator`
+      },
+      {
+        description: `AI tools inside SalesTarget.ai`
+      },
+      {
+        description: `AI Sequence Generator`
+      },
+      {
+        description: `AI Spintax Generator`
+      },
+      {
+        description: `AI Content Generator`
+      },
+      {
+        content: `These help your outreach stay human, relevant, and scalable.`,
+        isParagraph: true
+      },
 
-    {
-      stepTitle: "Copy-Paste Personalization Examples",
-      isStep: true
-    },
-    {
-      isHeading: true,
-      title: "Example 1: Short Intro Email"
-    },
-    {
-      content: `Subject: Quick question, {{firstName}}
+      {
+        stepTitle: "Copy-Paste Personalization Examples",
+        isStep: true
+      },
+      {
+        isHeading: true,
+        title: "Example 1: Short Intro Email"
+      },
+      {
+        content: `Subject: Quick question, {{firstName}}
 
 Body:
 Hey {{firstName}}, noticed {{companyName}} has been exploring ways to improve {{goal/challenge}}. Thought I’d reach out because we’ve helped similar teams save time and get faster results with simple, automated outreach.
 
 Would it make sense to share a quick idea?`,
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      isHeading: true,
-      title: "Example 2: Case-Study Style Email"
-    },
-    {
-      content: `Subject: A quick idea for {{companyName}}
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        isHeading: true,
+        title: "Example 2: Case-Study Style Email"
+      },
+      {
+        content: `Subject: A quick idea for {{companyName}}
 
 Body:
 Hi {{firstName}},
 We recently helped a company in your industry improve {{specific metric}} by {{X%}} using AI-powered outreach. Since many teams struggle with {{pain point}}, this might be useful for you as well.
 
 Happy to share what worked if you’re exploring new approaches.`,
-      type: "paragraph",
-      isParagraph: true
-    },
+        type: "paragraph",
+        isParagraph: true
+      },
 
-    {
-      stepTitle: "4. Configure Sending Logic (Settings + Schedule)",
-      isStep: true
-    },
-    {
-      content: "SalesTarget.ai gives you full control over when and how emails send.",
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      stepTitle: "Schedule controls",
-      isStep: true
-    },
-    {
-      description: `Sending days`
-    },
-    {
-      description:` Time windows`
-    },
-    {
-      description: `Timezone`
-    },
-    {
-      description: ` Daily email limit`
-    },
-    {
-      stepTitle: "Settings controls",
-      isStep: true
-    },
-    {
-      description: ` Domain and sender controls`
-    },
-    {
-      description: `Reply management`
-    },
-    {
-      description: `Unsubscribe and compliance options`
-    },
-    {
-      content:`These settings help maintain high email deliverability and improve cold outreach performance`,
-      isParagraph: true
-    },
-
-    {
-      stepTitle: "5. Preview and Test Your Sequence",
-      isStep: true
-    },
       {
-      content: "Before activating your sequence, use the Send Test Email option and preview the full flow.",
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      stepTitle: "What to check before going live",
-      isStep: true
-    },
-    {
-      description:`A quick test helps you catch: `
-    },
-    {
-      description:`Personalization token issues`
-    },
-    {
-      description:`Formatting errors`
-    },
-    {
-      description:`Broken links`
-    },
-    {
-      description:`Long paragraphs`
-    },
-    {
-      description: `Tone inconsistencies`
-    },
-    {
-      content: "Once your sequence goes live, you can track replies and manage conversations directly inside your CRM so every lead is followed up on.",
-      type: "paragraph",
-      isParagraph: true
-    },
+        stepTitle: "4. Configure Sending Logic (Settings + Schedule)",
+        isStep: true
+      },
+      {
+        content: "SalesTarget.ai gives you full control over when and how emails send.",
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        stepTitle: "Schedule controls",
+        isStep: true
+      },
+      {
+        description: `Sending days`
+      },
+      {
+        description: ` Time windows`
+      },
+      {
+        description: `Timezone`
+      },
+      {
+        description: ` Daily email limit`
+      },
+      {
+        stepTitle: "Settings controls",
+        isStep: true
+      },
+      {
+        description: ` Domain and sender controls`
+      },
+      {
+        description: `Reply management`
+      },
+      {
+        description: `Unsubscribe and compliance options`
+      },
+      {
+        content: `These settings help maintain high email deliverability and improve cold outreach performance`,
+        isParagraph: true
+      },
 
-    {
-      stepTitle: "Using the AI Sequence Generator",
-      isStep: true
-    },
-    {
-      content: "The AI Sequence Generator is the fastest way to create a full multi-step email sequence. It asks for:",
-      type: "paragraph",
-      isParagraph: true
-    },
-    {
-      stepTitle: "Inputs required",
-      isStep: true
-    },
-    {
-      description: ` Company name`
-    },
-    {
-      description: `Your services`
-    },
-    {
-      description: `Target audience`
-    },
-    {
-      description: `Case studies`
-    },
-    {
-      description: `Number of steps`
-    },
-    {
-      stepTitle: "What the AI generates",
-      isStep: true
-    },
-    {
-      content: `Based on your inputs, it generates:`,
-      isParagraph: true
-    },
-    {
-      description: `Subject line variants`
-    },
-    {
-      description: ` Full email bodies`
-    },
-    {
-      description: `Suggested delays`
-    },
-    {
-      description: `Multiple versions you can choose from`
-    },
-    {
-      content: `Then, with one click, you can insert everything into your campaign using “Use Sequence”.`,
-      isParagraph:true
-    },
-    {
-      stepTitle: "Final Thoughts",
-      isStep: true
-    },
-    {
-      content: `Creating your first email sequence doesn’t need to be complicated. With SalesTarget.ai’s intuitive editor, AI-powered outreach tools, and smart sending logic, anyone can build high-performing cold email sequences that drive real replies and results.`,
-      type: "paragraph",
-      isParagraph: true
-    }
-  ],
+      {
+        stepTitle: "5. Preview and Test Your Sequence",
+        isStep: true
+      },
+      {
+        content: "Before activating your sequence, use the Send Test Email option and preview the full flow.",
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        stepTitle: "What to check before going live",
+        isStep: true
+      },
+      {
+        description: `A quick test helps you catch: `
+      },
+      {
+        description: `Personalization token issues`
+      },
+      {
+        description: `Formatting errors`
+      },
+      {
+        description: `Broken links`
+      },
+      {
+        description: `Long paragraphs`
+      },
+      {
+        description: `Tone inconsistencies`
+      },
+      {
+        content: "Once your sequence goes live, you can track replies and manage conversations directly inside your CRM so every lead is followed up on.",
+        type: "paragraph",
+        isParagraph: true
+      },
 
-  faq: [
-    {
-      title: "How do I start cold email outreach as a beginner?",
-      description: "Use short, personalized messaging and build a multi-step sequence. Let the platform automate follow-ups."
-    },
-    {
-      title: "How do I automate cold outreach emails?",
-      description: "Create steps, set delays, configure schedules, and let your AI email automation tool handle the rest."
-    },
-    {
-      title: "How do I improve cold email deliverability?",
-      description: "Warm up your domain, limit sending volume, avoid spam-triggering text, and personalize your emails."
-    },
-    {
-      title: "What’s the best cold email software for sales teams?",
-      description: "Use a platform with personalization, AI generation, smart scheduling, and reputation controls — like SalesTarget.ai."
-    },
-    {
-      title: "What’s the best platform to send cold emails from?",
-      description: "A dedicated cold email platform with deliverability protection, not a basic Gmail or Outlook account."
-    }
-  ]
-} ,
+      {
+        stepTitle: "Using the AI Sequence Generator",
+        isStep: true
+      },
+      {
+        content: "The AI Sequence Generator is the fastest way to create a full multi-step email sequence. It asks for:",
+        type: "paragraph",
+        isParagraph: true
+      },
+      {
+        stepTitle: "Inputs required",
+        isStep: true
+      },
+      {
+        description: ` Company name`
+      },
+      {
+        description: `Your services`
+      },
+      {
+        description: `Target audience`
+      },
+      {
+        description: `Case studies`
+      },
+      {
+        description: `Number of steps`
+      },
+      {
+        stepTitle: "What the AI generates",
+        isStep: true
+      },
+      {
+        content: `Based on your inputs, it generates:`,
+        isParagraph: true
+      },
+      {
+        description: `Subject line variants`
+      },
+      {
+        description: ` Full email bodies`
+      },
+      {
+        description: `Suggested delays`
+      },
+      {
+        description: `Multiple versions you can choose from`
+      },
+      {
+        content: `Then, with one click, you can insert everything into your campaign using “Use Sequence”.`,
+        isParagraph: true
+      },
+      {
+        stepTitle: "Final Thoughts",
+        isStep: true
+      },
+      {
+        content: `Creating your first email sequence doesn’t need to be complicated. With SalesTarget.ai’s intuitive editor, AI-powered outreach tools, and smart sending logic, anyone can build high-performing cold email sequences that drive real replies and results.`,
+        type: "paragraph",
+        isParagraph: true
+      }
+    ],
 
-{
-  id: "72",
-  title: "LinkedIn Automation — Complete Help Center Guide",
-  updated: "",
-  metaTitle: "LinkedIn Automation — Full Guide for SalesTarget",
-  metaDescription:
-    "Automate LinkedIn connection requests, messages, profile views, likes, endorsements, and follow actions using SalesTarget. Learn how to build sequences, set limits, import leads, and track campaign performance.",
-  content: `LinkedIn Automation in SalesTarget.ai lets you automate connection requests, profile visits, post likes, skill endorsements, follow-up messages, and profile follows — all inside a single workflow.
+    faq: [
+      {
+        title: "How do I start cold email outreach as a beginner?",
+        description: "Use short, personalized messaging and build a multi-step sequence. Let the platform automate follow-ups."
+      },
+      {
+        title: "How do I automate cold outreach emails?",
+        description: "Create steps, set delays, configure schedules, and let your AI email automation tool handle the rest."
+      },
+      {
+        title: "How do I improve cold email deliverability?",
+        description: "Warm up your domain, limit sending volume, avoid spam-triggering text, and personalize your emails."
+      },
+      {
+        title: "What’s the best cold email software for sales teams?",
+        description: "Use a platform with personalization, AI generation, smart scheduling, and reputation controls — like SalesTarget.ai."
+      },
+      {
+        title: "What’s the best platform to send cold emails from?",
+        description: "A dedicated cold email platform with deliverability protection, not a basic Gmail or Outlook account."
+      }
+    ]
+  },
+
+  {
+    id: "72",
+    title: "LinkedIn Automation — Complete Help Center Guide",
+    updated: "",
+    metaTitle: "LinkedIn Automation — Full Guide for SalesTarget",
+    metaDescription:
+      "Automate LinkedIn connection requests, messages, profile views, likes, endorsements, and follow actions using SalesTarget. Learn how to build sequences, set limits, import leads, and track campaign performance.",
+    content: `LinkedIn Automation in SalesTarget.ai lets you automate connection requests, profile visits, post likes, skill endorsements, follow-up messages, and profile follows — all inside a single workflow.
 
 This guide explains how to create campaigns, select leads, build sequences, configure limits, and track performance.`,
-  features: [
-    {
-      title: "What You Can Automate in SalesTarget",
-      description:
-        "SalesTarget supports a full set of LinkedIn engagement actions and automation behaviors so you can run complete outreach workflows from one place."
-    },
+    features: [
+      {
+        title: "What You Can Automate in SalesTarget",
+        description:
+          "SalesTarget supports a full set of LinkedIn engagement actions and automation behaviors so you can run complete outreach workflows from one place."
+      },
 
-    // Supported LinkedIn Actions
-    {
-      isHeading: true,
-      title: "Supported LinkedIn Actions"
-    },
-    { description: "Send Connection Request" },
-    { description: "Send Message (after connection is accepted)" },
-    { description: "Send Email (if an email account is selected in Step 1)" },
-    { description: "View Profile" },
-    { description: "Like Post" },
-    { description: "Follow Profile" },
-    { description: "Endorse Skills" },
+      // Supported LinkedIn Actions
+      {
+        isHeading: true,
+        title: "Supported LinkedIn Actions"
+      },
+      { description: "Send Connection Request" },
+      { description: "Send Message (after connection is accepted)" },
+      { description: "Send Email (if an email account is selected in Step 1)" },
+      { description: "View Profile" },
+      { description: "Like Post" },
+      { description: "Follow Profile" },
+      { description: "Endorse Skills" },
 
-    // Supported Automation Behaviors
-    {
-      isHeading: true,
-      title: "Supported Automation Behaviors"
-    },
-    { description: "Multi-step follow-up sequences with timed steps" },
-    { description: "If/else conditions based on connection accepted, email opened, or email clicked" },
-    { description: "Multichannel outreach combining LinkedIn and email" },
-    { description: "Support for multiple LinkedIn accounts per workspace" },
-    { description: "Safe daily limits and warm-up mode" },
-    { description: "Working hours and timezone controls" },
-    { description: "LinkedIn Inbox to view and reply to all responses" },
-    { description: "CRM activity logging for every interaction" },
+      // Supported Automation Behaviors
+      {
+        isHeading: true,
+        title: "Supported Automation Behaviors"
+      },
+      { description: "Multi-step follow-up sequences with timed steps" },
+      { description: "If/else conditions based on connection accepted, email opened, or email clicked" },
+      { description: "Multichannel outreach combining LinkedIn and email" },
+      { description: "Support for multiple LinkedIn accounts per workspace" },
+      { description: "Safe daily limits and warm-up mode" },
+      { description: "Working hours and timezone controls" },
+      { description: "LinkedIn Inbox to view and reply to all responses" },
+      { description: "CRM activity logging for every interaction" },
 
-    {
-      stepTitle: "How LinkedIn Automation Works",
-      isStep: true
-    },
-    {
-      description: "LinkedIn Automation in SalesTarget.ai runs through a simple four-step setup so you can go from campaign idea to live outreach in minutes."
-    },
+      {
+        stepTitle: "How LinkedIn Automation Works",
+        isStep: true
+      },
+      {
+        description: "LinkedIn Automation in SalesTarget.ai runs through a simple four-step setup so you can go from campaign idea to live outreach in minutes."
+      },
 
-    // 1. Create a Campaign
-    {
-      stepTitle: "1. Create a Campaign",
-      isStep: true
-    },
-    {
-      description: "Start by creating a new LinkedIn campaign and choosing which accounts will send your actions."
-    },
-    { description: "Enter a Campaign Name." },
-    { description: "Select a LinkedIn account (multiple accounts are supported)." },
-    { description: "Optionally select an email account if you plan to include email steps." },
-    {
-      description:
-        "If no email account is selected, Send Email actions will be disabled so your workflow remains LinkedIn-only."
-    },
+      // 1. Create a Campaign
+      {
+        stepTitle: "1. Create a Campaign",
+        isStep: true
+      },
+      {
+        description: "Start by creating a new LinkedIn campaign and choosing which accounts will send your actions."
+      },
+      { description: "Enter a Campaign Name." },
+      { description: "Select a LinkedIn account (multiple accounts are supported)." },
+      { description: "Optionally select an email account if you plan to include email steps." },
+      {
+        description:
+          "If no email account is selected, Send Email actions will be disabled so your workflow remains LinkedIn-only."
+      },
 
-    {
-      isHeading: true,
-      title: "Warmup Mode"
-    },
-    {
-      description:
-        "Warmup Mode gradually increases your daily action limits each week to keep your LinkedIn account safe."
-    },
-    {
-      description:
-        "For example, if your safe limit for this week is 5 connection requests per day, next week it may increase to 10 depending on account behavior."
-    },
-    {
-      description: "Recommended starting limits include:"
-    },
-    { description: "5 connection requests per day" },
-    { description: "10 messages per day" },
-    { description: "20 profile views per day" },
-    { description: "20 post likes per day" },
-    { description: "20 skill endorsements per day" },
-    { description: "20 find email actions per day" },
-    {
-      description:
-        "Warmup Mode automatically adjusts these limits over time so you can scale outreach without triggering LinkedIn restrictions."
-    },
+      {
+        isHeading: true,
+        title: "Warmup Mode"
+      },
+      {
+        description:
+          "Warmup Mode gradually increases your daily action limits each week to keep your LinkedIn account safe."
+      },
+      {
+        description:
+          "For example, if your safe limit for this week is 5 connection requests per day, next week it may increase to 10 depending on account behavior."
+      },
+      {
+        description: "Recommended starting limits include:"
+      },
+      { description: "5 connection requests per day" },
+      { description: "10 messages per day" },
+      { description: "20 profile views per day" },
+      { description: "20 post likes per day" },
+      { description: "20 skill endorsements per day" },
+      { description: "20 find email actions per day" },
+      {
+        description:
+          "Warmup Mode automatically adjusts these limits over time so you can scale outreach without triggering LinkedIn restrictions."
+      },
 
-    // 2. Select Your Leads
-    {
-      stepTitle: "2. Select Your Leads",
-      isStep: true
-    },
-    {
-      description:
-        "You can add leads from LinkedIn searches or from a CSV file, depending on where your prospect lists live today."
-    },
+      // 2. Select Your Leads
+      {
+        stepTitle: "2. Select Your Leads",
+        isStep: true
+      },
+      {
+        description:
+          "You can add leads from LinkedIn searches or from a CSV file, depending on where your prospect lists live today."
+      },
 
-    {
-      isHeading: true,
-      title: "A. LinkedIn Search URLs"
-    },
-    {
-      description: "Paste a LinkedIn search URL from regular LinkedIn, Sales Navigator, or Recruiter."
-    },
-    {
-      description: "Choose how many profiles to import, for example 100–500 prospects at a time."
-    },
+      {
+        isHeading: true,
+        title: "A. LinkedIn Search URLs"
+      },
+      {
+        description: "Paste a LinkedIn search URL from regular LinkedIn, Sales Navigator, or Recruiter."
+      },
+      {
+        description: "Choose how many profiles to import, for example 100–500 prospects at a time."
+      },
 
-    {
-      isHeading: true,
-      title: "B. CSV Upload"
-    },
-    {
-      description: "Upload a CSV file when you already have a lead list outside LinkedIn."
-    },
-    { description: "Required fields: First Name, Last Name, and LinkedIn URL." },
-    {
-      description:
-        "Optional fields: Email, Company, Job Title, Location, and Industry — these improve personalization and filtering."
-    },
-    {
-      description: "A sample CSV template is provided so you can format your file correctly."
-    },
+      {
+        isHeading: true,
+        title: "B. CSV Upload"
+      },
+      {
+        description: "Upload a CSV file when you already have a lead list outside LinkedIn."
+      },
+      { description: "Required fields: First Name, Last Name, and LinkedIn URL." },
+      {
+        description:
+          "Optional fields: Email, Company, Job Title, Location, and Industry — these improve personalization and filtering."
+      },
+      {
+        description: "A sample CSV template is provided so you can format your file correctly."
+      },
 
-    // 3. Build Your LinkedIn Sequence
-    {
-      stepTitle: "3. Build Your LinkedIn Sequence",
-      isStep: true
-    },
-    {
-      description:
-        "Use Add Step to define which LinkedIn actions, conditions, and delays run for each lead in your campaign."
-    },
+      // 3. Build Your LinkedIn Sequence
+      {
+        stepTitle: "3. Build Your LinkedIn Sequence",
+        isStep: true
+      },
+      {
+        description:
+          "Use Add Step to define which LinkedIn actions, conditions, and delays run for each lead in your campaign."
+      },
 
-    {
-      isHeading: true,
-      title: "A. Available LinkedIn Actions"
-    },
-    {
-      description: "Send Connection — write a manual note or generate an AI-personalized message."
-    },
-    {
-      description: "Send Connection supports variables such as {{firstName}} with a 300-character message limit."
-    },
-    {
-      description:
-        "Send Message — sends follow-up messages after a connection request is accepted and can be chained into multi-step messaging."
-    },
-    {
-      description:
-        "Send Email — appears only if an email account was selected during campaign setup so you can add email touchpoints."
-    },
-    {
-      description: "View Profile — warms up the lead by visiting their profile before you send a connection request."
-    },
-    {
-      description: "Like Post — adds soft engagement on recent posts to increase visibility before outreach."
-    },
-    {
-      description: "Follow Profile — follows the prospect so your content appears more often in their feed."
-    },
-    {
-      description: "Endorse Skills — endorses displayed skills to create a friendly, value-first interaction."
-    },
+      {
+        isHeading: true,
+        title: "A. Available LinkedIn Actions"
+      },
+      {
+        description: "Send Connection — write a manual note or generate an AI-personalized message."
+      },
+      {
+        description: "Send Connection supports variables such as {{firstName}} with a 300-character message limit."
+      },
+      {
+        description:
+          "Send Message — sends follow-up messages after a connection request is accepted and can be chained into multi-step messaging."
+      },
+      {
+        description:
+          "Send Email — appears only if an email account was selected during campaign setup so you can add email touchpoints."
+      },
+      {
+        description: "View Profile — warms up the lead by visiting their profile before you send a connection request."
+      },
+      {
+        description: "Like Post — adds soft engagement on recent posts to increase visibility before outreach."
+      },
+      {
+        description: "Follow Profile — follows the prospect so your content appears more often in their feed."
+      },
+      {
+        description: "Endorse Skills — endorses displayed skills to create a friendly, value-first interaction."
+      },
 
-    {
-      isHeading: true,
-      title: "B. Conditions"
-    },
-    {
-      description:
-        "Conditions control the logic of your workflow so different actions run depending on how a prospect responds."
-    },
-    { description: "If Connected — only run the next steps when the connection request has been accepted." },
-    { description: "If Email Opened — branch when an email has been opened at least once." },
-    { description: "If Email Clicked — branch when a tracked link in your email has been clicked." },
-    {
-      description: "Example flow: Send Connection → Wait 2 days → If Connected → Send Message."
-    },
+      {
+        isHeading: true,
+        title: "B. Conditions"
+      },
+      {
+        description:
+          "Conditions control the logic of your workflow so different actions run depending on how a prospect responds."
+      },
+      { description: "If Connected — only run the next steps when the connection request has been accepted." },
+      { description: "If Email Opened — branch when an email has been opened at least once." },
+      { description: "If Email Clicked — branch when a tracked link in your email has been clicked." },
+      {
+        description: "Example flow: Send Connection → Wait 2 days → If Connected → Send Message."
+      },
 
-    {
-      isHeading: true,
-      title: "C. Delays"
-    },
-    {
-      description: "Each step can wait for a specific amount of time before running so your outreach feels natural."
-    },
-    { description: "Use delays measured in hours for same-day follow-ups." },
-    { description: "Use delays measured in days for slower, long-term nurturing." },
-    {
-      description:
-        "Proper delays help prevent over-activity and keep your sending patterns aligned with real human behavior."
-    },
+      {
+        isHeading: true,
+        title: "C. Delays"
+      },
+      {
+        description: "Each step can wait for a specific amount of time before running so your outreach feels natural."
+      },
+      { description: "Use delays measured in hours for same-day follow-ups." },
+      { description: "Use delays measured in days for slower, long-term nurturing." },
+      {
+        description:
+          "Proper delays help prevent over-activity and keep your sending patterns aligned with real human behavior."
+      },
 
-    {
-      isHeading: true,
-      title: "D. AI Personalization"
-    },
-    {
-      description:
-        "SalesTarget.ai can personalize both connection request messages and follow-up messages after someone connects."
-    },
-    {
-      description:
-        "AI analyzes public LinkedIn profile details such as the headline, biography, job title, and company information."
-    },
-    {
-      description: "You can choose from preset personalization styles including Professional Insight, Role Mention, Activity-Based, and Interest Opener."
-    },
-    {
-      description:
-        "If AI cannot generate a personalized output for a specific lead, your fallback template is used automatically so the sequence never breaks."
-    },
+      {
+        isHeading: true,
+        title: "D. AI Personalization"
+      },
+      {
+        description:
+          "SalesTarget.ai can personalize both connection request messages and follow-up messages after someone connects."
+      },
+      {
+        description:
+          "AI analyzes public LinkedIn profile details such as the headline, biography, job title, and company information."
+      },
+      {
+        description: "You can choose from preset personalization styles including Professional Insight, Role Mention, Activity-Based, and Interest Opener."
+      },
+      {
+        description:
+          "If AI cannot generate a personalized output for a specific lead, your fallback template is used automatically so the sequence never breaks."
+      },
 
-    // 4. Verify & Launch
-    {
-      stepTitle: "4. Verify & Launch",
-      isStep: true
-    },
-    {
-      description:
-        "Before launching your LinkedIn campaign, review each step to make sure the flow, limits, and personalization look correct."
-    },
-    { description: "Check personalization variables and tokens for errors." },
-    { description: "Validate that each step has the correct action, condition, and delay." },
-    { description: "Confirm your LinkedIn and email account selections." },
-    { description: "Ensure daily limits and warm-up settings are safe for your account history." },
-    {
-      description: "When everything looks good, click Launch to start the campaign."
-    },
+      // 4. Verify & Launch
+      {
+        stepTitle: "4. Verify & Launch",
+        isStep: true
+      },
+      {
+        description:
+          "Before launching your LinkedIn campaign, review each step to make sure the flow, limits, and personalization look correct."
+      },
+      { description: "Check personalization variables and tokens for errors." },
+      { description: "Validate that each step has the correct action, condition, and delay." },
+      { description: "Confirm your LinkedIn and email account selections." },
+      { description: "Ensure daily limits and warm-up settings are safe for your account history." },
+      {
+        description: "When everything looks good, click Launch to start the campaign."
+      },
 
-    {
-      isHeading: true,
-      title: "LinkedIn Inbox"
-    },
-    {
-      description:
-        "The LinkedIn Inbox collects all conversations from every connected LinkedIn account in one place."
-    },
-    { description: "Read new messages without switching between LinkedIn accounts." },
-    { description: "Reply manually to keep responses natural and context-aware." },
-    { description: "View full chat history for each prospect so you always know the previous touchpoints." },
+      {
+        isHeading: true,
+        title: "LinkedIn Inbox"
+      },
+      {
+        description:
+          "The LinkedIn Inbox collects all conversations from every connected LinkedIn account in one place."
+      },
+      { description: "Read new messages without switching between LinkedIn accounts." },
+      { description: "Reply manually to keep responses natural and context-aware." },
+      { description: "View full chat history for each prospect so you always know the previous touchpoints." },
 
-    {
-      isHeading: true,
-      title: "My Network"
-    },
-    {
-      description: "My Network shows all LinkedIn connections synced from your connected accounts."
-    },
-    { description: "View contact details for each connection." },
-    { description: "Filter or export parts of your network for deeper analysis or external use." },
-    { description: "Start manual outreach flows directly from your synced network." },
+      {
+        isHeading: true,
+        title: "My Network"
+      },
+      {
+        description: "My Network shows all LinkedIn connections synced from your connected accounts."
+      },
+      { description: "View contact details for each connection." },
+      { description: "Filter or export parts of your network for deeper analysis or external use." },
+      { description: "Start manual outreach flows directly from your synced network." },
 
-    {
-      isHeading: true,
-      title: "LinkedIn Accounts Management"
-    },
-    {
-      description:
-        "Under the Accounts section you can manage every LinkedIn account linked to SalesTarget.ai."
-    },
-    { description: "Add multiple LinkedIn accounts for different team members or brands." },
-    { description: "View which accounts are connected, paused, or suspended." },
-    { description: "Check average usage for each account to understand daily activity levels." },
-    { description: "Sync account data if changes were made directly in LinkedIn." },
-    { description: "Remove accounts that no longer need to run campaigns." },
-    { description: "Reconnect accounts if access has expired or permissions changed." },
+      {
+        isHeading: true,
+        title: "LinkedIn Accounts Management"
+      },
+      {
+        description:
+          "Under the Accounts section you can manage every LinkedIn account linked to SalesTarget.ai."
+      },
+      { description: "Add multiple LinkedIn accounts for different team members or brands." },
+      { description: "View which accounts are connected, paused, or suspended." },
+      { description: "Check average usage for each account to understand daily activity levels." },
+      { description: "Sync account data if changes were made directly in LinkedIn." },
+      { description: "Remove accounts that no longer need to run campaigns." },
+      { description: "Reconnect accounts if access has expired or permissions changed." },
 
-    {
-      isHeading: true,
-      title: "Account Settings"
-    },
+      {
+        isHeading: true,
+        title: "Account Settings"
+      },
 
-    // Account Limits as separate descriptions
-    {
-      isHeading: true,
-      title: "A. Account Limits"
-    },
-    { description: "Adjust daily limits for your LinkedIn actions so they stay within safe ranges." },
-    { description: "Connections — control how many invitations are sent per day." },
-    { description: "Messages — cap the number of automated messages per day." },
-    { description: "Views — limit how many profiles are viewed daily." },
-    { description: "Likes — define how many posts can be liked per day." },
-    { description: "Endorsements — control how many skills are endorsed daily." },
-    {
-      description: "Warmup Mode gradually increases these limits over time based on account behavior."
-    },
+      // Account Limits as separate descriptions
+      {
+        isHeading: true,
+        title: "A. Account Limits"
+      },
+      { description: "Adjust daily limits for your LinkedIn actions so they stay within safe ranges." },
+      { description: "Connections — control how many invitations are sent per day." },
+      { description: "Messages — cap the number of automated messages per day." },
+      { description: "Views — limit how many profiles are viewed daily." },
+      { description: "Likes — define how many posts can be liked per day." },
+      { description: "Endorsements — control how many skills are endorsed daily." },
+      {
+        description: "Warmup Mode gradually increases these limits over time based on account behavior."
+      },
 
-    // Profile Settings as separate descriptions (matching your point format)
-    {
-      isHeading: true,
-      title: "B. Profile Settings"
-    },
-    { description: "First Name" },
-    { description: "Last Name" },
-    { description: "Company" },
-    { description: "Job Title" },
-    { description: "Timezone" },
-    { description: "Working Days" },
-    { description: "Working Hours" },
-    {
-      description:
-        "LinkedIn actions only run within your selected working days, hours, and timezone so outreach looks human."
-    },
+      // Profile Settings as separate descriptions (matching your point format)
+      {
+        isHeading: true,
+        title: "B. Profile Settings"
+      },
+      { description: "First Name" },
+      { description: "Last Name" },
+      { description: "Company" },
+      { description: "Job Title" },
+      { description: "Timezone" },
+      { description: "Working Days" },
+      { description: "Working Hours" },
+      {
+        description:
+          "LinkedIn actions only run within your selected working days, hours, and timezone so outreach looks human."
+      },
 
-    // Analytics & Reporting
-    {
-      isHeading: true,
-      title: "Analytics & Reporting"
-    },
-    {
-      description:
-        "The Analytics dashboard tracks all major LinkedIn automation metrics so you can measure campaign performance."
-    },
+      // Analytics & Reporting
+      {
+        isHeading: true,
+        title: "Analytics & Reporting"
+      },
+      {
+        description:
+          "The Analytics dashboard tracks all major LinkedIn automation metrics so you can measure campaign performance."
+      },
 
-    {
-      isHeading: true,
-      title: "Metrics Displayed"
-    },
-    { description: "Connection Requests" },
-    { description: "Accepted Connections" },
-    { description: "Messages Sent" },
-    { description: "Replies Received" },
-    { description: "Response Rate" },
-    { description: "Active Accounts" },
-    { description: "Total Accounts" },
+      {
+        isHeading: true,
+        title: "Metrics Displayed"
+      },
+      { description: "Connection Requests" },
+      { description: "Accepted Connections" },
+      { description: "Messages Sent" },
+      { description: "Replies Received" },
+      { description: "Response Rate" },
+      { description: "Active Accounts" },
+      { description: "Total Accounts" },
 
-    {
-      isHeading: true,
-      title: "Views"
-    },
-    { description: "Daily performance view" },
-    { description: "Weekly performance view" },
-    { description: "Monthly performance view" },
-    { description: "Yearly performance view" },
-    {
-      description: "A per-account table provides a detailed breakdown of activity for each LinkedIn account."
-    },
+      {
+        isHeading: true,
+        title: "Views"
+      },
+      { description: "Daily performance view" },
+      { description: "Weekly performance view" },
+      { description: "Monthly performance view" },
+      { description: "Yearly performance view" },
+      {
+        description: "A per-account table provides a detailed breakdown of activity for each LinkedIn account."
+      },
 
-    // Troubleshooting
-    {
-      isHeading: true,
-      title: "Troubleshooting"
-    },
+      // Troubleshooting
+      {
+        isHeading: true,
+        title: "Troubleshooting"
+      },
 
-    {
-      isHeading: true,
-      title: "1. Connection Request Not Sent"
-    },
-    { description: "Daily connection limit reached." },
-    { description: "The person is already a connection." },
-    { description: "Temporary LinkedIn restriction on your account." },
-    { description: "Invalid or unsupported profile URL." },
+      {
+        isHeading: true,
+        title: "1. Connection Request Not Sent"
+      },
+      { description: "Daily connection limit reached." },
+      { description: "The person is already a connection." },
+      { description: "Temporary LinkedIn restriction on your account." },
+      { description: "Invalid or unsupported profile URL." },
 
-    {
-      isHeading: true,
-      title: "2. Message Not Sent"
-    },
-    { description: "The prospect is not yet a 1st-degree connection." },
-    { description: "Your daily message limit has been reached." },
-    { description: "A required personalization variable is missing or empty." },
+      {
+        isHeading: true,
+        title: "2. Message Not Sent"
+      },
+      { description: "The prospect is not yet a 1st-degree connection." },
+      { description: "Your daily message limit has been reached." },
+      { description: "A required personalization variable is missing or empty." },
 
-    {
-      isHeading: true,
-      title: "3. No Leads Imported"
-    },
-    { description: "The LinkedIn URL is invalid or not supported for import." },
-    { description: "Search results are restricted or not accessible." }
-  ],
+      {
+        isHeading: true,
+        title: "3. No Leads Imported"
+      },
+      { description: "The LinkedIn URL is invalid or not supported for import." },
+      { description: "Search results are restricted or not accessible." }
+    ],
 
-  faq: [
-    {
-      title: "Are LinkedIn actions automated?",
-      description:
-        "Yes. All actions you add to a sequence — such as connection requests, profile views, likes, follows, endorsements, and messages — run automatically within your daily limits and working hours after you launch the campaign."
-    },
-    {
-      title: "Do I need a Chrome extension?",
-      description:
-        "No. SalesTarget.ai runs LinkedIn automation entirely in the cloud, so your campaigns continue even if your browser is closed or your device is offline."
-    },
-    {
-      title: "Can I combine LinkedIn and Email steps?",
-      description:
-        "Yes. If you select an email account during campaign setup, you can mix LinkedIn and email actions in a single workflow. If no email account is selected, email steps remain disabled."
-    },
-    {
-      title: "Can I automate LinkedIn follow-up messages?",
-      description:
-        "Yes. You can add multiple Send Message steps with delays so follow-ups are sent automatically once a lead becomes a 1st-degree connection."
-    },
-    {
-      title: "Do replies sync into SalesTarget?",
-      description:
-        "Yes. Replies from your connected LinkedIn accounts appear in the LinkedIn Inbox, and activity logs are recorded on each lead’s timeline."
-    },
-    {
-      title: "Can I upload my own lead list?",
-      description:
-        "Yes. You can upload leads via CSV as long as the file includes First Name, Last Name, and LinkedIn URL. Optional fields like Email or Job Title improve personalization and targeting."
-    },
-    {
-      title: "Does SalesTarget support multiple LinkedIn accounts?",
-      description:
-        "Yes. You can connect multiple LinkedIn accounts and choose which one runs each campaign. Limits and warm-up settings are applied per account."
-    },
-    {
-      title: "Is LinkedIn automation safe?",
-      description:
-        "Yes. SalesTarget.ai uses warm-up mode, daily action limits, random pacing, and working-hour controls to keep your outreach safe and aligned with typical LinkedIn usage patterns."
-    },
-    {
-      title: "How do I track campaign performance?",
-      description:
-        "Use the Analytics dashboard to monitor connection requests, acceptance rate, messages sent, replies, and response rate, with views available by day, week, month, or year."
-    },
-    {
-      title: "What happens if someone is already a connection?",
-      description:
-        "SalesTarget.ai automatically skips the connection request step for existing connections, and you can use the If Connected condition to route them directly into message-based follow-ups."
-    }
-  ]
-},
+    faq: [
+      {
+        title: "Are LinkedIn actions automated?",
+        description:
+          "Yes. All actions you add to a sequence — such as connection requests, profile views, likes, follows, endorsements, and messages — run automatically within your daily limits and working hours after you launch the campaign."
+      },
+      {
+        title: "Do I need a Chrome extension?",
+        description:
+          "No. SalesTarget.ai runs LinkedIn automation entirely in the cloud, so your campaigns continue even if your browser is closed or your device is offline."
+      },
+      {
+        title: "Can I combine LinkedIn and Email steps?",
+        description:
+          "Yes. If you select an email account during campaign setup, you can mix LinkedIn and email actions in a single workflow. If no email account is selected, email steps remain disabled."
+      },
+      {
+        title: "Can I automate LinkedIn follow-up messages?",
+        description:
+          "Yes. You can add multiple Send Message steps with delays so follow-ups are sent automatically once a lead becomes a 1st-degree connection."
+      },
+      {
+        title: "Do replies sync into SalesTarget?",
+        description:
+          "Yes. Replies from your connected LinkedIn accounts appear in the LinkedIn Inbox, and activity logs are recorded on each lead’s timeline."
+      },
+      {
+        title: "Can I upload my own lead list?",
+        description:
+          "Yes. You can upload leads via CSV as long as the file includes First Name, Last Name, and LinkedIn URL. Optional fields like Email or Job Title improve personalization and targeting."
+      },
+      {
+        title: "Does SalesTarget support multiple LinkedIn accounts?",
+        description:
+          "Yes. You can connect multiple LinkedIn accounts and choose which one runs each campaign. Limits and warm-up settings are applied per account."
+      },
+      {
+        title: "Is LinkedIn automation safe?",
+        description:
+          "Yes. SalesTarget.ai uses warm-up mode, daily action limits, random pacing, and working-hour controls to keep your outreach safe and aligned with typical LinkedIn usage patterns."
+      },
+      {
+        title: "How do I track campaign performance?",
+        description:
+          "Use the Analytics dashboard to monitor connection requests, acceptance rate, messages sent, replies, and response rate, with views available by day, week, month, or year."
+      },
+      {
+        title: "What happens if someone is already a connection?",
+        description:
+          "SalesTarget.ai automatically skips the connection request step for existing connections, and you can use the If Connected condition to route them directly into message-based follow-ups."
+      }
+    ]
+  },
 
-{
-  id: "73",
-  title: "CRM Guide: Lead Activity, Meetings, Tasks & Activity Feed",
-  updated: "",
-  content: `
+  {
+    id: "73",
+    title: "CRM Guide: Lead Activity, Meetings, Tasks & Activity Feed",
+    updated: "",
+    content: `
 <p>This guide walks you through how Lead Activity, Meetings, Tasks, and the Activity Feed
 work inside SalesTarget.ai CRM — including auto-sync for Zoom and Google Meet
 meetings.</p> 
 `,
-  metaTitle: "CRM Guide: Lead Activity, Meetings, Tasks & Activity Feed",
-  metaDescription:"",
-  features: [
-    // 1) Section heading: Lead Activity
-    {
-      isHeading: true,
-      title: '1. Lead Activity'
-    },
-    {
-      isStep: true,
-      stepTitle: 'Track every interaction with a lead in one timeline.'
-    },
-    {
-      isParagraph: true,
-      content: `
+    metaTitle: "CRM Guide: Lead Activity, Meetings, Tasks & Activity Feed",
+    metaDescription: "",
+    features: [
+      // 1) Section heading: Lead Activity
+      {
+        isHeading: true,
+        title: '1. Lead Activity'
+      },
+      {
+        isStep: true,
+        stepTitle: 'Track every interaction with a lead in one timeline.'
+      },
+      {
+        isParagraph: true,
+        content: `
         <p>The Lead Activity page gives you a complete history of everything that has happened with</p>
         <p>a lead. Every email, task, meeting, follow-up, or data update is logged automatically..</p>
       `
-    },
-    {
-      title: 'What Lead Activity shows',
-      description: `
+      },
+      {
+        title: 'What Lead Activity shows',
+        description: `
         <p>Inside a lead’s activity timeline you can see:</p>
         <ul>
           <li><strong>Email events:</strong> <br/> sent, opened, clicked, delivered, bounced, and replied.</li>
@@ -4051,10 +4051,10 @@ meetings.</p>
           <br/><li><strong>Data updates:</strong> <br/> Email, phone, company, enrichment changes</li>
         </ul>
       `
-    },
-    {
-      title: 'Automatic meeting sync ',
-      description: `
+      },
+      {
+        title: 'Automatic meeting sync ',
+        description: `
         <p>Whenever you schedule a meeting (Zoom or Google Meet) <br/> </p>
         <ul type="none">
           <li>✔ It appears in <strong> Lead Activity </strong> </li> <br/>
@@ -4064,120 +4064,120 @@ meetings.</p>
         </ul>
          <p> No manual logging required.</p>
       `
-    },
-    
-    // 2) Section heading: Meetings
-    {
-      isHeading: true,
-      title: '2. Meetings (Zoom + Google Meet Integration)'
-    },
-    {
-      isStep: true,
-      stepTitle: 'Manage all your calls without leaving the CRM.'
-    },
-    {
-      isParagraph: true,
-      content: `
+      },
+
+      // 2) Section heading: Meetings
+      {
+        isHeading: true,
+        title: '2. Meetings (Zoom + Google Meet Integration)'
+      },
+      {
+        isStep: true,
+        stepTitle: 'Manage all your calls without leaving the CRM.'
+      },
+      {
+        isParagraph: true,
+        content: `
       <p>The <strong>Meetings</strong> section is your centralized view for all upcoming and completed meetings.</p>
       `
-    },
-    {
-      title: 'What you can do in Meetings',
-     
-    },
-    {
-      description: 'Create Zoom meetings'
-    },
-    {
-      description: 'Create Google Meet meetings'
-    },
-    {
-      description: 'Add meetings manually'
-    },
-    {
-      description: 'Sync meetings to the correct lead'
-    },
-    {
-      description: `Track meeting outcome: <br/>
+      },
+      {
+        title: 'What you can do in Meetings',
+
+      },
+      {
+        description: 'Create Zoom meetings'
+      },
+      {
+        description: 'Create Google Meet meetings'
+      },
+      {
+        description: 'Add meetings manually'
+      },
+      {
+        description: 'Sync meetings to the correct lead'
+      },
+      {
+        description: `Track meeting outcome: <br/>
       <ul>
         <li>Scheduled</li><br/>
         <li>Completed</li><br/>
         <li>Rescheduled</li><br/>
         <li>Cancelled</li>
       </ul>`
-    },
-    {
-      description: 'View past & upcoming meetings at a glance'
-    },
-    {
-      title: 'CRM Auto-Sync Behavior',
-      description: `
+      },
+      {
+        description: 'View past & upcoming meetings at a glance'
+      },
+      {
+        title: 'CRM Auto-Sync Behavior',
+        description: `
       <p>Every meeting created from the CRM is automatically displayed in:</p>
       `
-    },
-    {
-      description: 'Lead Activity'
-    },
-    {
-      description: 'Meetings page'
-    },
-    {
-      description: 'Global Activity Feed'
-    },
-    {
-      description: 'Deal Timeline (if linked to a deal)'
-    },
-    // {
-    //   isImage: true,
-    //   src: '/images/help/crm-create-meeting.png',
-    //   alt: 'Create Meeting popup in SalesTarget.ai CRM',
-    //   caption: 'Schedule Zoom or Google Meet calls directly from the Create Meeting popup.'
-    // },
-    // 3) Section heading: Task Management
-    {
-      isHeading: true,
-      title: '3. Task Management'
-    },
-    {
-      isStep: true,
-      stepTitle: 'Stay organized with follow-ups, reminders, and to-dos.'
-    },
-    {
-      isParagraph: true,
-      content: `
+      },
+      {
+        description: 'Lead Activity'
+      },
+      {
+        description: 'Meetings page'
+      },
+      {
+        description: 'Global Activity Feed'
+      },
+      {
+        description: 'Deal Timeline (if linked to a deal)'
+      },
+      // {
+      //   isImage: true,
+      //   src: '/images/help/crm-create-meeting.png',
+      //   alt: 'Create Meeting popup in SalesTarget.ai CRM',
+      //   caption: 'Schedule Zoom or Google Meet calls directly from the Create Meeting popup.'
+      // },
+      // 3) Section heading: Task Management
+      {
+        isHeading: true,
+        title: '3. Task Management'
+      },
+      {
+        isStep: true,
+        stepTitle: 'Stay organized with follow-ups, reminders, and to-dos.'
+      },
+      {
+        isParagraph: true,
+        content: `
       <p>The Tasks section helps you manage actionable next steps so nothing slips through the cracks.</p>
       `
-    },
-    {
-      stepTitle: 'Features',
-      isStep: true
-    },
-    {
-      description: 'Create tasks anywhere in the CRM'
-    },
-    {
-      description: 'Assign tasks to yourself or team members'
-    },
-    {
-      description: 'Add due dates, notes, and reminders.'
-    },
-    {
-      description: `Track status with:<br/>
+      },
+      {
+        stepTitle: 'Features',
+        isStep: true
+      },
+      {
+        description: 'Create tasks anywhere in the CRM'
+      },
+      {
+        description: 'Assign tasks to yourself or team members'
+      },
+      {
+        description: 'Add due dates, notes, and reminders.'
+      },
+      {
+        description: `Track status with:<br/>
       <ul>
         <li>Pending</li><br/>
         <li>In Progress</li><br/>
         <li>Completed</li>
       </ul>`
-    },
-    {
-      description: 'Task shows inside the Lead Activity timeline'
-    },
-    {
-      description: 'Overdue tasks highlighted'
-    },
-    {
-      title: 'Auto-Sync',
-      description: `
+      },
+      {
+        description: 'Task shows inside the Lead Activity timeline'
+      },
+      {
+        description: 'Overdue tasks highlighted'
+      },
+      {
+        title: 'Auto-Sync',
+        description: `
       <p>Every task created in the CRM is logged in:</p>
       <ul type="none">
         <li>✔ The Tasks page </li> <br/>
@@ -4186,204 +4186,204 @@ meetings.</p>
       </ul>
       
       `
-    },
-    // {
-    //   isImage: true,
-    //   src: '/images/help/crm-tasks-dashboard.png',
-    //   alt: 'Tasks dashboard in SalesTarget.ai CRM',
-    //   caption: 'Use the Tasks dashboard to track follow-ups, due dates, and overdue items.'
-    // },
-    // 4) Section heading: Activity Feed
-    {
-      isHeading: true,
-      title: '4. Activity Feed (Global Log)'
-    },
-    {
-      isStep: true,
-      stepTitle: 'See everything happening across your CRM.'
-    },
-    {
-      isParagraph: true,
-      content: `<p> The Activity Feed shows all actions performed across your SalesTarget.ai workspace.</p>`
-    },
-    {
-      stepTitle: 'What You’ll See',
-      isStep: true
-    },
-    {
-      description: 'Emails sent, opened, clicked, replied'
-    },
-    {
-      description: 'Tasks created, updated, completed'
-    },
-    {
-      description: 'Meetings scheduled (Zoom + Google Meet)'
-    },
-    {
-      description: `Notes added`
-    },
-    {
-      description: `Leads created or updated`
-    },
-    {
-      description: `Deals created, moved, or won`
-    },
-    {
-      description: `Campaign replies`
-    },
-    {
-      description: `Status changes`
-    },
-    {
-      description: `Owner assignments`
-    },
-    {
-      stepTitle: 'Why it matters',
-      isStep: true
-    },
-    {
-      description: `Full visibility for managers`
-    },
-    {
-      description: `Clear audit trail`
-    },
-    {
-      description: `Team transparency`
-    },
-    {
-      description: `Easy tracking of high-intent interactions`
-    }
-    // {
-    //   isImage: true,
-    //   src: '/images/help/crm-activity-feed.png',
-    //   alt: 'Activity Feed view in SalesTarget.ai CRM',
-    //   caption: 'Use filters in the Activity Feed to focus on specific teams, channels, or interaction types.'
-    // }
-  ],
+      },
+      // {
+      //   isImage: true,
+      //   src: '/images/help/crm-tasks-dashboard.png',
+      //   alt: 'Tasks dashboard in SalesTarget.ai CRM',
+      //   caption: 'Use the Tasks dashboard to track follow-ups, due dates, and overdue items.'
+      // },
+      // 4) Section heading: Activity Feed
+      {
+        isHeading: true,
+        title: '4. Activity Feed (Global Log)'
+      },
+      {
+        isStep: true,
+        stepTitle: 'See everything happening across your CRM.'
+      },
+      {
+        isParagraph: true,
+        content: `<p> The Activity Feed shows all actions performed across your SalesTarget.ai workspace.</p>`
+      },
+      {
+        stepTitle: 'What You’ll See',
+        isStep: true
+      },
+      {
+        description: 'Emails sent, opened, clicked, replied'
+      },
+      {
+        description: 'Tasks created, updated, completed'
+      },
+      {
+        description: 'Meetings scheduled (Zoom + Google Meet)'
+      },
+      {
+        description: `Notes added`
+      },
+      {
+        description: `Leads created or updated`
+      },
+      {
+        description: `Deals created, moved, or won`
+      },
+      {
+        description: `Campaign replies`
+      },
+      {
+        description: `Status changes`
+      },
+      {
+        description: `Owner assignments`
+      },
+      {
+        stepTitle: 'Why it matters',
+        isStep: true
+      },
+      {
+        description: `Full visibility for managers`
+      },
+      {
+        description: `Clear audit trail`
+      },
+      {
+        description: `Team transparency`
+      },
+      {
+        description: `Easy tracking of high-intent interactions`
+      }
+      // {
+      //   isImage: true,
+      //   src: '/images/help/crm-activity-feed.png',
+      //   alt: 'Activity Feed view in SalesTarget.ai CRM',
+      //   caption: 'Use filters in the Activity Feed to focus on specific teams, channels, or interaction types.'
+      // }
+    ],
 
-  faq: [
-    {
-      title: 'What is Lead Activity in SalesTarget.ai?',
-      description: `
+    faq: [
+      {
+        title: 'What is Lead Activity in SalesTarget.ai?',
+        description: `
       <p> Lead Activity is a timeline showing all emails, meetings, tasks, and updates related to a
 specific lead. </p>
         
       `
-    },
-    {
-      title: 'Will my Zoom or Google Meet meetings appear automatically?',
-      description: `
+      },
+      {
+        title: 'Will my Zoom or Google Meet meetings appear automatically?',
+        description: `
         <p>Yes. Any meeting scheduled inside SalesTarget.ai automatically appears in Lead Activity,
 Meetings, Activity Feed, and Deals (if linked).</p>
       `
-    },
-    {
-      title: 'Can I assign tasks to team members?',
-      description: `
+      },
+      {
+        title: 'Can I assign tasks to team members?',
+        description: `
         <p>Yes. You can create tasks and assign them to any team member, along with a due date and
 notes.</p>
        
       `
-    },
-    {
-      title: 'Where do I see meetings linked to a lead?',
-      description: `
+      },
+      {
+        title: 'Where do I see meetings linked to a lead?',
+        description: `
         <p>Inside Lead Activity → look for “Meeting Scheduled.”</p>
         <p>You can also view all meetings in the Meetings page.</p>
       `
-    },
-    {
-      title: 'Do tasks show inside Lead Activity?',
-      description: `
+      },
+      {
+        title: 'Do tasks show inside Lead Activity?',
+        description: `
         <p>Yes — tasks created for a lead are automatically shown in the timeline.</p>
       `
-    },
-    {
-      title: 'Are email engagement metrics logged here?',
-      description: `
+      },
+      {
+        title: 'Are email engagement metrics logged here?',
+        description: `
         <p>Yes. Opens, clicks, replies, and bounces are visible in Lead Activity and the Activity Feed.</p>
       `
-    },
-    {
-      title: 'Does the CRM track campaign analytics?',
-      description: `
+      },
+      {
+        title: 'Does the CRM track campaign analytics?',
+        description: `
         <p>Not inside Lead Activity — but it shows individual engagements (opens/replies) triggered by
 campaigns.</p>
         
       `
-    },
-    {
-      title: 'Can I view previous conversations with a lead?',
-      description: `
+      },
+      {
+        title: 'Can I view previous conversations with a lead?',
+        description: `
         <p>Yes — all replies are visible through Inbox + Lead Activity integration.</p>
       `
-    }
-  ]
- 
-},
+      }
+    ]
 
-{
-  id: "74",
-  title: "A/B Testing in SalesTarget",
-  updated: "",
-  content: `
+  },
+
+  {
+    id: "74",
+    title: "A/B Testing in SalesTarget",
+    updated: "",
+    content: `
 <p>A/B testing in SalesTarget helps you identify which version of your email performs better by
 automatically testing two variants and continuing with the best-performing one.<br/>
 Instead of guessing, SalesTarget splits traffic, tracks performance, and selects the winner for
 you.</p>
 `,
-  metaTitle: "A/B Testing in SalesTarget",
-  metaDescription: "",
-  features: [
-    {
-      isHeading: true,
-      title: 'What Can You A/B Test?'
-    },
-    {
-      isStep: true,
-      stepTitle: 'In a campaign step, you can create two variants and test:'
-    },
-    {
-      description: 'Subject lines'
-    },
-    {
-      description: 'Email content'
-    },
-    {
-      description: 'Subject line + email content together'
-    },
-    {
-      isParagraph: true,
-      content: `
+    metaTitle: "A/B Testing in SalesTarget",
+    metaDescription: "",
+    features: [
+      {
+        isHeading: true,
+        title: 'What Can You A/B Test?'
+      },
+      {
+        isStep: true,
+        stepTitle: 'In a campaign step, you can create two variants and test:'
+      },
+      {
+        description: 'Subject lines'
+      },
+      {
+        description: 'Email content'
+      },
+      {
+        description: 'Subject line + email content together'
+      },
+      {
+        isParagraph: true,
+        content: `
       <p>Only <strong> 2 variants </strong> are allowed per step to keep results clear and reliable.</p>
       `
-    },
+      },
 
-    {
-      isHeading: true,
-      title: 'Where A/B Testing Is Configured'
-    },
-   
-    {
-      isParagraph: true,
-      content: `
+      {
+        isHeading: true,
+        title: 'Where A/B Testing Is Configured'
+      },
+
+      {
+        isParagraph: true,
+        content: `
       <p>A/B testing is configured inside your Campaign Settings.</p>
       <p>Path:<br/>
       <strong>Campaign → Settings → Auto optimize A/B Testing</strong></p>
       `
-    },
+      },
 
-    {
-      isHeading: true,
-      title: 'How to Set Up A/B Testing in SalesTarget'
-    },
-    {
-      isStep: true,
-      stepTitle: 'Step 1: Create Variants in Templates'
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isHeading: true,
+        title: 'How to Set Up A/B Testing in SalesTarget'
+      },
+      {
+        isStep: true,
+        stepTitle: 'Step 1: Create Variants in Templates'
+      },
+      {
+        isParagraph: true,
+        content: `
       <ol>
         <li>&nbsp; 1. Go to <strong>Campaign → Templates</strong></li><br/>
         <li>&nbsp; 2. Open a campaign step (e.g., Step 1)</li><br/>
@@ -4396,15 +4396,15 @@ you.</p>
         <li>&nbsp; 4. Add different subject lines and/or email content for each variant</li>
       </ol>
       `
-    },
+      },
 
-    {
-      isStep: true,
-      stepTitle: 'Step 2: Enable Auto Optimize A/B Testing'
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isStep: true,
+        stepTitle: 'Step 2: Enable Auto Optimize A/B Testing'
+      },
+      {
+        isParagraph: true,
+        content: `
       <ol>
         <li>&nbsp; 1. Go to <strong>Campaign → Settings</strong></li><br/>
         <li>&nbsp; 2. Scroll to <strong>Auto optimize A/B Testing</strong></li><br/>
@@ -4414,15 +4414,15 @@ you.</p>
         </li>
       </ol>
       `
-    },
+      },
 
-    {
-      isStep: true,
-      stepTitle: 'Step 3: Choose the Winning Metric'
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isStep: true,
+        stepTitle: 'Step 3: Choose the Winning Metric'
+      },
+      {
+        isParagraph: true,
+        content: `
       <p>Under <strong>Choose winning metric</strong>, select one:</p>
       <ul>
         <li>&nbsp; &bull; Open Rate → Best for testing subject lines</li><br/>
@@ -4432,15 +4432,15 @@ you.</p>
       </ul>
       <p>This metric is used to decide which variant wins.</p>
       `
-    },
+      },
 
-    {
-      isStep: true,
-      stepTitle: 'Step 4: Add Leads and Schedule the Campaign'
-    },
-    {
-      isParagraph: true,
-      content : `
+      {
+        isStep: true,
+        stepTitle: 'Step 4: Add Leads and Schedule the Campaign'
+      },
+      {
+        isParagraph: true,
+        content: `
       <ul>
         <li>1. Go to <strong>Leads</strong></li><br/>
         <li>2. Add leads using: <br/>
@@ -4461,19 +4461,19 @@ you.</p>
         <li>Click <strong>Launch</strong></li>
       </ul>
       `
-    },
+      },
 
-    {
-      isHeading: true,
-      title: ' How Traffic Is Split'
-    },
-    {
-      isParagraph: true,
-      content: `SalesTarget splits leads <strong> 50/50 </strong> during the testing phase.`
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isHeading: true,
+        title: ' How Traffic Is Split'
+      },
+      {
+        isParagraph: true,
+        content: `SalesTarget splits leads <strong> 50/50 </strong> during the testing phase.`
+      },
+      {
+        isParagraph: true,
+        content: `
       <p>SalesTarget automatically splits leads 50/50 between both variants during the testing phase.</p>
       <p>Example:</p>
       <ul>
@@ -4491,19 +4491,19 @@ you.</p>
         <li> &bull; Remaining <strong>100 leads</strong> are sent only to the winning variant</li><br/>
       </ul>
       `
-    },
+      },
 
-    {
-      isHeading: true,
-      title: ' How the Winner Is Chosen'
-    },
-    {
-      isStep: true,
-      stepTitle: 'SalesTarget automatically compares both variants using the selected metric.'
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isHeading: true,
+        title: ' How the Winner Is Chosen'
+      },
+      {
+        isStep: true,
+        stepTitle: 'SalesTarget automatically compares both variants using the selected metric.'
+      },
+      {
+        isParagraph: true,
+        content: `
       <ul>
         <li> &bull; SalesTarget compares both variants using the<strong> selected metric. </strong></li><br/>
         <li> &bull; Once enough data is collected (from the first 50% of leads), the system:<br/>
@@ -4515,30 +4515,30 @@ you.</p>
       </ul>
       <p>No manual action is required.</p>
       `
-    },
+      },
 
-    {
-      isHeading: true,
-      title: ' Minimum Sample Size'
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isHeading: true,
+        title: ' Minimum Sample Size'
+      },
+      {
+        isParagraph: true,
+        content: `
       <ul>
         <li>&nbsp; &bull; A/B testing always uses 50% of total leads</li><br/>
         <li>&nbsp; &bull; This ensures statistically meaningful results</li><br/>
         <li>&nbsp; &bull; The sample size is handled automatically</li><br/>
       </ul>
       `
-    },
+      },
 
-    {
-      isHeading: true,
-      title: ' What Happens After a Winner Is Selected?'
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isHeading: true,
+        title: ' What Happens After a Winner Is Selected?'
+      },
+      {
+        isParagraph: true,
+        content: `
       <p>Once the winner is chosen:</p>
       <ul>
         <li>● ❌Losing variant is disabled automatically</li><br/>
@@ -4550,45 +4550,45 @@ you.</p>
         </li>
       </ul>
       `
-    },
+      },
 
-    {
-      isHeading: true,
-      title: 'Important Rules to Know'
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isHeading: true,
+        title: 'Important Rules to Know'
+      },
+      {
+        isParagraph: true,
+        content: `
       <ul>
         <li> &bull; Only 2 variants are allowed per step</li><br/>
         <li> &bull; Editing variants during an active test is not recommended</li><br/>
         <li> &bull; If a campaign is running or completed, some settings become read-only</li><br/>
       </ul>
       `
-    },
+      },
 
-    {
-      isHeading: true,
-      title: 'When You Should Avoid A/B Testing'
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isHeading: true,
+        title: 'When You Should Avoid A/B Testing'
+      },
+      {
+        isParagraph: true,
+        content: `
       <ul>
         <li> &bull; Very small lead lists</li><br/>
         <li> &bull; Time-sensitive campaigns</li><br/>
         <li> &bull; Testing multiple changes at once</li><br/>
       </ul>
       `
-    },
+      },
 
-    {
-      isHeading: true,
-      title: 'Best Practices (Quick Tips)'
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isHeading: true,
+        title: 'Best Practices (Quick Tips)'
+      },
+      {
+        isParagraph: true,
+        content: `
       <ul>
         <li>  &bull; Test one change at a time</li><br/>
         <li>  &bull; Use Open Rate for subject line tests</li><br/>
@@ -4597,15 +4597,15 @@ you.</p>
         <li> &bull; Allow enough leads for meaningful results</li>
       </ul>
       `
-    },
+      },
 
-    {
-      isHeading: true,
-      title: ' In Short'
-    },
-    {
-      isParagraph: true,
-      content: `
+      {
+        isHeading: true,
+        title: ' In Short'
+      },
+      {
+        isParagraph: true,
+        content: `
       <p>A/B testing in SalesTarget is:</p>
       <ul>
         <li> &bull; Automatic</li><br/>
@@ -4615,25 +4615,25 @@ you.</p>
       <p>Create variants → choose a metric → launch the campaign.<br/>
       SalesTarget takes care of the rest.</p>
       `
-    }
-  ],
+      }
+    ],
 
-  faq: [
-    {
-      title: 'How many variants can I create in one step?',
-      description: `
+    faq: [
+      {
+        title: 'How many variants can I create in one step?',
+        description: `
       <p>You can create up to 2 variants per step.</p>
       `
-    },
-    {
-      title: 'How is traffic split?',
-      description: `
+      },
+      {
+        title: 'How is traffic split?',
+        description: `
       <p>Traffic is split 50/50 automatically during the testing phase.</p>
       `
-    },
-    {
-      title: 'How is the winner selected?',
-      description: `
+      },
+      {
+        title: 'How is the winner selected?',
+        description: `
       <p>The winner is selected based on the metric you choose:</p>
       <ul>
         <li>Open Rate</li><br/>
@@ -4641,708 +4641,1408 @@ you.</p>
         <li>Click Rate</li>
       </ul>
       `
-    },
-    {
-      title: 'Can I manually select a winner?',
-      description: `
+      },
+      {
+        title: 'Can I manually select a winner?',
+        description: `
       <p>No. Winner selection is fully automatic to avoid bias.</p>
       `
-    },
-    {
-      title: 'What happens to future leads?',
-      description: `
+      },
+      {
+        title: 'What happens to future leads?',
+        description: `
       <p>All future leads are sent only to the winning variant.</p>
       `
-    }
-  ]
-},
+      }
+    ]
+  },
 
-{
-  id: "75",
-  title: "Campaigns Overview: How Campaigns Work in SalesTarget.ai",
-  updated: "",
-  content: `Campaigns are the core of email outreach in SalesTarget.ai.<br/>  A campaign controls:<br/> <ul className="type-disc ml-4"> <li>&nbsp; ● Who you contact</li> <li>&nbsp; ● What emails are sent</li> <li> &nbsp; ● When emails are sent</li> <li>&nbsp; ●  What happens after someone replies.</li> </ul>
+  {
+    id: "75",
+    title: "Campaigns Overview: How Campaigns Work in SalesTarget.ai",
+    updated: "",
+    content: `Campaigns are the core of email outreach in SalesTarget.ai.<br/>  A campaign controls:<br/> <ul className="type-disc ml-4"> <li>&nbsp; ● Who you contact</li> <li>&nbsp; ● What emails are sent</li> <li> &nbsp; ● When emails are sent</li> <li>&nbsp; ●  What happens after someone replies.</li> </ul>
 
 This article explains how campaigns work at a high level, so you understand the full flow before creating or managing one.`,
-  metaTitle: "Campaigns Overview | How Email Campaigns Work in SalesTarget.ai",
-  metaDescription: "Learn how campaigns work in SalesTarget.ai. Understand campaign tabs, lead management, email templates, scheduling, and reply handling for effective cold email outreach.",
-  metaKeywords: "SalesTarget.ai campaigns, email outreach campaigns, cold email automation, campaign management, email sequences, lead management, campaign analytics",
-  features: [
-    {
-      title: "What Is a Campaign in SalesTarget.ai?",
-      isHeading: true
-    },
-    {
-      content: "If you've used cold email tools before, a campaign is similar to an automated email sequence tied to a lead list.",
-      isParagraph: true
-    },
-    {
-      content: "A campaign is a complete outreach setup that connects:",
-      isParagraph: true
-    },
-    {
-      description: "Leads (people you want to contact)"
-    },
-    {
-      description: "Email templates (what messages are sent)"
-    },
-    {
-      description: "Email accounts (from where emails are sent)"
-    },
-    {
-      description: "Schedule and settings (when and how emails are sent)"
-    },
-    {
-      description: "Unibox and CRM (what happens after replies)"
-    },
-    {
-      content: "Once a campaign is active, SalesTarget.ai handles sending, follow-ups, reply tracking, and analytics automatically.",
-      isParagraph: true
-    },
+    metaTitle: "Campaigns Overview | How Email Campaigns Work in SalesTarget.ai",
+    metaDescription: "Learn how campaigns work in SalesTarget.ai. Understand campaign tabs, lead management, email templates, scheduling, and reply handling for effective cold email outreach.",
+    metaKeywords: "SalesTarget.ai campaigns, email outreach campaigns, cold email automation, campaign management, email sequences, lead management, campaign analytics",
+    features: [
+      {
+        title: "What Is a Campaign in SalesTarget.ai?",
+        isHeading: true
+      },
+      {
+        content: "If you've used cold email tools before, a campaign is similar to an automated email sequence tied to a lead list.",
+        isParagraph: true
+      },
+      {
+        content: "A campaign is a complete outreach setup that connects:",
+        isParagraph: true
+      },
+      {
+        description: "Leads (people you want to contact)"
+      },
+      {
+        description: "Email templates (what messages are sent)"
+      },
+      {
+        description: "Email accounts (from where emails are sent)"
+      },
+      {
+        description: "Schedule and settings (when and how emails are sent)"
+      },
+      {
+        description: "Unibox and CRM (what happens after replies)"
+      },
+      {
+        content: "Once a campaign is active, SalesTarget.ai handles sending, follow-ups, reply tracking, and analytics automatically.",
+        isParagraph: true
+      },
 
-    {
-      title: "Where Campaigns Fit in SalesTarget.ai",
-      isHeading: true
-    },
-    {
-      content: `Campaigns are part of the <strong>Email Outreach (Cold Email Outreach)</strong> module. They act as the link between:`,
-      isParagraph: true
-    },
-    {
-      description: `<strong>Lead Explorer </strong>(finding leads)`
-    },
-    {
-      description: `<strong>Email Accounts </strong>(sending emails)`
-    },
-    {
-      description: `<strong>Templates </strong>(email sequences)`
-    },
-    {
-      description: `<strong>Unibox </strong>(managing replies)`
-    },
-    {
-      description: `<strong>CRM </strong>(tracking deals, tasks, and meetings)`
-    },
-    {
-      content: `In simple terms:<br/> 👉 Campaigns bring everything together and make outreach run automatically.`,
-      isParagraph: true
-    },
+      {
+        title: "Where Campaigns Fit in SalesTarget.ai",
+        isHeading: true
+      },
+      {
+        content: `Campaigns are part of the <strong>Email Outreach (Cold Email Outreach)</strong> module. They act as the link between:`,
+        isParagraph: true
+      },
+      {
+        description: `<strong>Lead Explorer </strong>(finding leads)`
+      },
+      {
+        description: `<strong>Email Accounts </strong>(sending emails)`
+      },
+      {
+        description: `<strong>Templates </strong>(email sequences)`
+      },
+      {
+        description: `<strong>Unibox </strong>(managing replies)`
+      },
+      {
+        description: `<strong>CRM </strong>(tracking deals, tasks, and meetings)`
+      },
+      {
+        content: `In simple terms:<br/> 👉 Campaigns bring everything together and make outreach run automatically.`,
+        isParagraph: true
+      },
 
-    {
-      title: "Campaign Tabs in SalesTarget.ai",
-      isHeading: true
-    },
-    {
-      content: `Each campaign is organized into<strong> five main tabs.</strong> <br/> Each tab controls a different part of the campaign.`,
-      isParagraph: true
-    },
+      {
+        title: "Campaign Tabs in SalesTarget.ai",
+        isHeading: true
+      },
+      {
+        content: `Each campaign is organized into<strong> five main tabs.</strong> <br/> Each tab controls a different part of the campaign.`,
+        isParagraph: true
+      },
 
-    {
-      title: "1. Analytics",
-      isHeading: true
-    },
-    {
-      content: `Shows how your campaign is performing once it is active.<br/> You can track:`,
-      isParagraph: true
-    },
-    {
-      description: "Emails sent"
-    },
-    {
-      description: "Opens"
-    },
-    {
-      description: "Clicks"
-    },
-    {
-      description: "Replies"
-    },
-    {
-      description: "Bounces"
-    },
-    {
-      description: "Unsubscribes"
-    },
-    {
-      content: "Analytics become visible only after the campaign starts sending emails.",
-      isParagraph: true
-    },
+      {
+        title: "1. Analytics",
+        isHeading: true
+      },
+      {
+        content: `Shows how your campaign is performing once it is active.<br/> You can track:`,
+        isParagraph: true
+      },
+      {
+        description: "Emails sent"
+      },
+      {
+        description: "Opens"
+      },
+      {
+        description: "Clicks"
+      },
+      {
+        description: "Replies"
+      },
+      {
+        description: "Bounces"
+      },
+      {
+        description: "Unsubscribes"
+      },
+      {
+        content: "Analytics become visible only after the campaign starts sending emails.",
+        isParagraph: true
+      },
 
-    {
-      title: "2. Templates",
-      isHeading: true
-    },
-    {
-      content: "This is where you create and manage the email sequence used in the campaign. Templates define:",
-      isParagraph: true
-    },
-    {
-      description: "The first cold email"
-    },
-    {
-      description: "Follow-up emails"
-    },
-    {
-      description: "Time gap between each step"
-    },
-    {
-      description: "A/B variants for testing"
-    },
-    {
-      content: `Templates control<strong> what emails are sent and in what order.</strong>`,
-      isParagraph: true
-    },
+      {
+        title: "2. Templates",
+        isHeading: true
+      },
+      {
+        content: "This is where you create and manage the email sequence used in the campaign. Templates define:",
+        isParagraph: true
+      },
+      {
+        description: "The first cold email"
+      },
+      {
+        description: "Follow-up emails"
+      },
+      {
+        description: "Time gap between each step"
+      },
+      {
+        description: "A/B variants for testing"
+      },
+      {
+        content: `Templates control<strong> what emails are sent and in what order.</strong>`,
+        isParagraph: true
+      },
 
-    {
-      title: "3. Leads",
-      isHeading: true
-    },
-    {
-      content: "This tab shows all leads added to the campaign. <br/>Leads can be added in three ways:",
-      isParagraph: true
-    },
-    {
-      description: "Upload a CSV file"
-    },
-    {
-      description: "Add leads directly from Lead Explorer"
-    },
-    {
-      description: "Attach an existing saved list"
-    },
-    {
-      content: "Each lead moves through the campaign based on replies, bounces, and completion of steps.",
-      isParagraph: true
-    },
+      {
+        title: "3. Leads",
+        isHeading: true
+      },
+      {
+        content: "This tab shows all leads added to the campaign. <br/>Leads can be added in three ways:",
+        isParagraph: true
+      },
+      {
+        description: "Upload a CSV file"
+      },
+      {
+        description: "Add leads directly from Lead Explorer"
+      },
+      {
+        description: "Attach an existing saved list"
+      },
+      {
+        content: "Each lead moves through the campaign based on replies, bounces, and completion of steps.",
+        isParagraph: true
+      },
 
-    {
-      title: "4. Settings",
-      isHeading: true
-    },
-    {
-      content: "Settings control<strong> how emails are </strong>sent and<strong> when follow-ups stop.</strong> <br/> Here you manage:",
-      isParagraph: true
-    },
-    {
-      description: "Which email account is used"
-    },
-    {
-      description: "Whether follow-ups stop after a reply"
-    },
-    {
-      description: "Open and link tracking"
-    },
-    {
-      description: "Plain-text or HTML sending"
-    },
-    {
-      description: "A/B testing rules"
-    },
-    {
-      content: "These settings help protect deliverability and control campaign behavior.",
-      isParagraph: true
-    },
+      {
+        title: "4. Settings",
+        isHeading: true
+      },
+      {
+        content: "Settings control<strong> how emails are </strong>sent and<strong> when follow-ups stop.</strong> <br/> Here you manage:",
+        isParagraph: true
+      },
+      {
+        description: "Which email account is used"
+      },
+      {
+        description: "Whether follow-ups stop after a reply"
+      },
+      {
+        description: "Open and link tracking"
+      },
+      {
+        description: "Plain-text or HTML sending"
+      },
+      {
+        description: "A/B testing rules"
+      },
+      {
+        content: "These settings help protect deliverability and control campaign behavior.",
+        isParagraph: true
+      },
 
-    {
-      title: "5. Schedule",
-      isHeading: true
-    },
-    {
-      content: "The Schedule tab controls <strong>when emails are sent.</strong><br/> You can:",
-      isParagraph: true
-    },
-    {
-      description: "Send the campaign immediately"
-    },
-    {
-      description: "Schedule a start date and time"
-    },
-    {
-      description: "Choose the time zone"
-    },
-    {
-      description: "Set a gap between emails"
-    },
-    {
-      content: "This helps emails go out at the right time and avoids sending too fast.",
-      isParagraph: true
-    },
+      {
+        title: "5. Schedule",
+        isHeading: true
+      },
+      {
+        content: "The Schedule tab controls <strong>when emails are sent.</strong><br/> You can:",
+        isParagraph: true
+      },
+      {
+        description: "Send the campaign immediately"
+      },
+      {
+        description: "Schedule a start date and time"
+      },
+      {
+        description: "Choose the time zone"
+      },
+      {
+        description: "Set a gap between emails"
+      },
+      {
+        content: "This helps emails go out at the right time and avoids sending too fast.",
+        isParagraph: true
+      },
 
-    {
-      title: "How a Campaign Works (Simple Flow)",
-      isHeading: true
-    },
-    {
-      content: "Here's what happens when you run a campaign:",
-      isParagraph: true
-    },
-    {
-      description: "Leads are added to the campaign"
-    },
-    {
-      description: "Templates define the email sequence"
-    },
-    {
-      description: "Email accounts send emails based on settings and schedule"
-    },
-    {
-      description: "Follow-ups are sent automatically if no reply is received"
-    },
-    {
-      description: "Replies appear in Unibox"
-    },
-    {
-      description: "Campaign analytics update in real time"
-    },
-    {
-      content: "This process runs automatically once the campaign is active.",
-      isParagraph: true
-    },
+      {
+        title: "How a Campaign Works (Simple Flow)",
+        isHeading: true
+      },
+      {
+        content: "Here's what happens when you run a campaign:",
+        isParagraph: true
+      },
+      {
+        description: "Leads are added to the campaign"
+      },
+      {
+        description: "Templates define the email sequence"
+      },
+      {
+        description: "Email accounts send emails based on settings and schedule"
+      },
+      {
+        description: "Follow-ups are sent automatically if no reply is received"
+      },
+      {
+        description: "Replies appear in Unibox"
+      },
+      {
+        description: "Campaign analytics update in real time"
+      },
+      {
+        content: "This process runs automatically once the campaign is active.",
+        isParagraph: true
+      },
 
-    {
-      title: "What Happens When a Lead Replies?",
-      isHeading: true
-    },
-    {
-      content: "When a lead replies to a campaign email:",
-      isParagraph: true
-    },
-    {
-      description: `The reply appears in <strong>Unibox</strong>`
-    },
-    {
-      description: "Follow-up emails stop automatically (if enabled)"
-    },
-    {
-      description: "You can update the lead status (Interested, Follow-up Needed, etc.)"
-    },
-    {
-      description: "The lead can be added to CRM with one click"
-    },
-    {
-      content: "This helps you move from outreach to sales without losing context.",
-      isParagraph: true
-    },
+      {
+        title: "What Happens When a Lead Replies?",
+        isHeading: true
+      },
+      {
+        content: "When a lead replies to a campaign email:",
+        isParagraph: true
+      },
+      {
+        description: `The reply appears in <strong>Unibox</strong>`
+      },
+      {
+        description: "Follow-up emails stop automatically (if enabled)"
+      },
+      {
+        description: "You can update the lead status (Interested, Follow-up Needed, etc.)"
+      },
+      {
+        description: "The lead can be added to CRM with one click"
+      },
+      {
+        content: "This helps you move from outreach to sales without losing context.",
+        isParagraph: true
+      },
 
-    {
-      title: "Lead Status Inside a Campaign",
-      isHeading: true
-    },
-    {
-      content: "Each lead in a campaign has a clear status:",
-      isParagraph: true
-    },
-    {
-      description: `<strong>Active</strong> – Currently receiving campaign emails`
-    },
-    {
-      description: `<strong>Replied</strong> – Lead has replied and exited the sequence`
-    },
-    {
-      description: `<strong>Bounced</strong> – Email could not be delivered`
-    },
-    {
-      description: `<strong>Skipped</strong> – Lead did not meet campaign conditions`
-    },
-    {
-      description: `<strong>Completed</strong> – All sequence steps are finished`
-    },
-    {
-      content: "These statuses help you understand campaign progress quickly.",
-      isParagraph: true
-    },
+      {
+        title: "Lead Status Inside a Campaign",
+        isHeading: true
+      },
+      {
+        content: "Each lead in a campaign has a clear status:",
+        isParagraph: true
+      },
+      {
+        description: `<strong>Active</strong> – Currently receiving campaign emails`
+      },
+      {
+        description: `<strong>Replied</strong> – Lead has replied and exited the sequence`
+      },
+      {
+        description: `<strong>Bounced</strong> – Email could not be delivered`
+      },
+      {
+        description: `<strong>Skipped</strong> – Lead did not meet campaign conditions`
+      },
+      {
+        description: `<strong>Completed</strong> – All sequence steps are finished`
+      },
+      {
+        content: "These statuses help you understand campaign progress quickly.",
+        isParagraph: true
+      },
 
-    {
-      title: "Campaigns vs Templates (Quick Clarification)",
-      isHeading: true
-    },
-    {
-      description: `<strong>Campaign</strong> controls execution (leads, accounts, schedule, analytics)`
-    },
-    {
-      description: `<strong>Template</strong> controls messaging (email content and follow-ups)`
-    },
-    {
-      content: "A campaign uses one template to send emails to many leads.",
-      isParagraph: true
-    },
+      {
+        title: "Campaigns vs Templates (Quick Clarification)",
+        isHeading: true
+      },
+      {
+        description: `<strong>Campaign</strong> controls execution (leads, accounts, schedule, analytics)`
+      },
+      {
+        description: `<strong>Template</strong> controls messaging (email content and follow-ups)`
+      },
+      {
+        content: "A campaign uses one template to send emails to many leads.",
+        isParagraph: true
+      },
 
-    {
-      title: "Why Campaigns Matter",
-      isHeading: true
-    },
-    {
-      content: "Campaigns help you:",
-      isParagraph: true
-    },
-    {
-      description: "Run outreach at scale without manual work"
-    },
-    {
-      description: "Protect sender reputation with controlled sending"
-    },
-    {
-      description: "Track replies and engagement in one place"
-    },
-    {
-      description: "Move interested leads directly into CRM"
-    },
-    {
-      content: "Once set up correctly, campaigns run in the background while you focus on replies and conversions.",
-      isParagraph: true
-    },
+      {
+        title: "Why Campaigns Matter",
+        isHeading: true
+      },
+      {
+        content: "Campaigns help you:",
+        isParagraph: true
+      },
+      {
+        description: "Run outreach at scale without manual work"
+      },
+      {
+        description: "Protect sender reputation with controlled sending"
+      },
+      {
+        description: "Track replies and engagement in one place"
+      },
+      {
+        description: "Move interested leads directly into CRM"
+      },
+      {
+        content: "Once set up correctly, campaigns run in the background while you focus on replies and conversions.",
+        isParagraph: true
+      },
 
-    {
-      title: "What This Article Covers (and What It Doesn't)",
-      isHeading: true
-    },
-    {
-      content: "This article explains<strong> how campaigns work at a high level.</strong><br/> Detailed guides for:",
-      isParagraph: true
-    },
-    {
-      description: "Creating a campaign"
-    },
-    {
-      description: "Adding leads"
-    },
-    {
-      description: "Setting up templates"
-    },
-    {
-      description: "Email account setup"
-    },
-    {
-      description: "Campaign optimization"
-    },
-    {
-      content: "are covered in separate articles.",
-      isParagraph: true
-    }
-  ]
+      {
+        title: "What This Article Covers (and What It Doesn't)",
+        isHeading: true
+      },
+      {
+        content: "This article explains<strong> how campaigns work at a high level.</strong><br/> Detailed guides for:",
+        isParagraph: true
+      },
+      {
+        description: "Creating a campaign"
+      },
+      {
+        description: "Adding leads"
+      },
+      {
+        description: "Setting up templates"
+      },
+      {
+        description: "Email account setup"
+      },
+      {
+        description: "Campaign optimization"
+      },
+      {
+        content: "are covered in separate articles.",
+        isParagraph: true
+      }
+    ]
 
- 
-  
+
+
+  },
+
+  {
+    id: "76",
+    title: "Campaign vs Sequence: Understanding the Difference",
+    updated: "",
+    content: `Campaigns and sequences are closely related in SalesTarget.ai, but they serve <strong> two different purposes.</strong> <br/><br/> This article explains the difference in simple terms, so you know <strong> when you're working with a campaign and when you're working with a sequence (template).</strong>`,
+    metaTitle: "Campaign vs Sequence | Understanding the Difference in SalesTarget.ai",
+    metaDescription: "Learn the difference between campaigns and sequences in SalesTarget.ai. Understand when to create campaigns, when to reuse sequences, and how they work together for email outreach.",
+    metaKeywords: "campaign vs sequence, email templates, campaign management, sequence templates, email outreach, SalesTarget.ai campaigns, email automation",
+    features: [
+      {
+        title: "What Is a Campaign?",
+        isHeading: true
+      },
+      {
+        content: `A<strong> campaign </strong>controls<strong> how outreach is executed. </strong> <br/>A campaign decides:`,
+        isParagraph: true
+      },
+      {
+        description: "Which leads will receive emails"
+      },
+      {
+        description: "Which email accounts are used"
+      },
+      {
+        description: "When emails are sent (schedule and time zone)"
+      },
+      {
+        description: "When follow-ups should stop"
+      },
+      {
+        description: "How replies, bounces, and analytics are handled"
+      },
+      {
+        content: `In short: <br/>👉 <strong>A campaign runs the outreach.</strong>`,
+        isParagraph: true
+      },
+      {
+        content: "Once a campaign is active, SalesTarget.ai automatically sends emails, tracks replies, and updates analytics.",
+        isParagraph: true
+      },
+
+      {
+        title: "What Is a Sequence (Template)?",
+        isHeading: true
+      },
+      {
+        content: `A <strong>sequence</strong> (also called a template) controls<strong> what emails are sent. </strong> <br/>A sequence defines:`,
+        isParagraph: true
+      },
+      {
+        description: "The email content"
+      },
+      {
+        description: "The order of emails"
+      },
+      {
+        description: "Follow-up messages"
+      },
+      {
+        description: "The gap between each step"
+      },
+      {
+        description: "A/B variants for testing"
+      },
+      {
+        content: `In short:<br/> 👉<strong> A sequence defines the message flow.</strong>`,
+        isParagraph: true
+      },
+      {
+        content: "A sequence does not send emails by itself. It is used inside a campaign.",
+        isParagraph: true
+      },
+
+      {
+        title: "Simple Way to Remember the Difference",
+        isHeading: true
+      },
+      {
+        description: `<strong>Campaign = Execution</strong>`
+      },
+      {
+        description: `<strong>Sequence = Messaging</strong>`
+      },
+      {
+        content: "Or another way:",
+        isParagraph: true
+      },
+      {
+        description: `Campaign decides <strong>who, when, and how</strong>`
+      },
+      {
+        description: `Sequence decides <strong>what to say and in what order</strong>`
+      },
+
+      {
+        title: "How Campaigns and Sequences Work Together",
+        isHeading: true
+      },
+      {
+        content: "In SalesTarget.ai:",
+        isParagraph: true
+      },
+      {
+        description: "You create a sequence (email template)"
+      },
+      {
+        description: "You create a campaign"
+      },
+      {
+        description: "You attach the sequence to the campaign"
+      },
+      {
+        description: "The campaign sends the sequence to selected leads"
+      },
+      {
+        content: `One campaign uses<strong> one sequence, </strong>but the same sequence can be reused across<strong> multiple campaigns.</strong>`,
+        isParagraph: true
+      },
+
+      {
+        title: "What Campaigns Handle (Not Sequences)",
+        isHeading: true
+      },
+      {
+        content: "Campaigns manage:",
+        isParagraph: true
+      },
+      {
+        description: "Lead lists"
+      },
+      {
+        description: "Email accounts and domains"
+      },
+      {
+        description: "Sending limits and schedules"
+      },
+      {
+        description: "Reply handling"
+      },
+      {
+        description: "Analytics and performance tracking"
+      },
+      {
+        description: "Lead status updates"
+      },
+      {
+        content: `Sequences do<strong> not </strong>manage any of these.`,
+        isParagraph: true
+      },
+
+      {
+        title: "What Sequences Handle (Not Campaigns)",
+        isHeading: true
+      },
+      {
+        content: "Sequences manage:",
+        isParagraph: true
+      },
+      {
+        description: "Email copy"
+      },
+      {
+        description: "Follow-up structure"
+      },
+      {
+        description: "Timing between steps"
+      },
+      {
+        description: "A/B testing of content"
+      },
+      {
+        content: `Sequences do<strong> not:</strong>`,
+        isParagraph: true
+      },
+      {
+        description: "Choose leads"
+      },
+      {
+        description: "Send emails"
+      },
+      {
+        description: "Track analytics on their own"
+      },
+
+      {
+        title: "Example to Make It Clear",
+        isHeading: true
+      },
+      {
+        content: `Example:`,
+        isParagraph: true
+      },
+      {
+        description: `You want to reach 500 SaaS founders`
+      },
+      {
+        description: `You write a 3-step cold email follow-up.`
+      },
+      {
+        content: "What you do:",
+        isParagraph: true
+      },
+      {
+        description: "Create a sequence with 3 emails"
+      },
+      {
+        description: "Create a campaign"
+      },
+      {
+        description: "Add 500 leads to the campaign"
+      },
+      {
+        description: "Attach the sequence"
+      },
+      {
+        description: "Set schedule and email accounts"
+      },
+      {
+        description: "Start the campaign"
+      },
+      {
+        content: "The campaign sends the sequence to all 500 leads automatically.",
+        isParagraph: true
+      },
+
+      {
+        title: "When Should You Create a New Campaign?",
+        isHeading: true
+      },
+      {
+        content: "Create a new campaign when:",
+        isParagraph: true
+      },
+      {
+        description: "You are targeting a different audience"
+      },
+      {
+        description: "You want to use different email accounts or domains"
+      },
+      {
+        description: "You want a different sending schedule"
+      },
+      {
+        description: "You want to isolate performance or risk"
+      },
+
+      {
+        title: "When Should You Reuse a Sequence?",
+        isHeading: true
+      },
+      {
+        content: "Reuse a sequence when:",
+        isParagraph: true
+      },
+      {
+        description: "The message stays the same"
+      },
+      {
+        description: "Only the audience changes"
+      },
+      {
+        description: "You want consistent messaging across campaigns"
+      },
+      {
+        content: "This saves time and keeps outreach consistent.",
+        isParagraph: true
+      },
+
+      {
+        title: "Common Mistakes to Avoid",
+        isHeading: true
+      },
+      {
+        description: "Editing sequences when you actually want to change campaign settings"
+      },
+      {
+        description: "Creating multiple sequences when only the audience is different"
+      },
+      {
+        description: "Expecting a sequence to send emails without a campaign"
+      },
+      {
+        content: `Remember:<br/> <strong> 👉 Sequences don't send emails — campaigns do.</strong>`,
+        isParagraph: true
+      },
+
+      {
+        title: "Quick Summary",
+        isHeading: true
+      },
+      {
+        isTable: true,
+        headers: ["Campaign", "Sequence"],
+        rows: [
+          ["Runs the outreach", "Defines email content"],
+          ["Manages leads and accounts", "Manages message steps"],
+          ["Controls schedule and limits", "Controls follow-up flow"],
+          ["Tracks analytics", "Supports A/B testing"],
+          ["Required to send emails", "Used inside a campaign"]
+        ]
+      },
+
+      {
+        title: "Final Takeaway",
+        isHeading: true
+      },
+      {
+        content: `If you remember one thing:  <br/>&nbsp; <strong>Campaigns execute outreach. <br/> &nbsp; Sequences define what is sent.</strong>`,
+        isParagraph: true
+      },
+      {
+        content: "Understanding this difference helps you build cleaner campaigns, reuse templates effectively, and avoid confusion as you scale outreach.",
+        isParagraph: true
+      }
+    ],
+
+
+  },
+
+  {
+    id: "77",
+    title: "Campaign Limits Explained (Domains, Accounts & Volume)",
+    updated: "",
+    content: `Campaign limits in SalesTarget.ai exist to<strong> protect deliverability, prevent spam issues, and keep email sending safe and predictable.</strong><br/><br/>This article explains the three main types of limits:<br/>
+  <ul class="type-disc ml-4">
+    <li>&nbsp; ● Domains</li>
+    <li>&nbsp; ● Email accounts</li>
+    <li>&nbsp; ● Sending volume</li>
+  </ul><br/>
+  Understanding these limits helps you run campaigns without burning inboxes or domains.`,
+    metaTitle: "Campaign Limits Explained | Domains, Accounts & Volume in SalesTarget.ai",
+    metaDescription: "Learn how campaign limits work in SalesTarget.ai. Understand domain limits, email account capacity, and sending volume to protect deliverability and scale safely.",
+    metaKeywords: "campaign limits, email sending limits, domain limits, email account limits, sending volume, deliverability protection, email outreach limits, SalesTarget.ai",
+    features: [
+      {
+        title: "Why Campaign Limits Exist",
+        isHeading: true
+      },
+      {
+        content: `Email providers closely monitor sending behavior.<br/>Sending too fast or from too many leads can damage sender reputation.`,
+        isParagraph: true
+      },
+      {
+        content: "SalesTarget.ai applies limits to:",
+        isParagraph: true
+      },
+      {
+        description: "Keep sending patterns natural"
+      },
+      {
+        description: "Protect inbox placement"
+      },
+      {
+        description: "Stop sudden volume spikes"
+      },
+      {
+        description: "Reduce bounces and spam flags"
+      },
+      {
+        content: `Limits are not restrictions — they are<strong> safety controls.</strong>`,
+        isParagraph: true
+      },
+
+      {
+        title: "Domain Limits",
+        isHeading: true
+      },
+      {
+        content: `A <strong>domain</strong> is the part after @ in your email address <br/>&nbsp; (example: yourdomain.com).`,
+        isParagraph: true
+      },
+
+      {
+        title: "How domains are used in campaigns",
+        isHeading: true
+      },
+      {
+        description: "Campaigns send emails from email accounts connected to a domain"
+      },
+      {
+        description: "One domain can have multiple email accounts"
+      },
+      {
+        description: "Each domain has its own reputation"
+      },
+
+      {
+        title: "Domain limits in SalesTarget.ai",
+        isHeading: true
+      },
+      {
+        description: `One domain can have<strong> up to 5 email accounts </strong>`
+      },
+      {
+        description: `You can connect or purchase<strong> multiple domains </strong>`
+      },
+      {
+        description: `Campaign volume is spread across domains to reduce risk`
+      },
+
+      {
+        title: "Why domain limits matter",
+        isHeading: true
+      },
+      {
+        content: "Sending too many emails from one domain can:",
+        isParagraph: true
+      },
+      {
+        description: "Lower inbox placement"
+      },
+      {
+        description: "Increase spam complaints"
+      },
+      {
+        description: "Cause domain-level blocks"
+      },
+      {
+        content: "Using multiple domains helps isolate risk and scale safely.",
+        isParagraph: true
+      },
+
+      {
+        title: "Email Account Limits",
+        isHeading: true
+      },
+      {
+        content: `An<strong> email account</strong> is a single inbox<br/>&nbsp; (example: name@yourdomain.com).`,
+        isParagraph: true
+      },
+
+      {
+        title: "How email accounts work in campaigns",
+        isHeading: true
+      },
+      {
+        description: "Campaigns send emails through connected email accounts"
+      },
+      {
+        description: "Each account has its own daily sending capacity"
+      },
+      {
+        description: "Accounts can be rotated across campaigns"
+      },
+
+      {
+        title: "Recommended sending volume per account",
+        isHeading: true
+      },
+      {
+        description: `<strong>Around 30 emails per day per account</strong> (recommended)`
+      },
+      {
+        description: "Sending gradually helps maintain a healthy sender reputation"
+      },
+
+      {
+        title: "Why account limits matter",
+        isHeading: true
+      },
+      {
+        content: "Sending too many emails from one inbox can:",
+        isParagraph: true
+      },
+      {
+        description: "Trigger spam filters"
+      },
+      {
+        description: "Increase bounce rates"
+      },
+      {
+        description: "Cause temporary or permanent blocks"
+      },
+      {
+        content: "Campaigns respect these limits automatically.",
+        isParagraph: true
+      },
+
+      {
+        title: "Campaign Sending Volume",
+        isHeading: true
+      },
+      {
+        content: "Campaign volume is calculated using:",
+        isParagraph: true
+      },
+      {
+        description: "Number of active email accounts"
+      },
+      {
+        description: "Sending limits per account"
+      },
+      {
+        description: "Campaign schedule and gaps between emails"
+      },
+
+      {
+        title: "Example",
+        isHeading: true
+      },
+      {
+        content: `If you have:`,
+        isParagraph: true
+      },
+      {
+        description: "1 domain"
+      },
+      {
+        description: "5 email accounts"
+      },
+      {
+        description: "~30 emails per account per day"
+      },
+      {
+        content: "You can safely send:",
+        isParagraph: true
+      },
+      {
+        description: `<strong>~150 emails per day </strong>across that campaign`
+      },
+      {
+        content: "To increase volume safely, you add:",
+        isParagraph: true
+      },
+      {
+        description: "More email accounts"
+      },
+      {
+        description: "More domains"
+      },
+
+      {
+        title: "How SalesTarget.ai Handles Volume Automatically",
+        isHeading: true
+      },
+      {
+        content: "SalesTarget.ai automatically:",
+        isParagraph: true
+      },
+      {
+        description: "Distributes emails across connected accounts"
+      },
+      {
+        description: "Respects daily sending limits"
+      },
+      {
+        description: "Applies gaps between emails"
+      },
+      {
+        description: "Stops follow-ups when a lead replies"
+      },
+      {
+        content: "You don't need to manually calculate sending limits.",
+        isParagraph: true
+      },
+
+      {
+        title: "What Happens If You Exceed Limits?",
+        isHeading: true
+      },
+      {
+        content: "If limits are reached:",
+        isParagraph: true
+      },
+      {
+        description: "Emails are queued and automatically sent the next day during your defined sending hours"
+      },
+      {
+        description: "Sending continues gradually"
+      },
+      {
+        description: "No emails are dropped"
+      },
+      {
+        description: "Deliverability protection remains active"
+      },
+      {
+        content: "This prevents sudden spikes and keeps sending safe.",
+        isParagraph: true
+      },
+
+      {
+        title: "Best Practices for Campaign Limits",
+        isHeading: true
+      },
+      {
+        description: "Start with low volume and increase gradually"
+      },
+      {
+        description: "Use multiple email accounts per domain"
+      },
+      {
+        description: "Avoid sending high volume from a single inbox"
+      },
+      {
+        description: "Separate campaigns by domain if scaling"
+      },
+      {
+        description: "Monitor bounces and replies regularly"
+      },
+      {
+        content: "Following limits leads to better replies and inbox placement.",
+        isParagraph: true
+      },
+
+      {
+        title: "Quick Summary",
+        isHeading: true
+      },
+      {
+        description: `<strong>Domains</strong> control reputation at a higher level`
+      },
+      {
+        description: `<strong>Email accounts</strong> control daily sending capacity`
+      },
+      {
+        description: `<strong>Campaign volume</strong> is the total safe output across accounts`
+      },
+      {
+        description: "Limits exist to protect deliverability, not slow you down"
+      },
+
+      {
+        title: "Final Takeaway",
+        isHeading: true
+      },
+      {
+        content: `If you want to scale campaigns safely:<br/> &nbsp;<strong> Increase accounts and domains — not per-account volume.</strong>`,
+        isParagraph: true
+      },
+      {
+        content: "Campaign limits help you grow outreach while keeping inboxes healthy.",
+        isParagraph: true
+      }
+    ]
+  },
+
+  {
+    
+    id: "78",
+    title: "Creating Your First Campaign (Email & Multichannel)",
+    updated: "",
+    content: `This guide walks you through creating your first campaign in SalesTarget.ai.<br/><br/>By the end of this article, you'll know how to set up a campaign, add leads, attach a sequence, schedule it, and start sending emails safely.`,
+    metaTitle: "Creating Your First Campaign | Email & Multichannel Guide in SalesTarget.ai",
+    metaDescription: "Step-by-step guide to creating your first campaign in SalesTarget.ai. Learn how to set up campaigns, add leads, attach sequences, configure settings, and launch email outreach safely.",
+    metaKeywords: "create campaign, first campaign, email campaign setup, multichannel campaign, campaign creation, SalesTarget.ai campaigns, email outreach setup, campaign guide",
+    features: [
+      {
+        title: "Before You Start",
+        isHeading: true
+      },
+      {
+        content: "Make sure you have the following ready:",
+        isParagraph: true
+      },
+      {
+        description: "At least one email account connected and active"
+      },
+      {
+        description: "A sequence (template) ready, or a plan to create one"
+      },
+      {
+        description: "Leads available (CSV, Lead Explorer, or a saved list)"
+      },
+      {
+        content: "If these are not ready, complete those steps first before creating a campaign.",
+        isParagraph: true
+      },
+
+      {
+        title: "Step 1: Create a New Campaign",
+        isHeading: true
+      },
+      {
+        description: "Go to the Campaigns section in SalesTarget.ai"
+      },
+      {
+        description: "Click Add Campaign"
+      },
+      {
+        description: "Enter a campaign name"
+      },
+      {
+        content: "Choose a name that clearly describes:",
+        isParagraph: true
+      },
+      {
+        description: "Target audience"
+      },
+      {
+        description: "Purpose of the campaign"
+      },
+      {
+        content: `<strong>Example:</strong><br/>&nbsp; US SaaS Founders – Product Demo Outreach`,
+        isParagraph: true
+      },
+
+      {
+  src: "/78i1.png",
+  alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
+  caption: "",
+  isImage: true
 },
 
-{
-  id: "76",
-  title: "Campaign vs Sequence: Understanding the Difference",
-  updated: "",
-  content: `Campaigns and sequences are closely related in SalesTarget.ai, but they serve <strong> two different purposes.</strong> <br/><br/> This article explains the difference in simple terms, so you know <strong> when you're working with a campaign and when you're working with a sequence (template).</strong>`,
-  metaTitle: "Campaign vs Sequence | Understanding the Difference in SalesTarget.ai",
-  metaDescription: "Learn the difference between campaigns and sequences in SalesTarget.ai. Understand when to create campaigns, when to reuse sequences, and how they work together for email outreach.",
-  metaKeywords: "campaign vs sequence, email templates, campaign management, sequence templates, email outreach, SalesTarget.ai campaigns, email automation",
-  features: [
-    {
-      title: "What Is a Campaign?",
-      isHeading: true
-    },
-    {
-      content: `A<strong> campaign </strong>controls<strong> how outreach is executed. </strong> <br/>A campaign decides:`,
-      isParagraph: true
-    },
-    {
-      description: "Which leads will receive emails"
-    },
-    {
-      description: "Which email accounts are used"
-    },
-    {
-      description: "When emails are sent (schedule and time zone)"
-    },
-    {
-      description: "When follow-ups should stop"
-    },
-    {
-      description: "How replies, bounces, and analytics are handled"
-    },
-    {
-      content: `In short: <br/>👉 <strong>A campaign runs the outreach.</strong>`,
-      isParagraph: true
-    },
-    {
-      content: "Once a campaign is active, SalesTarget.ai automatically sends emails, tracks replies, and updates analytics.",
-      isParagraph: true
-    },
+      {
+        title: "Step 2: Attach a Sequence (Template)",
+        isHeading: true
+      },
+      {
+        content: "Go to the Templates tab.<br/>Here you can:",
+        isParagraph: true
+      },
+      {
+        description: "Select an existing sequence <strong>or</strong>"
+      },
+      {
+        description: "Create a new sequence"
+      },
+      {
+        content: "Your sequence can include:",
+        isParagraph: true
+      },
+      {
+        description: "Initial cold email"
+      },
+      {
+        description: "One or more follow-ups"
+      },
+      {
+        description: "Time gaps between steps"
+      },
+      {
+        description: "A/B variants (optional)"
+      },
+      {
+        content: "This sequence defines what emails will be sent during the campaign.",
+        isParagraph: true
+      },
 
-    {
-      title: "What Is a Sequence (Template)?",
-      isHeading: true
-    },
-    {
-      content: `A <strong>sequence</strong> (also called a template) controls<strong> what emails are sent. </strong> <br/>A sequence defines:`,
-      isParagraph: true
-    },
-    {
-      description: "The email content"
-    },
-    {
-      description: "The order of emails"
-    },
-    {
-      description: "Follow-up messages"
-    },
-    {
-      description: "The gap between each step"
-    },
-    {
-      description: "A/B variants for testing"
-    },
-    {
-      content: `In short:<br/> 👉<strong> A sequence defines the message flow.</strong>`,
-      isParagraph: true
-    },
-    {
-      content: "A sequence does not send emails by itself. It is used inside a campaign.",
-      isParagraph: true
-    },
+      {
+        src: "/78i2.png",
+        alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
+        caption: "",
+        isImage: true
+      },
 
-    {
-      title: "Simple Way to Remember the Difference",
-      isHeading: true
-    },
-    {
-      description: `<strong>Campaign = Execution</strong>`
-    },
-    {
-      description: `<strong>Sequence = Messaging</strong>`
-    },
-    {
-      content: "Or another way:",
-      isParagraph: true
-    },
-    {
-      description: `Campaign decides <strong>who, when, and how</strong>`
-    },
-    {
-      description: `Sequence decides <strong>what to say and in what order</strong>`
-    },
+      {
+        title: "Step 3: Add Leads to the Campaign",
+        isHeading: true
+      },
+      {
+        content: "You can add leads to your campaign in three ways.",
+        isParagraph: true
+      },
 
-    {
-      title: "How Campaigns and Sequences Work Together",
-      isHeading: true
-    },
-    {
-      content: "In SalesTarget.ai:",
-      isParagraph: true
-    },
-    {
-      description: "You create a sequence (email template)"
-    },
-    {
-      description: "You create a campaign"
-    },
-    {
-      description: "You attach the sequence to the campaign"
-    },
-    {
-      description: "The campaign sends the sequence to selected leads"
-    },
-    {
-      content: `One campaign uses<strong> one sequence, </strong>but the same sequence can be reused across<strong> multiple campaigns.</strong>`,
-      isParagraph: true
-    },
+      {
+        title: "Option 1: Upload a CSV",
+        isHeading: true
+      },
+      {
+        description: "Upload your CSV file"
+      },
+      {
+        description: "Map columns such as name, email, company, etc."
+      },
+      {
+        description: "Confirm the upload"
+      },
 
-    {
-      title: "What Campaigns Handle (Not Sequences)",
-      isHeading: true
-    },
-    {
-      content: "Campaigns manage:",
-      isParagraph: true
-    },
-    {
-      description: "Lead lists"
-    },
-    {
-      description: "Email accounts and domains"
-    },
-    {
-      description: "Sending limits and schedules"
-    },
-    {
-      description: "Reply handling"
-    },
-    {
-      description: "Analytics and performance tracking"
-    },
-    {
-      description: "Lead status updates"
-    },
-    {
-      content: `Sequences do<strong> not </strong>manage any of these.`,
-      isParagraph: true
-    },
+      {
+        title: "Option 2: Add Leads from Lead Explorer",
+        isHeading: true
+      },
+      {
+        description: "Use filters or AI search to find leads"
+      },
+      {
+        description: "Select the leads"
+      },
+      {
+        description: "Add them directly to the campaign"
+      },
 
-    {
-      title: "What Sequences Handle (Not Campaigns)",
-      isHeading: true
-    },
-    {
-      content: "Sequences manage:",
-      isParagraph: true
-    },
-    {
-      description: "Email copy"
-    },
-    {
-      description: "Follow-up structure"
-    },
-    {
-      description: "Timing between steps"
-    },
-    {
-      description: "A/B testing of content"
-    },
-    {
-      content: `Sequences do<strong> not:</strong>`,
-      isParagraph: true
-    },
-    {
-      description: "Choose leads"
-    },
-    {
-      description: "Send emails"
-    },
-    {
-      description: "Track analytics on their own"
-    },
+      {
+        src: "/78i3.png",
+        alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
+        caption: "",
+        isImage: true
+      },
 
-    {
-      title: "Example to Make It Clear",
-      isHeading: true
-    },
-    {
-      content: `Example:`,
-      isParagraph: true
-    },
-    {
-      description:`You want to reach 500 SaaS founders`
-    },
-    {
-      description: `You write a 3-step cold email follow-up.`
-    },
-    {
-      content: "What you do:",
-      isParagraph: true
-    },
-    {
-      description: "Create a sequence with 3 emails"
-    },
-    {
-      description: "Create a campaign"
-    },
-    {
-      description: "Add 500 leads to the campaign"
-    },
-    {
-      description: "Attach the sequence"
-    },
-    {
-      description: "Set schedule and email accounts"
-    },
-    {
-      description: "Start the campaign"
-    },
-    {
-      content: "The campaign sends the sequence to all 500 leads automatically.",
-      isParagraph: true
-    },
+      {
+        title: "Option 3: Attach an Existing List",
+        isHeading: true
+      },
+      {
+        description: "Select a previously saved list"
+      },
+      {
+        description: "Add it to the campaign"
+      },
+      {
+        content: "All selected leads will appear in the Leads tab of the campaign.",
+        isParagraph: true
+      },
 
-    {
-      title: "When Should You Create a New Campaign?",
-      isHeading: true
-    },
-    {
-      content: "Create a new campaign when:",
-      isParagraph: true
-    },
-    {
-      description: "You are targeting a different audience"
-    },
-    {
-      description: "You want to use different email accounts or domains"
-    },
-    {
-      description: "You want a different sending schedule"
-    },
-    {
-      description: "You want to isolate performance or risk"
-    },
+      {
+        title: "Step 4: Select Email Account(s) & Configure Campaign Settings",
+        isHeading: true
+      },
 
-    {
-      title: "When Should You Reuse a Sequence?",
-      isHeading: true
-    },
-    {
-      content: "Reuse a sequence when:",
-      isParagraph: true
-    },
-    {
-      description: "The message stays the same"
-    },
-    {
-      description: "Only the audience changes"
-    },
-    {
-      description: "You want consistent messaging across campaigns"
-    },
-    {
-      content: "This saves time and keeps outreach consistent.",
-      isParagraph: true
-    },
+      {
+        title: "Select Email Account(s)",
+        isHeading: true
+      },
+      {
+        content: "Choose the email account(s) you want to use for this campaign.",
+        isParagraph: true
+      },
+      {
+        description: "You can select one or multiple email accounts"
+      },
+      {
+        description: "Emails are sent automatically based on safe sending limits"
+      },
+      {
+        description: "Using multiple accounts helps spread volume and protect deliverability"
+      },
+      {
+        content: "Once selected, all emails in this campaign will be sent from these accounts.",
+        isParagraph: true
+      },
 
-    {
-      title: "Common Mistakes to Avoid",
-      isHeading: true
-    },
-    {
-      description: "Editing sequences when you actually want to change campaign settings"
-    },
-    {
-      description: "Creating multiple sequences when only the audience is different"
-    },
-    {
-      description: "Expecting a sequence to send emails without a campaign"
-    },
-    {
-      content: `Remember:<br/> <strong> 👉 Sequences don't send emails — campaigns do.</strong>`,
-      isParagraph: true
-    },
+      {
+        src: "/78ii4.png",
+        alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
+        caption: "",
+        isImage: true
+      },
 
-    {
-      title: "Quick Summary",
-      isHeading: true
-    },
-    {
-      isTable: true,
-      headers: ["Campaign", "Sequence"],
-      rows: [
-        ["Runs the outreach", "Defines email content"],
-        ["Manages leads and accounts", "Manages message steps"],
-        ["Controls schedule and limits", "Controls follow-up flow"],
-        ["Tracks analytics", "Supports A/B testing"],
-        ["Required to send emails", "Used inside a campaign"]
-      ]
-    },
+      {
+        title: "Configure Campaign Settings",
+        isHeading: true
+      },
+      {
+        content: "Open the Settings tab and review the following options:",
+        isParagraph: true
+      },
+      {
+        description: "<strong>Stop follow-ups on reply</strong> – Recommended to avoid over-emailing"
+      },
+      {
+        description: "<strong>Open & link tracking</strong> – Enable if you want engagement insights"
+      },
+      {
+        description: "<strong>Plain-text or HTML</strong> – Plain-text is usually safer for cold outreach"
+      },
+      {
+        description: "<strong>A/B testing rules</strong> – Apply if you're testing variants"
+      },
+      {
+        content: "These settings control how the campaign behaves once it starts.",
+        isParagraph: true
+      },
+      {
+        src: "/78i5.png",
+        alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
+        caption: "",
+        isImage: true
+      },
 
-    {
-      title: "Final Takeaway",
-      isHeading: true
-    },
-    {
-      content: `If you remember one thing:  <br/>&nbsp; <strong>Campaigns execute outreach. <br/> &nbsp; Sequences define what is sent.</strong>`,
-      isParagraph: true
-    },
-    {
-      content: "Understanding this difference helps you build cleaner campaigns, reuse templates effectively, and avoid confusion as you scale outreach.",
-      isParagraph: true
-    }
-  ],
+      {
+        title: "Step 5: Set the Schedule & Launch the Campaign",
+        isHeading: true
+      },
+      {
+        content: "Go to the Schedule tab.<br/>You can:",
+        isParagraph: true
+      },
+      {
+        description: "<strong>Send Now</strong> – Start sending immediately <strong>or</strong>"
+      },
+      {
+        description: "Schedule the campaign"
+      },
+      {
+        content: "If scheduling:",
+        isParagraph: true
+      },
+      {
+        description: "Choose start date and time"
+      },
+      {
+        description: "Select time zone"
+      },
+      {
+        description: "Set gap between emails"
+      },
+      {
+        content: "Before launching the campaign, review the following:",
+        isParagraph: true
+      },
+      {
+        description: "Leads count"
+      },
+      {
+        description: "Selected email accounts"
+      },
+      {
+        description: "Sequence content"
+      },
+      {
+        description: "Schedule and settings"
+      },
+      {
+        content: "Once everything looks correct, click <strong>Launch Campaign</strong>.",
+        isParagraph: true
+      },
+      {
+        src: "/78i6.png",
+        alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
+        caption: "",
+        isImage: true
+      },
 
-  
-}
+      {
+        title: "What Happens After You Start?",
+        isHeading: true
+      },
+      {
+        content: "Once the campaign is active:",
+        isParagraph: true
+      },
+      {
+        description: "Emails are sent automatically"
+      },
+      {
+        description: "Follow-ups are sent if no reply is received"
+      },
+      {
+        description: "Replies appear in Unibox"
+      },
+      {
+        description: "Follow-ups stop automatically when someone replies"
+      },
+      {
+        description: "Analytics update in real time"
+      },
+      {
+        content: "You don't need to manually send or track emails.",
+        isParagraph: true
+      },
+
+      {
+        title: "Common Tips for First Campaigns",
+        isHeading: true
+      },
+      {
+        description: "Start with a small lead list"
+      },
+      {
+        description: "Keep sequences short and simple"
+      },
+      {
+        description: "Avoid high sending volume on day one"
+      },
+      {
+        description: "Monitor replies and bounces closely"
+      },
+      {
+        description: "Make small changes between campaigns"
+      },
+
+      {
+        title: "Final Checklist",
+        isHeading: true
+      },
+      {
+        content: "Before launching your first campaign, confirm:",
+        isParagraph: true
+      },
+      {
+        description: "Email accounts are active"
+      },
+      {
+        description: "Leads are verified"
+      },
+      {
+        description: "Sequence is reviewed"
+      },
+      {
+        description: "Schedule is correct"
+      },
+      {
+        description: "Follow-ups stop on reply"
+      },
+
+      {
+        title: "What's Next?",
+        isHeading: true
+      },
+      {
+        content: "After your first campaign:",
+        isParagraph: true
+      },
+      {
+        description: "Monitor analytics"
+      },
+      {
+        description: "Reply to leads in Unibox"
+      },
+      {
+        description: "Move interested leads into CRM"
+      },
+      {
+        description: "Optimize future campaigns based on results"
+      }
+    ]
+  }
 
 
 
