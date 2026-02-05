@@ -314,7 +314,65 @@ const categories = [
     articles: [
       { title: 'Creating Your First Campaign (Email & Multichannel)', id:78, icon: Shield, color: '#FF00FF' }, // Orange
     ],
-  }
+  },
+
+  
+  {
+    title: 'How to Structure a High-Converting Campaign',
+    icon: '🔍', 
+    articles: [
+      { title: 'How to Structure a High-Converting Campaign', id: 79, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  },
+
+  {
+    title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops',
+    icon: '🔍', 
+    articles: [
+      { title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops', id: 80, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  },
+
+  {
+    title: 'How to Use AI to Write Emails That Convert',
+    icon: '🔍', 
+    articles: [
+      { title: 'How to Use AI to Write Emails That Convert', id: 81, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  },
+
+  {
+    title: 'Stopping Rules: When a Lead Should Exit a Campaign',
+    icon: '🔍', 
+    articles: [
+      { title: 'Stopping Rules: When a Lead Should Exit a Campaign', id: 81, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  },
+
+  {
+    title: 'How Leads Move Through a Campaign',
+    icon: '🔍', 
+    articles: [
+      { title: 'How Leads Move Through a Campaign', id: 82, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  },
+
+  {
+    title: 'What Happens When a Lead Replies Mid-Sequence',
+    icon: '🔍',
+    articles: [
+      { title: 'What Happens When a Lead Replies Mid-Sequence', id: 83, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  },
+
+  {
+    title: 'What Happens When a Lead Does NOT Reply',
+    icon: '🔍',
+    articles: [
+      { title: 'What Happens When a Lead Does NOT Reply', id: 84, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  },
+
 
 ];
 
