@@ -22,7 +22,7 @@ const mockArticles = [
       {
         title: "What Copilot Can Do",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
     ],
     accounts: [
@@ -629,7 +629,7 @@ With this feature. it will try to match the users sending inboxes with the recip
     id: "27",
     title: "What to do if your 'Open Rate' is low📉",
     updated: "Updated over 8 months ago",
-    content: `Tracking open rates is not always the ideal form to gauge the performance. The "true" KPI would be the positive replies rate. There are different opinions on whether you should keep open tracking enabled or will it increase the reply rate and perceived deliverability with open tracking disabled. The open tracking pixel could technically hurt deliverability, but it is difficult to gauge the extent of it.`,
+    content: `Tracking open rates is not always the ideal form to gauge the performance. The true KPI would be the positive replies rate. There are different opinions on whether you should keep open tracking enabled or will it increase the reply rate and perceived deliverability with open tracking disabled. The open tracking pixel could technically hurt deliverability, but it is difficult to gauge the extent of it.`,
     features: [
       {
         title: "Email accounts not set up properly.",
@@ -1655,24 +1655,24 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       {
         content: "👉It works across AI Email Outreach, Lead Explorer, Sales Analytics, and Memory, so you can move from ICP → outreach → deals → pipeline growth without switching tools.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "👉Copilot is completely free to use.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         src: "/intro.jpg",
         alt: " SalesTarget.ai Copilot dashboard showing options to find prospects, generate campaigns, write sequences, and view analytics with an AI-powered chat interface.",
         caption: "",
         type: "image",
-        isImage: "true"
+        isImage: true
       },
       {
         title: "Quick Highlights",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         title: "What is Copilot?",
@@ -1697,12 +1697,12 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       {
         title: "What Copilot Can Do",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         title: "1. AI Email Outreach (Cold Email Writer)",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "	Generate 3–5 step email sequences from a short brief",
@@ -1719,20 +1719,20 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         content: "Example Prompt:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         src: "/hello.jpg",
         alt: "SalesTarget.ai Copilot generating a 4-step cold email outreach sequence for Heads of Sales at US SaaS companies with AI-written subject lines and personalized email copy.",
         caption: "Create a 4-step cold email sequence for Heads of Sales at US SaaS companies (50–200 employees). Keep each email under 120 words",
         type: "image",
-        isImage: "true"
+        isImage: true
       },
 
       {
         title: "2. AI Lead Generation (Lead Explorer) ",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "	Turn your ICP (Ideal Customer Profile) into filters.	",
@@ -1747,20 +1747,20 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         content: "Example Prompt:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         src: "/Leads.jpg",
         alt: " SalesTarget.ai Copilot suggesting ICP filters for APAC SaaS companies and generating a 25-contact test list for cold email outreach.",
         caption: "Suggest 3 ICP filters for APAC SaaS companies likely to care about lowering CAC. Then propose a 25-contact test list",
         type: "image",
-        isImage: "true"
+        isImage: true
       },
 
       {
         title: "3.Sales Analytics Assistant ",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "	Summarize campaign results.",
@@ -1773,75 +1773,75 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         content: "Example Prompt:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "Summarize the last 3 campaigns and suggest 2 optimizations to improve open rates.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "4. Memory (Business Data Awareness) ",
         type: "heading",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         content: "Memory is where Copilot becomes truly context-aware. Instead of starting from scratch, you can add your website and ICP details, and Copilot will personalize everything.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         src: "/memory.jpg",
         alt: "SalesTarget Copilot Memory feature asking the user to enter their website URL to extract business data.",
         caption: "Optional caption text",
         type: "image",
-        isImage: "true"
+        isImage: true
       },
       {
         stepTitle: "Step 1. Add Your Website",
-        isStep: "true"
+        isStep: true
       },
       {
         content: "Enter your website URL, and Copilot instantly extracts your company name, description, awards, and outreach goals. ",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
 
         src: "/memory1.jpg",
         alt: "SalesTarget Copilot Memory panel for entering website details including URL,company name, description, awards, and outreach goals.",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
       {
         src: "/memory2.jpg",
         alt: "SalesTarget Copilot Memory screen for defining Ideal Customer Profiles with fields like company size, challenges, and unique selling points.",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
       {
         stepTitle: "Step 2. Define Customer Profiles",
-        isStep: "true"
+        isStep: true
       },
       {
         content: "Add Ideal Customer Profiles (ICPs) — company size, problems solved, benefits, and unique selling points.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         src: "/memory3.jpg",
         alt: "Image description",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
       {
         stepTitle: "Step 3. Add Guidance Rules",
-        isStep: "true"
+        isStep: true
       },
       {
         content: "Set up smart rules (up to 10) to guide tone, style, and outreach strategy.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "Example Rules:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: " Keep subject lines under 6 words.",
@@ -1856,20 +1856,20 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
         src: "/Picture9.jpg",
         alt: " SalesTarget Copilot Memory Guidance tab where users can add up to 10 smart rules to guide outreach preferences.",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
       {
         src: "/Picture10.jpg",
         alt: " SalesTarget Copilot popup for adding a new rule, with example text: “Always include a calendar link in the last email.”",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
 
 
       {
         title: "Why Memory Matters",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         title: "Consistent Messaging ",
@@ -1890,19 +1890,19 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
 
       {
         content: " Example Prompt:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "Based on our website and ICP for mid-market SaaS teams, draft a 3-step cold email sequence to highlight automation benefits.”",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Your Copilot Workspace",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "With the SalesTarget.ai Copilot dashboard, you can:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "New Chat ",
@@ -1918,7 +1918,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "How Copilot Fits Your Sales Workflow",
-        isHeading: "true"
+        isHeading: true
       },
       {
         title: "	Define ICP ",
@@ -1942,7 +1942,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: " Quick Start (In 10 Minutes) ",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Log in to SalesTarget.ai → find Copilot in the sidebar."
@@ -1964,7 +1964,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "Free Access Recap",
-        isHeading: "true"
+        isHeading: true
       },
       {
         title: "Copilot (AI sales assistant)",
@@ -1985,7 +1985,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
 
       {
         title: "Prompt Recipes (Copy/Paste)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         title: "Subject lines",
@@ -2013,7 +2013,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "Best Practices",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Start with 25–50 contacts, then scale"
@@ -2032,7 +2032,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "Who Benefits Most",
-        isHeading: "true"
+        isHeading: true
       },
       {
         title: "Founders & Solo Sellers",
@@ -2106,11 +2106,11 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
 
       {
         title: "What you get (at a glance)",
-        isHeading: "true"
+        isHeading: true
 
       },
       {
-        isTable: "true",
+        isTable: true,
         headers: ["Product/Feature", "Free Access ", " What it lets you do "],
         rows: [["AI Email Outreach", "7-day trial + 100 credits", "Create multi-step sequences, have AI write &amp; personalize copy, A/B test subject lines, and automate follow-ups."],
 
@@ -2133,7 +2133,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
 
       {
         title: "Why start with a trial?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         title: "Low risk, high signal.",
@@ -2149,7 +2149,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "Get started in minutes",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Create your workspace at salestarget.ai and log in.",
@@ -2168,7 +2168,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "A 7-day blueprint (so you get real signal)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         title: "Day 1 — Setup & strategy",
@@ -2200,7 +2200,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "Tips to stretch your credits",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Aim for quality &gt; quantity: one tightly defined segment beats a broad blast.",
@@ -2237,7 +2237,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
       {
         title: "Ready to try it?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         title: "AI Email Outreach:",
@@ -2286,16 +2286,16 @@ how our automated warm-up tool can save you from all the manual effort.`,
     features: [
       {
         title: "What Is Email Warm-Up (and Why Does It Matter)?",
-        isHeading: "true",
+        isHeading: true,
 
       },
       {
         content: "Email warm-up is the process of gradually building trust with inbox providers before you send cold campaigns at scale.Inbox providers like Gmail, Outlook, and Yahoo constantly monitor how people interact with your emails. If you suddenly blast hundreds of cold emails from a fresh domain, it raises red flags — and your messages are likely to land in spam.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "A warm-up plan fixes this by:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Gradually increasing sending volume."
@@ -2311,15 +2311,15 @@ how our automated warm-up tool can save you from all the manual effort.`,
       },
       {
         content: "Without warm-up, even the best-crafted campaigns risk being wasted in spam.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "The SalesTarget.ai Warm-Up Formula",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "We recommend a simple, structured approach for every new domain and email account.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Each domain can connect up to 5 email accounts."
@@ -2332,11 +2332,11 @@ how our automated warm-up tool can save you from all the manual effort.`,
       },
       {
         content: "Here’s how to get there:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "Step 1: Start Small",
-        isStep: "true"
+        isStep: true
       },
       {
         description: "Begin with 5 emails per account per day."
@@ -2349,7 +2349,7 @@ how our automated warm-up tool can save you from all the manual effort.`,
       },
       {
         stepTitle: "Step 2: Gradually Increase Volume",
-        isStep: "true"
+        isStep: true
       },
       {
         description: "After week 1, increase sending by +10 emails per account per week."
@@ -2371,7 +2371,7 @@ how our automated warm-up tool can save you from all the manual effort.`,
       },
       {
         stepTitle: "Step 3: Maintain the Reputation",
-        isStep: "true"
+        isStep: true
       },
       {
         description: "Stay consistent at 30/day/account."
@@ -2384,19 +2384,19 @@ how our automated warm-up tool can save you from all the manual effort.`,
       },
       {
         content: "Think of warm-up like going to the gym — you wouldn’t lift 200 lbs on Day 1. Build gradually to avoid injury (or in this case, the spam folder).",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Automating Warm-Up with SalesTarget.ai",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Manually sticking to a warm-up schedule takes discipline. And honestly, most teams forget or get inconsistent.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "That’s why we built the SalesTarget.ai automated warm-up tool. With one click, it handles everything for you:",
-        isParagraph: "true"
+        isParagraph: true
 
       },
       {
@@ -2410,19 +2410,19 @@ how our automated warm-up tool can save you from all the manual effort.`,
       },
       {
         content: "This means you’ll never have to worry about your cold emails being stuck in spam again.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Putting It All Together",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "A successful cold email strategy starts with one thing: deliverability. Without it, even the best campaign won’t convert.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "Here’s the winning formula to remember:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Use 5 accounts per domain."
@@ -2438,19 +2438,19 @@ how our automated warm-up tool can save you from all the manual effort.`,
       },
       {
         content: "Combine discipline with automation, and you’ll build a bulletproof sender reputation that gets you into more inboxes and books more meetings.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: " Beyond Warm-Up: Meet Copilot",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Warm-up gets your emails into the inbox. But what do you say once you’re there? That’s where Copilot in SalesTarget.ai comes in.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Copilot is your AI-powered sales assistant that helps you:",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Find the right leads instantly from a 50M+ verified database."
@@ -2466,15 +2466,15 @@ how our automated warm-up tool can save you from all the manual effort.`,
       },
       {
         content: "Think of it this way: Warm-up = delivery. Copilot = conversion. Together, they cover the entire cold email journey.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Ready to Scale Cold Email Outreach?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "SalesTarget.ai is more than just a warm-up tool. It’s a complete outbound sales platform that gives you:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Cold Email Outreach",
@@ -2494,11 +2494,11 @@ how our automated warm-up tool can save you from all the manual effort.`,
       },
       {
         content: "Start with a free trial today and launch inbox-ready campaigns in minutes.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "Get Started with SalesTarget.ai",
-        isParagraph: "true"
+        isParagraph: true
       }
 
     ],
@@ -2548,25 +2548,25 @@ meetings, tasks, reports, and team members effectively.`,
       {
         title: "1. What is the core value of SalesTarget.ai CRM?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
 
       },
       {
         content: "Answer: SalesTarget.ai CRM provides a centralized hub to manage your entire sales process—emails, tasks, meetings, deals, reports, and team collaboration—without switching between multiple tools. It’s designed to streamline lead management,improve productivity, and give leadership a clear overview of sales performance.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "2. How does the Dashboard help me?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
 
       },
       {
         content: " Answer: The Dashboard gives you a snapshot view of your organization’s activity.You can instantly see:",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Email stats"
@@ -2583,62 +2583,62 @@ meetings, tasks, reports, and team members effectively.`,
       {
         content: "This means you don’t need to dig through multiple reports to understand where your pipeline stands.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "3. Can my team manage emails directly inside the CRM?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Yes. Once your email is linked, you can send, receive, and reply to emails directly from the platform—keeping communication centralized.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "4. How do Deals work inside SalesTarget.ai?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Deals can be created, assigned, and tracked through customizable stages. You can drag-and-drop deals as they progress, giving full pipeline visibility.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "5. How does the Meetings feature integrate with my workflow?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: You can schedule and assign meetings directly from the CRM. Meetings can also be dragged across different statuses (e.g., scheduled, completed), ensuring follow-ups are tracked.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "6. How do Tasks help my team stay accountable?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Managers can assign tasks to team members, and agents update the status upon completion. This ensures visibility for admins and accountability for team members.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "7. What type of reporting can I access?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: The Reports section provides insights into:",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Emails sent and delivered"
@@ -2652,40 +2652,40 @@ meetings, tasks, reports, and team members effectively.`,
       {
         content: "This helps you track performance and optimize sales strategies.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "8. How easy is it to onboard new team members?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Adding members is simple: go to Configurations → Members, click \"Add Member,\" enter their email, assign a role, and send an invite.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "9. Does SalesTarget.ai CRM integrate with other tools we already use?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Yes, however, the integration is still under progress and will be available once the platform is updated.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "10. Is there automation for repetitive tasks (e.g., email sequences, reminders)?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Yes. SalesTarget.ai automates repetitive tasks to save time and boost efficiency.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Email automation: Multi-step sequences, smart follow-ups, and response tracking that stop when a reply is received."
@@ -2699,18 +2699,18 @@ meetings, tasks, reports, and team members effectively.`,
       {
         content: "These features significantly boost productivity by eliminating manual work while maintaining professional communication flow.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "11. How secure is my company's data on SalesTarget.ai?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: We prioritize your data security with multiple layers of protection.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Safeguards: Technical, organizational, and physical measures are in place, though no system is 100% risk-free."
@@ -2731,12 +2731,12 @@ meetings, tasks, reports, and team members effectively.`,
       {
         title: "12. Can I customize pipelines, reports, or dashboards for my business needs?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Yes. SalesTarget.ai CRM offers extensive customization to fit your business needs.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Workflows: Create custom workflows tailored to your processes for maximum efficiency."
@@ -2753,18 +2753,18 @@ meetings, tasks, reports, and team members effectively.`,
       {
         content: "Our flexible customization ensures your CRM adapts seamlessly to your workflow and customer management needs.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "13. Does the CRM support mobile access for my sales team?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Yes. Our CRM supports mobile access for your sales team.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Comprehensive features: Lead management, task scheduling, smart inbox for communications, and automated workflows."
@@ -2782,12 +2782,12 @@ meetings, tasks, reports, and team members effectively.`,
       {
         title: "14. How scalable is SalesTarget.ai CRM as my team grows?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: SalesTarget.ai CRM is built for performance and scalability as your team grows.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Enterprise-ready architecture: Supports everything from individual users to large enterprise teams."
@@ -2808,12 +2808,12 @@ meetings, tasks, reports, and team members effectively.`,
       {
         title: "15. How does the Dashboard help me stay on top of my sales activity?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: The Dashboard provides a quick overview of your activity, including:",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Email statistics"
@@ -2830,25 +2830,25 @@ meetings, tasks, reports, and team members effectively.`,
       {
         content: "This allows you to track performance at a glance without digging into multiple sections.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       //       {
       //   src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
 
       {
         title: "16. Can I manage emails directly from the Inbox?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Yes. The Inbox integrates your email directly into the CRM for seamless communication. You can:",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Link your email account"
@@ -2861,18 +2861,18 @@ meetings, tasks, reports, and team members effectively.`,
       },
       //     {
       //       stepTitle:"Status",
-      //       isStep: "true"
+      //       isStep: true
       //     },
       //       {
       //   src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
       //     {
       //       stepTitle:"All inbox",
-      //       isStep: "true",
+      //       isStep: true,
 
       //     },
       //       {
@@ -2880,31 +2880,31 @@ meetings, tasks, reports, and team members effectively.`,
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
       //    {
 
       //       stepTitle:"Campaigns",
-      //       isStep: "true"
+      //       isStep: true
       //     },
       //       {
       //   src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
 
 
       {
         title: "17. What can I find under the Lists section?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: The Lists section contains all your assigned lists, including:",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Tasks"
@@ -2918,7 +2918,7 @@ meetings, tasks, reports, and team members effectively.`,
       {
         content: "This ensures everything is organized and easy to access in one place.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       //       {
@@ -2926,34 +2926,34 @@ meetings, tasks, reports, and team members effectively.`,
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },     
       //        {
       //   stepTitle: "Leads",
-      //   isStep: "true"
+      //   isStep: true
       // },     
       //      {
       //   src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
 
 
       {
         title: "18. How do I create and manage Deals in SalesTarget.ai CRM?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Deals can be easily created, assigned, and tracked through your pipeline stages.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "To create a Deal:",
-        isStep: "true"
+        isStep: true
       },
       {
         description: "Go to CRM → Deals"
@@ -2970,29 +2970,29 @@ meetings, tasks, reports, and team members effectively.`,
       {
         content: "Once created, you can drag the deal across statuses as it progresses.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       //       {
       //   src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
 
       {
         title: "19. How do I schedule and track Meetings inside the CRM?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Meetings can be managed and scheduled directly from the platform.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "To schedule a Meeting:",
-        isStep: "true"
+        isStep: true
       },
       {
         description: "Go to CRM → Meetings"
@@ -3009,40 +3009,40 @@ meetings, tasks, reports, and team members effectively.`,
       {
         content: "You can then move meetings across statuses (e.g., scheduled, completed) as they progress.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       //      {
       //   src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
       // {
       //   stepTitle:"Add meeting",
-      //   isStep: "true"
+      //   isStep: true
       // },
       //   {
       //      src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
 
       {
         title: "20. How do Tasks keep my team accountable?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Tasks allow managers to assign and track work for team members.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "To create/assign a Task:",
-        isStep: "true"
+        isStep: true
       },
       {
         description: "Go to CRM → Tasks"
@@ -3062,37 +3062,37 @@ meetings, tasks, reports, and team members effectively.`,
       {
         content: "Agents update the status upon completion, ensuring visibility for admins.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       //       {
       //   src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },   
       //   {
       //   stepTitle: "Add Task",
-      //   isStep: "true"
+      //   isStep: true
       // },
       //  {
       //   src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
 
 
       {
         title: "21. What type of Reports can I generate?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Reports provide detailed analytics to optimize performance. You can access:",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Emails sent and delivered"
@@ -3108,22 +3108,22 @@ meetings, tasks, reports, and team members effectively.`,
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
 
       {
         title: "22. How do I add new team members to the CRM?",
         type: "heading",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Answer: Adding new members is quick and simple.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "To add a new member:",
-        isStep: "true"
+        isStep: true
       },
       {
         description: "Go to \"Configurations\" → \"Members\"."
@@ -3143,36 +3143,36 @@ meetings, tasks, reports, and team members effectively.`,
       {
         content: "This ensures your team can collaborate effectively inside the CRM.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       //   {
       //      src: "/dashboard-screenshot.png",
       // alt: "SalesTarget dashboard interface",
       // caption:"",
       // type: "image",
-      // isImage: "true"
+      // isImage: true
       //   },
       //      {
       //   stepTitle: "Add",
-      //   isStep: "true"
+      //   isStep: true
       // },
       // {
       //    src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
       // {
       //   stepTitle: "Workspace and Teams",
-      //   isStep: "true"
+      //   isStep: true
       // },
       //  {
       //   src: "/dashboard-screenshot.png",
       //   alt: "SalesTarget dashboard interface",
       //   caption:"",
       //   type: "image",
-      //   isImage: "true"
+      //   isImage: true
       // },
 
 
@@ -3206,40 +3206,40 @@ Cold email outreach works even better when you start with {{ <a href='https://sa
 
       {
         stepTitle: "1) Manually using the Campaign Editor",
-        isStep: "true"
+        isStep: true
       },
       {
         content: "(Templates → Leads → Settings → Schedule)",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "2) Automatically using the AI Sequence Generator",
-        isStep: "true"
+        isStep: true
       },
       {
         content: "(Enter company details → Select steps → Auto-generate)",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "Both options simplify the cold email outreach process — even for beginners.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         stepTitle: "1. Add Steps (Your Email Flow)",
-        isStep: "true"
+        isStep: true
       },
       {
         content: `Inside the Templates tab, each step is organized into clean cards:`,
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "Configure each step",
-        isStep: "true"
+        isStep: true
       },
       {
         description: ` Add subject line variants`
@@ -3256,11 +3256,11 @@ Cold email outreach works even better when you start with {{ <a href='https://sa
       {
         content: `A solid cold email sequence typically includes 3–5 steps:`,
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "Common sequence structure",
-        isStep: "true"
+        isStep: true
       },
       {
         description: `Initial introduction`
@@ -3279,24 +3279,24 @@ Cold email outreach works even better when you start with {{ <a href='https://sa
       },
       {
         content: `This structure gives your outreach a natural flow while keeping everything automated.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "2. Add Delays Between Follow-Ups",
-        isStep: "true"
+        isStep: true
       },
       {
         content: `Every step includes a delay field so you can control timing with options like “Send next message in X days”.`,
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "Why spacing matters",
-        isStep: "true"
+        isStep: true
       },
       {
         content: `Spreading out messages helps with:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Better deliverability`
@@ -3309,11 +3309,11 @@ Cold email outreach works even better when you start with {{ <a href='https://sa
       },
       {
         stepTitle: "How SalesTarget.ai handles sending rules",
-        isStep: `"true"`
+        isStep: `true`
       },
       {
         content: `SalesTarget.ai also ensures that:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Once someone replies, the sequence stops`
@@ -3326,16 +3326,16 @@ Cold email outreach works even better when you start with {{ <a href='https://sa
       },
       {
         stepTitle: "3. Personalization (Tokens + AI Tools)",
-        isStep: "true"
+        isStep: true
       },
       {
         content: "Personalization significantly improves cold email performance. In SalesTarget.ai, you can use tokens such as:",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "Personalization tokens",
-        isStep: "true"
+        isStep: true
       },
       {
         description: ` firstName`
@@ -3349,11 +3349,11 @@ Cold email outreach works even better when you start with {{ <a href='https://sa
       {
         content: "You can also enhance messaging with built-in AI tools:",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "AI tools inside SalesTarget.ai",
-        isStep: "true"
+        isStep: true
       },
       {
         description: `AI Sequence Generator`
@@ -3372,15 +3372,15 @@ Cold email outreach works even better when you start with {{ <a href='https://sa
       },
       {
         content: `These help your outreach stay human, relevant, and scalable.`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         stepTitle: "Copy-Paste Personalization Examples",
-        isStep: "true"
+        isStep: true
       },
       {
-        isHeading: "true",
+        isHeading: true,
         title: "Example 1: Short Intro Email"
       },
       {
@@ -3391,10 +3391,10 @@ Hey {{firstName}}, noticed {{companyName}} has been exploring ways to improve {{
 
 Would it make sense to share a quick idea?`,
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        isHeading: "true",
+        isHeading: true,
         title: "Example 2: Case-Study Style Email"
       },
       {
@@ -3406,21 +3406,21 @@ We recently helped a company in your industry improve {{specific metric}} by {{X
 
 Happy to share what worked if you’re exploring new approaches.`,
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         stepTitle: "4. Configure Sending Logic (Settings + Schedule)",
-        isStep: "true"
+        isStep: true
       },
       {
         content: "SalesTarget.ai gives you full control over when and how emails send.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "Schedule controls",
-        isStep: "true"
+        isStep: true
       },
       {
         description: `Sending days`
@@ -3436,7 +3436,7 @@ Happy to share what worked if you’re exploring new approaches.`,
       },
       {
         stepTitle: "Settings controls",
-        isStep: "true"
+        isStep: true
       },
       {
         description: ` Domain and sender controls`
@@ -3449,21 +3449,21 @@ Happy to share what worked if you’re exploring new approaches.`,
       },
       {
         content: `These settings help maintain high email deliverability and improve cold outreach performance`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         stepTitle: "5. Preview and Test Your Sequence",
-        isStep: "true"
+        isStep: true
       },
       {
         content: "Before activating your sequence, use the Send Test Email option and preview the full flow.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "What to check before going live",
-        isStep: "true"
+        isStep: true
       },
       {
         description: `A quick test helps you catch: `
@@ -3486,21 +3486,21 @@ Happy to share what worked if you’re exploring new approaches.`,
       {
         content: "Once your sequence goes live, you can track replies and manage conversations directly inside your CRM so every lead is followed up on.",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         stepTitle: "Using the AI Sequence Generator",
-        isStep: "true"
+        isStep: true
       },
       {
         content: "The AI Sequence Generator is the fastest way to create a full multi-step email sequence. It asks for:",
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "Inputs required",
-        isStep: "true"
+        isStep: true
       },
       {
         description: ` Company name`
@@ -3519,11 +3519,11 @@ Happy to share what worked if you’re exploring new approaches.`,
       },
       {
         stepTitle: "What the AI generates",
-        isStep: "true"
+        isStep: true
       },
       {
         content: `Based on your inputs, it generates:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Subject line variants`
@@ -3539,16 +3539,16 @@ Happy to share what worked if you’re exploring new approaches.`,
       },
       {
         content: `Then, with one click, you can insert everything into your campaign using “Use Sequence”.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         stepTitle: "Final Thoughts",
-        isStep: "true"
+        isStep: true
       },
       {
         content: `Creating your first email sequence doesn’t need to be complicated. With SalesTarget.ai’s intuitive editor, AI-powered outreach tools, and smart sending logic, anyone can build high-performing cold email sequences that drive real replies and results.`,
         type: "paragraph",
-        isParagraph: "true"
+        isParagraph: true
       }
     ],
 
@@ -3595,7 +3595,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
 
       // Supported LinkedIn Actions
       {
-        isHeading: "true",
+        isHeading: true,
         title: "Supported LinkedIn Actions"
       },
       { description: "Send Connection Request" },
@@ -3608,7 +3608,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
 
       // Supported Automation Behaviors
       {
-        isHeading: "true",
+        isHeading: true,
         title: "Supported Automation Behaviors"
       },
       { description: "Multi-step follow-up sequences with timed steps" },
@@ -3622,7 +3622,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
 
       {
         stepTitle: "How LinkedIn Automation Works",
-        isStep: "true"
+        isStep: true
       },
       {
         description: "LinkedIn Automation in SalesTarget.ai runs through a simple four-step setup so you can go from campaign idea to live outreach in minutes."
@@ -3631,7 +3631,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       // 1. Create a Campaign
       {
         stepTitle: "1. Create a Campaign",
-        isStep: "true"
+        isStep: true
       },
       {
         description: "Start by creating a new LinkedIn campaign and choosing which accounts will send your actions."
@@ -3645,7 +3645,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "Warmup Mode"
       },
       {
@@ -3673,7 +3673,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       // 2. Select Your Leads
       {
         stepTitle: "2. Select Your Leads",
-        isStep: "true"
+        isStep: true
       },
       {
         description:
@@ -3681,7 +3681,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "A. LinkedIn Search URLs"
       },
       {
@@ -3692,7 +3692,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "B. CSV Upload"
       },
       {
@@ -3710,7 +3710,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       // 3. Build Your LinkedIn Sequence
       {
         stepTitle: "3. Build Your LinkedIn Sequence",
-        isStep: "true"
+        isStep: true
       },
       {
         description:
@@ -3718,7 +3718,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "A. Available LinkedIn Actions"
       },
       {
@@ -3749,7 +3749,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "B. Conditions"
       },
       {
@@ -3764,7 +3764,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "C. Delays"
       },
       {
@@ -3778,7 +3778,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "D. AI Personalization"
       },
       {
@@ -3800,7 +3800,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       // 4. Verify & Launch
       {
         stepTitle: "4. Verify & Launch",
-        isStep: "true"
+        isStep: true
       },
       {
         description:
@@ -3815,7 +3815,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "LinkedIn Inbox"
       },
       {
@@ -3827,7 +3827,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       { description: "View full chat history for each prospect so you always know the previous touchpoints." },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "My Network"
       },
       {
@@ -3838,7 +3838,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       { description: "Start manual outreach flows directly from your synced network." },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "LinkedIn Accounts Management"
       },
       {
@@ -3853,13 +3853,13 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       { description: "Reconnect accounts if access has expired or permissions changed." },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "Account Settings"
       },
 
       // Account Limits as separate descriptions
       {
-        isHeading: "true",
+        isHeading: true,
         title: "A. Account Limits"
       },
       { description: "Adjust daily limits for your LinkedIn actions so they stay within safe ranges." },
@@ -3874,7 +3874,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
 
       // Profile Settings as separate descriptions (matching your point format)
       {
-        isHeading: "true",
+        isHeading: true,
         title: "B. Profile Settings"
       },
       { description: "First Name" },
@@ -3891,7 +3891,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
 
       // Analytics & Reporting
       {
-        isHeading: "true",
+        isHeading: true,
         title: "Analytics & Reporting"
       },
       {
@@ -3900,7 +3900,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "Metrics Displayed"
       },
       { description: "Connection Requests" },
@@ -3912,7 +3912,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       { description: "Total Accounts" },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "Views"
       },
       { description: "Daily performance view" },
@@ -3925,12 +3925,12 @@ This guide explains how to create campaigns, select leads, build sequences, conf
 
       // Troubleshooting
       {
-        isHeading: "true",
+        isHeading: true,
         title: "Troubleshooting"
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "1. Connection Request Not Sent"
       },
       { description: "Daily connection limit reached." },
@@ -3939,7 +3939,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       { description: "Invalid or unsupported profile URL." },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "2. Message Not Sent"
       },
       { description: "The prospect is not yet a 1st-degree connection." },
@@ -3947,7 +3947,7 @@ This guide explains how to create campaigns, select leads, build sequences, conf
       { description: "A required personalization variable is missing or empty." },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: "3. No Leads Imported"
       },
       { description: "The LinkedIn URL is invalid or not supported for import." },
@@ -4022,15 +4022,15 @@ meetings.</p>
     features: [
       // 1) Section heading: Lead Activity
       {
-        isHeading: "true",
+        isHeading: true,
         title: '1. Lead Activity'
       },
       {
-        isStep: "true",
+        isStep: true,
         stepTitle: 'Track every interaction with a lead in one timeline.'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
         <p>The Lead Activity page gives you a complete history of everything that has happened with</p>
         <p>a lead. Every email, task, meeting, follow-up, or data update is logged automatically..</p>
@@ -4068,15 +4068,15 @@ meetings.</p>
 
       // 2) Section heading: Meetings
       {
-        isHeading: "true",
+        isHeading: true,
         title: '2. Meetings (Zoom + Google Meet Integration)'
       },
       {
-        isStep: "true",
+        isStep: true,
         stepTitle: 'Manage all your calls without leaving the CRM.'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <p>The <strong>Meetings</strong> section is your centralized view for all upcoming and completed meetings.</p>
       `
@@ -4128,29 +4128,29 @@ meetings.</p>
         description: 'Deal Timeline (if linked to a deal)'
       },
       // {
-      //   isImage: "true",
+      //   isImage: true,
       //   src: '/images/help/crm-create-meeting.png',
       //   alt: 'Create Meeting popup in SalesTarget.ai CRM',
       //   caption: 'Schedule Zoom or Google Meet calls directly from the Create Meeting popup.'
       // },
       // 3) Section heading: Task Management
       {
-        isHeading: "true",
+        isHeading: true,
         title: '3. Task Management'
       },
       {
-        isStep: "true",
+        isStep: true,
         stepTitle: 'Stay organized with follow-ups, reminders, and to-dos.'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <p>The Tasks section helps you manage actionable next steps so nothing slips through the cracks.</p>
       `
       },
       {
         stepTitle: 'Features',
-        isStep: "true"
+        isStep: true
       },
       {
         description: 'Create tasks anywhere in the CRM'
@@ -4188,27 +4188,27 @@ meetings.</p>
       `
       },
       // {
-      //   isImage: "true",
+      //   isImage: true,
       //   src: '/images/help/crm-tasks-dashboard.png',
       //   alt: 'Tasks dashboard in SalesTarget.ai CRM',
       //   caption: 'Use the Tasks dashboard to track follow-ups, due dates, and overdue items.'
       // },
       // 4) Section heading: Activity Feed
       {
-        isHeading: "true",
+        isHeading: true,
         title: '4. Activity Feed (Global Log)'
       },
       {
-        isStep: "true",
+        isStep: true,
         stepTitle: 'See everything happening across your CRM.'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `<p> The Activity Feed shows all actions performed across your SalesTarget.ai workspace.</p>`
       },
       {
         stepTitle: 'What You’ll See',
-        isStep: "true"
+        isStep: true
       },
       {
         description: 'Emails sent, opened, clicked, replied'
@@ -4239,7 +4239,7 @@ meetings.</p>
       },
       {
         stepTitle: 'Why it matters',
-        isStep: "true"
+        isStep: true
       },
       {
         description: `Full visibility for managers`
@@ -4254,7 +4254,7 @@ meetings.</p>
         description: `Easy tracking of high-intent interactions`
       }
       // {
-      //   isImage: "true",
+      //   isImage: true,
       //   src: '/images/help/crm-activity-feed.png',
       //   alt: 'Activity Feed view in SalesTarget.ai CRM',
       //   caption: 'Use filters in the Activity Feed to focus on specific teams, channels, or interaction types.'
@@ -4336,11 +4336,11 @@ you.</p>
     metaDescription: "",
     features: [
       {
-        isHeading: "true",
+        isHeading: true,
         title: 'What Can You A/B Test?'
       },
       {
-        isStep: "true",
+        isStep: true,
         stepTitle: 'In a campaign step, you can create two variants and test:'
       },
       {
@@ -4353,19 +4353,19 @@ you.</p>
         description: 'Subject line + email content together'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <p>Only <strong> 2 variants </strong> are allowed per step to keep results clear and reliable.</p>
       `
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: 'Where A/B Testing Is Configured'
       },
 
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <p>A/B testing is configured inside your Campaign Settings.</p>
       <p>Path:<br/>
@@ -4374,15 +4374,15 @@ you.</p>
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: 'How to Set Up A/B Testing in SalesTarget'
       },
       {
-        isStep: "true",
+        isStep: true,
         stepTitle: 'Step 1: Create Variants in Templates'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <ol>
         <li>&nbsp; 1. Go to <strong>Campaign → Templates</strong></li><br/>
@@ -4399,11 +4399,11 @@ you.</p>
       },
 
       {
-        isStep: "true",
+        isStep: true,
         stepTitle: 'Step 2: Enable Auto Optimize A/B Testing'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <ol>
         <li>&nbsp; 1. Go to <strong>Campaign → Settings</strong></li><br/>
@@ -4417,11 +4417,11 @@ you.</p>
       },
 
       {
-        isStep: "true",
+        isStep: true,
         stepTitle: 'Step 3: Choose the Winning Metric'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <p>Under <strong>Choose winning metric</strong>, select one:</p>
       <ul>
@@ -4435,11 +4435,11 @@ you.</p>
       },
 
       {
-        isStep: "true",
+        isStep: true,
         stepTitle: 'Step 4: Add Leads and Schedule the Campaign'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <ul>
         <li>1. Go to <strong>Leads</strong></li><br/>
@@ -4464,15 +4464,15 @@ you.</p>
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: ' How Traffic Is Split'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `SalesTarget splits leads <strong> 50/50 </strong> during the testing phase.`
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <p>SalesTarget automatically splits leads 50/50 between both variants during the testing phase.</p>
       <p>Example:</p>
@@ -4494,15 +4494,15 @@ you.</p>
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: ' How the Winner Is Chosen'
       },
       {
-        isStep: "true",
+        isStep: true,
         stepTitle: 'SalesTarget automatically compares both variants using the selected metric.'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <ul>
         <li> &bull; SalesTarget compares both variants using the<strong> selected metric. </strong></li><br/>
@@ -4518,11 +4518,11 @@ you.</p>
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: ' Minimum Sample Size'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <ul>
         <li>&nbsp; &bull; A/B testing always uses 50% of total leads</li><br/>
@@ -4533,11 +4533,11 @@ you.</p>
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: ' What Happens After a Winner Is Selected?'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <p>Once the winner is chosen:</p>
       <ul>
@@ -4553,11 +4553,11 @@ you.</p>
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: 'Important Rules to Know'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <ul>
         <li> &bull; Only 2 variants are allowed per step</li><br/>
@@ -4568,11 +4568,11 @@ you.</p>
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: 'When You Should Avoid A/B Testing'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <ul>
         <li> &bull; Very small lead lists</li><br/>
@@ -4583,11 +4583,11 @@ you.</p>
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: 'Best Practices (Quick Tips)'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <ul>
         <li>  &bull; Test one change at a time</li><br/>
@@ -4600,11 +4600,11 @@ you.</p>
       },
 
       {
-        isHeading: "true",
+        isHeading: true,
         title: ' In Short'
       },
       {
-        isParagraph: "true",
+        isParagraph: true,
         content: `
       <p>A/B testing in SalesTarget is:</p>
       <ul>
@@ -4670,15 +4670,15 @@ This article explains how campaigns work at a high level, so you understand the 
     features: [
       {
         title: "What Is a Campaign in SalesTarget.ai?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "If you've used cold email tools before, a campaign is similar to an automated email sequence tied to a lead list.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "A campaign is a complete outreach setup that connects:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Leads (people you want to contact)"
@@ -4697,16 +4697,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Once a campaign is active, SalesTarget.ai handles sending, follow-ups, reply tracking, and analytics automatically.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Where Campaigns Fit in SalesTarget.ai",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Campaigns are part of the <strong>Email Outreach (Cold Email Outreach)</strong> module. They act as the link between:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `<strong>Lead Explorer </strong>(finding leads)`
@@ -4725,25 +4725,25 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: `In simple terms:<br/> 👉 Campaigns bring everything together and make outreach run automatically.`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Campaign Tabs in SalesTarget.ai",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Each campaign is organized into<strong> five main tabs.</strong> <br/> Each tab controls a different part of the campaign.`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "1. Analytics",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Shows how your campaign is performing once it is active.<br/> You can track:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Emails sent"
@@ -4765,16 +4765,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Analytics become visible only after the campaign starts sending emails.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "2. Templates",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "This is where you create and manage the email sequence used in the campaign. Templates define:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "The first cold email"
@@ -4790,16 +4790,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: `Templates control<strong> what emails are sent and in what order.</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "3. Leads",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "This tab shows all leads added to the campaign. <br/>Leads can be added in three ways:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Upload a CSV file"
@@ -4812,16 +4812,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Each lead moves through the campaign based on replies, bounces, and completion of steps.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "4. Settings",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Settings control<strong> how emails are </strong>sent and<strong> when follow-ups stop.</strong> <br/> Here you manage:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Which email account is used"
@@ -4840,16 +4840,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "These settings help protect deliverability and control campaign behavior.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "5. Schedule",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "The Schedule tab controls <strong>when emails are sent.</strong><br/> You can:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Send the campaign immediately"
@@ -4865,16 +4865,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "This helps emails go out at the right time and avoids sending too fast.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "How a Campaign Works (Simple Flow)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Here's what happens when you run a campaign:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Leads are added to the campaign"
@@ -4896,16 +4896,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "This process runs automatically once the campaign is active.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "What Happens When a Lead Replies?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "When a lead replies to a campaign email:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `The reply appears in <strong>Unibox</strong>`
@@ -4921,16 +4921,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "This helps you move from outreach to sales without losing context.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Lead Status Inside a Campaign",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Each lead in a campaign has a clear status:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `<strong>Active</strong> – Currently receiving campaign emails`
@@ -4949,12 +4949,12 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "These statuses help you understand campaign progress quickly.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Campaigns vs Templates (Quick Clarification)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: `<strong>Campaign</strong> controls execution (leads, accounts, schedule, analytics)`
@@ -4964,16 +4964,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "A campaign uses one template to send emails to many leads.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Why Campaigns Matter",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Campaigns help you:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Run outreach at scale without manual work"
@@ -4989,16 +4989,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Once set up correctly, campaigns run in the background while you focus on replies and conversions.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "What This Article Covers (and What It Doesn't)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "This article explains<strong> how campaigns work at a high level.</strong><br/> Detailed guides for:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Creating a campaign"
@@ -5017,7 +5017,7 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "are covered in separate articles.",
-        isParagraph: "true"
+        isParagraph: true
       }
     ]
 
@@ -5036,11 +5036,11 @@ This article explains how campaigns work at a high level, so you understand the 
     features: [
       {
         title: "What Is a Campaign?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `A<strong> campaign </strong>controls<strong> how outreach is executed. </strong> <br/>A campaign decides:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Which leads will receive emails"
@@ -5059,20 +5059,20 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: `In short: <br/>👉 <strong>A campaign runs the outreach.</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "Once a campaign is active, SalesTarget.ai automatically sends emails, tracks replies, and updates analytics.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "What Is a Sequence (Template)?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `A <strong>sequence</strong> (also called a template) controls<strong> what emails are sent. </strong> <br/>A sequence defines:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "The email content"
@@ -5091,16 +5091,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: `In short:<br/> 👉<strong> A sequence defines the message flow.</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "A sequence does not send emails by itself. It is used inside a campaign.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Simple Way to Remember the Difference",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: `<strong>Campaign = Execution</strong>`
@@ -5110,7 +5110,7 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Or another way:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Campaign decides <strong>who, when, and how</strong>`
@@ -5121,11 +5121,11 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "How Campaigns and Sequences Work Together",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "In SalesTarget.ai:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "You create a sequence (email template)"
@@ -5141,16 +5141,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: `One campaign uses<strong> one sequence, </strong>but the same sequence can be reused across<strong> multiple campaigns.</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "What Campaigns Handle (Not Sequences)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Campaigns manage:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Lead lists"
@@ -5172,16 +5172,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: `Sequences do<strong> not </strong>manage any of these.`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "What Sequences Handle (Not Campaigns)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Sequences manage:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Email copy"
@@ -5197,7 +5197,7 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: `Sequences do<strong> not:</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Choose leads"
@@ -5211,11 +5211,11 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "Example to Make It Clear",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Example:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `You want to reach 500 SaaS founders`
@@ -5225,7 +5225,7 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "What you do:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Create a sequence with 3 emails"
@@ -5247,16 +5247,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "The campaign sends the sequence to all 500 leads automatically.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "When Should You Create a New Campaign?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Create a new campaign when:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "You are targeting a different audience"
@@ -5273,11 +5273,11 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "When Should You Reuse a Sequence?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Reuse a sequence when:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "The message stays the same"
@@ -5290,12 +5290,12 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "This saves time and keeps outreach consistent.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Common Mistakes to Avoid",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Editing sequences when you actually want to change campaign settings"
@@ -5308,15 +5308,15 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: `Remember:<br/> <strong> 👉 Sequences don't send emails — campaigns do.</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Quick Summary",
-        isHeading: "true"
+        isHeading: true
       },
       {
-        isTable: "true",
+        isTable: true,
         headers: ["Campaign", "Sequence"],
         rows: [
           ["Runs the outreach", "Defines email content"],
@@ -5329,15 +5329,15 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "Final Takeaway",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `If you remember one thing:  <br/>&nbsp; <strong>Campaigns execute outreach. <br/> &nbsp; Sequences define what is sent.</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "Understanding this difference helps you build cleaner campaigns, reuse templates effectively, and avoid confusion as you scale outreach.",
-        isParagraph: "true"
+        isParagraph: true
       }
     ],
 
@@ -5361,15 +5361,15 @@ This article explains how campaigns work at a high level, so you understand the 
     features: [
       {
         title: "Why Campaign Limits Exist",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Email providers closely monitor sending behavior.<br/>Sending too fast or from too many leads can damage sender reputation.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "SalesTarget.ai applies limits to:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Keep sending patterns natural"
@@ -5385,21 +5385,21 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: `Limits are not restrictions — they are<strong> safety controls.</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Domain Limits",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `A <strong>domain</strong> is the part after @ in your email address <br/>&nbsp; (example: yourdomain.com).`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "How domains are used in campaigns",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Campaigns send emails from email accounts connected to a domain"
@@ -5413,7 +5413,7 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "Domain limits in SalesTarget.ai",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: `One domain can have<strong> up to 5 email accounts </strong>`
@@ -5427,11 +5427,11 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "Why domain limits matter",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Sending too many emails from one domain can:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Lower inbox placement"
@@ -5444,21 +5444,21 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Using multiple domains helps isolate risk and scale safely.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Email Account Limits",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `An<strong> email account</strong> is a single inbox<br/>&nbsp; (example: name@yourdomain.com).`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "How email accounts work in campaigns",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Campaigns send emails through connected email accounts"
@@ -5472,7 +5472,7 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "Recommended sending volume per account",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: `<strong>Around 30 emails per day per account</strong> (recommended)`
@@ -5483,11 +5483,11 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "Why account limits matter",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Sending too many emails from one inbox can:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Trigger spam filters"
@@ -5500,16 +5500,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Campaigns respect these limits automatically.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Campaign Sending Volume",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Campaign volume is calculated using:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Number of active email accounts"
@@ -5523,11 +5523,11 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "Example",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `If you have:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "1 domain"
@@ -5540,14 +5540,14 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "You can safely send:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `<strong>~150 emails per day </strong>across that campaign`
       },
       {
         content: "To increase volume safely, you add:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "More email accounts"
@@ -5558,11 +5558,11 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "How SalesTarget.ai Handles Volume Automatically",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "SalesTarget.ai automatically:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Distributes emails across connected accounts"
@@ -5578,16 +5578,16 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "You don't need to manually calculate sending limits.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "What Happens If You Exceed Limits?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "If limits are reached:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Emails are queued and automatically sent the next day during your defined sending hours"
@@ -5603,12 +5603,12 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "This prevents sudden spikes and keeps sending safe.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Best Practices for Campaign Limits",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Start with low volume and increase gradually"
@@ -5627,12 +5627,12 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Following limits leads to better replies and inbox placement.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Quick Summary",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: `<strong>Domains</strong> control reputation at a higher level`
@@ -5649,15 +5649,15 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "Final Takeaway",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `If you want to scale campaigns safely:<br/> &nbsp;<strong> Increase accounts and domains — not per-account volume.</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "Campaign limits help you grow outreach while keeping inboxes healthy.",
-        isParagraph: "true"
+        isParagraph: true
       }
     ]
   },
@@ -5674,11 +5674,11 @@ This article explains how campaigns work at a high level, so you understand the 
     features: [
       {
         title: "Before You Start",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Make sure you have the following ready:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "At least one email account connected and active"
@@ -5691,12 +5691,12 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "If these are not ready, complete those steps first before creating a campaign.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Step 1: Create a New Campaign",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Go to the Campaigns section in SalesTarget.ai"
@@ -5709,7 +5709,7 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Choose a name that clearly describes:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Target audience"
@@ -5719,23 +5719,23 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: `<strong>Example:</strong><br/>&nbsp; US SaaS Founders – Product Demo Outreach`,
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         src: "/78i1.png",
         alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
 
       {
         title: "Step 2: Attach a Sequence (Template)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Go to the Templates tab.<br/>Here you can:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Select an existing sequence <strong>or</strong>"
@@ -5745,7 +5745,7 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Your sequence can include:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Initial cold email"
@@ -5761,28 +5761,28 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "This sequence defines what emails will be sent during the campaign.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         src: "/78i2.png",
         alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
 
       {
         title: "Step 3: Add Leads to the Campaign",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "You can add leads to your campaign in three ways.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Option 1: Upload a CSV",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Upload your CSV file"
@@ -5796,7 +5796,7 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "Option 2: Add Leads from Lead Explorer",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Use filters or AI search to find leads"
@@ -5812,12 +5812,12 @@ This article explains how campaigns work at a high level, so you understand the 
         src: "/78i3.png",
         alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
 
       {
         title: "Option 3: Attach an Existing List",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Select a previously saved list"
@@ -5827,21 +5827,21 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "All selected leads will appear in the Leads tab of the campaign.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Step 4: Select Email Account(s) & Configure Campaign Settings",
-        isHeading: "true"
+        isHeading: true
       },
 
       {
         title: "Select Email Account(s)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Choose the email account(s) you want to use for this campaign.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "You can select one or multiple email accounts"
@@ -5854,23 +5854,23 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Once selected, all emails in this campaign will be sent from these accounts.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         src: "/78ii4.png",
         alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
 
       {
         title: "Configure Campaign Settings",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Open the Settings tab and review the following options:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "<strong>Stop follow-ups on reply</strong> – Recommended to avoid over-emailing"
@@ -5886,22 +5886,22 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "These settings control how the campaign behaves once it starts.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         src: "/78i5.png",
         alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
 
       {
         title: "Step 5: Set the Schedule & Launch the Campaign",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Go to the Schedule tab.<br/>You can:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "<strong>Send Now</strong> – Start sending immediately <strong>or</strong>"
@@ -5911,7 +5911,7 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "If scheduling:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Choose start date and time"
@@ -5924,7 +5924,7 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Before launching the campaign, review the following:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Leads count"
@@ -5940,22 +5940,22 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "Once everything looks correct, click <strong>Launch Campaign</strong>.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         src: "/78i6.png",
         alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
         caption: "",
-        isImage: "true"
+        isImage: true
       },
 
       {
         title: "What Happens After You Start?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Once the campaign is active:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Emails are sent automatically"
@@ -5974,12 +5974,12 @@ This article explains how campaigns work at a high level, so you understand the 
       },
       {
         content: "You don't need to manually send or track emails.",
-        isParagraph: "true"
+        isParagraph: true
       },
 
       {
         title: "Common Tips for First Campaigns",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Start with a small lead list"
@@ -5999,11 +5999,11 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "Final Checklist",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Before launching your first campaign, confirm:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Email accounts are active"
@@ -6023,11 +6023,11 @@ This article explains how campaigns work at a high level, so you understand the 
 
       {
         title: "What's Next?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "After your first campaign:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Monitor analytics"
@@ -6058,11 +6058,11 @@ SalesTarget.ai using proven best practices.`,
     features: [
       {
         title: "What Makes a Campaign “High-Converting”?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `  A high-converting campaign is one that:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Reaches the right audience`
@@ -6081,16 +6081,16 @@ SalesTarget.ai using proven best practices.`,
       },
       {
         content: `Structure matters more than volume. Most campaigns fail due to poor setup—not poor copy.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "1. Start With a Clear Campaign Goal",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         content: `
         Before creating a campaign, define one primary objective.<br/> Common goals:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Book a demo `
@@ -6107,12 +6107,12 @@ SalesTarget.ai using proven best practices.`,
       {
 
         content: `Avoid mixing goals in a single campaign. One campaign = one outcome.<br/> <strong>Example:</strong><br/>Book product demo with US SaaS founders`,
-        isParagraph: "true"
+        isParagraph: true
 
       },
       {
         title: "2. Segment Your Audience Properly",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         description: `
@@ -6135,16 +6135,16 @@ SalesTarget.ai using proven best practices.`,
         Smaller, focused segments convert better than large generic lists.
         <br/><strong>Tip:</strong><br/> If you need different messaging, create separate campaigns.
       `,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "3. Use a Simple, Focused Sequence",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         content: `
         High-converting campaigns usually have:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `1 initial email`
@@ -6158,7 +6158,7 @@ SalesTarget.ai using proven best practices.`,
       {
         content: `
         Avoid long or aggressive sequences. Recommended structure:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Day 1 → Initial email`
@@ -6176,16 +6176,16 @@ SalesTarget.ai using proven best practices.`,
         content: `
         Each follow-up should add value—not repeat the same message.
       `,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "4. Keep Emails Short and Personal",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         content: `
         High-converting emails are:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Short (3–6 sentences)`
@@ -6199,7 +6199,7 @@ SalesTarget.ai using proven best practices.`,
       {
         content: `
         Use personalization wisely:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `First name`
@@ -6214,16 +6214,16 @@ SalesTarget.ai using proven best practices.`,
         content: `
         Avoid over-personalization that feels forced.
       `,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "5. Use One Clear Call-to-Action",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         content: `
         Every email should ask for one simple action. <br/> Good examples:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Open to a quick chat?`
@@ -6237,7 +6237,7 @@ SalesTarget.ai using proven best practices.`,
       {
         content: `
         Avoid:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Multiple links`
@@ -6252,16 +6252,16 @@ SalesTarget.ai using proven best practices.`,
         content: `
         Simple CTAs convert better.
       `,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "6. Configure Follow-Up Rules Correctly",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         content: `
         Always enable:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Stop follow-ups on reply`
@@ -6269,7 +6269,7 @@ SalesTarget.ai using proven best practices.`,
       {
         content: `
         This prevents:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Over-emailing`
@@ -6284,16 +6284,16 @@ SalesTarget.ai using proven best practices.`,
         content: `
         Follow-ups should trigger <strong>only if there’s no response.</strong>
       `,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "7. Set Safe Sending Limits",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         content: `
         High-converting campaigns protect deliverability.<br/> Best practices:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Start with low volume`
@@ -6311,18 +6311,18 @@ SalesTarget.ai using proven best practices.`,
 
       {
         title: "Why Repeated Campaigns Can Hurt Deliverability Over Time",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         content: `
        Sending multiple campaigns from the same email account isn’t inherently bad.
 The problem starts when campaigns are sent too frequently, at high volume, or with low
 engagement.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: `Email providers track sender reputation over time. If your campaigns consistently generate:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Low reply rates`
@@ -6335,20 +6335,20 @@ engagement.`,
       },
       {
         content: `Your inbox trust score slowly declines.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: `
         This is why some users feel like “after 4–5 campaigns, emails start going to spam.”
 It’s not the campaign count — it’s reputation decay from poor signals.
       `,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: `
         To prevent this:
       `,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Keep daily send limits conservative`
@@ -6365,11 +6365,11 @@ It’s not the campaign count — it’s reputation decay from poor signals.
       {
         content: `Well-structured campaigns protect your sender reputation and allow you to run campaigns
 continuously without burning inboxes.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "8. Schedule for Natural Timing",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         content: `Send emails:`
@@ -6385,7 +6385,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `Avoid:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Late-night sending`
@@ -6399,15 +6399,15 @@ continuously without burning inboxes.`,
       },
       {
         title: "9. Track the Right Metrics ",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "Don’t judge campaigns by open rates alone.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "Focus on:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Reply rate"
@@ -6423,7 +6423,7 @@ continuously without burning inboxes.`,
       },
       {
         content: "Low replies usually mean:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Wrong audience"
@@ -6436,15 +6436,15 @@ continuously without burning inboxes.`,
       },
       {
         title: "10. Iterate Between Campaigns",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: "High conversion comes from iteration.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: "After each campaign:",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Review replies`
@@ -6457,11 +6457,11 @@ continuously without burning inboxes.`,
       },
       {
         content: `Small improvements compound over time.`,
-        isParagraph: `"true"`
+        isParagraph: `true`
       },
       {
         title: `Common Mistakes to Avoid`,
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: `Sending one campaign to mixed audiences`
@@ -6480,11 +6480,11 @@ continuously without burning inboxes.`,
       },
       {
         title: `Final Checklist for High-Converting Campaigns`,
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Before launching, confirm:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Goal is clearly defined`
@@ -6511,11 +6511,11 @@ continuously without burning inboxes.`,
 
       {
         title: "What’s Next?",
-        isHeading: "true",
+        isHeading: true,
       },
       {
         content: `Once your campaign is live:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Monitor replies daily`
@@ -6540,107 +6540,107 @@ continuously without burning inboxes.`,
     features: [
       {
         title: "How Follow-Ups Work in SalesTarget",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `SalesTarget uses a step-based follow-up system.<br/><br/>Each follow-up:<ul><li>Is a separate step in a sequence</li><li>Runs after a defined delay</li><li>Sends only if no reply is received</li><li>There is no manual triggering required once the campaign starts</li></ul>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Follow-Ups Are Time-Based (Not Manual)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Every follow-up runs based on the delay you set between steps.<br/><br/>Example:<br/>Step 1 → Initial Email<br/>Wait 2 days<br/>Step 2 → Follow-up Email<br/>Wait 3 days<br/>Step 3 → Final Follow-up<br/>SalesTarget checks for replies before each step.<br/>If a reply exists, the next follow-up is skipped.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "How Many Follow-Ups Should You Add?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `For most campaigns, start with 1 initial email and 2-3 follow-ups. More follow-ups do not always mean better results. Best practice is to keep sequences short and stop before outreach feels repetitive.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Follow-Up Delays Explained",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Delays control when the next email is sent. You can set delays as X days. Delays help maintain natural timing, avoid back-to-back emails, protect deliverability, and avoid very short delays (same-day follow-ups) for cold outreach.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "What Triggers a Follow-Up?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `A follow-up is sent only if all conditions below are met:<ul><li>The previous email was sent</li><li>No reply has been received</li><li>The campaign is active</li><li>Sending limits are not exceeded</li><li>The current time falls within your schedule</li></ul>If any condition fails, the follow-up is skipped or delayed.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "What Stops Follow-Ups Automatically",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `SalesTarget.ai automatically stops follow-ups when:<ul><li>A recipient replies to any email in the sequence</li></ul>This happens even if the reply is short, not positive, or comes after a follow-up is scheduled. Once a reply is detected, no further emails are sent to that lead.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Why 'Stop Follow-Ups on Reply' Is Important",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Stopping follow-ups on reply prevents awkward double-emails, protects sender reputation, improves campaign experience, and keeps outreach respectful. This setting should always be enabled for cold campaigns.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "What Happens If Sending Limits Are Reached",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `If sending limits are reached, emails are queued and sent the next day during your scheduled time. Sending continues gradually with no emails dropped, ensuring deliverability protection remains active.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Follow-Ups and Scheduling",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Follow-ups respect the campaign schedule and run only during defined working hours. They also follow time zone settings. If a follow-up is due outside working hours, it is delayed, not skipped.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Tracking Follow-Up Performance",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `You can monitor follow-ups through campaign analytics, replies in Unibox, and lead-level activity. This helps you understand which step gets replies, when prospects respond, and whether follow-ups improve engagement.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Common Follow-Up Mistakes to Avoid",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Avoid these common mistakes:<ul><li>Adding too many follow-ups</li><li>Using the same message repeatedly</li><li>Setting very short delays</li><li>Increasing volume too fast</li><li>Not reviewing replies</li></ul>Follow-ups should add value, not pressure.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Best Practices for Follow-Up Logic",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Best practices include:<ul><li>Keep follow-ups simple and relevant</li><li>Add clear time gaps between steps</li><li>Always stop on reply</li><li>Review follow-up performance after each campaign</li><li>Adjust timing before increasing volume</li></ul>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Summary",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `In SalesTarget:<ul><li>Follow-ups are time-based</li><li>Each follow-up is a sequence step</li><li>Replies automatically stop future emails</li><li>Scheduling and limits are always respected</li><li>A well-structured follow-up flow improves replies while keeping outreach safe.</li></ul>`,
-        isParagraph: "true"
+        isParagraph: true
       }
     ],
 
@@ -6654,11 +6654,11 @@ continuously without burning inboxes.`,
     features: [
       {
         title: "What Does 'Exiting a Campaign' Mean?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `When a lead exits a campaign:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "No further emails are sent to that lead"
@@ -6671,15 +6671,15 @@ continuously without burning inboxes.`,
       },
       {
         content: `Exit rules apply <strong> at the individual lead level,</strong> not the entire campaign.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Primary Stopping Rule: Reply Received",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `<strong>1. Lead Replies to Any Email</strong><br/>This is the<strong> most important and default stopping rule.</strong><br/> If a lead replies:<br/><ul><li>All future follow-ups for that lead stop automatically</li><li>It does not matter which step they reply to</li><li>It does not matter whether the reply is positive or negative</li><li>Once a reply is detected, the lead exits the campaign immediately</li></ul>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `All future follow-ups for that lead stop automatically`
@@ -6692,15 +6692,15 @@ continuously without burning inboxes.`,
       },
       {
         content: `Once a reply is detected, the lead exits the campaign immediately.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Why 'Stop Follow-Ups on Reply' Matters",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Stopping on reply:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Prevents awkward follow-up emails"
@@ -6716,19 +6716,19 @@ continuously without burning inboxes.`,
       },
       {
         content: "This rule should always be enabled for cold outreach campaigns.",
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Manual Lead Removal",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `<strong>2. Lead Is Manually Removed from the Campaign</strong><br/>A lead exits the campaign if:<ul><li>You manually remove the lead</li><li>The lead is excluded from the campaign list</li></ul>Once removed:<ul><li>No further emails are sent to that lead</li><li>Previously scheduled steps are canceled</li></ul>This is useful when a lead becomes irrelevant or should be paused.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: `A lead exits the campaign if:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `You manually remove the lead`
@@ -6738,7 +6738,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `Once removed:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `No further emails are sent to that lead`,
@@ -6749,20 +6749,20 @@ continuously without burning inboxes.`,
       },
       {
         content: `This is useful when a lead becomes irrelevant or should be paused.`,
-        isParagraph: `"true"`
+        isParagraph: `true`
       },
       {
         title: "Campaign-Level Stops (Affect All Leads)",
-        isHeading: "true"
+        isHeading: true
       },
 
       {
         content: `<strong>3. Campaign Is Paused or Stopped</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: `If a campaign is paused or stopped:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `All sending is halted`
@@ -6775,7 +6775,7 @@ continuously without burning inboxes.`,
       },
       {
         content: ` When resumed, the campaign continues based on: `,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Schedule"
@@ -6788,11 +6788,11 @@ continuously without burning inboxes.`,
       },
       {
         title: "What Does NOT Stop a Lead Automatically",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `It’s important to clarify what does not cause a lead to exit by default:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Email opens"
@@ -6811,15 +6811,15 @@ continuously without burning inboxes.`,
       },
       {
         content: `Unless a reply is received or the lead is manually removed, follow-ups continue as scheduled.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "What Happens When Limits Are Reached (Not an Exit)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Reaching daily sending limits does not remove a lead from a campaign.<br/> If limits are reached:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "Emails are queued"
@@ -6836,15 +6836,15 @@ continuously without burning inboxes.`,
 
       {
         content: `The lead stays in the campaign and continues normally.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Stopping vs Skipping a Step",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Important distinction:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `<strong>Stopping</strong> → Lead exits the campaign permanently`
@@ -6854,7 +6854,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `Example:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: "A reply → lead exits"
@@ -6864,7 +6864,7 @@ continuously without burning inboxes.`,
       },
       {
         title: "Best Practices for Stopping Rules",
-        isHeading: "true"
+        isHeading: true
       },
       {
         description: "Always stop follow-ups on reply"
@@ -6880,15 +6880,15 @@ continuously without burning inboxes.`,
       },
       {
         content: `Stopping rules are about <strong> respect, safety, and relevance.</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Summary",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `In SalesTarget.ai, a lead exits a campaign when:<ul><li>A reply is received</li><li>The lead is manually removed</li><li>The campaign is paused or stopped</li><li>All other conditions (opens, clicks, limits, scheduling) do not remove the lead automatically</li></ul>Clear stopping rules help you run safer, higher-quality campaigns.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `A reply is received`
@@ -6901,11 +6901,11 @@ continuously without burning inboxes.`,
       },
       {
         content: `All other conditions (opens, clicks, limits, scheduling) <strong>do not remove the lead automatically</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         content: `Clear stopping rules help you run safer, higher-quality campaigns.`,
-        isParagraph: "true"
+        isParagraph: true
       }
     ]
   },
@@ -6926,11 +6926,11 @@ continuously without burning inboxes.`,
       },
       {
         title: "Step 1: A Lead Enters the Campaign",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `A lead enters a campaign when:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `You upload a CSV`
@@ -6943,7 +6943,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `Once added:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `The lead appears in the campaign’s Leads tab`
@@ -6953,7 +6953,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `The lead does not receive an email immediately unless:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `The campaign is active`
@@ -6966,11 +6966,11 @@ continuously without burning inboxes.`,
       },
       {
         title: `Step 2: The First Email Is Sent`,
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `When the campaign is active and conditions are met:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `The first email in the sequence is sent`
@@ -6983,7 +6983,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `Before sending, SalesTarget.ai checks:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Campaign schedule`
@@ -6999,15 +6999,15 @@ continuously without burning inboxes.`,
       },
       {
         content: `If any condition fails, sending is delayed (not skipped).`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: `Step 3: The Lead Waits for the Next Step`,
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `After an email is sent:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `The system waits for the delay you defined (days).`
@@ -7017,7 +7017,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `If a reply is received`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `The lead immediately exits the campaign`
@@ -7027,7 +7027,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `If no reply is received`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `The lead immediately exits the campaign`
@@ -7037,18 +7037,18 @@ continuously without burning inboxes.`,
       },
       {
         content: `If no reply is received:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `The lead continues to the next step after the delay ends`
       },
       {
         title: `Step 4: Follow-Up Emails Are Sent`,
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Each follow-up:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Is a separate step in the sequence`
@@ -7061,7 +7061,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `This process repeats until:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `The sequence ends`
@@ -7072,11 +7072,11 @@ continuously without burning inboxes.`,
 
       {
         title: "Step 5: Scheduling Controls When Leads Move",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Lead movement depends on schedule settings:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Emails are sent only during your start time and end time.`
@@ -7089,15 +7089,15 @@ continuously without burning inboxes.`,
       },
       {
         content: `Leads do not move forward outside your allowed schedule.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Step 6: Sending Limits Affect Speed, Not Progress",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Daily sending limits do not remove leads from a campaign. If limits are reached:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Emails are queued`
@@ -7116,11 +7116,11 @@ continuously without burning inboxes.`,
       },
       {
         title: "Step 7: When a Lead Exits the Campaign",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `A lead exits the campaign when:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `The lead replies to any email`
@@ -7133,11 +7133,11 @@ continuously without burning inboxes.`,
       },
       {
         title: "What Does NOT Change Lead Flow",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `These actions do not automatically stop or remove a lead:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Email opens`
@@ -7153,15 +7153,15 @@ continuously without burning inboxes.`,
       },
       {
         content: `Unless a reply is received or the lead is removed manually, the lead continues through the sequence.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Lead Movement Example",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Example sequence:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Step 1 → Initial email`
@@ -7180,7 +7180,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `Lead flow:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Lead enters campaign`
@@ -7205,15 +7205,15 @@ continuously without burning inboxes.`,
       },
       {
         content: `If the lead replies at any step, the flow stops immediately.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Why This Flow Matters",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `This structured flow:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Prevents over-emailing`
@@ -7229,7 +7229,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `You always know:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Why an email was sent`
@@ -7242,11 +7242,11 @@ continuously without burning inboxes.`,
       },
       {
         title: "Summary",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `In SalesTarget:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         description: `Leads enter a campaign through import or selection`
@@ -7268,7 +7268,7 @@ continuously without burning inboxes.`,
       },
       {
         content: `This ensures campaigns run in a controlled, safe, and predictable way.`,
-        isParagraph: "true"
+        isParagraph: true
       }
     ]
   },
@@ -7280,41 +7280,41 @@ continuously without burning inboxes.`,
     features: [
       {
         title: "1. The Reply Is Detected",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `<strong>When the campaign setting “Stop after reply” is enabled and a lead replies to any email in a campaign:</strong>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`The reply is captured in Unibox`
+        description: `The reply is captured in Unibox`
       },
       {
-        description:`The system immediately marks that lead as having replied`
+        description: `The system immediately marks that lead as having replied`
       },
       {
-        description:`The lead is flagged to stop further automated emails`
+        description: `The lead is flagged to stop further automated emails`
       },
       {
         content: `This happens regardless of:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`Which step the reply came from`
+        description: `Which step the reply came from`
       },
       {
-        description:`Whether the reply is positive or negative`
+        description: `Whether the reply is positive or negative`
       },
       {
-        description:`How short or long the reply is`
+        description: `How short or long the reply is`
       },
       {
         title: "How to Enable “Stop Sending Emails After a Reply”",
-        isHeading: "true"
+        isHeading: true
       },
       {
-          content: `To make sure SalesTarget stops follow-ups when a lead replies:`,
-        isParagraph: "true"
+        content: `To make sure SalesTarget stops follow-ups when a lead replies:`,
+        isParagraph: true
       },
       {
         description: `Open your campaign`
@@ -7333,100 +7333,100 @@ continuously without burning inboxes.`,
       },
       {
         content: `Once this option is enabled, any lead who replies will automatically stop receiving further automated emails in that campaign.`,
-        isParagraph: "true"
+        isParagraph: true
       },
-       {
+      {
         src: "/83i1.png",
         alt: " SalesTarget.ai Copilot dashboard showing options to find prospects, generate campaigns, write sequences, and view analytics with an AI-powered chat interface.",
         caption: "",
         type: "image",
-        isImage: "true"
+        isImage: true
       },
       {
         title: "2. All Future Follow-Ups Are Stopped",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Once a reply is detected:<ul><li>All remaining steps in the sequence are canceled for that lead</li><li>No further follow-up emails are sent</li><li>Scheduled emails for that lead are removed from the queue</li><li>The campaign continues normally for other leads.</li></ul>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`All remaining steps in the sequence are canceled for that lead`
+        description: `All remaining steps in the sequence are canceled for that lead`
       },
       {
-        description:`No further follow-up emails are sent`
+        description: `No further follow-up emails are sent`
       },
       {
-        description:`Scheduled emails for that lead are removed from the queue`
+        description: `Scheduled emails for that lead are removed from the queue`
       },
       {
-        content:`The campaign continues normally for other leads`,
-        isParagraph: "true"
+        content: `The campaign continues normally for other leads`,
+        isParagraph: true
       },
       {
         title: "3. The Lead Exits the Campaign Flow",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `After replying:This ensures the system does not send:<ul><li>Reminders</li><li>Follow-ups</li><li>Final emails</li></ul>after a human response is received.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`The lead no longer progresses to the next step`
+        description: `The lead no longer progresses to the next step`
       },
       {
-        description:`Delay timers for that lead stop`
+        description: `Delay timers for that lead stop`
       },
       {
-        description:`The lead is effectively removed from the automation path`
+        description: `The lead is effectively removed from the automation path`
       },
       {
         title: "4. The Reply Appears in Unibox",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `All replies are visible in Unibox, where you can:<ul><li>Read the message</li><li>Reply manually</li><li>See the full conversation history</li></ul>This allows you to take over the conversation without automation interfering.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "5. What Does NOT Happen When a Lead Replies",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `When a lead replies:<ul><li>The campaign is not stopped for other leads</li><li>The lead is not re-added automatically</li><li>No new automated emails are sent to that lead</li><li>No follow-up is triggered automatically</li></ul>Automation stops and control switches to you.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "6. What If the Reply Comes After a Follow-Up Is Scheduled?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `If a follow-up was already scheduled:<ul><li>The system checks for replies before sending</li><li>If a reply exists, the follow-up is skipped</li><li>No email is sent to that lead</li></ul>This prevents accidental double-emailing.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "7. Why This Behavior Is Important",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Stopping emails on reply:<ul><li>Prevents awkward follow-ups</li><li>Protects sender reputation</li><li>Improves recipient experience</li><li>Keeps outreach compliant and human</li></ul>This is a core safety rule in SalesTarget.`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "8. Best Practices After a Lead Replies",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `When a reply arrives:<ul><li>Respond manually from Unibox</li><li>Move the lead to CRM if interested</li><li>Pause or remove the lead from the campaign if needed</li><li>Update lead status or notes</li><li>Do not re-add the lead to the same campaign unless needed.</li></ul>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
         title: "Summary",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `In SalesTarget, when a lead replies mid-sequence:<ul><li>The reply is captured in Unibox</li><li>All future automated steps stop (when the setting is enabled)</li><li>The lead exits the campaign flow</li><li>You take over the conversation manually</li></ul>This ensures automation never continues once a real conversation begins.`,
-        isParagraph: "true"
+        isParagraph: true
       }
     ]
   },
@@ -7438,261 +7438,261 @@ continuously without burning inboxes.`,
     features: [
       {
         title: "1. The Lead Remains Active in the Campaign",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `If a lead does not reply:<ul><li>The lead stays active in the campaign</li><li>The system does not remove the lead automatically</li><li>The lead continues to the next step in the sequence</li><li>No action is required from you for the campaign to continue.</li></ul>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`The lead stays active in the campaign`
+        description: `The lead stays active in the campaign`
       },
       {
-        description:`The system does not remove the lead automatically`
+        description: `The system does not remove the lead automatically`
       },
       {
-        description:`The lead continues to the next step in the sequence`
+        description: `The lead continues to the next step in the sequence`
       },
       {
-        content:`No action is required from you for the campaign to continue.`,
-        isParagraph:"true"
+        content: `No action is required from you for the campaign to continue.`,
+        isParagraph: true
       },
       {
         title: "2. Delay Timer Starts After Each Email",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `After an email is sent:<ul><li>The system waits for the delay you configured (hours or days)</li><li>During this time, the lead is monitored for replies</li><li>If no reply is received by the end of the delay, the lead moves to the next step</li><li>The next follow-up email is sent</li></ul>`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`The system waits for the delay you configured (hours or days)`
+        description: `The system waits for the delay you configured (hours or days)`
       },
       {
-        description:`During this time, the lead is monitored for replies`
+        description: `During this time, the lead is monitored for replies`
       },
       {
-        content:`If no reply is received by the end of the delay`,
-        isParagraph:"true"
+        content: `If no reply is received by the end of the delay`,
+        isParagraph: true
       },
       {
-        description:`The lead moves to the next step`,
-        isParagraph:"true"
+        description: `The lead moves to the next step`,
+        isParagraph: true
       },
       {
-        description:`The next follow-up email is sent`,
-        isParagraph:"true"
+        description: `The next follow-up email is sent`,
+        isParagraph: true
       },
       {
         title: "3. Follow-Up Emails Are Sent Automatically",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `For leads who do not reply:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`Follow-up emails are sent automatically`
+        description: `Follow-up emails are sent automatically`
       },
       {
-        description:`Each follow-up is a separate step`
+        description: `Each follow-up is a separate step`
       },
       {
-        description:`Messages are sent in the order defined in the sequence`
+        description: `Messages are sent in the order defined in the sequence`
       },
       {
-        content:`This continues until:`,
-        isParagraph:"true"
+        content: `This continues until:`,
+        isParagraph: true
       },
       {
-        description:`The lead replies`
+        description: `The lead replies`
       },
       {
-        description:`Or the sequence reaches its final step`
+        description: `Or the sequence reaches its final step`
       },
       {
         title: "4. Scheduling Still Applies",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Even when a lead does not reply:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`Emails are sent only during your scheduled start and end times.`
+        description: `Emails are sent only during your scheduled start and end times.`
       },
       {
-        description:`Time zone settings are respected`
+        description: `Time zone settings are respected`
       },
       {
-        description:`If a follow-up is due outside the scheduled time, it will be delayed.`
+        description: `If a follow-up is due outside the scheduled time, it will be delayed.`
       },
       {
-        content:`The lead does not skip steps due to timing — it only waits.`,
-        isParagraph:"true"
+        content: `The lead does not skip steps due to timing — it only waits.`,
+        isParagraph: true
       },
       {
         title: "5. Sending Limits Do Not Remove the Lead",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `If daily sending limits are reached:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`The email is queued`
+        description: `The email is queued`
       },
       {
-        description:`It is sent the next day during your scheduled time`
+        description: `It is sent the next day during your scheduled time`
       },
       {
-        description:`The lead remains in the campaign`
+        description: `The lead remains in the campaign`
       },
       {
-        content:`No leads are dropped because of limits.`,
-        isParagraph:"true"
+        content: `No leads are dropped because of limits.`,
+        isParagraph: true
       },
       {
         title: "6. What Does NOT Happen When a Lead Does Not Reply",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `When there is no reply:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`The lead is not removed automatically`
+        description: `The lead is not removed automatically`
       },
       {
-        description:`The campaign does not stop`
+        description: `The campaign does not stop`
       },
       {
-        description:`The lead is not marked as completed immediately`
+        description: `The lead is not marked as completed immediately`
       },
       {
-        description:`No manual action is required`
+        description: `No manual action is required`
       },
       {
-        content:`The system simply follows the sequence as designed.`,
-        isParagraph:"true"
+        content: `The system simply follows the sequence as designed.`,
+        isParagraph: true
       },
       {
         title: "7. When Does a Lead Stop Without Reply?",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `A lead will only stop without replying if:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`The sequence reaches its last step`
+        description: `The sequence reaches its last step`
       },
       {
-        description:`The campaign is paused or stopped`
+        description: `The campaign is paused or stopped`
       },
       {
-        description:`The lead is manually removed`
+        description: `The lead is manually removed`
       },
       {
-        content:`Lack of reply alone does not stop a lead.`,
-        isParagraph:"true"
+        content: `Lack of reply alone does not stop a lead.`,
+        isParagraph: true
       },
       {
         title: "Example Flow (No Reply)",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `Example sequence:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`Step 1 → Initial email`
+        description: `Step 1 → Initial email`
       },
       {
-        description:`Wait 2 days`
+        description: `Wait 2 days`
       },
       {
-        description:`Step 2 → Follow-up`
+        description: `Step 2 → Follow-up`
       },
       {
-        description:`Wait 3 days`
+        description: `Wait 3 days`
       },
       {
-        description:`Step 3 → Final follow-up`
+        description: `Step 3 → Final follow-up`
       },
       {
-        content:`If no reply:`,
-        isParagraph:"true"
+        content: `If no reply:`,
+        isParagraph: true
       },
       {
-        description:`Step 1 is sent`
+        description: `Step 1 is sent`
       },
       {
-        description:`The system waits 2 days`
+        description: `The system waits 2 days`
       },
       {
-        description:`Step 2 is sent`
+        description: `Step 2 is sent`
       },
       {
-        description:`The system waits 3 days`
+        description: `The system waits 3 days`
       },
       {
-        description:`Step 3 is sent`
+        description: `Step 3 is sent`
       },
       {
-        description:`Sequence ends`
+        description: `Sequence ends`
       },
       {
-        content:`The lead receives all steps unless a stopping rule is triggered.`,
-        isParagraph:"true"
+        content: `The lead receives all steps unless a stopping rule is triggered.`,
+        isParagraph: true
       },
       {
         title: "Why This Matters",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `This behaviour ensures:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`No leads are forgotten`
+        description: `No leads are forgotten`
       },
       {
-        description:`Follow-ups are consistent`
+        description: `Follow-ups are consistent`
       },
       {
-        description:`Timing stays predictable`
+        description: `Timing stays predictable`
       },
       {
-        description:`Automation remains controlled`
+        description: `Automation remains controlled`
       },
       {
-        content:`You can design your sequence knowing exactly what will happen when a lead is silent.`,
-        isParagraph:"true"
+        content: `You can design your sequence knowing exactly what will happen when a lead is silent.`,
+        isParagraph: true
       },
       {
         title: "Summary",
-        isHeading: "true"
+        isHeading: true
       },
       {
         content: `In SalesTarget, when a lead does not reply:`,
-        isParagraph: "true"
+        isParagraph: true
       },
       {
-        description:`The lead stays active`
+        description: `The lead stays active`
       },
       {
-        description:`Follow-ups are sent after each delay`
+        description: `Follow-ups are sent after each delay`
       },
       {
-        description:`Scheduling and limits are respected`
+        description: `Scheduling and limits are respected`
       },
       {
-        description:`The lead stops only when the sequence ends or a stop rule is triggered`
+        description: `The lead stops only when the sequence ends or a stop rule is triggered`
       },
       {
-        content:`This keeps your outreach structured and reliable.`,
-        isParagraph:"true"
+        content: `This keeps your outreach structured and reliable.`,
+        isParagraph: true
       }
     ]
   }
