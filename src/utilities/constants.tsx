@@ -5663,7 +5663,7 @@ This article explains how campaigns work at a high level, so you understand the 
   },
 
   {
-    
+
     id: "78",
     title: "Creating Your First Campaign (Email & Multichannel)",
     updated: "",
@@ -5723,11 +5723,11 @@ This article explains how campaigns work at a high level, so you understand the 
       },
 
       {
-  src: "/78i1.png",
-  alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
-  caption: "",
-  isImage: true
-},
+        src: "/78i1.png",
+        alt: "SalesTarget.ai campaign creation screen with Add Campaign button and campaign name input field",
+        caption: "",
+        isImage: true
+      },
 
       {
         title: "Step 2: Attach a Sequence (Template)",
@@ -6042,7 +6042,1666 @@ This article explains how campaigns work at a high level, so you understand the 
         description: "Optimize future campaigns based on results"
       }
     ]
+  },
+
+  {
+    id: "79",
+    title: "How to Structure a High-Converting Campaign",
+    content: `A well-structured campaign improves reply rates, protects deliverability, and ensures your
+outreach feels relevant instead of spammy.
+This guide explains how to structure a high-converting email or multichannel campaign in
+SalesTarget.ai using proven best practices.`,
+    updated: "",
+    metaTitle: "High-Converting Campaign Structure | Best Practices for SalesTarget.ai",
+    metaDescription: "Learn how to structure a high-converting email or multichannel campaign in SalesTarget.ai. This guide covers goals, audience segmentation, messaging, follow-ups, and more for effective outreach.",
+    metaKeywords: "high-converting campaign, cold email outreach, email sequence structure, multichannel campaigns, campaign best practices, SalesTarget.ai campaigns",
+    features: [
+      {
+        title: "What Makes a Campaign “High-Converting”?",
+        isHeading: true
+      },
+      {
+        content: `  A high-converting campaign is one that:`,
+        isParagraph: true
+      },
+      {
+        description: `Reaches the right audience`
+      },
+      {
+        description: `Sends relevant messages at the right time`
+      },
+      {
+        description: `Follows up without over-emailing`
+      },
+      {
+        description: `Stops automatically when a reply is received`
+      },
+      {
+        description: `Delivers personalized messages at scale`
+      },
+      {
+        content: `Structure matters more than volume. Most campaigns fail due to poor setup—not poor copy.`,
+        isParagraph: true
+      },
+      {
+        title: "1. Start With a Clear Campaign Goal",
+        isHeading: true,
+      },
+      {
+        content: `
+        Before creating a campaign, define one primary objective.<br/> Common goals:`,
+        isParagraph: true
+      },
+      {
+        description: `Book a demo `
+      },
+      {
+        description: `Start a conversation`
+      },
+      {
+        description: `Validate interest`
+      },
+      {
+        description: `Re-engage cold leads`
+      },
+      {
+
+        content: `Avoid mixing goals in a single campaign. One campaign = one outcome.<br/> <strong>Example:</strong><br/>Book product demo with US SaaS founders`,
+        isParagraph: true
+
+      },
+      {
+        title: "2. Segment Your Audience Properly",
+        isHeading: true,
+      },
+      {
+        description: `
+          Job title`
+      },
+      {
+        description: `Industry`
+      },
+      {
+        description: `Company size`
+      },
+      {
+        description: `Geography`
+      },
+      {
+        description: `Use case`
+      },
+      {
+        content: `
+        Smaller, focused segments convert better than large generic lists.
+        <br/><strong>Tip:</strong><br/> If you need different messaging, create separate campaigns.
+      `,
+        isParagraph: true
+      },
+      {
+        title: "3. Use a Simple, Focused Sequence",
+        isHeading: true,
+      },
+      {
+        content: `
+        High-converting campaigns usually have:`,
+        isParagraph: true
+      },
+      {
+        description: `1 initial email`
+      },
+      {
+        description: `2–3 follow-ups`
+      },
+      {
+        description: `Clear gaps between messages`
+      },
+      {
+        content: `
+        Avoid long or aggressive sequences. Recommended structure:`,
+        isParagraph: true
+      },
+      {
+        description: `Day 1 → Initial email`
+      },
+      {
+        description: `Day 3 → Follow-up #1`
+      },
+      {
+        description: `Day 6 → Follow-up #2`
+      },
+      {
+        description: `Day 9 → Final follow-up (optional)`
+      },
+      {
+        content: `
+        Each follow-up should add value—not repeat the same message.
+      `,
+        isParagraph: true
+      },
+      {
+        title: "4. Keep Emails Short and Personal",
+        isHeading: true,
+      },
+      {
+        content: `
+        High-converting emails are:`,
+        isParagraph: true
+      },
+      {
+        description: `Short (3–6 sentences)`
+      },
+      {
+        description: `Easy to scan`
+      },
+      {
+        description: `Focused on the reader, not your product`
+      },
+      {
+        content: `
+        Use personalization wisely:`,
+        isParagraph: true
+      },
+      {
+        description: `First name`
+      },
+      {
+        description: `Company`
+      },
+      {
+        description: `Role or industry`
+      },
+      {
+        content: `
+        Avoid over-personalization that feels forced.
+      `,
+        isParagraph: true
+      },
+      {
+        title: "5. Use One Clear Call-to-Action",
+        isHeading: true,
+      },
+      {
+        content: `
+        Every email should ask for one simple action. <br/> Good examples:`,
+        isParagraph: true
+      },
+      {
+        description: `Open to a quick chat?`
+      },
+      {
+        description: `Worth exploring?`
+      },
+      {
+        description: `Should I send more details?`
+      },
+      {
+        content: `
+        Avoid:`,
+        isParagraph: true
+      },
+      {
+        description: `Multiple links`
+      },
+      {
+        description: `Long booking instructions`
+      },
+      {
+        description: `Heavy sales language`
+      },
+      {
+        content: `
+        Simple CTAs convert better.
+      `,
+        isParagraph: true
+      },
+      {
+        title: "6. Configure Follow-Up Rules Correctly",
+        isHeading: true,
+      },
+      {
+        content: `
+        Always enable:`,
+        isParagraph: true
+      },
+      {
+        description: `Stop follow-ups on reply`
+      },
+      {
+        content: `
+        This prevents:`,
+        isParagraph: true
+      },
+      {
+        description: `Over-emailing`
+      },
+      {
+        description: `Awkward follow-ups after replies`
+      },
+      {
+        description: `Negative sender reputation`
+      },
+      {
+        content: `
+        Follow-ups should trigger <strong>only if there’s no response.</strong>
+      `,
+        isParagraph: true
+      },
+      {
+        title: "7. Set Safe Sending Limits",
+        isHeading: true,
+      },
+      {
+        content: `
+        High-converting campaigns protect deliverability.<br/> Best practices:`,
+        isParagraph: true
+      },
+      {
+        description: `Start with low volume`
+      },
+      {
+        description: `Use warmup mode`
+      },
+      {
+        description: `Spread volume across multiple email accounts if needed`
+      },
+
+
+      //start here
+
+
+      {
+        title: "Why Repeated Campaigns Can Hurt Deliverability Over Time",
+        isHeading: true,
+      },
+      {
+        content: `
+       Sending multiple campaigns from the same email account isn’t inherently bad.
+The problem starts when campaigns are sent too frequently, at high volume, or with low
+engagement.`,
+        isParagraph: true
+      },
+      {
+        content: `Email providers track sender reputation over time. If your campaigns consistently generate:`,
+        isParagraph: true
+      },
+      {
+        description: `Low reply rates`
+      },
+      {
+        description: `High bounce rates`
+      },
+      {
+        description: `Bounces or spam signalss`
+      },
+      {
+        content: `Your inbox trust score slowly declines.`,
+        isParagraph: true
+      },
+      {
+        content: `
+        This is why some users feel like “after 4–5 campaigns, emails start going to spam.”
+It’s not the campaign count — it’s reputation decay from poor signals.
+      `,
+        isParagraph: true
+      },
+      {
+        content: `
+        To prevent this:
+      `,
+        isParagraph: true
+      },
+      {
+        description: `Keep daily send limits conservative`
+      },
+      {
+        description: `Stop follow-ups immediately on reply`
+      },
+      {
+        description: `Focus on relevance over volume`
+      },
+      {
+        description: `Give inboxes recovery time between campaigns`
+      },
+      {
+        content: `Well-structured campaigns protect your sender reputation and allow you to run campaigns
+continuously without burning inboxes.`,
+        isParagraph: true
+      },
+      {
+        title: "8. Schedule for Natural Timing",
+        isHeading: true,
+      },
+      {
+        content: `Send emails:`
+      },
+      {
+        description: `During business hours`
+      },
+      {
+        description: `In the recipient’s time zone`
+      },
+      {
+        description: `With gaps between steps`
+      },
+      {
+        content: `Avoid:`,
+        isParagraph: true
+      },
+      {
+        description: `Late-night sending`
+      },
+      {
+
+        description: `Back-to-back emails`
+      },
+      {
+        description: `Weekend blasts (unless relevant)`
+      },
+      {
+        title: "9. Track the Right Metrics ",
+        isHeading: true
+      },
+      {
+        content: "Don’t judge campaigns by open rates alone.",
+        isParagraph: true
+      },
+      {
+        content: "Focus on:",
+        isParagraph: true
+      },
+      {
+        description: "Reply rate"
+      },
+      {
+        description: "Positive replies"
+      },
+      {
+        description: "Bounces"
+      },
+      {
+        description: "Unsubscribes"
+      },
+      {
+        content: "Low replies usually mean:",
+        isParagraph: true
+      },
+      {
+        description: "Wrong audience"
+      },
+      {
+        description: "Weak message"
+      },
+      {
+        description: "Too much volume"
+      },
+      {
+        title: "10. Iterate Between Campaigns",
+        isHeading: true
+      },
+      {
+        content: "High conversion comes from iteration.",
+        isParagraph: true
+      },
+      {
+        content: "After each campaign:",
+        isParagraph: true
+      },
+      {
+        description: `Review replies`
+      },
+      {
+        description: `Adjust subject lines`
+      },
+      {
+        description: `Refine targeting`
+      },
+      {
+        content: `Small improvements compound over time.`,
+        isParagraph: `true`
+      },
+      {
+        title: `Common Mistakes to Avoid`,
+        isHeading: true
+      },
+      {
+        description: `Sending one campaign to mixed audiences`
+      },
+      {
+        description: `Using long, sales-heavy emails`
+      },
+      {
+        description: `Adding too many follow-ups`
+      },
+      {
+        description: `Increasing volume too quickly`
+      },
+      {
+        description: `Ignoring replies or bounce data`
+      },
+      {
+        title: `Final Checklist for High-Converting Campaigns`,
+        isHeading: true
+      },
+      {
+        content: `Before launching, confirm:`,
+        isParagraph: true
+      },
+      {
+        description: `Goal is clearly defined`
+      },
+      {
+        description: `Audience is well-segmented`
+      },
+      {
+        description: `Sequence is short and focused`
+      },
+      {
+        description: `CTA is simple`
+      },
+      {
+        description: `Follow-ups stop on reply`
+      },
+      {
+        description: `Sending limits are safe`
+      },
+      {
+        description: `Schedule looks natural`
+      },
+
+
+      {
+        title: "What’s Next?",
+        isHeading: true,
+      },
+      {
+        content: `Once your campaign is live:`,
+        isParagraph: true
+      },
+      {
+        description: `Monitor replies daily`
+      },
+      {
+        description: `Respond quickly to interested leads`
+      },
+      {
+        description: `Use insights to improve the next campaign`
+      }
+
+    ],
+
+
+  },
+
+  {
+
+    id: "80",
+    title: "Follow-Up Logic Explained: Timing, Steps &amp; Stops",
+    content: `Follow-ups are a critical part of any outbound campaign.<br/>In SalesTarget, follow-ups are time-based, rule-driven, and automatically stopped when a reply is received.This guide explains how follow-up logic works, how to structure follow-ups correctly, and how SalesTarget prevents over-emailing.`,
+    features: [
+      {
+        title: "How Follow-Ups Work in SalesTarget",
+        isHeading: true
+      },
+      {
+        content: `SalesTarget uses a step-based follow-up system.<br/><br/>Each follow-up:<ul><li>Is a separate step in a sequence</li><li>Runs after a defined delay</li><li>Sends only if no reply is received</li><li>There is no manual triggering required once the campaign starts</li></ul>`,
+        isParagraph: true
+      },
+      {
+        title: "Follow-Ups Are Time-Based (Not Manual)",
+        isHeading: true
+      },
+      {
+        content: `Every follow-up runs based on the delay you set between steps.<br/><br/>Example:<br/>Step 1 → Initial Email<br/>Wait 2 days<br/>Step 2 → Follow-up Email<br/>Wait 3 days<br/>Step 3 → Final Follow-up<br/>SalesTarget checks for replies before each step.<br/>If a reply exists, the next follow-up is skipped.`,
+        isParagraph: true
+      },
+      {
+        title: "How Many Follow-Ups Should You Add?",
+        isHeading: true
+      },
+      {
+        content: `For most campaigns, start with 1 initial email and 2-3 follow-ups. More follow-ups do not always mean better results. Best practice is to keep sequences short and stop before outreach feels repetitive.`,
+        isParagraph: true
+      },
+      {
+        title: "Follow-Up Delays Explained",
+        isHeading: true
+      },
+      {
+        content: `Delays control when the next email is sent. You can set delays as X days. Delays help maintain natural timing, avoid back-to-back emails, protect deliverability, and avoid very short delays (same-day follow-ups) for cold outreach.`,
+        isParagraph: true
+      },
+      {
+        title: "What Triggers a Follow-Up?",
+        isHeading: true
+      },
+      {
+        content: `A follow-up is sent only if all conditions below are met:<ul><li>The previous email was sent</li><li>No reply has been received</li><li>The campaign is active</li><li>Sending limits are not exceeded</li><li>The current time falls within your schedule</li></ul>If any condition fails, the follow-up is skipped or delayed.`,
+        isParagraph: true
+      },
+      {
+        title: "What Stops Follow-Ups Automatically",
+        isHeading: true
+      },
+      {
+        content: `SalesTarget.ai automatically stops follow-ups when:<ul><li>A recipient replies to any email in the sequence</li></ul>This happens even if the reply is short, not positive, or comes after a follow-up is scheduled. Once a reply is detected, no further emails are sent to that lead.`,
+        isParagraph: true
+      },
+      {
+        title: "Why 'Stop Follow-Ups on Reply' Is Important",
+        isHeading: true
+      },
+      {
+        content: `Stopping follow-ups on reply prevents awkward double-emails, protects sender reputation, improves campaign experience, and keeps outreach respectful. This setting should always be enabled for cold campaigns.`,
+        isParagraph: true
+      },
+      {
+        title: "What Happens If Sending Limits Are Reached",
+        isHeading: true
+      },
+      {
+        content: `If sending limits are reached, emails are queued and sent the next day during your scheduled time. Sending continues gradually with no emails dropped, ensuring deliverability protection remains active.`,
+        isParagraph: true
+      },
+      {
+        title: "Follow-Ups and Scheduling",
+        isHeading: true
+      },
+      {
+        content: `Follow-ups respect the campaign schedule and run only during defined working hours. They also follow time zone settings. If a follow-up is due outside working hours, it is delayed, not skipped.`,
+        isParagraph: true
+      },
+      {
+        title: "Tracking Follow-Up Performance",
+        isHeading: true
+      },
+      {
+        content: `You can monitor follow-ups through campaign analytics, replies in Unibox, and lead-level activity. This helps you understand which step gets replies, when prospects respond, and whether follow-ups improve engagement.`,
+        isParagraph: true
+      },
+      {
+        title: "Common Follow-Up Mistakes to Avoid",
+        isHeading: true
+      },
+      {
+        content: `Avoid these common mistakes:<ul><li>Adding too many follow-ups</li><li>Using the same message repeatedly</li><li>Setting very short delays</li><li>Increasing volume too fast</li><li>Not reviewing replies</li></ul>Follow-ups should add value, not pressure.`,
+        isParagraph: true
+      },
+      {
+        title: "Best Practices for Follow-Up Logic",
+        isHeading: true
+      },
+      {
+        content: `Best practices include:<ul><li>Keep follow-ups simple and relevant</li><li>Add clear time gaps between steps</li><li>Always stop on reply</li><li>Review follow-up performance after each campaign</li><li>Adjust timing before increasing volume</li></ul>`,
+        isParagraph: true
+      },
+      {
+        title: "Summary",
+        isHeading: true
+      },
+      {
+        content: `In SalesTarget:<ul><li>Follow-ups are time-based</li><li>Each follow-up is a sequence step</li><li>Replies automatically stop future emails</li><li>Scheduling and limits are always respected</li><li>A well-structured follow-up flow improves replies while keeping outreach safe.</li></ul>`,
+        isParagraph: true
+      }
+    ],
+
+
+  },
+
+  {
+    id: "81",
+    title: "Stopping Rules: When a Lead Should Exit a Campaign",
+    content: `Stopping rules define when a lead should automatically stop receiving emails in a campaign. <br/> In SalesTarget, stopping rules are designed to prevent over-emailing, protect deliverability, and ensure respectful outreach. This article explains exactly when and why a lead exits a campaign.`,
+    features: [
+      {
+        title: "What Does 'Exiting a Campaign' Mean?",
+        isHeading: true
+      },
+      {
+        content: `When a lead exits a campaign:`,
+        isParagraph: true
+      },
+      {
+        description: "No further emails are sent to that lead"
+      },
+      {
+        description: " All remaining follow-up steps are skipped"
+      },
+      {
+        description: "The campaign continues for other leads"
+      },
+      {
+        content: `Exit rules apply <strong> at the individual lead level,</strong> not the entire campaign.`,
+        isParagraph: true
+      },
+      {
+        title: "Primary Stopping Rule: Reply Received",
+        isHeading: true
+      },
+      {
+        content: `<strong>1. Lead Replies to Any Email</strong><br/>This is the<strong> most important and default stopping rule.</strong><br/> If a lead replies:<br/><ul><li>All future follow-ups for that lead stop automatically</li><li>It does not matter which step they reply to</li><li>It does not matter whether the reply is positive or negative</li><li>Once a reply is detected, the lead exits the campaign immediately</li></ul>`,
+        isParagraph: true
+      },
+      {
+        description: `All future follow-ups for that lead stop automatically`
+      },
+      {
+        description: `It does not matter which step they reply to`
+      },
+      {
+        description: `It does not matter whether the reply is positive or negative`
+      },
+      {
+        content: `Once a reply is detected, the lead exits the campaign immediately.`,
+        isParagraph: true
+      },
+      {
+        title: "Why 'Stop Follow-Ups on Reply' Matters",
+        isHeading: true
+      },
+      {
+        content: `Stopping on reply:`,
+        isParagraph: true
+      },
+      {
+        description: "Prevents awkward follow-up emails"
+      },
+      {
+        description: "Protects sender reputation"
+      },
+      {
+        description: "Improves campaign experience"
+      },
+      {
+        description: "Keeps outreach respectful"
+      },
+      {
+        content: "This rule should always be enabled for cold outreach campaigns.",
+        isParagraph: true
+      },
+      {
+        title: "Manual Lead Removal",
+        isHeading: true
+      },
+      {
+        content: `<strong>2. Lead Is Manually Removed from the Campaign</strong><br/>A lead exits the campaign if:<ul><li>You manually remove the lead</li><li>The lead is excluded from the campaign list</li></ul>Once removed:<ul><li>No further emails are sent to that lead</li><li>Previously scheduled steps are canceled</li></ul>This is useful when a lead becomes irrelevant or should be paused.`,
+        isParagraph: true
+      },
+      {
+        content: `A lead exits the campaign if:`,
+        isParagraph: true
+      },
+      {
+        description: `You manually remove the lead`
+      },
+      {
+        description: `The lead is excluded from the campaign list`
+      },
+      {
+        content: `Once removed:`,
+        isParagraph: true
+      },
+      {
+        description: `No further emails are sent to that lead`,
+
+      },
+      {
+        description: `Previously scheduled steps are canceled`
+      },
+      {
+        content: `This is useful when a lead becomes irrelevant or should be paused.`,
+        isParagraph: `true`
+      },
+      {
+        title: "Campaign-Level Stops (Affect All Leads)",
+        isHeading: true
+      },
+
+      {
+        content: `<strong>3. Campaign Is Paused or Stopped</strong>`,
+        isParagraph: true
+      },
+      {
+        content: `If a campaign is paused or stopped:`,
+        isParagraph: true
+      },
+      {
+        description: `All sending is halted`
+      },
+      {
+        description: `No emails or follow-ups are sent`
+      },
+      {
+        description: `Leads do not progress through steps`
+      },
+      {
+        content: ` When resumed, the campaign continues based on: `,
+        isParagraph: true
+      },
+      {
+        description: "Schedule"
+      },
+      {
+        description: "Sending Limits"
+      },
+      {
+        description: "Lead Status"
+      },
+      {
+        title: "What Does NOT Stop a Lead Automatically",
+        isHeading: true
+      },
+      {
+        content: `It’s important to clarify what does not cause a lead to exit by default:`,
+        isParagraph: true
+      },
+      {
+        description: "Email opens"
+      },
+      {
+        description: "Link clicks"
+      },
+      {
+        description: "No response"
+      },
+      {
+        description: "Delayed replies"
+      },
+      {
+        description: "Pending follow-ups"
+      },
+      {
+        content: `Unless a reply is received or the lead is manually removed, follow-ups continue as scheduled.`,
+        isParagraph: true
+      },
+      {
+        title: "What Happens When Limits Are Reached (Not an Exit)",
+        isHeading: true
+      },
+      {
+        content: `Reaching daily sending limits does not remove a lead from a campaign.<br/> If limits are reached:`,
+        isParagraph: true
+      },
+      {
+        description: "Emails are queued"
+      },
+      {
+        description: "Emails resume the next day during your scheduled time"
+      },
+      {
+        description: "No emails are dropped"
+      },
+      {
+        description: "Deliverability protection remains active"
+      },
+
+      {
+        content: `The lead stays in the campaign and continues normally.`,
+        isParagraph: true
+      },
+      {
+        title: "Stopping vs Skipping a Step",
+        isHeading: true
+      },
+      {
+        content: `Important distinction:`,
+        isParagraph: true
+      },
+      {
+        description: `<strong>Stopping</strong> → Lead exits the campaign permanently`
+      },
+      {
+        description: "<strong>Skipping</strong> → A specific step is skipped, but the lead may continue"
+      },
+      {
+        content: `Example:`,
+        isParagraph: true
+      },
+      {
+        description: "A reply → lead exits"
+      },
+      {
+        description: "Outside working hours → email is delayed, not stopped"
+      },
+      {
+        title: "Best Practices for Stopping Rules",
+        isHeading: true
+      },
+      {
+        description: "Always stop follow-ups on reply"
+      },
+      {
+        description: "Review replies regularly in Unibox"
+      },
+      {
+        description: "Remove leads manually if they become irrelevant"
+      },
+      {
+        description: "Avoid forcing leads through long sequences"
+      },
+      {
+        content: `Stopping rules are about <strong> respect, safety, and relevance.</strong>`,
+        isParagraph: true
+      },
+      {
+        title: "Summary",
+        isHeading: true
+      },
+      {
+        content: `In SalesTarget.ai, a lead exits a campaign when:<ul><li>A reply is received</li><li>The lead is manually removed</li><li>The campaign is paused or stopped</li><li>All other conditions (opens, clicks, limits, scheduling) do not remove the lead automatically</li></ul>Clear stopping rules help you run safer, higher-quality campaigns.`,
+        isParagraph: true
+      },
+      {
+        description: `A reply is received`
+      },
+      {
+        description: `The lead is manually removed`
+      },
+      {
+        description: `The campaign is paused or stopped`
+      },
+      {
+        content: `All other conditions (opens, clicks, limits, scheduling) <strong>do not remove the lead automatically</strong>`,
+        isParagraph: true
+      },
+      {
+        content: `Clear stopping rules help you run safer, higher-quality campaigns.`,
+        isParagraph: true
+      }
+    ]
+  },
+
+  {
+    id: "82",
+    title: "How Leads Move Through a Campaign",
+    content: `This article explains how a lead progresses through a campaign in SalesTarget—from the moment it is added until it exits the campaign. <br/> Understanding this flow helps you:<br/>`,
+    features: [
+      {
+        description: `Predict when emails are sent`
+      },
+      {
+        description: `Know why a lead received (or did not receive) an email`
+      },
+      {
+        description: `Control timing, follow-ups, and stopping behavior`
+      },
+      {
+        title: "Step 1: A Lead Enters the Campaign",
+        isHeading: true
+      },
+      {
+        content: `A lead enters a campaign when:`,
+        isParagraph: true
+      },
+      {
+        description: `You upload a CSV`
+      },
+      {
+        description: `You add leads from Lead Explorer`
+      },
+      {
+        description: `You attach a saved list`
+      },
+      {
+        content: `Once added:`,
+        isParagraph: true
+      },
+      {
+        description: `The lead appears in the campaign’s Leads tab`
+      },
+      {
+        description: `The system prepares the lead for the first step in the sequence`
+      },
+      {
+        content: `The lead does not receive an email immediately unless:`,
+        isParagraph: true
+      },
+      {
+        description: `The campaign is active`
+      },
+      {
+        description: `The schedule allows sending`
+      },
+      {
+        description: `Sending limits are not exceeded`
+      },
+      {
+        title: `Step 2: The First Email Is Sent`,
+        isHeading: true
+      },
+      {
+        content: `When the campaign is active and conditions are met:`,
+        isParagraph: true
+      },
+      {
+        description: `The first email in the sequence is sent`
+      },
+      {
+        description: `The lead moves to the next step in the sequence`
+      },
+      {
+        description: `The delay timer for the next step begins`
+      },
+      {
+        content: `Before sending, SalesTarget.ai checks:`,
+        isParagraph: true
+      },
+      {
+        description: `Campaign schedule`
+      },
+      {
+        description: `Daily sending limits`
+      },
+      {
+        description: `Stop-on-reply rule`
+      },
+      {
+        description: `Email account availability`
+      },
+      {
+        content: `If any condition fails, sending is delayed (not skipped).`,
+        isParagraph: true
+      },
+      {
+        title: `Step 3: The Lead Waits for the Next Step`,
+        isHeading: true
+      },
+      {
+        content: `After an email is sent:`,
+        isParagraph: true
+      },
+      {
+        description: `The system waits for the delay you defined (days).`
+      },
+      {
+        description: `During this waiting period, the lead is monitored for replies`
+      },
+      {
+        content: `If a reply is received`,
+        isParagraph: true
+      },
+      {
+        description: `The lead immediately exits the campaign`
+      },
+      {
+        description: `No further follow-ups are sent`
+      },
+      {
+        content: `If no reply is received`,
+        isParagraph: true
+      },
+      {
+        description: `The lead immediately exits the campaign`
+      },
+      {
+        description: `No further follow-ups are sent`
+      },
+      {
+        content: `If no reply is received:`,
+        isParagraph: true
+      },
+      {
+        description: `The lead continues to the next step after the delay ends`
+      },
+      {
+        title: `Step 4: Follow-Up Emails Are Sent`,
+        isHeading: true
+      },
+      {
+        content: `Each follow-up:`,
+        isParagraph: true
+      },
+      {
+        description: `Is a separate step in the sequence`
+      },
+      {
+        description: `Runs only after its delay is completed`
+      },
+      {
+        description: `Sends only if the lead has not replied`
+      },
+      {
+        content: `This process repeats until:`,
+        isParagraph: true
+      },
+      {
+        description: `The sequence ends`
+      },
+      {
+        description: `Or the lead exits the campaign`
+      },
+
+      {
+        title: "Step 5: Scheduling Controls When Leads Move",
+        isHeading: true
+      },
+      {
+        content: `Lead movement depends on schedule settings:`,
+        isParagraph: true
+      },
+      {
+        description: `Emails are sent only during your start time and end time.`
+      },
+      {
+        description: `Time zone settings are respected`
+      },
+      {
+        description: `If a step is due outside working hours, it is delayed`
+      },
+      {
+        content: `Leads do not move forward outside your allowed schedule.`,
+        isParagraph: true
+      },
+      {
+        title: "Step 6: Sending Limits Affect Speed, Not Progress",
+        isHeading: true
+      },
+      {
+        content: `Daily sending limits do not remove leads from a campaign. If limits are reached:`,
+        isParagraph: true
+      },
+      {
+        description: `Emails are queued`
+      },
+      {
+        description: `Emails resume the next day during your scheduled time`
+      },
+      {
+        description: `Sending continues gradually`
+      },
+      {
+        description: `No emails are dropped`
+      },
+      {
+        description: `The lead remains active and continues normally`
+      },
+      {
+        title: "Step 7: When a Lead Exits the Campaign",
+        isHeading: true
+      },
+      {
+        content: `A lead exits the campaign when:`,
+        isParagraph: true
+      },
+      {
+        description: `The lead replies to any email`
+      },
+      {
+        description: `The lead is manually removed`
+      },
+      {
+        description: `The campaign is paused or stopped`
+      },
+      {
+        title: "What Does NOT Change Lead Flow",
+        isHeading: true
+      },
+      {
+        content: `These actions do not automatically stop or remove a lead:`,
+        isParagraph: true
+      },
+      {
+        description: `Email opens`
+      },
+      {
+        description: `Link clicks`
+      },
+      {
+        description: `Delays in response`
+      },
+      {
+        description: `Reaching daily sending limits`
+      },
+      {
+        content: `Unless a reply is received or the lead is removed manually, the lead continues through the sequence.`,
+        isParagraph: true
+      },
+      {
+        title: "Lead Movement Example",
+        isHeading: true
+      },
+      {
+        content: `Example sequence:`,
+        isParagraph: true
+      },
+      {
+        description: `Step 1 → Initial email`
+      },
+      {
+        description: `Wait 2 days`
+      },
+      {
+        description: `Step 2 → Follow-up`
+      },
+      {
+        description: `Wait 3 days`
+      },
+      {
+        description: `Step 3 → Final follow-up`
+      },
+      {
+        content: `Lead flow:`,
+        isParagraph: true
+      },
+      {
+        description: `Lead enters campaign`
+      },
+      {
+        description: `Step 1 email is sent`
+      },
+      {
+        description: `System waits 2 days`
+      },
+      {
+        description: `If no reply → Step 2 is sent`
+      },
+      {
+        description: `System waits 3 days`
+      },
+      {
+        description: `If no reply → Step 3 is sent`
+      },
+      {
+        description: `Sequence ends`
+      },
+      {
+        content: `If the lead replies at any step, the flow stops immediately.`,
+        isParagraph: true
+      },
+      {
+        title: "Why This Flow Matters",
+        isHeading: true
+      },
+      {
+        content: `This structured flow:`,
+        isParagraph: true
+      },
+      {
+        description: `Prevents over-emailing`
+      },
+      {
+        description: `Maintains natural timing`
+      },
+      {
+        description: `Protects deliverability`
+      },
+      {
+        description: `Makes campaign behavior predictable`
+      },
+      {
+        content: `You always know:`,
+        isParagraph: true
+      },
+      {
+        description: `Why an email was sent`
+      },
+      {
+        description: `When the next email will go out`
+      },
+      {
+        description: `Why a lead stopped receiving emails`
+      },
+      {
+        title: "Summary",
+        isHeading: true
+      },
+      {
+        content: `In SalesTarget:`,
+        isParagraph: true
+      },
+      {
+        description: `Leads enter a campaign through import or selection`
+      },
+      {
+        description: `Each step runs after a defined delay`
+      },
+      {
+        description: `Replies stop all future steps`
+      },
+      {
+        description: `Scheduling controls timing`
+      },
+      {
+        description: `Limits control volume, not logic`
+      },
+      {
+        description: `Leads exit only when a stopping rule is met`
+      },
+      {
+        content: `This ensures campaigns run in a controlled, safe, and predictable way.`,
+        isParagraph: true
+      }
+    ]
+  },
+
+  {
+    id: "83",
+    title: "What Happens When a Lead Replies Mid-Sequence",
+    content: `When a lead replies while they are still in the middle of a sequence, SalesTarget automatically changes how that lead is handled to prevent over-emailing and keep outreach respectful.<br/> <br/> This article explains what happens step by step when a reply is received.`,
+    features: [
+      {
+        title: "1. The Reply Is Detected",
+        isHeading: true
+      },
+      {
+        content: `<strong>When the campaign setting “Stop after reply” is enabled and a lead replies to any email in a campaign:</strong>`,
+        isParagraph: true
+      },
+      {
+        description: `The reply is captured in Unibox`
+      },
+      {
+        description: `The system immediately marks that lead as having replied`
+      },
+      {
+        description: `The lead is flagged to stop further automated emails`
+      },
+      {
+        content: `This happens regardless of:`,
+        isParagraph: true
+      },
+      {
+        description: `Which step the reply came from`
+      },
+      {
+        description: `Whether the reply is positive or negative`
+      },
+      {
+        description: `How short or long the reply is`
+      },
+      {
+        title: "How to Enable “Stop Sending Emails After a Reply”",
+        isHeading: true
+      },
+      {
+        content: `To make sure SalesTarget stops follow-ups when a lead replies:`,
+        isParagraph: true
+      },
+      {
+        description: `Open your campaign`
+      },
+      {
+        description: `Go to the <strong>Settings</strong> tab`
+      },
+      {
+        description: `Find the option <strong>“Stop after reply”</strong>`
+      },
+      {
+        description: `Turn the toggle <strong>ON</strong>`
+      },
+      {
+        description: `Save the campaign settings`
+      },
+      {
+        content: `Once this option is enabled, any lead who replies will automatically stop receiving further automated emails in that campaign.`,
+        isParagraph: true
+      },
+      {
+        src: "/83i1.png",
+        alt: " SalesTarget.ai Copilot dashboard showing options to find prospects, generate campaigns, write sequences, and view analytics with an AI-powered chat interface.",
+        caption: "",
+        type: "image",
+        isImage: true
+      },
+      {
+        title: "2. All Future Follow-Ups Are Stopped",
+        isHeading: true
+      },
+      {
+        content: `Once a reply is detected:<ul><li>All remaining steps in the sequence are canceled for that lead</li><li>No further follow-up emails are sent</li><li>Scheduled emails for that lead are removed from the queue</li><li>The campaign continues normally for other leads.</li></ul>`,
+        isParagraph: true
+      },
+      {
+        description: `All remaining steps in the sequence are canceled for that lead`
+      },
+      {
+        description: `No further follow-up emails are sent`
+      },
+      {
+        description: `Scheduled emails for that lead are removed from the queue`
+      },
+      {
+        content: `The campaign continues normally for other leads`,
+        isParagraph: true
+      },
+      {
+        title: "3. The Lead Exits the Campaign Flow",
+        isHeading: true
+      },
+      {
+        content: `After replying:This ensures the system does not send:<ul><li>Reminders</li><li>Follow-ups</li><li>Final emails</li></ul>after a human response is received.`,
+        isParagraph: true
+      },
+      {
+        description: `The lead no longer progresses to the next step`
+      },
+      {
+        description: `Delay timers for that lead stop`
+      },
+      {
+        description: `The lead is effectively removed from the automation path`
+      },
+      {
+        title: "4. The Reply Appears in Unibox",
+        isHeading: true
+      },
+      {
+        content: `All replies are visible in Unibox, where you can:<ul><li>Read the message</li><li>Reply manually</li><li>See the full conversation history</li></ul>This allows you to take over the conversation without automation interfering.`,
+        isParagraph: true
+      },
+      {
+        title: "5. What Does NOT Happen When a Lead Replies",
+        isHeading: true
+      },
+      {
+        content: `When a lead replies:<ul><li>The campaign is not stopped for other leads</li><li>The lead is not re-added automatically</li><li>No new automated emails are sent to that lead</li><li>No follow-up is triggered automatically</li></ul>Automation stops and control switches to you.`,
+        isParagraph: true
+      },
+      {
+        title: "6. What If the Reply Comes After a Follow-Up Is Scheduled?",
+        isHeading: true
+      },
+      {
+        content: `If a follow-up was already scheduled:<ul><li>The system checks for replies before sending</li><li>If a reply exists, the follow-up is skipped</li><li>No email is sent to that lead</li></ul>This prevents accidental double-emailing.`,
+        isParagraph: true
+      },
+      {
+        title: "7. Why This Behavior Is Important",
+        isHeading: true
+      },
+      {
+        content: `Stopping emails on reply:<ul><li>Prevents awkward follow-ups</li><li>Protects sender reputation</li><li>Improves recipient experience</li><li>Keeps outreach compliant and human</li></ul>This is a core safety rule in SalesTarget.`,
+        isParagraph: true
+      },
+      {
+        title: "8. Best Practices After a Lead Replies",
+        isHeading: true
+      },
+      {
+        content: `When a reply arrives:<ul><li>Respond manually from Unibox</li><li>Move the lead to CRM if interested</li><li>Pause or remove the lead from the campaign if needed</li><li>Update lead status or notes</li><li>Do not re-add the lead to the same campaign unless needed.</li></ul>`,
+        isParagraph: true
+      },
+      {
+        title: "Summary",
+        isHeading: true
+      },
+      {
+        content: `In SalesTarget, when a lead replies mid-sequence:<ul><li>The reply is captured in Unibox</li><li>All future automated steps stop (when the setting is enabled)</li><li>The lead exits the campaign flow</li><li>You take over the conversation manually</li></ul>This ensures automation never continues once a real conversation begins.`,
+        isParagraph: true
+      }
+    ]
+  },
+
+  {
+    id: "84",
+    title: "What Happens When a Lead Does NOT Reply",
+    content: `When a lead does not reply to your email, SalesTarget continues the campaign based on the sequence, timing, and rules you have configured.<br/> <br/> This article explains what happens to a lead when there is no reply and how the system decides when to send the next email.`,
+    features: [
+      {
+        title: "1. The Lead Remains Active in the Campaign",
+        isHeading: true
+      },
+      {
+        content: `If a lead does not reply:<ul><li>The lead stays active in the campaign</li><li>The system does not remove the lead automatically</li><li>The lead continues to the next step in the sequence</li><li>No action is required from you for the campaign to continue.</li></ul>`,
+        isParagraph: true
+      },
+      {
+        description: `The lead stays active in the campaign`
+      },
+      {
+        description: `The system does not remove the lead automatically`
+      },
+      {
+        description: `The lead continues to the next step in the sequence`
+      },
+      {
+        content: `No action is required from you for the campaign to continue.`,
+        isParagraph: true
+      },
+      {
+        title: "2. Delay Timer Starts After Each Email",
+        isHeading: true
+      },
+      {
+        content: `After an email is sent:<ul><li>The system waits for the delay you configured (hours or days)</li><li>During this time, the lead is monitored for replies</li><li>If no reply is received by the end of the delay, the lead moves to the next step</li><li>The next follow-up email is sent</li></ul>`,
+        isParagraph: true
+      },
+      {
+        description: `The system waits for the delay you configured (hours or days)`
+      },
+      {
+        description: `During this time, the lead is monitored for replies`
+      },
+      {
+        content: `If no reply is received by the end of the delay`,
+        isParagraph: true
+      },
+      {
+        description: `The lead moves to the next step`,
+        isParagraph: true
+      },
+      {
+        description: `The next follow-up email is sent`,
+        isParagraph: true
+      },
+      {
+        title: "3. Follow-Up Emails Are Sent Automatically",
+        isHeading: true
+      },
+      {
+        content: `For leads who do not reply:`,
+        isParagraph: true
+      },
+      {
+        description: `Follow-up emails are sent automatically`
+      },
+      {
+        description: `Each follow-up is a separate step`
+      },
+      {
+        description: `Messages are sent in the order defined in the sequence`
+      },
+      {
+        content: `This continues until:`,
+        isParagraph: true
+      },
+      {
+        description: `The lead replies`
+      },
+      {
+        description: `Or the sequence reaches its final step`
+      },
+      {
+        title: "4. Scheduling Still Applies",
+        isHeading: true
+      },
+      {
+        content: `Even when a lead does not reply:`,
+        isParagraph: true
+      },
+      {
+        description: `Emails are sent only during your scheduled start and end times.`
+      },
+      {
+        description: `Time zone settings are respected`
+      },
+      {
+        description: `If a follow-up is due outside the scheduled time, it will be delayed.`
+      },
+      {
+        content: `The lead does not skip steps due to timing — it only waits.`,
+        isParagraph: true
+      },
+      {
+        title: "5. Sending Limits Do Not Remove the Lead",
+        isHeading: true
+      },
+      {
+        content: `If daily sending limits are reached:`,
+        isParagraph: true
+      },
+      {
+        description: `The email is queued`
+      },
+      {
+        description: `It is sent the next day during your scheduled time`
+      },
+      {
+        description: `The lead remains in the campaign`
+      },
+      {
+        content: `No leads are dropped because of limits.`,
+        isParagraph: true
+      },
+      {
+        title: "6. What Does NOT Happen When a Lead Does Not Reply",
+        isHeading: true
+      },
+      {
+        content: `When there is no reply:`,
+        isParagraph: true
+      },
+      {
+        description: `The lead is not removed automatically`
+      },
+      {
+        description: `The campaign does not stop`
+      },
+      {
+        description: `The lead is not marked as completed immediately`
+      },
+      {
+        description: `No manual action is required`
+      },
+      {
+        content: `The system simply follows the sequence as designed.`,
+        isParagraph: true
+      },
+      {
+        title: "7. When Does a Lead Stop Without Reply?",
+        isHeading: true
+      },
+      {
+        content: `A lead will only stop without replying if:`,
+        isParagraph: true
+      },
+      {
+        description: `The sequence reaches its last step`
+      },
+      {
+        description: `The campaign is paused or stopped`
+      },
+      {
+        description: `The lead is manually removed`
+      },
+      {
+        content: `Lack of reply alone does not stop a lead.`,
+        isParagraph: true
+      },
+      {
+        title: "Example Flow (No Reply)",
+        isHeading: true
+      },
+      {
+        content: `Example sequence:`,
+        isParagraph: true
+      },
+      {
+        description: `Step 1 → Initial email`
+      },
+      {
+        description: `Wait 2 days`
+      },
+      {
+        description: `Step 2 → Follow-up`
+      },
+      {
+        description: `Wait 3 days`
+      },
+      {
+        description: `Step 3 → Final follow-up`
+      },
+      {
+        content: `If no reply:`,
+        isParagraph: true
+      },
+      {
+        description: `Step 1 is sent`
+      },
+      {
+        description: `The system waits 2 days`
+      },
+      {
+        description: `Step 2 is sent`
+      },
+      {
+        description: `The system waits 3 days`
+      },
+      {
+        description: `Step 3 is sent`
+      },
+      {
+        description: `Sequence ends`
+      },
+      {
+        content: `The lead receives all steps unless a stopping rule is triggered.`,
+        isParagraph: true
+      },
+      {
+        title: "Why This Matters",
+        isHeading: true
+      },
+      {
+        content: `This behaviour ensures:`,
+        isParagraph: true
+      },
+      {
+        description: `No leads are forgotten`
+      },
+      {
+        description: `Follow-ups are consistent`
+      },
+      {
+        description: `Timing stays predictable`
+      },
+      {
+        description: `Automation remains controlled`
+      },
+      {
+        content: `You can design your sequence knowing exactly what will happen when a lead is silent.`,
+        isParagraph: true
+      },
+      {
+        title: "Summary",
+        isHeading: true
+      },
+      {
+        content: `In SalesTarget, when a lead does not reply:`,
+        isParagraph: true
+      },
+      {
+        description: `The lead stays active`
+      },
+      {
+        description: `Follow-ups are sent after each delay`
+      },
+      {
+        description: `Scheduling and limits are respected`
+      },
+      {
+        description: `The lead stops only when the sequence ends or a stop rule is triggered`
+      },
+      {
+        content: `This keeps your outreach structured and reliable.`,
+        isParagraph: true
+      }
+    ]
   }
+
+
+
+
+
+
 
 
 
