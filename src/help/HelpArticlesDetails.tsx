@@ -117,7 +117,7 @@ const HelpArticleDetail: React.FC<HelpArticleDetailProps> = () => {
                 />
 
                 <h2
-                  className="mt-6 text-xl text-black font-semibold"
+                  className="mt-6 text-xl text-black font-bold"
                   ref={(el) => {
                     sectionsRef.current['features'] = el;
                   }}
