@@ -1,82 +1,496 @@
 const mockArticles = [
+  
   {
     id: "1",
     title: "What is SalesTarget?",
     updated: "Updated over 8 months ago",
-    content: `Salestarget is a cold email software that offers various features tailored to enhance outreach campaigns.`,
+    content: `
+      SalesTarget.ai is an <strong>AI-powered, multi-channel sales outreach platform</strong> that helps
+      businesses find qualified leads and engage them through <strong>email and LinkedIn automation</strong>,
+      while managing conversations and deals in one system. <br/> <br/> SalesTarget combines <strong>lead discovery</strong>, 
+      <strong>outreach automation</strong>, <strong>AI assistance</strong>, and <strong>CRM</strong> into a single workspace — 
+      so sales teams can generate pipelines faster without juggling multiple tools.
+    `,
     features: [
       {
-        title: "Unlimited Email Accounts",
-        description: "You may connect as many email accounts as you need.",
+        content: `SalesTarget is built around six core capabilities:`,
+        isParagraph: 'true',
       },
       {
-        title: "Done-For-You Automatic Email Accounts/ Domains Setup",
-        description:
-          "An outstanding feature that will save you countless hours on your campaign setup.",
+        isStep: 'true',
+        stepTitle: "1. Lead Explorer",
       },
       {
-        title: "Unlimited Warmup",
-        description:
-          "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
+        content: `Discover and qualify high-intent B2B leads in seconds using advanced filters such as:`,
+        isParagraph: 'true',
       },
       {
-        title: "What Copilot Can Do",
-        type: "heading",
-        isHeading: true
+        content: `
+         &nbsp; &nbsp;● Job title
+        <br/> &nbsp; &nbsp;● Industry
+        <br/> &nbsp; &nbsp;● Company size
+        <br/> &nbsp; &nbsp;● Location
+        <br/> &nbsp; &nbsp;● Technologies used`,  
+        isParagraph: 'true',
       },
-    ],
-    accounts: [
       {
-        title: "How to connect Google Accounts?",
-        description:
-          "If you want to connect your Google Account, you may check this article to learn the process.",
+        content: `You get accurate prospect data so you can build targeted lists quickly.`,
+        isParagraph: 'true',
       },
-    ],
-    msaccounts: [
       {
-        title:
-          "How to connect an email account that is not Google or Microsoft?",
-        description:
-          "If you want to connect an email account that is not a Google or Microsoft account, you should use the IMAP/SMTP option and follow the steps in this article.",
+        isStep: 'true',
+        stepTitle: "2. Email Outreach",
       },
-    ],
-    imap: [
       {
-        title: "What to do if you are not able to connect IMAP?",
-        description:
-          "Please check if you are able to connect that account through this Microsoft tool. /n This tool should be able to tell us whether the problem is on Salestarget's side, or whether there's something going on with the accounts themselves. /nPlease send a screenshot of the results page to our chat support, and we'll try our best to help you resolve the issue. /nIMAP host for Google should be imap.gmail.com, and for other providers, you can most of the time find them on the provider's website, or directly from your webmail. You may also check this article for the most popular providers.",
+        content: `Launch personalized cold email campaigns at scale:`,
+        isParagraph: 'true',
       },
-    ],
+      {
+        content: `
+        &nbsp; &nbsp;● Create multi-step email sequences    
+        <br/>&nbsp; &nbsp;● Use AI to write and optimize messages
+        <br/>&nbsp; &nbsp;● Control sending speed and schedules
+        <br/>&nbsp; &nbsp;● Track opens, replies, and performance
+        <br/>&nbsp; &nbsp;● Improve deliverability with warm-up and inbox placement tools.`,
+        isParagraph: 'true',
+      },
+      {
+        isStep: 'true',
+        stepTitle: "3. LinkedIn Automation",
+      },
+      {
+        content: `Automate LinkedIn outreach to grow your pipeline:`,
+        isParagraph: 'true',
+      },
+      {
+        content: `
+        &nbsp; &nbsp;● Send connection requests
+        <br/>&nbsp; &nbsp;● Follow up with LinkedIn messages
+        <br/>&nbsp; &nbsp;● Combine LinkedIn and email steps inside one sequence
+        <br/>&nbsp; &nbsp;● Reach prospects where they are most active`,
+        isParagraph: 'true',
+      },
+      {
+        isStep: 'true',
+        stepTitle: "4. Copilot (AI Assistant)",
+      },
+      {
+        content:`Copilot help you`,
+        isParagraph: `true`
+      },
+      {
+        content: `
+        &nbsp; &nbsp;● Generate lead lists
+        <br/>&nbsp; &nbsp;● Write cold email and LinkedIn messages
+        <br/>&nbsp; &nbsp;● Optimize subject lines and follow-ups
+        <br/>&nbsp; &nbsp;● Improve outreach strategy`,
+        isParagraph: 'true',
+      },
+      {
+          content:`It acts as your built-in sales assistant.`,
+          isParagraph: `true`
+      },
+      {
+        isStep: 'true',
+        stepTitle: "5. Lead Validation",
+      },
+      {
+        content: `Verify email addresses before sending:`,
+        isParagraph: 'true',
+      },
+      {
+        content: `
+        &nbsp; &nbsp;● Reduce bounce rates
+        <br/>&nbsp; &nbsp;● Protect sender reputation
+        <br/>&nbsp; &nbsp;● Improve inbox placement`,
+        isParagraph: 'true',
+      },
+      {
+        content: `This ensures your campaigns stay healthy and compliant.`,
+        isParagraph: 'true',
+      },
+      {
+        isStep: 'true',
+        stepTitle: "6. CRM Manager",
+      },
+      {
+        content: `Manage leads and deals in one place:`,
+        isParagraph: 'true',
+      },
+      {
+        content: `
+        &nbsp; &nbsp;● Track conversations and activities
+        <br/>&nbsp; &nbsp;● Organize pipeline stages
+        <br/>&nbsp; &nbsp;● Assign tasks and follow-ups
+        <br/>&nbsp; &nbsp;● View full lead history`,
+        isParagraph: 'true',
+      },
+      {
+        content: `No need for an external CRM to start selling. `,
+        isParagraph: 'true',
+      },
+    
+    {
+      title: "How SalesTarget Works",
+      type: "heading",
+      isHeading: 'true',
+    },
+    {
+      content: `
+      1.<strong> Find Leads </strong> - <br/> &nbsp; &nbsp; Use Lead Explorer to build targeted prospect lists.
+       <br/>
+      2.<strong> Create Sequences </strong> - <br/> &nbsp; &nbsp; Build outreach sequences using email and LinkedIn steps.
+       <br/>
+      3.<strong> Write with AI </strong> - <br/> &nbsp; &nbsp; Use Copilot to generate personalized messages. <br/>
+      4.<strong> Validate & Warm Up </strong> - <br/> &nbsp; &nbsp; Verify emails and warm up accounts for better deliverability. <br/>
+      5.<strong> Launch Campaigns </strong> - <br/> &nbsp; &nbsp; Start sending automatically across channels. <br/>
+      6.<strong> Manage Replies & Deals </strong> - <br/> &nbsp; &nbsp; Handle responses in the Unibox and move deals through CRM. <br/> ` ,
 
-    faq: [
-      {
-        title: " Am I able to connect aliases with salestarget?",
-        description:
-          "There is no option to add alias email accounts to salestarget.",
-      },
-    ],
+      isParagraph: 'true',
+      
+    },
+    { title: "Who is SalesTarget for?",
+      type: "heading",
+      isHeading: 'true',
+    },
+    {
+      content: `
+      &nbsp; &nbsp;● B2B sales teams,<br/>
+      &nbsp; &nbsp;● Startup founders,<br/>
+      &nbsp; &nbsp;● Growth marketers,<br/>
+      &nbsp; &nbsp;● Agencies,<br/>
+      &nbsp; &nbsp;● SDRs and outbound teams <br/><br/> `,
+      isParagraph: 'true',
+    },
+    {
+      title: "Why Teams Choose SalesTarget",
+      type: "heading",
+      isHeading: 'true',
+    },
+    {
+      content: `  
+      &nbsp; &nbsp;● Multi-channel outreach (Email + LinkedIn),<br/>
+      &nbsp; &nbsp;● Built-in lead database,<br/>
+      &nbsp; &nbsp;● AI-powered copywriting,<br/>
+      &nbsp; &nbsp;● Email verification & deliverability tools,<br/>
+      &nbsp; &nbsp;● Unified inbox and CRM,<br/>
+      &nbsp; &nbsp;● Simple workflows for teams`,
+      isParagraph: 'true'
+    },
+    {
+      title: "In Summary",
+      type: "heading",
+      isHeading: 'true',
+    },
+    {
+      content: `  
+     SalesTarget.ai helps you:
+     <br/><br/>
+     &nbsp; &nbsp;✔ Find verified leads
+     <br/>&nbsp; &nbsp;✔ Reach them via email and LinkedIn
+     <br/>&nbsp; &nbsp;✔ Automate follow-ups
+     <br/>&nbsp; &nbsp;✔ Manage conversations and deals
+     <br/>&nbsp; &nbsp;✔ Close more sales`,
+      isParagraph: 'true'
+    },
+    {
+      content: `All from one AI-powered platform.`,
+      isParagraph: 'true',
+    
+    }
+  
+  ],
   },
-  {
-    id: "2", // Unique ID for routing
-    title: "Quick Start Guide?",
-    updated:
-      "Check this article to get setup with salestarget in just a few short minutes.",
-    content: `salestarget is a cold email software that offers various features tailored to enhance outreach campaigns. 
-                It helps to generate more meetings and revenue by scaling your outreach campaigns with unlimited email-sending accounts and warmup, B2B Lead Database, and AI.`,
+  
+    {
+    id: "2",
+    title: "Quick Start Guide — Launch Your First Multi-Channel Campaign on SalesTarget",
+    updated: "Updated recently",
+    content: `
+      This guide will help you go from<strong> signup to the first live campaign </strong> using SalesTarget’s real workflow:<br/><br/>
+      <strong>Lead Explorer → Email + LinkedIn Outreach → CRM → Analytics</strong>
+    `,
     features: [
       {
-        title: "How to connect your accounts",
-        description:
-          "Sometimes setup of the account can be challenging, that's why we prepared a step-by-step guide to make it easier for our users.",
+        stepTitle: "Step 1: Create Your Account & Organization",
+        isStep: 'true',
       },
       {
-        title: " -->Connect Your Google Account with OAuth Method",
-        description:
-          "Connecting your Google Workspace account to salestarget using OAuth authentication allows seamless access and integration between the two platforms. Follow these step-by-step instructions to set up OAuth access in your Google Workspace account and connect it with salestarget. ",
+        content: `&nbsp; 1. Sign up and verify your email.<br/>&nbsp; 2. Set your:<br/>&nbsp; &nbsp; - Company name<br/>&nbsp; &nbsp; - Industry<br/>&nbsp; &nbsp; - Timezone<br/>&nbsp; &nbsp; - Working hours<br/>&nbsp; 3. (Optional) Invite team members and assign roles (Owner, Admin, Editor, Viewer).<br/><br/>This ensures campaigns run only during your business hours.`,
+        isParagraph: 'true',
       },
+      {
+        stepTitle: "Step 2: Connect Your Outreach Channels",
+        isStep:'true'
+      },
+      {
+        content: `
+          <strong>Connect Email Accounts</strong>`,
+          isParagraph: 'true',
+      },
+      {
+        content: `
+          Go to <strong>Settings → Email Accounts</strong> and connect via:<br/> 
+          &nbsp; &nbsp;● Google / Outlook (OAuth)<br/>
+          &nbsp; &nbsp;● Or SMTP/IMAP<br/><br/>
+          Before sending:<br/>
+          &nbsp; &nbsp;&bull;  Set daily limits (start with 20–50/day)<br/>
+          &nbsp; &nbsp;&bull;  Enable inbox warm-up<br/>
+          &nbsp; &nbsp;&bull;  Ensure SPF, DKIM, and DMARC are configured<br/>
+          &nbsp; &nbsp;&bull;  Add sender name and signature<br/><br/>SalesTarget automatically:<br/>
+          &nbsp; &nbsp;&bull;  Rotates inboxes<br/>
+          &nbsp; &nbsp;&bull;  Monitors account health<br/>
+          &nbsp; &nbsp;&bull;  Protects deliverability<br/><br/>`,
+          isParagraph: 'true',
+      },
+      {
+        content: `
+          <strong>Connect LinkedIn Account (Optional but Recommended)</strong>`,
+          isParagraph: 'true',
+      },
+      {
+        content: `
+          Go to <strong>LinkedIn Automation → Connect Account</strong>`,
+          isParagraph: 'true',
+      },
+      {
+        content: `
+          SalesTarget will:<br/>
+          &nbsp; &bull; Assign a residential proxy automatically<br/>
+          &nbsp; &bull;  Apply LinkedIn safe limits<br/>
+          &nbsp; &bull; Enable warm-up mode<br/>&nbsp; &bull;
+           Simulate human behavior (random gaps & breaks)<br/>
+            
+             `,
+        isParagraph: 'true',
+       },
+       {
+        content:`Set:`,
+        isParagraph: 'true',
+       },
+       {
+        content:`&nbsp; &bull;  Working days <br/> 
+        &nbsp; &bull; Working hours <br/> 
+        &nbsp; &bull; Daily action limits.`,
+        isParagraph: 'true',
+       },
+       {
+        content:`This allows safe Linkedin automation.`,
+        isParagraph: 'true',
+       },
+      
+       {
+        stepTitle: "Step 3: Find Leads with Lead Explorer",
+        isStep:'true',
+       },
+       {
+        content: `
+          Open <strong>Lead Explorer</strong> and filter by:<br/>
+          &nbsp; &nbsp; &bull; Job title<br/>
+          &nbsp; &nbsp; &bull; Industry<br/>
+          &nbsp; &nbsp; &bull; Company size<br/>
+          &nbsp; &nbsp; &bull; Location<br/>
+          &nbsp; &nbsp; &bull; Revenue<br/>`,
+          isParagraph: 'true',
+       },
+       {
+          content:`Preview leads before exporting.`,
+          isParagraph: 'true',
+       },
+       {
+          content:`
+           You can:<br/>
+           &nbsp; &nbsp; &bull; Send leads directly to a campaign<br/>
+           &nbsp; &nbsp; &bull; Or save them to CRM<br/><br/>
+          All emails are verified before use to reduce bounce rates.`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 4: Create Your First Campaign",
+        isStep:'true',
+      },
+      {
+        content: `
+          Go to <strong>Campaigns</strong> → <strong>Create Campaign</strong>`,
+        isParagraph: 'true',
+      },
+      {
+        content: `Choose`,
+        isParagraph: 'true',
+      },
+      {
+        content: `
+           &nbsp; &nbsp; &bull; Email campaign<br/>
+           &nbsp; &nbsp; &bull; LinkedIn campaign<br/>
+           &nbsp; &nbsp; &bull; Or Multi-channel (Email + LinkedIn)`,
+        isParagraph: 'true',
+      },
+      {
+        content: `
+ Name your campaign clearly<br/>
+           (e.g., “SaaS Founders – US”)`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 5: Build Your Sequence (Email + LinkedIn)",
+        isStep: `true`
+      },
+      {
+        content: `
+          Example multi-channel sequence:<br/>&nbsp;&nbsp;&nbsp;1. Day 0 → Email<br/>&nbsp;&nbsp;&nbsp;2. Day 1 → LinkedIn profile visit<br/>&nbsp;&nbsp;&nbsp;3. Day 2 → LinkedIn connection request<br/>&nbsp;&nbsp;&nbsp;4. Day 5 → Email follow-up<br/>&nbsp;&nbsp;&nbsp;5. Day 7 → LinkedIn message<br/><br/>
+          You can configure:<br/>&nbsp; &nbsp; &bull; Delays<br/>&nbsp; &nbsp; &bull; Conditions (if accepted, if replied)<br/>&nbsp; &nbsp; &bull; Working hours<br/>&nbsp; &nbsp; &bull; Action limits<br/><br/>
+          SalesTarget automatically schedules actions using:<br/>&nbsp; &nbsp; &bull; Timezone awareness<br/>&nbsp; &nbsp; &bull; Capacity-based distribution<br/>&nbsp; &nbsp; &bull; Randomized timing`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 6: Write Messages with AI Copilot",
+        isStep: `true`
+      },
+      {
+        content: `
+          Use<strong> AI Copilot </strong> to:<br/>
+          &nbsp; &nbsp; &bull; Generate cold emails<br/>
+          &nbsp; &nbsp; &bull; Create LinkedIn messages<br/>
+          &nbsp; &nbsp; &bull; Write follow-ups<br/>
+          &nbsp; &nbsp; &bull; Suggest subject lines<br/><br/>
+          AI uses:<br/>
+          &nbsp; &nbsp; &bull; Prospect profile<br/>
+          &nbsp; &nbsp; &bull; Company data<br/>
+          &nbsp; &nbsp; &bull; Job role<br/><br/>
+          <br/>
+          You can edit everything before sending. <br/>
+          Fallback templates are used if AI fails.`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 7: Validate & Prepare",
+        isStep: `true`,
+      },
+      {
+        content: `
+          Before launching:<br/>
+          &nbsp; &nbsp; &bull; Validate email addresses<br/>
+          &nbsp; &nbsp; &bull; Confirm inbox warm-up is active<br/>
+          &nbsp; &nbsp; &bull; Check LinkedIn limits<br/>
+          &nbsp; &nbsp; &bull; Review sequence logic<br/>
+          &nbsp; &nbsp; &bull; Confirm unsubscribe footer<br/><br/>
+          This protects your:<br/>
+          &nbsp; &nbsp; &bull; Domain reputation<br/>
+          &nbsp; &nbsp; &bull; LinkedIn account safety`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 8: Launch Campaign",
+        isStep: `true`,
+      },
+      {
+        content: `
+          Click <strong>Start Campaign</strong>.`,
+        isParagraph: 'true',
+      },
+      {
+        content: `
+          SalesTarget will:<br/>&nbsp; &nbsp; &bull; Distribute leads across accounts<br/>
+          &nbsp; &nbsp; &bull; Respect all daily limits<br/>
+          &nbsp; &nbsp; &bull; Send messages only during working hours<br/>
+          &nbsp; &nbsp; &bull; Pause follow-ups when a lead replies<br/><br/>
+          You don’t need to manually send anything.`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 9: Manage Replies in Unified Inbox",
+        isStep: `true`,
+      },
+      {
+        content: `
+          Open <strong>Unibox</strong> to:<br/>
+          &nbsp; &nbsp; &bull; Reply to email responses<br/>
+          &nbsp; &nbsp; &bull; Reply to LinkedIn messages<br/>
+          &nbsp; &nbsp; &bull; See conversation history<br/>
+          &nbsp; &nbsp; &bull; Auto-categorize replies (positive, negative, OOO)<br/><br/>
 
-    ],
-
+          Hot leads are highlighted automatically.`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 10: Move Leads into CRM",
+        isStep: `true`,
+      },
+      {
+        content: `
+          From Unibox or Campaign:<br/>
+          &nbsp; &nbsp; &bull; Mark lead as Interested<br/>
+          &nbsp; &nbsp; &bull; Create a Deal<br/>
+          &nbsp; &nbsp; &bull; Add notes<br/>
+          &nbsp; &nbsp; &bull; Schedule meetings<br/>
+          &nbsp; &nbsp; &bull; Track pipeline stages<br/><br/>
+          All activity (email + LinkedIn) stays linked to the lead.`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 11: Monitor Performance",
+        isStep: `true`,
+      },
+      {
+        content: `
+          Track:<br/>
+          &nbsp; &nbsp; &bull; Open rates<br/>
+          &nbsp; &nbsp; &bull; Reply rates<br/>
+          &nbsp; &nbsp; &bull; Connection acceptance<br/>
+          &nbsp; &nbsp; &bull; Campaign progress<br/>
+          &nbsp; &nbsp; &bull; Account health<br/><br/>
+          Use analytics to:<br/>
+          &nbsp; &nbsp; &bull; Improve sequences<br/>
+          &nbsp; &nbsp; &bull; Adjust ICP<br/>
+          &nbsp; &nbsp; &bull; Scale volume safely`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Best Practice for New Users",
+        isStep: `true`,
+      },
+    {
+      content:`
+      &nbsp; &nbsp; &bull; Start with 50–100 leads <br/>
+      &nbsp; &nbsp; &bull; Use short messages <br/>
+      &nbsp; &nbsp; &bull; Personalize with AI <br/>
+      &nbsp; &nbsp; &bull; Combine Email + LinkedIn <br/>
+      &nbsp; &nbsp; &bull; Always warm up accounts <br/>
+      &nbsp; &nbsp; &bull; Increase volume gradually`,
+        isParagraph: 'true',
+    },
+    {
+     stepTitle: "You’re Ready 🚀",
+     isStep: `true`,
+    },
+    {
+     content: `
+      With SalesTarget.AI, you can:<br/>
+      ✔ Discover leads<br/>
+      ✔ Reach them via email & LinkedIn<br/>
+      ✔ Automate follow-ups<br/>
+      ✔ Manage conversations<br/>
+      ✔ Track deals<br/>
+      ✔ Scale safely<br/>
+      All from one platform.
+    `,
+    isParagraph: 'true',
+    },
+    {
+      stepTitle: "Next Recommended Guides",
+      isStep: `true`,
+    },
+    {
+    content:`
+      &nbsp; &nbsp; &bull; Setting up your account<br/>
+      &nbsp; &nbsp; &bull; First steps with campaigns<br/>
+      &nbsp; &nbsp; &bull; Lead Explorer overview<br/>
+      &nbsp; &nbsp; &bull; Deliverability best practices<br/>
+    `,
+    isParagraph: 'true',
+  }
+  
+  ],
   },
   {
     id: "3", // Unique ID for routing
