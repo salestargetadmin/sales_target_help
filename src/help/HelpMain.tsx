@@ -230,10 +230,10 @@ const categories = [
   },
 
   {
-    title: 'CRM Guide: Lead Activity, Meetings,Tasks &amp; Activity Feed',
+    title: 'CRM Guide: Lead Activity, Meetings,Tasks & Activity Feed',
     icon: '📂', 
     articles: [
-      { title: 'CRM Guide: Lead Activity, Meetings,Tasks &amp; Activity Feed', id: 73 },
+      { title: 'CRM Guide: Lead Activity, Meetings,Tasks & Activity Feed', id: 73 },
     ],
   },
 
