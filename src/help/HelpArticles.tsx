@@ -59,9 +59,9 @@ const categories = [
       { title: 'Setting up Reply-to email address', id: 14, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'Checklist before campaign launch', id: 15, icon: Shield, color: '#FF00FF' }, // Orange
       { title: 'Create a separate workspace and invite team members', id: 16, icon: Shield, color: '#FF00FF' }, // Orange
-      { title: 'Email Service Providers Matching', id: 17, icon: Shield, color: '#FF00FF' }, // Orange
+     
       { title: 'Why do I need DNS records?', id: 18, icon: Shield, color: '#FF00FF' }, // Orange
-      { title: 'How to set up SPF and DKIM for cPanel email accounts', id: 19, icon: Shield, color: '#FF00FF' }, // Orange
+     
       { title: 'Ways to add a signature', id: 20, icon: Shield, color: '#FF00FF' }, // Orange
     ],
   },
@@ -91,7 +91,7 @@ const categories = [
     articles: [
       { title: 'What to do if your \'Open Rate\' is low📉', id: 27, icon: Code, color: '#FF00FF' }, // Orange
       { title: "Why do emails bounce?", id: 28, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'Why am I getting 100% open rate?💯', id: 29, icon: Shield, color: '#FF00FF' }, // Orange
+      
      
     ],
   },
@@ -110,8 +110,8 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'How To Create High-ROI Cold Email Campaigns by Scraping B2B Emails from Twitter (incl. Template)', id: 33, icon: Code, color: '#FF00FF' }, // Orange
-      { title: "How to use Builtwith for lead mining", id: 34, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'How to use Launch Gravity to extract leads', id: 35, icon: Shield, color: '#FF00FF' }, // Orange
+     
+      
      
     ],
   },
@@ -130,7 +130,7 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'Email Outreach plans comparison', id: 39, icon: Code, color: '#FF00FF' }, // Orange
-      { title: "Lead Finder plans comparison", id: 40, icon: Database, color: '#FF00FF' }, // Orange
+   
       { title: 'Add-on pricing', id: 41, icon: Shield, color: '#FF00FF' }, // Orange
      
     ],
@@ -140,7 +140,7 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'Request access to collected data', id: 42, icon: Code, color: '#FF00FF' }, // Orange
-      { title: "Opt out of salestarget - object to our processing, opt out of sales, and request deletion of your profile", id: 43, icon: Database, color: '#FF00FF' }, // Orange
+     
       { title: 'Salestarget Sub-processors', id: 44, icon: Shield, color: '#FF00FF' }, // Orange
      
     ],
@@ -151,7 +151,7 @@ const categories = [
     articles: [
       { title: 'Salestarget CRM', id: 45, icon: Code, color: '#FF00FF' }, // Orange
       { title: "CRM Features", id: 46, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'How to purchase phone numbers', id: 47, icon: Shield, color: '#FF00FF' }, // Orange
+     
      
     ],
   },
@@ -165,16 +165,7 @@ const categories = [
      
     ],
   },
-  {
-    title: 'Deliverability',
-    icon: '🔍',
-    articles: [
-      { title: 'Inbox Placement feature', id: 51, icon: Code, color: '#FF00FF' }, // Orange
-      { title: "Inbox Placement: one-time tests", id: 52, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'Inbox Placement - automated tests', id: 53, icon: Shield, color: '#FF00FF' }, // Orange
-     
-    ],
-  },
+
   {
     title: 'Calculate your costs',
     icon: '🔍',
@@ -196,7 +187,7 @@ const categories = [
       
       { title: "Limits for domain and email accounts on SalesTarget.ai?", id: 59, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'Warm-up plan for SalesTarget.ai users?', id: 60, icon: Shield, color: '#FF00FF' }, // Orange
-      { title: 'Tips for a successful warm-up', id: 61, icon: Code, color: '#FF00FF' }, // Orange
+    
       
      
     ],

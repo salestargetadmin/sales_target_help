@@ -493,26 +493,276 @@ const mockArticles = [
   ],
   },
   {
-    id: "3", // Unique ID for routing
-    title:
-      "Rotating IP's and sending algorithms in the cold email space = high deliverability?",
-    updated: "Updated over 8 months ago",
-    content: `At Salestarget.ai we maintain a dynamic pool of hundreds of proxy IPs that are continuously rotated based on key metrics, including usage volume and account reputation.`,
-    features: [
-      {
-        title: "Challenges with Conventional IP Rotation:",
-        description:
-          "Traditional IP rotation practices often result in the loss of good reputation IPs or delay in removing blacklisted IPs, leading to potential delivery problems and reputation damage. Other cold email tools out there only have a handful of IPs, don't monitor blacklists, don't rotate IPs, are all STATIC, etc.",
-      },
-      {
-        title: "Unique Features of Salestarget.ai:",
-        description:
-          "Unlike many cold email tools that rely on static IPs and lack blacklist monitoring or rotation capabilities, salestarget.ai offers:\n A vast pool of rotating proxy IPs. \n Constant monitoring and proactive management of IP reputation. \n Location Independence: Using salestarget.ai from different locations does not impact deliverability because our rotating proxy IPs, not user IP addresses, interact directly with email servers.",
-      },
+  id: "3",
+  title: "How Salestarget Optimizes Sending Behavior for Deliverability",
+  content: `Deliverability is the foundation of successful cold outreach.<br/>
+If your emails don’t reach the inbox, your campaigns fail — no matter how good your copy is.<br/><br/>
+Salestarget is built with <strong>deliverability-first</strong> architecture that controls how, when, and from where emails are sent to protect your sender reputation and maximize inbox placement.<br/><br/>
+This article explains <strong>how Salestarget optimizes sending behavior automatically.</strong>`,
 
-    ],
+  features: [
+    {
+      title: "Why Deliverability Matters",
+      isHeading: true
+    },
+    {
+      content: `Email providers (Google, Outlook, and Yahoo) Evaluate:<ul>
+&nbsp; &bull; Sending volume<br/>
+&nbsp; &bull; Sending patterns<br/>
+&nbsp; &bull; Bounce rate<br/>
+&nbsp; &bull; Spam complaints<br/>
+&nbsp; &bull; Engagement (opens, replies)<br/>
+&nbsp; &bull; Domain authentication<br/>
+</ul>
+Aggressive or unnatural sending behavior triggers spam filters and blacklisting.<br/>
+SalesTarget prevents this by enforcing <strong>natural, safe, and reputation-aware sending behavior.</strong>`,
+      isParagraph: true
+    },
 
-  },
+    {
+      title: "1. Inbox Warm-Up (Reputation Building)",
+      isHeading: true
+    },
+    {
+      content: `When you connect a new email account, SalesTarget:<ul>
+<li>&nbsp; &bull; Starts with <strong>low daily volume</strong></li>
+<li>&nbsp; &bull; Gradually increases send limits over time</li>
+<li>&nbsp; &bull; Simulates real conversations</li>
+<li>&nbsp; &bull; Builds positive engagement signals</li>
+</ul>
+This allows your domain and inbox to earn trust before full-scale outreach begins.<br/>
+Warm-up helps:<ul>
+<li>&nbsp; &bull; Avoid spam folder placement</li>
+<li>&nbsp; &bull; Reduce sudden spikes in volume</li>
+<li>&nbsp; &bull; Establish sender reputation safely</li>
+</ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "2. Daily Sending Limits per Inbox",
+      isHeading: true
+    },
+    {
+      content: `SalesTarget enforces <strong>per-inbox daily limits</strong>, even if you try to exceed them.<br/>
+You control:<ul>
+<li>&nbsp; &bull; Initial limits (e.g., 20–50/day)</li>
+<li>&nbsp; &bull; Growth over time (as reputation improves)</li>
+</ul>
+SalesTarget prevents:<ul>
+<li>&nbsp; &bull; Sudden volume spikes</li>
+<li>&nbsp; &bull; Provider throttling</li>
+<li>&nbsp; &bull; Account flags</li>
+</ul>
+This keeps your sending pattern stable and predictable.`,
+      isParagraph: true
+    },
+
+    {
+      title: "3. Inbox Rotation (Load Distribution)",
+      isHeading: true
+    },
+    {
+      content: `If you connect multiple email accounts, SalesTarget:<ul>
+<li>&nbsp; &bull; Distributes emails across inboxes</li>
+<li>&nbsp; &bull; Ensures no single account is overloaded</li>
+<li>&nbsp; &bull; Balances daily volume automatically</li>
+</ul>
+Instead of:<br/>
+❌ 1 inbox sending 1,000 emails<br/>
+SalesTarget uses:<br/>
+✅ 10 inboxes sending 100 emails each<br/><br/>
+This reduces risk and increases scale safely.`,
+      isParagraph: true
+    },
+
+    {
+      title: "4. Natural Scheduling & Timezone Awareness",
+      isHeading: true
+    },
+    {
+      content: `SalesTarget does not send emails in bulk bursts.<br/>
+It:<ul>
+<li>&nbsp; &bull; Schedules emails only during working hours</li>
+<li>&nbsp; &bull; Spreads sends across the day</li>
+<li>&nbsp; &bull; Uses randomized timing</li>
+<li>&nbsp; &bull; Respects account timezone</li>
+</ul>
+This creates:<ul>
+<li>&nbsp; &#10003; Human-like behavior</li>
+<li>&nbsp; &#10003; Consistent sending patterns</li>
+<li>&nbsp; &#10003; Lower spam detection</li>
+</ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "5. Lead Validation Before Sending",
+      isHeading: true
+    },
+    {
+      content: `Before leads are added to campaigns, SalesTarget validates them by checking:<ul>
+<li>&nbsp; &bull; Email format</li>
+<li>&nbsp; &bull; Domain existence</li>
+<li>&nbsp; &bull; Mailbox availability</li>
+<li>&nbsp; &bull; Disposable email detection</li>
+<li>&nbsp; &bull; Role-based address detection (info@, support@)</li>
+</ul>
+Invalid and risky emails are removed before sending.<br/>
+This reduces:<ul>
+<li>&nbsp; &#10003; Bounce rate</li>
+<li>&nbsp; &#10003; ISP penalties</li>
+<li>&nbsp; &#10003; Reputation damage</li>
+</ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "6. Domain Authentication Monitoring (SPF, DKIM, DMARC)",
+      isHeading: true
+    },
+    {
+      content: `SalesTarget monitors your domain health by checking:<ul>
+<li>SPF records</li>
+<li>DKIM signing</li>
+<li>DMARC policy</li>
+</ul>
+If misconfigured:<ul>
+<li>You are alerted</li>
+<li>Sending is restricted</li>
+<li>Errors are flagged</li>
+</ul>
+This ensures your domain is trusted by receiving servers.`,
+      isParagraph: true
+    },
+
+    {
+      title: "7. Reply-Aware Sequence Control",
+      isHeading: true
+    },
+    {
+      content: `When a prospect replies:<ul>
+<li>SalesTarget automatically stops follow-ups</li>
+<li>Removes them from automated sending</li>
+<li>Moves them into manual reply flow (Unibox + CRM)</li>
+</ul>
+This prevents:<ul>
+<li>Sending to engaged contacts</li>
+<li>Triggering spam complaints</li>
+<li>Damaging engagement signals</li>
+</ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "8. Bounce, Unsubscribe & Complaint Handling",
+      isHeading: true
+    },
+    {
+      content: `SalesTarget automatically:<ul>
+<li>Removes hard-bounced emails</li>
+<li>Honors unsubscribe requests</li>
+<li>Suppresses risky addresses</li>
+<li>Tracks complaint rates</li>
+</ul>
+Accounts with unhealthy metrics are:<ul>
+<li>Throttled</li>
+<li>Flagged</li>
+<li>Protected from overuse</li>
+</ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "9. Account Health Monitoring",
+      isHeading: true
+    },
+    {
+      content: `Each email account has a health score based on:<ul>
+<li>Bounce rate</li>
+<li>Open rate</li>
+<li>Reply rate</li>
+<li>Spam signals</li>
+<li>Domain authentication</li>
+</ul>
+If health drops:<ul>
+<li>Sending slows down</li>
+<li>Rotation skips unhealthy inboxes</li>
+<li>Alerts are triggered</li>
+</ul>
+This prevents long-term damage.`,
+      isParagraph: true
+    },
+
+    {
+      title: "What SalesTarget Does NOT Do",
+      isHeading: true
+    },
+    {
+      content: `SalesTarget does NOT:<ul>
+<li>Rotate IPs artificially</li>
+<li>Mask sender identity</li>
+<li>Use unsafe sending tricks</li>
+<li>Bypass spam filters illegally</li>
+<li>Use shady infrastructure</li>
+</ul>
+Deliverability is achieved through:<ul>
+<li>Behavior</li>
+<li>Reputation</li>
+<li>Engagement</li>
+<li>Safety</li>
+<li>Control</li>
+</ul>
+Not hacks.`,
+      isParagraph: true
+    },
+
+    {
+      title: "Best Practices for Users",
+      isHeading: true
+    },
+    {
+      content: `To get best results:<ul>
+<li>Warm up new domains and inboxes</li>
+<li>Start with low volume</li>
+<li>Use verified leads</li>
+<li>Write human messages</li>
+<li>Avoid spam keywords</li>
+<li>Combine Email + LinkedIn</li>
+<li>Increase volume gradually</li>
+</ul>
+SalesTarget enforces the technical side — your content drives engagement.`,
+      isParagraph: true
+    },
+
+    {
+      title: "Summary",
+      isHeading: true
+    },
+    {
+      content: `SalesTarget optimizes deliverability by controlling:<ul>
+<li>How fast emails are sent</li>
+<li>How many emails are sent</li>
+<li>Which inbox sends them</li>
+<li>When they are sent</li>
+<li>Who they are sent to</li>
+</ul>
+Through:<ul>
+<li>Warm-up</li>
+<li>Rotation</li>
+<li>Validation</li>
+<li>Scheduling</li>
+<li>Health monitoring</li>
+<li>Sequence control</li>
+</ul>
+SalesTarget ensures your outreach stays:<br/>
+📥 In inbox<br/>
+📈 Scalable<br/>
+🛡 Safe`,
+      isParagraph: true
+    }
+  ]
+},
   {
     id: "4", // Unique ID for routing
     title: "Setting up your account",
@@ -703,30 +953,7 @@ const mockArticles = [
     ],
 
   },
-  {
-    id: "12", // Unique ID for routing
-    title: "Searching Leads?",
-    updated: "Updated over 8 months ago",
-    content: `Lead searching is the process of identifying and qualifying potential customers for outreach. A good lead searching platform provides accurate, verified data, advanced filtering, CRM integration, and automation tools to enhance efficiency.`,
-    features: [
-      {
-        title: "How accurate is the lead data?",
-        description:
-          "The platform should offer real-time verification, email validation, and up-to-date company details to minimize bounces.",
-      },
-      {
-        title: "Does it allow advanced filtering?",
-        description:
-          "A good platform should enable searches by industry, company size, location, job title, revenue, and other key parameters for precision targeting.",
-      },
-      {
-        title: "What are the compliance and data protection measures?",
-        description:
-          "GDPR and CCPA compliance, along with opt-in email lists, ensure legal and ethical outreach.",
-      },
-    ],
-
-  },
+ 
   {
     id: "13",
     title: "Transferring domains from one email provider to another",
@@ -806,55 +1033,7 @@ const mockArticles = [
     ],
 
   },
-  {
-    id: "17",
-    title: "Email Service Providers Matching",
-    updated: "Updated over 8 months ago",
-    content: `Email Service Providers Matching is a feature that improves deliverability and helps people to get better results. 
-
  
-
-With this feature. it will try to match the users sending inboxes with the recipient's inboxes (your Google accounts send emails to Google leads, Outlook accounts send emails to Outlook leads, etc). `,
-    features: [
-      {
-        title: "",
-        description:
-          "You can activate Email Service Provider Matching by following these steps:",
-      },
-      {
-        title: "",
-        description:
-          "Open the target campaign Go to the Campaign Options tab. Select Advanced Options -> Provider Matching. You can create custom ESP routing rule to select which ESP sends or does not send emails to which recipient ESPs.",
-      },
-      {
-        title: "Unlimited Warmup",
-        description:
-          "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
-      },
-    ],
-
-
-    faq: [
-      {
-        title:
-          " What will happen if none of my mailboxes match my lead's mailboxes?",
-        description:
-          "No worries, if none of your mailboxes match your prospect's mailboxes, the campaign will go out as normal.",
-      },
-      {
-        title:
-          "What happens if only 1 inbox matches 80% of your leads' inboxes (Google for example)",
-        description:
-          "If only 1 inbox matches 80% of your leads' inboxes, the campaign needs to wait for the 1 account to be available for 80% of the leads. As for the remaining 20%, even if there is no match, the campaign will work still as usual.",
-      },
-      {
-        title:
-          "How can we make sure that the maximum number of new leads is still met, as we are not aware of the number of Google or Outlook boxes?",
-        description:
-          " It might impact the sending limit if the campaign waits for an account from a matched provider to become available.",
-      },
-    ],
-  },
   {
     id: "18",
     title: "Why do I need DNS records?",
@@ -879,27 +1058,8 @@ With this feature. it will try to match the users sending inboxes with the recip
     ],
 
   },
-  {
-    id: "19",
-    title: "How to set up SPF and DKIM for cPanel email accounts",
-    updated: "Updated over 8 months ago",
-    content: `Here are the instructions for the most popular cPanel email providers. If your accounts are created on a different provider's cPanel, the instructions could apply to your accounts too.`,
-    features: [
-      {
-        title: "BlueHost",
-        description: "SPF, DKIM",
-      },
-      {
-        title: "Hostgator",
-        description: "SPF and DKIM",
-      },
-      {
-        title: "TitanMail",
-        description: "SPF, DKIM",
-      },
-    ],
-
-  },
+ 
+  
   {
     id: "20",
     title: "Ways to add a signature",
@@ -1087,30 +1247,7 @@ With this feature. it will try to match the users sending inboxes with the recip
     ],
 
   },
-  {
-    id: "29",
-    title: "Why am I getting 100% open rate?💯",
-    updated: "Updated over 8 months ago",
-    content: `If you go to Analytics and see a 100% open rate, here are the possible reasons you may check it out:`,
-    features: [
-      {
-        title: "",
-        description:
-          "If you have deleted leads from your campaign at any point, you could be seeing statistics for those deleted leads as well.",
-      },
-      {
-        title: "",
-        description:
-          "If you are viewing the analytics for only a specific date range (like a week), it reports the sent and opens within that specific time frame.",
-      },
-      {
-        title: "",
-        description:
-          "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
-      },
-    ],
-
-  },
+  
   {
     id: "30",
     title: "CRM Import",
@@ -1198,43 +1335,8 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     ],
 
   },
-  {
-    id: "34",
-    title: "How to use Builtwith for lead mining",
-    updated: "Updated over 8 months ago",
-    content: `Builtwith is a feature that builds lists based on what technologies certain companies are using. It shows which sites use shopping carts, analytics, hosting and many more. Filter by location, traffic, vertical, and more.
-
-`,
-    features: [
-      {
-        title: "",
-        description:
-          "If you are an eCommerce solution provider, you should know which companies use technology similar to yours like Shopify, Magento, Pretashop, and etc. It can filter by location or a keyword that appears on the homepage of the website. ",
-      },
-      {
-        title: "",
-        description:
-          "If you are a TikTok ad agency, search for TikTok tracking pixel trends to get the list of websites that track conversions from TikTok ads.",
-      },
-
-    ],
-
-  },
-  {
-    id: "35",
-    title: "How to use Launch Gravity to extract leads",
-    updated: "Updated over 8 months ago",
-    content: `Launch Gravity is a lead database that tracks new business creations and web activity over the month. It focuses on fundable startups and always a good idea to pitch a service or product to recently funded companies because they have money to spend and looking to reinvest in growth and utility.`,
-    features: [
-      {
-        title: "",
-        description:
-          "They also provide reports and data about Inc. 5000 (fastest-growing companies), Y combinator batches, and Companies founded by former Facebook employees. Having this type of fresh and segmented data also is a great way to do generic personalization/ice-breakers at scale, e.g. “Congrats on getting funding for {{companyName}}!”, “Congrats on your recent ProductHunt launch!”",
-      },
-
-    ],
-
-  },
+  
+  
   {
     id: "36",
     title: "How to manage the Unibox & Best Practices on how to reply to leads",
@@ -1332,33 +1434,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
     ],
   },
-  {
-    id: "40",
-    title: "Lead Finder plans comparison",
-    updated: "Updated over 8 months ago",
-    content: `What features are included in different Lead Finder plans`,
-    features: [
-      {
-        title: "",
-        description: "If you are still not sure what plan suits you the best",
-      },
-      {
-        title: "",
-        description: "check below faqs",
-      },
-
-    ],
-
-
-    faq: [
-      {
-        title:
-          " If I purchase a Lead Finder, can I send and warmup emails too?",
-        description:
-          "Lead Finder is a separate data product from our Email outreach tool, so you won't be able to send and warmup email accounts with just Lead Finder.",
-      },
-    ],
-  },
+  
   {
     id: "41",
     title: "Add-on pricing",
@@ -1400,28 +1476,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     ],
 
   },
-  {
-    id: "43",
-    title: "salestarget Sub-processors",
-    updated: "Updated over 8 months ago",
-    content: `To support the delivery of our services, salestarget may engage and use data processors with access to certain Service Data (each, a “Sub-processor”). This table provides important information about the identity, location, and role of each Sub-processor.`,
-    features: [
-      {
-        title: "Amazon Web Services (AWS)",
-        description: "",
-      },
-      {
-        title: "Google Cloud Platform (GCP)",
-        description: "",
-      },
-      {
-        title: "Hetzner",
-        description:
-          "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
-      },
-    ],
-
-  },
+ 
   {
     id: "44",
     title: "DPA (Data Processing Addendum Document)",
@@ -1485,26 +1540,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     ],
 
   },
-  {
-    id: "47",
-    title: "How to purchase phone numbers",
-    updated: "Updated over 8 months ago",
-    content: `salestarget CRM makes it easy to call and text right from the platform. This guide will show you how to use these features and how to register for A2P 10DLC, which you'll need for sending SMS to US numbers.`,
-    features: [
-      {
-        title: "",
-        description:
-          "Double-check your information, all the details you submit must be correct.",
-      },
-      {
-        title: "",
-        description:
-          "If there's a problem or your registration has failed right after submitting, contact support via chat.",
-      },
-
-    ],
-
-  },
+ 
   {
     id: "48",
     title: "How to add the Website Visitors script to Webflow?",
@@ -1568,56 +1604,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     ],
 
   },
-  {
-    id: "51",
-    title: "Inbox Placement feature",
-    updated: "Updated over 8 months ago",
-    content: `What is Inbox Placement feature and how to launch and configure tests`,
-    features: [
-      {
-        title: "",
-        description:
-          "Bad results from your cold email campaigns, Without visibility into your email performance, you can’t troubleshoot problems. Your IPs or domains might get blacklisted, impacting future campaigns.",
-      },
-      {
-        title: "",
-        description:
-          "That's what the Inbox Placement feature helps with - providing you with the tools and insights to help your emails reach your ideal clients.",
-      },
-
-    ],
-
-  },
-  {
-    id: "52",
-    title: "Inbox Placement: one-time tests",
-    updated: "Updated over 8 months ago",
-    content: `You will need a Growth or HyperGrowth Inbox Placement subscription. Get it here. The plan is shareable across all the workspaces you own.`,
-    features: [
-      {
-        title: "",
-        description:
-          "Before running Inbox Placement tests, set the maximum number of inbox placement tests per day in the sending account settings:",
-      },
-
-    ],
-
-  },
-  {
-    id: "53",
-    title: "Inbox Placement - automated tests",
-    updated: "Updated over 8 months ago",
-    content: `How to launch automated tests`,
-    features: [
-      {
-        title: "What is the Automated Inbox Placement Test?",
-        description:
-          "It’s a feature that automatically checks if your emails land in the inbox, promotions, or spam folders and gives detailed deliverability insights.It helps by automating placement tests, providing insights into blacklists, spam triggers, and email health, allowing you to optimize campaigns and improve deliverability while spending less time on manual tasks.",
-      },
-
-    ],
-
-  },
+  
+ 
+ 
   {
     id: "54",
     title: "Monthly email volume",
@@ -1890,21 +1879,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     ],
 
   },
-  {
-    id: "61",
-    title: "What are the tips for a successful warm-up?",
-    updated: "Updated over 8 months ago",
-    features: [
-      {
-        title: "Tips for a Successful Warm-Up",
-        description:
-          "• Monitor email activity like open rates, replies, and bounces.\n• Avoid spammy content (all-caps, too many links, or attachments).\n• Encourage engagement to signal trust.\n• Use warm-up and reputation monitoring tools.",
-        image: "",
-      },
 
-    ],
-
-  },
   {
     id: "62",
     title: "How to Set Up Your Email Account on SalesTarget.ai",
