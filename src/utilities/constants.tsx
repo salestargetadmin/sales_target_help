@@ -766,18 +766,18 @@ SalesTarget ensures your outreach stays:<br/>
   {
   id: "4",
   title: "Setting Up Your Account",
-  content: `This guide walks you through setting up your SalesTarget.AI account properly so you can launch safe, high-performing multi-channel campaigns (Email + LinkedIn).<br/>A proper setup ensures:<ul><li>Strong deliverability</li><li>Account safety</li><li>Accurate tracking</li><li>Smooth CRM workflow</li></ul>`,
+  content: `This guide walks you through setting up your SalesTarget.AI account properly so you can launch safe, high-performing multi-channel campaigns (Email + LinkedIn).<br/>A proper setup ensures:<ul><li>&nbsp; &bull; Strong deliverability</li><li>&nbsp; &bull; Account safety</li><li>&nbsp; &bull; Accurate tracking</li><li>&nbsp; &bull; Smooth CRM workflow</li></ul>`,
   features: [
     {
       title: "Step 1: Create Your Organization",
       isHeading: true
     },
     {
-      content: `After signing up:<ol><li>Enter your company name</li><li>Select your industry</li><li>Set your timezone</li><li>Configure working hours</li></ol>`,
+      content: `After signing up:<ol><li> &nbsp; 1. Enter your company name</li><li> &nbsp; 2. Select your industry</li><li> &nbsp; 3. Set your timezone</li><li> &nbsp; 4. Configure working hours</li></ol>`,
       isParagraph: true
     },
     {
-      content: `Your timezone and working hours are important because:<ul><li>Email sending follows your configured schedule</li><li>LinkedIn automation respects business hours</li><li>Campaign execution is timezone-aware</li></ul>You can update these anytime in Organization Settings.`,
+      content: `Your timezone and working hours are important because:<ul><li>&nbsp; &bull; Email sending follows your configured schedule</li><li>&nbsp; &bull; LinkedIn automation respects business hours</li><li>&nbsp; &bull; Campaign execution is timezone-aware</li></ul>You can update these anytime in Organization Settings.`,
       isParagraph: true
     },
 
@@ -786,7 +786,7 @@ SalesTarget ensures your outreach stays:<br/>
       isHeading: true
     },
     {
-      content: `If you're working with a team:<ol><li>Go to Settings → Team Management</li><li>Invite users via email</li><li>Assign roles:</li></ol><ul><li><strong>Owner</strong> – Full access (billing + settings)</li><li><strong>Admin</strong> – Manage accounts and integrations</li><li><strong>Editor</strong> – Create and manage campaigns</li><li><strong>Viewer</strong> – Read-only access</li></ul>`,
+      content: `If you're working with a team:<ol><li>&nbsp; 1. Go to <strong>Settings → Team Management</strong></li><li>&nbsp; 2. Invite users via email</li><li>&nbsp; 3. Assign roles:</li></ol><ul><li>&nbsp; &bull; <strong>Owner</strong> – Full access (billing + settings)</li><li>&nbsp; &bull; <strong>Admin</strong> – Manage accounts and integrations</li><li>&nbsp; &bull; <strong>Editor</strong> – Create and manage campaigns</li><li>&nbsp; &bull; <strong>Viewer</strong> – Read-only access</li></ul>`,
       isParagraph: true
     },
     {
@@ -799,7 +799,7 @@ SalesTarget ensures your outreach stays:<br/>
       isHeading: true
     },
     {
-      content: `Email is required for outreach campaigns.<br/>Go to:<br/><strong>Settings → Email Accounts → Add Account</strong><br/><br/>You can connect using:<ul><li>Google OAuth (recommended)</li><li>Outlook OAuth</li><li>SMTP/IMAP (custom providers)</li></ul>`,
+      content: `Email is required for outreach campaigns.<br/>Go to:<br/><strong>Settings → Email Accounts → Add Account</strong><br/><br/>You can connect using:<ul><li> &nbsp; &bull; Google OAuth (recommended)</li><li> &nbsp; &bull; Outlook OAuth</li><li> &nbsp; &bull; SMTP/IMAP (custom providers)</li></ul>`,
       isParagraph: true
     },
     {
@@ -807,7 +807,7 @@ SalesTarget ensures your outreach stays:<br/>
       isHeading: true
     },
     {
-      content: `Make sure your domain has:<ul><li>SPF configured</li><li>DKIM enabled</li><li>DMARC policy active</li></ul>These records authenticate your domain and improve deliverability.<br/><br/>If you're unsure, refer to:<ul><li>DNS setup guide</li><li>SPF &amp; DKIM setup article</li></ul>`,
+      content: `Make sure your domain has:<ul><li> &nbsp; &bull; SPF configured</li><li> &nbsp; &bull; DKIM enabled</li><li> &nbsp; &bull; DMARC policy active</li></ul>These records authenticate your domain and improve deliverability.<br/><br/>If you're unsure, refer to:<ul><li>&nbsp; &bull; DNS setup guide</li><li>&nbsp; &bull; SPF &amp; DKIM setup article</li></ul>`,
       isParagraph: true
     },
 
@@ -816,11 +816,11 @@ SalesTarget ensures your outreach stays:<br/>
       isHeading: true
     },
     {
-      content: `After connecting your inbox:<ul><li>Set daily sending limits (start with 20–50/day)</li><li>Enable warm-up for new accounts</li><li>Add sender name and signature</li><li>Enable tracking preferences (opens, clicks)</li></ul>`,
+      content: `After connecting your inbox:<ul><li> &nbsp; &bull; Set daily sending limits (start with 20–50/day)</li><li> &nbsp; &bull; Enable warm-up for new accounts</li><li> &nbsp; &bull; Add sender name and signature</li><li> &nbsp; &bull; Enable tracking preferences (opens, clicks)</li></ul>`,
       isParagraph: true
     },
     {
-      content: `SalesTarget automatically:<ul><li>Rotates inboxes (if multiple connected)</li><li>Monitors account health</li><li>Applies safe sending behavior</li></ul>`,
+      content: `SalesTarget automatically:<ul><li> &nbsp; &bull; Rotates inboxes (if multiple connected)</li><li> &nbsp; &bull; Monitors account health</li><li> &nbsp; &bull; Applies safe sending behavior</li></ul>`,
       isParagraph: true
     },
 
@@ -829,15 +829,15 @@ SalesTarget ensures your outreach stays:<br/>
       isHeading: true
     },
     {
-      content: `To enable LinkedIn automation:<ol><li>Go to LinkedIn Automation</li><li>Click Connect LinkedIn</li><li>Authorize via secure OAuth</li></ol>`,
+      content: `To enable LinkedIn automation:<ol><li> &nbsp; &bull; Go to <strong>LinkedIn Automation</strong></li><li> &nbsp; &bull; Click <strong>Connect LinkedIn</strong></li><li> &nbsp; &bull; Authorize via secure OAuth</li></ol>`,
       isParagraph: true
     },
     {
-      content: `SalesTarget automatically:<ul><li>Assigns a residential proxy</li><li>Applies LinkedIn-safe daily limits</li><li>Enables human-like timing behavior</li><li>Distributes actions across your schedule</li></ul>`,
+      content: `SalesTarget automatically:<ul><li> &nbsp; &bull; Assigns a residential proxy</li><li> &nbsp; &bull; Applies LinkedIn-safe daily limits</li><li> &nbsp; &bull; Enables human-like timing behavior</li><li> &nbsp; &bull; Distributes actions across your schedule</li></ul>`,
       isParagraph: true
     },
     {
-      content: `You can configure:<ul><li>Daily limits (connections, messages, visits)</li><li>Working days</li><li>Working hours</li><li>Warm-up mode</li></ul>This ensures safe LinkedIn automation.`,
+      content: `You can configure:<ul><li> &nbsp; &bull; Daily limits (connections, messages, visits)</li><li> &nbsp; &bull; Working days</li><li> &nbsp; &bull; Working hours</li><li> &nbsp; &bull; Warm-up mode</li></ul>This ensures safe LinkedIn automation.`,
       isParagraph: true
     },
 
@@ -846,11 +846,11 @@ SalesTarget ensures your outreach stays:<br/>
       isHeading: true
     },
     {
-      content: `Before launching campaigns, confirm:<ul><li>✔ Email account connected</li><li>✔ Domain authentication verified</li><li>✔ Warm-up enabled (if new inbox)</li><li>✔ LinkedIn account connected (if using multi-channel)</li><li>✔ Working hours configured</li></ul>`,
+      content: `Before launching campaigns, confirm:<ul><li>&nbsp; ✔ Email account connected</li><li>&nbsp; ✔ Domain authentication verified</li><li>&nbsp; ✔ Warm-up enabled (if new inbox)</li><li>&nbsp; ✔ LinkedIn account connected (if using multi-channel)</li><li>&nbsp; ✔ Working hours configured</li></ul>`,
       isParagraph: true
     },
     {
-      content: `A properly configured account prevents:<ul><li>Spam placement</li><li>Account restrictions</li><li>Sending errors</li><li>Reputation damage</li></ul>`,
+      content: `A properly configured account prevents:<ul><li>&nbsp; &bull; Spam placement</li><li>&nbsp; &bull; Account restrictions</li><li>&nbsp; &bull; Sending errors</li><li>&nbsp; &bull; Reputation damage</li></ul>`,
       isParagraph: true
     },
 
@@ -859,11 +859,11 @@ SalesTarget ensures your outreach stays:<br/>
       isHeading: true
     },
     {
-      content: `You can enhance your workflow by connecting:<ul><li>Google Calendar (meeting scheduling)</li><li>Zoom (video meetings)</li><li>Calendly (availability links)</li><li>Slack (notifications)</li><li>CRM imports (Salesforce, HubSpot, Pipedrive)</li></ul>`,
+      content: `You can enhance your workflow by connecting:<ul><li>&nbsp; &bull; Google Calendar (meeting scheduling)</li><li>&nbsp; &bull; Zoom (video meetings)</li><li>&nbsp; &bull; Calendly (availability links)</li><li>&nbsp; &bull; Slack (notifications)</li><li>&nbsp; &bull; CRM imports (Salesforce, HubSpot, Pipedrive)</li></ul>`,
       isParagraph: true
     },
     {
-      content: `These integrations allow:<ul><li>Meeting automation</li><li>CRM synchronization</li><li>Real-time team alerts</li></ul>`,
+      content: `These integrations allow:<ul><li>&nbsp; &bull; Meeting automation</li><li>&nbsp; &bull; CRM synchronization</li><li>&nbsp; &bull; Real-time team alerts</li></ul>`,
       isParagraph: true
     },
 
@@ -872,11 +872,11 @@ SalesTarget ensures your outreach stays:<br/>
       isHeading: true
     },
     {
-      content: `Once your account is configured:<ul><li>Leads automatically sync into CRM</li><li>Campaigns follow safe sending rules</li><li>Replies appear in the Unibox</li><li>Activity logs update in real-time</li><li>Analytics begin tracking performance</li></ul>`,
+      content: `Once your account is configured:<ul><li>&nbsp; &bull; Leads automatically sync into CRM</li><li>&nbsp; &bull; Campaigns follow safe sending rules</li><li>&nbsp; &bull; Replies appear in the Unibox</li><li>&nbsp; &bull; Activity logs update in real-time</li><li>&nbsp; &bull; Analytics begin tracking performance</li></ul>`,
       isParagraph: true
     },
     {
-      content: `You’re now ready to:<ul><li>Discover leads</li><li>Create campaigns</li><li>Launch multi-channel outreach</li></ul>`,
+      content: `You’re now ready to:<ul><li>&nbsp; &bull; Discover leads</li><li>&nbsp; &bull; Create campaigns</li><li>&nbsp; &bull; Launch multi-channel outreach</li></ul>`,
       isParagraph: true
     },
 
@@ -885,7 +885,7 @@ SalesTarget ensures your outreach stays:<br/>
       isHeading: true
     },
     {
-      content: `After setting up your account:<ol><li>Review the Quick Start Guide</li><li>Connect your first email account</li><li>Enable warm-up</li><li>Launch a small test campaign (50–100 leads)</li></ol>Starting small helps you scale safely.`,
+      content: `After setting up your account:<ol><li>&nbsp; 1. Review the Quick Start Guide</li><li>&nbsp; 2. Connect your first email account</li><li>&nbsp; 3. Enable warm-up</li><li>&nbsp; 4. Launch a small test campaign (50–100 leads)</li></ol>Starting small helps you scale safely.`,
       isParagraph: true
     },
 
@@ -894,7 +894,7 @@ SalesTarget ensures your outreach stays:<br/>
       isHeading: true
     },
     {
-      content: `Setting up your SalesTarget account correctly ensures:<ul><li>✔ Safe email deliverability</li><li>✔ LinkedIn automation compliance</li><li>✔ Accurate tracking</li><li>✔ Team collaboration</li><li>✔ Smooth CRM integration</li></ul>A few minutes of proper setup protects your domain, your LinkedIn account, and your long-term outreach performance.`,
+      content: `Setting up your SalesTarget account correctly ensures:<ul><li>✔ Safe email deliverability</li><li>✔ LinkedIn automation compliance</li><li>✔ Accurate tracking</li><li>✔ Team collaboration</li><li>✔ Smooth CRM integration</li></ul><br/>A few minutes of proper setup protects your domain, your LinkedIn account, and your long-term outreach performance.`,
       isParagraph: true
     }
   ]
