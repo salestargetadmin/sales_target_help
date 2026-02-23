@@ -21,7 +21,7 @@ const categories = [
     articles: [
       { title: 'What is Salestarget', id: 1, icon: Book, color: '#60A5FA' }, // Blue
       { title: 'Quick Start Guide', id: 2, icon: Compass, color: '#60A5FA' }, // Blue
-      { title: 'Rotating IP\'s and sending algorithms in the cold email space = high deliverability', id: 3, icon: Star, color: '#60A5FA' }, // Blue
+      { title: 'How Salestarget Optimizes Sending Behavior for Deliverability', id: 3, icon: Star, color: '#60A5FA' }, // Blue
     ],
   },
   {

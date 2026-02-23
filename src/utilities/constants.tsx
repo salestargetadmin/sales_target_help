@@ -610,9 +610,9 @@ This creates:<ul>
 </ul>
 Invalid and risky emails are removed before sending.<br/>
 This reduces:<ul>
-<li>&nbsp; &#10003; Bounce rate</li>
-<li>&nbsp; &#10003; ISP penalties</li>
-<li>&nbsp; &#10003; Reputation damage</li>
+<li>&nbsp; &bull; Bounce rate</li>
+<li>&nbsp; &bull; ISP penalties</li>
+<li>&nbsp; &bull; Reputation damage</li>
 </ul>`,
       isParagraph: true
     },
@@ -623,14 +623,14 @@ This reduces:<ul>
     },
     {
       content: `SalesTarget monitors your domain health by checking:<ul>
-<li>SPF records</li>
-<li>DKIM signing</li>
-<li>DMARC policy</li>
+<li>&nbsp; &bull; SPF records</li>
+<li>&nbsp; &bull; DKIM signing</li>
+<li>&nbsp; &bull; DMARC policy</li>
 </ul>
 If misconfigured:<ul>
-<li>You are alerted</li>
-<li>Sending is restricted</li>
-<li>Errors are flagged</li>
+<li>&nbsp; &bull; You are alerted</li>
+<li>&nbsp; &bull; Sending is restricted</li>
+<li>&nbsp; &bull; Errors are flagged</li>
 </ul>
 This ensures your domain is trusted by receiving servers.`,
       isParagraph: true
@@ -642,14 +642,14 @@ This ensures your domain is trusted by receiving servers.`,
     },
     {
       content: `When a prospect replies:<ul>
-<li>SalesTarget automatically stops follow-ups</li>
-<li>Removes them from automated sending</li>
-<li>Moves them into manual reply flow (Unibox + CRM)</li>
+<li>&nbsp; &bull; SalesTarget automatically <strong>stops follow-ups</strong></li>
+<li>&nbsp; &bull; Removes them from automated sending</li>
+<li>&nbsp; &bull; Moves them into manual reply flow (Unibox + CRM)</li>
 </ul>
 This prevents:<ul>
-<li>Sending to engaged contacts</li>
-<li>Triggering spam complaints</li>
-<li>Damaging engagement signals</li>
+<li>&nbsp; &bull; Sending to engaged contacts</li>
+<li>&nbsp; &bull; Triggering spam complaints</li>
+<li>&nbsp; &bull; Damaging engagement signals</li>
 </ul>`,
       isParagraph: true
     },
@@ -660,15 +660,15 @@ This prevents:<ul>
     },
     {
       content: `SalesTarget automatically:<ul>
-<li>Removes hard-bounced emails</li>
-<li>Honors unsubscribe requests</li>
-<li>Suppresses risky addresses</li>
-<li>Tracks complaint rates</li>
+<li>&nbsp; &bull; Removes hard-bounced emails</li>
+<li>&nbsp; &bull; Honors unsubscribe requests</li>
+<li>&nbsp; &bull; Suppresses risky addresses</li>
+<li>&nbsp; &bull; Tracks complaint rates</li>
 </ul>
 Accounts with unhealthy metrics are:<ul>
-<li>Throttled</li>
-<li>Flagged</li>
-<li>Protected from overuse</li>
+<li>&nbsp; &bull; Throttled</li>
+<li>&nbsp; &bull; Flagged</li>
+<li>&nbsp; &bull; Protected from overuse</li>
 </ul>`,
       isParagraph: true
     },
@@ -679,16 +679,16 @@ Accounts with unhealthy metrics are:<ul>
     },
     {
       content: `Each email account has a health score based on:<ul>
-<li>Bounce rate</li>
-<li>Open rate</li>
-<li>Reply rate</li>
-<li>Spam signals</li>
-<li>Domain authentication</li>
+<li>&nbsp; &bull; Bounce rate</li>
+<li>&nbsp; &bull; Open rate</li>
+<li>&nbsp; &bull; Reply rate</li>
+<li>&nbsp; &bull; Spam signals</li>
+<li>&nbsp; &bull; Domain authentication</li>
 </ul>
 If health drops:<ul>
-<li>Sending slows down</li>
-<li>Rotation skips unhealthy inboxes</li>
-<li>Alerts are triggered</li>
+<li>&nbsp; &bull; Sending slows down</li>
+<li>&nbsp; &bull; Rotation skips unhealthy inboxes</li>
+<li>&nbsp; &bull; Alerts are triggered</li>
 </ul>
 This prevents long-term damage.`,
       isParagraph: true
@@ -700,18 +700,18 @@ This prevents long-term damage.`,
     },
     {
       content: `SalesTarget does NOT:<ul>
-<li>Rotate IPs artificially</li>
-<li>Mask sender identity</li>
-<li>Use unsafe sending tricks</li>
-<li>Bypass spam filters illegally</li>
-<li>Use shady infrastructure</li>
+<li>&nbsp; &cross; Rotate IPs artificially</li>
+<li>&nbsp; &cross; Mask sender identity</li>
+<li>&nbsp; &cross; Use unsafe sending tricks</li>
+<li>&nbsp; &cross; Bypass spam filters illegally</li>
+<li>&nbsp; &cross; Use shady infrastructure</li>
 </ul>
 Deliverability is achieved through:<ul>
-<li>Behavior</li>
-<li>Reputation</li>
-<li>Engagement</li>
-<li>Safety</li>
-<li>Control</li>
+<li>&nbsp; &#10003; Behavior</li>
+<li>&nbsp; &#10003; Reputation</li>
+<li>&nbsp; &#10003; Engagement</li>
+<li>&nbsp; &#10003; Safety</li>
+<li>&nbsp; &#10003; Control</li>
 </ul>
 Not hacks.`,
       isParagraph: true
@@ -723,13 +723,13 @@ Not hacks.`,
     },
     {
       content: `To get best results:<ul>
-<li>Warm up new domains and inboxes</li>
-<li>Start with low volume</li>
-<li>Use verified leads</li>
-<li>Write human messages</li>
-<li>Avoid spam keywords</li>
-<li>Combine Email + LinkedIn</li>
-<li>Increase volume gradually</li>
+<li> &nbsp; &bull; Warm up new domains and inboxes</li>
+<li> &nbsp; &bull; Start with low volume</li>
+<li> &nbsp; &bull; Use verified leads</li>
+<li> &nbsp; &bull; Write human messages</li>
+<li> &nbsp; &bull; Avoid spam keywords</li>
+<li> &nbsp; &bull; Combine Email + LinkedIn</li>
+<li> &nbsp; &bull; Increase volume gradually</li>
 </ul>
 SalesTarget enforces the technical side — your content drives engagement.`,
       isParagraph: true
@@ -741,19 +741,19 @@ SalesTarget enforces the technical side — your content drives engagement.`,
     },
     {
       content: `SalesTarget optimizes deliverability by controlling:<ul>
-<li>How fast emails are sent</li>
-<li>How many emails are sent</li>
-<li>Which inbox sends them</li>
-<li>When they are sent</li>
-<li>Who they are sent to</li>
+<li>&nbsp; &#10003; How fast emails are sent</li>
+<li>&nbsp; &#10003; How many emails are sent</li>
+<li>&nbsp; &#10003; Which inbox sends them</li>
+<li>&nbsp; &#10003; When they are sent</li>
+<li>&nbsp; &#10003; Who they are sent to</li>
 </ul>
 Through:<ul>
-<li>Warm-up</li>
-<li>Rotation</li>
-<li>Validation</li>
-<li>Scheduling</li>
-<li>Health monitoring</li>
-<li>Sequence control</li>
+<li>&nbsp: &bull; Warm-up</li>
+<li>&nbsp: &bull; Rotation</li>
+<li>&nbsp: &bull; Validation</li>
+<li>&nbsp: &bull; Scheduling</li>
+<li>&nbsp: &bull; Health monitoring</li>
+<li>&nbsp: &bull; Sequence control</li>
 </ul>
 SalesTarget ensures your outreach stays:<br/>
 📥 In inbox<br/>
@@ -764,29 +764,141 @@ SalesTarget ensures your outreach stays:<br/>
   ]
 },
   {
-    id: "4", // Unique ID for routing
-    title: "Setting up your account",
-    updated: "Updated over 8 months ago",
-    content: `Setting up your SalesTarget account is quick and easy. Follow these steps to get started:`,
-    features: [
-      {
-        title: "Sign Up & Login",
-        description:
-          "Visit SalesTarget and click Sign Up. Enter your email address and create a password. Verify your email to activate your account.",
-      },
-      {
-        title: "Configure Your Profile",
-        description:
-          "Add your name, company details, and role. Set up your email signature for personalized outreach. Choose your timezone and preferences.",
-      },
-      {
-        title: "Connect Email Accounts",
-        description:
-          "Link multiple email accounts for sending campaigns. Enable email warm-up to improve deliverability. Verify email settings and SPF, DKIM, and DMARC records.",
-      },
-    ],
+  id: "4",
+  title: "Setting Up Your Account",
+  content: `This guide walks you through setting up your SalesTarget.AI account properly so you can launch safe, high-performing multi-channel campaigns (Email + LinkedIn).<br/>A proper setup ensures:<ul><li>Strong deliverability</li><li>Account safety</li><li>Accurate tracking</li><li>Smooth CRM workflow</li></ul>`,
+  features: [
+    {
+      title: "Step 1: Create Your Organization",
+      isHeading: true
+    },
+    {
+      content: `After signing up:<ol><li>Enter your company name</li><li>Select your industry</li><li>Set your timezone</li><li>Configure working hours</li></ol>`,
+      isParagraph: true
+    },
+    {
+      content: `Your timezone and working hours are important because:<ul><li>Email sending follows your configured schedule</li><li>LinkedIn automation respects business hours</li><li>Campaign execution is timezone-aware</li></ul>You can update these anytime in Organization Settings.`,
+      isParagraph: true
+    },
 
-  },
+    {
+      title: "Step 2: Add Team Members (Optional)",
+      isHeading: true
+    },
+    {
+      content: `If you're working with a team:<ol><li>Go to Settings → Team Management</li><li>Invite users via email</li><li>Assign roles:</li></ol><ul><li><strong>Owner</strong> – Full access (billing + settings)</li><li><strong>Admin</strong> – Manage accounts and integrations</li><li><strong>Editor</strong> – Create and manage campaigns</li><li><strong>Viewer</strong> – Read-only access</li></ul>`,
+      isParagraph: true
+    },
+    {
+      content: `Role-based access ensures:<ul><li>Controlled permissions</li><li>Secure account management</li><li>Clear campaign ownership</li></ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "Step 3: Connect Your Email Account",
+      isHeading: true
+    },
+    {
+      content: `Email is required for outreach campaigns.<br/>Go to:<br/><strong>Settings → Email Accounts → Add Account</strong><br/><br/>You can connect using:<ul><li>Google OAuth (recommended)</li><li>Outlook OAuth</li><li>SMTP/IMAP (custom providers)</li></ul>`,
+      isParagraph: true
+    },
+    {
+      title: "Before Sending Emails",
+      isHeading: true
+    },
+    {
+      content: `Make sure your domain has:<ul><li>SPF configured</li><li>DKIM enabled</li><li>DMARC policy active</li></ul>These records authenticate your domain and improve deliverability.<br/><br/>If you're unsure, refer to:<ul><li>DNS setup guide</li><li>SPF &amp; DKIM setup article</li></ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "Step 4: Configure Email Sending Settings",
+      isHeading: true
+    },
+    {
+      content: `After connecting your inbox:<ul><li>Set daily sending limits (start with 20–50/day)</li><li>Enable warm-up for new accounts</li><li>Add sender name and signature</li><li>Enable tracking preferences (opens, clicks)</li></ul>`,
+      isParagraph: true
+    },
+    {
+      content: `SalesTarget automatically:<ul><li>Rotates inboxes (if multiple connected)</li><li>Monitors account health</li><li>Applies safe sending behavior</li></ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "Step 5: Connect Your LinkedIn Account (Optional but Recommended)",
+      isHeading: true
+    },
+    {
+      content: `To enable LinkedIn automation:<ol><li>Go to LinkedIn Automation</li><li>Click Connect LinkedIn</li><li>Authorize via secure OAuth</li></ol>`,
+      isParagraph: true
+    },
+    {
+      content: `SalesTarget automatically:<ul><li>Assigns a residential proxy</li><li>Applies LinkedIn-safe daily limits</li><li>Enables human-like timing behavior</li><li>Distributes actions across your schedule</li></ul>`,
+      isParagraph: true
+    },
+    {
+      content: `You can configure:<ul><li>Daily limits (connections, messages, visits)</li><li>Working days</li><li>Working hours</li><li>Warm-up mode</li></ul>This ensures safe LinkedIn automation.`,
+      isParagraph: true
+    },
+
+    {
+      title: "Step 6: Review Account Health",
+      isHeading: true
+    },
+    {
+      content: `Before launching campaigns, confirm:<ul><li>✔ Email account connected</li><li>✔ Domain authentication verified</li><li>✔ Warm-up enabled (if new inbox)</li><li>✔ LinkedIn account connected (if using multi-channel)</li><li>✔ Working hours configured</li></ul>`,
+      isParagraph: true
+    },
+    {
+      content: `A properly configured account prevents:<ul><li>Spam placement</li><li>Account restrictions</li><li>Sending errors</li><li>Reputation damage</li></ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "Step 7: Connect Optional Integrations",
+      isHeading: true
+    },
+    {
+      content: `You can enhance your workflow by connecting:<ul><li>Google Calendar (meeting scheduling)</li><li>Zoom (video meetings)</li><li>Calendly (availability links)</li><li>Slack (notifications)</li><li>CRM imports (Salesforce, HubSpot, Pipedrive)</li></ul>`,
+      isParagraph: true
+    },
+    {
+      content: `These integrations allow:<ul><li>Meeting automation</li><li>CRM synchronization</li><li>Real-time team alerts</li></ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "What Happens After Setup?",
+      isHeading: true
+    },
+    {
+      content: `Once your account is configured:<ul><li>Leads automatically sync into CRM</li><li>Campaigns follow safe sending rules</li><li>Replies appear in the Unibox</li><li>Activity logs update in real-time</li><li>Analytics begin tracking performance</li></ul>`,
+      isParagraph: true
+    },
+    {
+      content: `You’re now ready to:<ul><li>Discover leads</li><li>Create campaigns</li><li>Launch multi-channel outreach</li></ul>`,
+      isParagraph: true
+    },
+
+    {
+      title: "Recommended Next Steps",
+      isHeading: true
+    },
+    {
+      content: `After setting up your account:<ol><li>Review the Quick Start Guide</li><li>Connect your first email account</li><li>Enable warm-up</li><li>Launch a small test campaign (50–100 leads)</li></ol>Starting small helps you scale safely.`,
+      isParagraph: true
+    },
+
+    {
+      title: "Summary",
+      isHeading: true
+    },
+    {
+      content: `Setting up your SalesTarget account correctly ensures:<ul><li>✔ Safe email deliverability</li><li>✔ LinkedIn automation compliance</li><li>✔ Accurate tracking</li><li>✔ Team collaboration</li><li>✔ Smooth CRM integration</li></ul>A few minutes of proper setup protects your domain, your LinkedIn account, and your long-term outreach performance.`,
+      isParagraph: true
+    }
+  ]
+},
   {
     id: "5", // Unique ID for routing
     title: "Navigating the dashboard",
