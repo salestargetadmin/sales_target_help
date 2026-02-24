@@ -48,7 +48,7 @@ const categories = [
     articles: [
       { title: 'What Lead explorer does in a cold email platform?', id: 10, icon: Code, color: '#FF00FF' }, // Orange
       { title: 'What to ask when researching leads?', id: 11, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'What should we see in lead searching platform?', id: 12, icon: Shield, color: '#FF00FF' }, // Orange
+
     ],
   },
   {

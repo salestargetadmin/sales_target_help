@@ -137,15 +137,7 @@ const categories = [
       { title: 'Security best practices', id: 45 },
     ],
   },
-  {
-    title: 'Deliverability',
-    icon: '📂',
-    articles: [
-      { title: 'Understanding API connections', id: 46 },
-      { title: 'Data processing pipelines', id: 47 },
-      { title: 'Security best practices', id: 48 },
-    ],
-  },
+  
   {
     title: 'Calculate Your Costs',
     icon: '📂',
