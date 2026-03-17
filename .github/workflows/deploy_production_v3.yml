@@ -1,4 +1,4 @@
-name: Deploy to Production S3
+name: Deploy to Production S3_V3
 
 on: workflow_dispatch
 
