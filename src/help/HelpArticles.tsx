@@ -222,6 +222,116 @@ const categories = [
         
     ],
   },
+  {
+    title: 'CRM Setup & FAQ Guide',
+    icon: '🔍',
+    articles: [
+      { title: 'CRM Setup & FAQ Guide', id: 70, icon: Shield, color: '#FF00FF' },
+    ],
+  },
+  {
+    title: "Creating Your First Email Sequence: A Beginner's Guide to Cold Email Outreach",
+    icon: '🔍',
+    articles: [
+      { title: "Creating Your First Email Sequence: A Beginner's Guide to Cold Email Outreach", id: 71, icon: Shield, color: '#FF00FF' },
+    ],
+  },
+  {
+    title: 'LinkedIn Automation — Complete Help Center Guide',
+    icon: '🔍',
+    articles: [
+      { title: 'LinkedIn Automation — Complete Help Center Guide', id: 72, icon: Shield, color: '#FF00FF' },
+    ],
+  },
+  {
+    title: 'CRM Guide: Lead Activity, Meetings,Tasks & Activity Feed',
+    icon: '🔍',
+    articles: [
+      { title: 'CRM Guide: Lead Activity, Meetings,Tasks & Activity Feed', id: 73, icon: Shield, color: '#FF00FF' },
+    ],
+  },
+  {
+    title: 'A/B Testing in SalesTarget',
+    icon: '🔍',
+    articles: [
+      { title: 'A/B Testing in SalesTarget', id: 74, icon: Shield, color: '#FF00FF' },
+    ],
+  },
+  {
+    title: 'Campaigns Overview: How Campaigns Work in SalesTarget.ai',
+    icon: '🔍',
+    articles: [
+      { title: 'Campaigns Overview: How Campaigns Work in SalesTarget.ai', id: 75, icon: Shield, color: '#FF00FF' },
+    ],
+  },
+  {
+    title: 'Campaign vs Sequence: Understanding the Difference',
+    icon: '🔍',
+    articles: [
+      { title: 'Campaign vs Sequence: Understanding the Difference', id: 76, icon: Shield, color: '#FF00FF' },
+    ],
+  },
+  {
+    title: 'Campaign Limits Explained (Domains,Accounts & Volume)',
+    icon: '🔍',
+    articles: [
+      { title: 'Campaign Limits Explained (Domains,Accounts & Volume)', id: 77, icon: Shield, color: '#FF00FF' },
+    ],
+  },
+  {
+    title: 'Creating Your First Campaign (Email & Multichannel)',
+    icon: '🔍',
+    articles: [
+      { title: 'Creating Your First Campaign (Email & Multichannel)', id: 78, icon: Shield, color: '#FF00FF' },
+    ],
+  },
+  {
+    title: 'How to Structure a High-Converting Campaign',
+    icon: '🔍',
+    articles: [
+      { title: 'How to Structure a High-Converting Campaign', id: 79, icon: Shield, color: '#FF00FF' },
+    ],
+  },
+   {
+    title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops',
+    icon: '🔍',
+    articles: [
+      { title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops', id: 80, icon: Shield, color: '#FF00FF' }, // Orange
+        
+    ],
+  },
+    {
+    title: 'Stopping Rules: When a Lead Should Exit a Campaign',
+    icon: '🔍',
+    articles: [
+      { title: 'Stopping Rules: When a Lead Should Exit a Campaign', id: 81, icon: Shield, color: '#FF00FF' }, // Orange
+        
+    ],
+  },
+    {
+    title: 'How Leads Move Through a Campaign',
+    icon: '🔍',
+    articles: [
+      { title: 'How Leads Move Through a Campaign', id: 82, icon: Shield, color: '#FF00FF' }, // Orange
+        
+    ],
+  },
+  {
+    title: 'What Happens When a Lead Replies Mid-Sequence',
+    icon: '🔍',
+    articles: [
+      { title: 'What Happens When a Lead Replies Mid-Sequence', id: 83, icon: Shield, color: '#FF00FF' }, // Orange
+        
+    ],
+  },
+  {
+    title: 'What Happens When a Lead Does NOT Reply',
+    icon: '🔍',
+    articles: [
+      { title: 'What Happens When a Lead Does NOT Reply', id: 84, icon: Shield, color: '#FF00FF' }, // Orange
+        
+    ],
+  },
 
   {
     title: 'The Ultimate Cold Email Warm-Up Plan to Build a Strong Sender Reputation',
@@ -231,138 +341,37 @@ const categories = [
         
     ],
   },
-
-  {
-    title: 'CRM Setup & FAQ Guide',
-    icon: '🔍',
-    articles: [
-      { title: 'CRM Setup & FAQ Guide', id: 70, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-
-  {
-    title: 'Creating Your First Email Sequence: A Beginner’s Guide to Cold Email Outreach',
-    icon: '🔍',
-    articles: [
-      { title: 'Creating Your First Email Sequence: A Beginner’s Guide to Cold Email Outreach', id:71, icon: Shield, color: '#FF00FF' }, // Orange
-        
-    ],
-  },
-
-  {
-    title: 'LinkedIn Automation — Complete Help Center Guide',
-    icon: '🔍',
-    articles: [
-      { title: 'LinkedIn Automation — Complete Help Center Guide', id:72, icon: Shield, color: '#FF00FF' }, // Orange
-        
-    ],
-  },
-
-  {
-    title: 'CRM Guide: Lead Activity, Meetings,Tasks &amp; Activity Feed',
-    icon: '🔍', 
-    articles: [
-      { title: 'CRM Guide: Lead Activity, Meetings,Tasks &amp; Activity Feed', id:73, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  {
-    title: 'A/B Testing in SalesTarget',
-    icon: '🔍', 
-    articles: [
-      { title: 'A/B Testing in SalesTarget', id:74, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  {
-    title: 'Campaigns Overview: How Campaigns Work in SalesTarget.ai',
-    icon: '🔍', 
-    articles: [
-      { title: 'Campaigns Overview: How Campaigns Work in SalesTarget.ai', id:75, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  {
-    title: 'Campaign vs Sequence: Understanding the Difference',
-    icon: '🔍', 
-    articles: [
-      { title: 'Campaign vs Sequence: Understanding the Difference', id:76, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
    {
-    title: 'Campaign Limits Explained (Domains,Accounts & Volume)',
-    icon: '🔍', 
-    articles: [
-      { title: 'Campaign Limits Explained (Domains,Accounts & Volume)', id:77, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  {
-    title: 'Creating Your First Campaign (Email & Multichannel)',
-    icon: '🔍', 
-    articles: [
-      { title: 'Creating Your First Campaign (Email & Multichannel)', id:78, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  
-  {
-    title: 'How to Structure a High-Converting Campaign',
-    icon: '🔍', 
-    articles: [
-      { title: 'How to Structure a High-Converting Campaign', id: 79, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  {
-    title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops',
-    icon: '🔍', 
-    articles: [
-      { title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops', id: 80, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  {
-    title: 'How to Use AI to Write Emails That Convert',
-    icon: '🔍', 
-    articles: [
-      { title: 'How to Use AI to Write Emails That Convert', id: 81, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  {
-    title: 'Stopping Rules: When a Lead Should Exit a Campaign',
-    icon: '🔍', 
-    articles: [
-      { title: 'Stopping Rules: When a Lead Should Exit a Campaign', id: 81, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  {
-    title: 'How Leads Move Through a Campaign',
-    icon: '🔍', 
-    articles: [
-      { title: 'How Leads Move Through a Campaign', id: 82, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  {
-    title: 'What Happens When a Lead Replies Mid-Sequence',
+    title: 'What Is Lead Enrichment and Why Your Sales Team Cant Afford to Skip It in 2025',
     icon: '🔍',
     articles: [
-      { title: 'What Happens When a Lead Replies Mid-Sequence', id: 83, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'What Is Lead Enrichment and Why Your Sales Team Can&#39;t Afford to Skip It in 2025', id: 85, icon: Shield, color: '#FF00FF' }, // Orange
+        
+    ],
+  },
+   {
+    title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2025?',
+    icon: '🔍',
+    articles: [
+      { title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2025?', id: 86, icon: Shield, color: '#FF00FF' }, // Orange
+        
+    ],
+  },
+    {
+    title: 'Intent Data Explained: How to Find Buyers Before They Fill Out a Form',
+    icon: '🔍',
+    articles: [
+      { title: 'Intent Data Explained: How to Find Buyers Before They Fill Out a Form', id: 87, icon: Shield, color: '#FF00FF' }, // Orange
     ],
   },
 
   {
-    title: 'What Happens When a Lead Does NOT Reply',
+    title: 'Clay vs SalesTarget.ai: Which Lead Enrichment Tool Is Right for Your Sales Team?',
     icon: '🔍',
     articles: [
-      { title: 'What Happens When a Lead Does NOT Reply', id: 84, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'Clay vs SalesTarget.ai: Which Lead Enrichment Tool Is Right for Your Sales Team?', id: 88, icon: Shield, color: '#FF00FF' }, // Orange
     ],
-  },
+  }
 
 
 ];

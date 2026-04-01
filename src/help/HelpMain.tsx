@@ -196,6 +196,7 @@ const categories = [
       { title: 'The Ultimate Cold Email Warm-Up Plan to Build a Strong Sender Reputation', id: 69 },
     ],
   },
+
     
     {
     title: 'CRM Setup & FAQ Guide',
@@ -257,7 +258,7 @@ const categories = [
     title: 'Campaign Limits Explained (Domains,Accounts & Volume)',
     icon: '📂', 
     articles: [
-      { title: 'ampaign Limits Explained (Domains,Accounts & Volume)', id: 77 },
+      { title: 'Campaign Limits Explained (Domains,Accounts & Volume)', id: 77 },
     ],
   },
 
@@ -282,14 +283,6 @@ const categories = [
     icon: '📂',
     articles: [
       { title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops', id: 80 },
-    ],
-  },
-
-  {
-    title: 'How to Use AI to Write Emails That Convert',
-    icon: '📂',
-    articles: [
-      { title: 'How to Use AI to Write Emails That Convert', id: 81 },
     ],
   },
 
@@ -325,6 +318,37 @@ const categories = [
     ],
   },
 
+    {
+    title: 'What Is Lead Enrichment and Why Your Sales Team Cant Afford to Skip It in 2025',
+    icon: '📂',
+    articles: [
+      { title: 'What Is Lead Enrichment and Why Your Sales Team Can&#39;t Afford to Skip It in 2025', id: 85 },
+    ],
+  },
+  {
+    title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2025?',
+    icon: '📂',
+    articles: [
+      { title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2025?', id: 86 },
+    ],
+  },
+
+  {
+    title: 'Intent Data Explained: How to Find Buyers Before They Fill Out a Form',
+    icon: '📂',
+    articles: [
+      { title: 'Intent Data Explained: How to Find Buyers Before They Fill Out a Form', id: 87 },
+    ],
+  },
+
+  {
+    title: 'Clay vs SalesTarget.ai: Which Lead Enrichment Tool Is Right for Your Sales Team?',
+    icon: '📂',
+    articles: [
+      { title: 'Clay vs SalesTarget.ai: Which Lead Enrichment Tool Is Right for Your Sales Team?', id: 88 },
+    ],
+  }
+
 
 
 
@@ -352,7 +376,7 @@ const HelpMain = () => {
 
   return (
     <HelpLayout>
-      {(searchQuery) => {
+      {(searchQuery: string) => {
         const filteredCategories = categories.filter((category) =>
           category.title.toLowerCase().includes(searchQuery.toLowerCase())
         );
