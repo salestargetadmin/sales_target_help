@@ -29,15 +29,15 @@ const categories = [
       { title: 'Security best practices', id: 9 },
     ],
   },
-  {
-    title: 'What is Lead Explorer?',
-    icon: '📂',
-    articles: [
-      { title: 'What Lead explorer does in a cold email platform?', id: 10 },
-      { title: 'What to ask when researching leads?', id: 11 }
+  // {
+  //   title: 'What is Lead Explorer?',
+  //   icon: '📂',
+  //   articles: [
+  //     { title: 'What Lead explorer does in a cold email platform?', id: 10 },
+  //     { title: 'What to ask when researching leads?', id: 11 }
 
-    ],
-  },
+  //   ],
+  // },
   {
     title: 'Setup',
     icon: '📂',
@@ -137,7 +137,7 @@ const categories = [
       { title: 'Security best practices', id: 45 },
     ],
   },
-  
+
   {
     title: 'Calculate Your Costs',
     icon: '📂',
@@ -146,7 +146,7 @@ const categories = [
       { title: 'Monthly email volume', id: 52 },
       { title: 'Required email accounts', id: 50 },
       { title: 'Required domains', id: 51 },
-     
+
     ],
   },
   {
@@ -157,7 +157,7 @@ const categories = [
       { title: 'limits for domain and email accounts on SalesTarget.ai?', id: 53 },
       { title: 'warm-up plan for SalesTarget.ai users?', id: 54 },
       { title: 'tips for a successful warm-up', id: 55 },
-     
+
     ],
   },
   {
@@ -165,8 +165,8 @@ const categories = [
     icon: '📂',
     articles: [
       { title: 'Total Monthly Costs', id: 56 },
-      
-     
+
+
     ],
   },
 
@@ -175,7 +175,7 @@ const categories = [
     icon: '📂',
     articles: [
       { title: 'Meet Copilot - The Free AI Sales Assistant in SalesTarget.ai', id: 67 },
-    
+
     ],
   },
 
@@ -185,7 +185,7 @@ const categories = [
     icon: '📂',
     articles: [
       { title: 'Try SalesTarget.ai Free — Do Real Sales Work in 7 Days', id: 68 },
-    
+
     ],
   },
 
@@ -197,8 +197,8 @@ const categories = [
     ],
   },
 
-    
-    {
+
+  {
     title: 'CRM Setup & FAQ Guide',
     icon: '📂',
     articles: [
@@ -224,7 +224,7 @@ const categories = [
 
   {
     title: 'CRM Guide: Lead Activity, Meetings,Tasks & Activity Feed',
-    icon: '📂', 
+    icon: '📂',
     articles: [
       { title: 'CRM Guide: Lead Activity, Meetings,Tasks & Activity Feed', id: 73 },
     ],
@@ -232,7 +232,7 @@ const categories = [
 
   {
     title: 'A/B Testing in SalesTarget',
-    icon: '📂', 
+    icon: '📂',
     articles: [
       { title: 'A/B Testing in SalesTarget', id: 74 },
     ],
@@ -240,7 +240,7 @@ const categories = [
 
   {
     title: 'Campaigns Overview: How Campaigns Work in SalesTarget.ai',
-    icon: '📂', 
+    icon: '📂',
     articles: [
       { title: 'Campaigns Overview: How Campaigns Work in SalesTarget.ai', id: 75 },
     ],
@@ -248,15 +248,15 @@ const categories = [
 
   {
     title: 'Campaign vs Sequence: Understanding the Difference',
-    icon: '📂', 
+    icon: '📂',
     articles: [
       { title: 'Campaign vs Sequence: Understanding the Difference', id: 76 },
     ],
   },
 
-   {
+  {
     title: 'Campaign Limits Explained (Domains,Accounts & Volume)',
-    icon: '📂', 
+    icon: '📂',
     articles: [
       { title: 'Campaign Limits Explained (Domains,Accounts & Volume)', id: 77 },
     ],
@@ -264,7 +264,7 @@ const categories = [
 
   {
     title: 'Creating Your First Campaign (Email & Multichannel)',
-    icon: '📂', 
+    icon: '📂',
     articles: [
       { title: 'Creating Your First Campaign (Email & Multichannel)', id: 78 },
     ],
@@ -272,7 +272,7 @@ const categories = [
 
   {
     title: 'How to Structure a High-Converting Campaign',
-    icon: '📂', 
+    icon: '📂',
     articles: [
       { title: 'How to Structure a High-Converting Campaign', id: 79 },
     ],
@@ -318,18 +318,18 @@ const categories = [
     ],
   },
 
-    {
-    title: 'What Is Lead Enrichment and Why Your Sales Team Cant Afford to Skip It in 2025',
+  {
+    title: 'What Is Lead Enrichment and Why Your Sales Team Cant Afford to Skip It in 2026',
     icon: '📂',
     articles: [
-      { title: 'What Is Lead Enrichment and Why Your Sales Team Can&#39;t Afford to Skip It in 2025', id: 85 },
+      { title: 'What Is Lead Enrichment and Why Your Sales Team Can&#39;t Afford to Skip It in 2026', id: 85 },
     ],
   },
   {
-    title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2025?',
+    title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2026?',
     icon: '📂',
     articles: [
-      { title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2025?', id: 86 },
+      { title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2026?', id: 86 },
     ],
   },
 
@@ -353,9 +353,9 @@ const categories = [
 
 
 
- 
-  
-  
+
+
+
 ];
 
 const HelpMain = () => {
@@ -369,10 +369,10 @@ const HelpMain = () => {
       .replace(/\?/g, '') // Remove question marks
       .replace(/[^\w\s-]/g, '') // Remove special characters
       .replace(/\s+/g, '-'); // Replace spaces with '-'
-  
+
     navigate(`/articles/${encodeURIComponent(formattedCategory)}`);
   };
-  
+
 
   return (
     <HelpLayout>

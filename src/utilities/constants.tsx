@@ -1,5 +1,5 @@
 const mockArticles = [
-  
+
   {
     id: "1",
     title: "What is SalesTarget?",
@@ -30,7 +30,7 @@ const mockArticles = [
         <br/> &nbsp; &nbsp;● Industry
         <br/> &nbsp; &nbsp;● Company size
         <br/> &nbsp; &nbsp;● Location
-        <br/> &nbsp; &nbsp;● Technologies used`,  
+        <br/> &nbsp; &nbsp;● Technologies used`,
         isParagraph: 'true',
       },
       {
@@ -75,7 +75,7 @@ const mockArticles = [
         stepTitle: "4. Copilot (AI Assistant)",
       },
       {
-        content:`Copilot help you`,
+        content: `Copilot help you`,
         isParagraph: `true`
       },
       {
@@ -87,8 +87,8 @@ const mockArticles = [
         isParagraph: 'true',
       },
       {
-          content:`It acts as your built-in sales assistant.`,
-          isParagraph: `true`
+        content: `It acts as your built-in sales assistant.`,
+        isParagraph: `true`
       },
       {
         isStep: 'true',
@@ -129,14 +129,14 @@ const mockArticles = [
         content: `No need for an external CRM to start selling. `,
         isParagraph: 'true',
       },
-    
-    {
-      title: "How SalesTarget Works",
-      type: "heading",
-      isHeading: 'true',
-    },
-    {
-      content: `
+
+      {
+        title: "How SalesTarget Works",
+        type: "heading",
+        isHeading: 'true',
+      },
+      {
+        content: `
       1.<strong> Find Leads </strong> - <br/> &nbsp; &nbsp; Use Lead Explorer to build targeted prospect lists.
        <br/>
       2.<strong> Create Sequences </strong> - <br/> &nbsp; &nbsp; Build outreach sequences using email and LinkedIn steps.
@@ -146,44 +146,45 @@ const mockArticles = [
       5.<strong> Launch Campaigns </strong> - <br/> &nbsp; &nbsp; Start sending automatically across channels. <br/>
       6.<strong> Manage Replies & Deals </strong> - <br/> &nbsp; &nbsp; Handle responses in the Unibox and move deals through CRM. <br/> ` ,
 
-      isParagraph: 'true',
-      
-    },
-    { title: "Who is SalesTarget for?",
-      type: "heading",
-      isHeading: 'true',
-    },
-    {
-      content: `
+        isParagraph: 'true',
+
+      },
+      {
+        title: "Who is SalesTarget for?",
+        type: "heading",
+        isHeading: 'true',
+      },
+      {
+        content: `
       &nbsp; &nbsp;● B2B sales teams,<br/>
       &nbsp; &nbsp;● Startup founders,<br/>
       &nbsp; &nbsp;● Growth marketers,<br/>
       &nbsp; &nbsp;● Agencies,<br/>
       &nbsp; &nbsp;● SDRs and outbound teams <br/><br/> `,
-      isParagraph: 'true',
-    },
-    {
-      title: "Why Teams Choose SalesTarget",
-      type: "heading",
-      isHeading: 'true',
-    },
-    {
-      content: `  
+        isParagraph: 'true',
+      },
+      {
+        title: "Why Teams Choose SalesTarget",
+        type: "heading",
+        isHeading: 'true',
+      },
+      {
+        content: `  
       &nbsp; &nbsp;● Multi-channel outreach (Email + LinkedIn),<br/>
       &nbsp; &nbsp;● Built-in lead database,<br/>
       &nbsp; &nbsp;● AI-powered copywriting,<br/>
       &nbsp; &nbsp;● Email verification & deliverability tools,<br/>
       &nbsp; &nbsp;● Unified inbox and CRM,<br/>
       &nbsp; &nbsp;● Simple workflows for teams`,
-      isParagraph: 'true'
-    },
-    {
-      title: "In Summary",
-      type: "heading",
-      isHeading: 'true',
-    },
-    {
-      content: `  
+        isParagraph: 'true'
+      },
+      {
+        title: "In Summary",
+        type: "heading",
+        isHeading: 'true',
+      },
+      {
+        content: `  
      SalesTarget.ai helps you:
      <br/><br/>
      &nbsp; &nbsp;✔ Find verified leads
@@ -191,18 +192,18 @@ const mockArticles = [
      <br/>&nbsp; &nbsp;✔ Automate follow-ups
      <br/>&nbsp; &nbsp;✔ Manage conversations and deals
      <br/>&nbsp; &nbsp;✔ Close more sales`,
-      isParagraph: 'true'
-    },
-    {
-      content: `All from one AI-powered platform.`,
-      isParagraph: 'true',
-    
-    }
-  
-  ],
+        isParagraph: 'true'
+      },
+      {
+        content: `All from one AI-powered platform.`,
+        isParagraph: 'true',
+
+      }
+
+    ],
   },
-  
-    {
+
+  {
     id: "2",
     title: "Quick Start Guide — Launch Your First Multi-Channel Campaign on SalesTarget",
     updated: "Updated recently",
@@ -221,12 +222,12 @@ const mockArticles = [
       },
       {
         stepTitle: "Step 2: Connect Your Outreach Channels",
-        isStep:'true'
+        isStep: 'true'
       },
       {
         content: `
           <strong>Connect Email Accounts</strong>`,
-          isParagraph: 'true',
+        isParagraph: 'true',
       },
       {
         content: `
@@ -241,17 +242,17 @@ const mockArticles = [
           &nbsp; &nbsp;&bull;  Rotates inboxes<br/>
           &nbsp; &nbsp;&bull;  Monitors account health<br/>
           &nbsp; &nbsp;&bull;  Protects deliverability<br/><br/>`,
-          isParagraph: 'true',
+        isParagraph: 'true',
       },
       {
         content: `
           <strong>Connect LinkedIn Account (Optional but Recommended)</strong>`,
-          isParagraph: 'true',
+        isParagraph: 'true',
       },
       {
         content: `
           Go to <strong>LinkedIn Automation → Connect Account</strong>`,
-          isParagraph: 'true',
+        isParagraph: 'true',
       },
       {
         content: `
@@ -263,27 +264,27 @@ const mockArticles = [
             
              `,
         isParagraph: 'true',
-       },
-       {
-        content:`Set:`,
+      },
+      {
+        content: `Set:`,
         isParagraph: 'true',
-       },
-       {
-        content:`&nbsp; &bull;  Working days <br/> 
+      },
+      {
+        content: `&nbsp; &bull;  Working days <br/> 
         &nbsp; &bull; Working hours <br/> 
         &nbsp; &bull; Daily action limits.`,
         isParagraph: 'true',
-       },
-       {
-        content:`This allows safe Linkedin automation.`,
+      },
+      {
+        content: `This allows safe Linkedin automation.`,
         isParagraph: 'true',
-       },
-      
-       {
+      },
+
+      {
         stepTitle: "Step 3: Find Leads with Lead Explorer",
-        isStep:'true',
-       },
-       {
+        isStep: 'true',
+      },
+      {
         content: `
           Open <strong>Lead Explorer</strong> and filter by:<br/>
           &nbsp; &nbsp; &bull; Job title<br/>
@@ -291,14 +292,14 @@ const mockArticles = [
           &nbsp; &nbsp; &bull; Company size<br/>
           &nbsp; &nbsp; &bull; Location<br/>
           &nbsp; &nbsp; &bull; Revenue<br/>`,
-          isParagraph: 'true',
-       },
-       {
-          content:`Preview leads before exporting.`,
-          isParagraph: 'true',
-       },
-       {
-          content:`
+        isParagraph: 'true',
+      },
+      {
+        content: `Preview leads before exporting.`,
+        isParagraph: 'true',
+      },
+      {
+        content: `
            You can:<br/>
            &nbsp; &nbsp; &bull; Send leads directly to a campaign<br/>
            &nbsp; &nbsp; &bull; Or save them to CRM<br/><br/>
@@ -307,7 +308,7 @@ const mockArticles = [
       },
       {
         stepTitle: "Step 4: Create Your First Campaign",
-        isStep:'true',
+        isStep: 'true',
       },
       {
         content: `
@@ -449,8 +450,8 @@ const mockArticles = [
         stepTitle: "Best Practice for New Users",
         isStep: `true`,
       },
-    {
-      content:`
+      {
+        content: `
       &nbsp; &nbsp; &bull; Start with 50–100 leads <br/>
       &nbsp; &nbsp; &bull; Use short messages <br/>
       &nbsp; &nbsp; &bull; Personalize with AI <br/>
@@ -458,13 +459,13 @@ const mockArticles = [
       &nbsp; &nbsp; &bull; Always warm up accounts <br/>
       &nbsp; &nbsp; &bull; Increase volume gradually`,
         isParagraph: 'true',
-    },
-    {
-     stepTitle: "You’re Ready 🚀",
-     isStep: `true`,
-    },
-    {
-     content: `
+      },
+      {
+        stepTitle: "You’re Ready 🚀",
+        isStep: `true`,
+      },
+      {
+        content: `
       With SalesTarget.AI, you can:<br/>
       ✔ Discover leads<br/>
       ✔ Reach them via email & LinkedIn<br/>
@@ -474,39 +475,39 @@ const mockArticles = [
       ✔ Scale safely<br/>
       All from one platform.
     `,
-    isParagraph: 'true',
-    },
-    {
-      stepTitle: "Next Recommended Guides",
-      isStep: `true`,
-    },
-    {
-    content:`
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Next Recommended Guides",
+        isStep: `true`,
+      },
+      {
+        content: `
       &nbsp; &nbsp; &bull; Setting up your account<br/>
       &nbsp; &nbsp; &bull; First steps with campaigns<br/>
       &nbsp; &nbsp; &bull; Lead Explorer overview<br/>
       &nbsp; &nbsp; &bull; Deliverability best practices<br/>
     `,
-    isParagraph: 'true',
-  }
-  
-  ],
+        isParagraph: 'true',
+      }
+
+    ],
   },
   {
-  id: "3",
-  title: "How Salestarget Optimizes Sending Behavior for Deliverability",
-  content: `Deliverability is the foundation of successful cold outreach.<br/>
+    id: "3",
+    title: "How Salestarget Optimizes Sending Behavior for Deliverability",
+    content: `Deliverability is the foundation of successful cold outreach.<br/>
 If your emails don’t reach the inbox, your campaigns fail — no matter how good your copy is.<br/><br/>
 Salestarget is built with <strong>deliverability-first</strong> architecture that controls how, when, and from where emails are sent to protect your sender reputation and maximize inbox placement.<br/><br/>
 This article explains <strong>how Salestarget optimizes sending behavior automatically.</strong>`,
 
-  features: [
-    {
-      title: "Why Deliverability Matters",
-      isHeading: true
-    },
-    {
-      content: `Email providers (Google, Outlook, and Yahoo) Evaluate:<ul>
+    features: [
+      {
+        title: "Why Deliverability Matters",
+        isHeading: true
+      },
+      {
+        content: `Email providers (Google, Outlook, and Yahoo) Evaluate:<ul>
 &nbsp; &bull; Sending volume<br/>
 &nbsp; &bull; Sending patterns<br/>
 &nbsp; &bull; Bounce rate<br/>
@@ -516,15 +517,15 @@ This article explains <strong>how Salestarget optimizes sending behavior automat
 </ul>
 Aggressive or unnatural sending behavior triggers spam filters and blacklisting.<br/>
 SalesTarget prevents this by enforcing <strong>natural, safe, and reputation-aware sending behavior.</strong>`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "1. Inbox Warm-Up (Reputation Building)",
-      isHeading: true
-    },
-    {
-      content: `When you connect a new email account, SalesTarget:<ul>
+      {
+        title: "1. Inbox Warm-Up (Reputation Building)",
+        isHeading: true
+      },
+      {
+        content: `When you connect a new email account, SalesTarget:<ul>
 <li>&nbsp; &bull; Starts with <strong>low daily volume</strong></li>
 <li>&nbsp; &bull; Gradually increases send limits over time</li>
 <li>&nbsp; &bull; Simulates real conversations</li>
@@ -536,15 +537,15 @@ Warm-up helps:<ul>
 <li>&nbsp; &bull; Reduce sudden spikes in volume</li>
 <li>&nbsp; &bull; Establish sender reputation safely</li>
 </ul>`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "2. Daily Sending Limits per Inbox",
-      isHeading: true
-    },
-    {
-      content: `SalesTarget enforces <strong>per-inbox daily limits</strong>, even if you try to exceed them.<br/>
+      {
+        title: "2. Daily Sending Limits per Inbox",
+        isHeading: true
+      },
+      {
+        content: `SalesTarget enforces <strong>per-inbox daily limits</strong>, even if you try to exceed them.<br/>
 You control:<ul>
 <li>&nbsp; &bull; Initial limits (e.g., 20–50/day)</li>
 <li>&nbsp; &bull; Growth over time (as reputation improves)</li>
@@ -555,15 +556,15 @@ SalesTarget prevents:<ul>
 <li>&nbsp; &bull; Account flags</li>
 </ul>
 This keeps your sending pattern stable and predictable.`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "3. Inbox Rotation (Load Distribution)",
-      isHeading: true
-    },
-    {
-      content: `If you connect multiple email accounts, SalesTarget:<ul>
+      {
+        title: "3. Inbox Rotation (Load Distribution)",
+        isHeading: true
+      },
+      {
+        content: `If you connect multiple email accounts, SalesTarget:<ul>
 <li>&nbsp; &bull; Distributes emails across inboxes</li>
 <li>&nbsp; &bull; Ensures no single account is overloaded</li>
 <li>&nbsp; &bull; Balances daily volume automatically</li>
@@ -573,15 +574,15 @@ Instead of:<br/>
 SalesTarget uses:<br/>
 ✅ 10 inboxes sending 100 emails each<br/><br/>
 This reduces risk and increases scale safely.`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "4. Natural Scheduling & Timezone Awareness",
-      isHeading: true
-    },
-    {
-      content: `SalesTarget does not send emails in bulk bursts.<br/>
+      {
+        title: "4. Natural Scheduling & Timezone Awareness",
+        isHeading: true
+      },
+      {
+        content: `SalesTarget does not send emails in bulk bursts.<br/>
 It:<ul>
 <li>&nbsp; &bull; Schedules emails only during working hours</li>
 <li>&nbsp; &bull; Spreads sends across the day</li>
@@ -593,15 +594,15 @@ This creates:<ul>
 <li>&nbsp; &#10003; Consistent sending patterns</li>
 <li>&nbsp; &#10003; Lower spam detection</li>
 </ul>`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "5. Lead Validation Before Sending",
-      isHeading: true
-    },
-    {
-      content: `Before leads are added to campaigns, SalesTarget validates them by checking:<ul>
+      {
+        title: "5. Lead Validation Before Sending",
+        isHeading: true
+      },
+      {
+        content: `Before leads are added to campaigns, SalesTarget validates them by checking:<ul>
 <li>&nbsp; &bull; Email format</li>
 <li>&nbsp; &bull; Domain existence</li>
 <li>&nbsp; &bull; Mailbox availability</li>
@@ -614,15 +615,15 @@ This reduces:<ul>
 <li>&nbsp; &bull; ISP penalties</li>
 <li>&nbsp; &bull; Reputation damage</li>
 </ul>`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "6. Domain Authentication Monitoring (SPF, DKIM, DMARC)",
-      isHeading: true
-    },
-    {
-      content: `SalesTarget monitors your domain health by checking:<ul>
+      {
+        title: "6. Domain Authentication Monitoring (SPF, DKIM, DMARC)",
+        isHeading: true
+      },
+      {
+        content: `SalesTarget monitors your domain health by checking:<ul>
 <li>&nbsp; &bull; SPF records</li>
 <li>&nbsp; &bull; DKIM signing</li>
 <li>&nbsp; &bull; DMARC policy</li>
@@ -633,15 +634,15 @@ If misconfigured:<ul>
 <li>&nbsp; &bull; Errors are flagged</li>
 </ul>
 This ensures your domain is trusted by receiving servers.`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "7. Reply-Aware Sequence Control",
-      isHeading: true
-    },
-    {
-      content: `When a prospect replies:<ul>
+      {
+        title: "7. Reply-Aware Sequence Control",
+        isHeading: true
+      },
+      {
+        content: `When a prospect replies:<ul>
 <li>&nbsp; &bull; SalesTarget automatically <strong>stops follow-ups</strong></li>
 <li>&nbsp; &bull; Removes them from automated sending</li>
 <li>&nbsp; &bull; Moves them into manual reply flow (Unibox + CRM)</li>
@@ -651,15 +652,15 @@ This prevents:<ul>
 <li>&nbsp; &bull; Triggering spam complaints</li>
 <li>&nbsp; &bull; Damaging engagement signals</li>
 </ul>`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "8. Bounce, Unsubscribe & Complaint Handling",
-      isHeading: true
-    },
-    {
-      content: `SalesTarget automatically:<ul>
+      {
+        title: "8. Bounce, Unsubscribe & Complaint Handling",
+        isHeading: true
+      },
+      {
+        content: `SalesTarget automatically:<ul>
 <li>&nbsp; &bull; Removes hard-bounced emails</li>
 <li>&nbsp; &bull; Honors unsubscribe requests</li>
 <li>&nbsp; &bull; Suppresses risky addresses</li>
@@ -670,15 +671,15 @@ Accounts with unhealthy metrics are:<ul>
 <li>&nbsp; &bull; Flagged</li>
 <li>&nbsp; &bull; Protected from overuse</li>
 </ul>`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "9. Account Health Monitoring",
-      isHeading: true
-    },
-    {
-      content: `Each email account has a health score based on:<ul>
+      {
+        title: "9. Account Health Monitoring",
+        isHeading: true
+      },
+      {
+        content: `Each email account has a health score based on:<ul>
 <li>&nbsp; &bull; Bounce rate</li>
 <li>&nbsp; &bull; Open rate</li>
 <li>&nbsp; &bull; Reply rate</li>
@@ -691,15 +692,15 @@ If health drops:<ul>
 <li>&nbsp; &bull; Alerts are triggered</li>
 </ul>
 This prevents long-term damage.`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "What SalesTarget Does NOT Do",
-      isHeading: true
-    },
-    {
-      content: `SalesTarget does NOT:<ul>
+      {
+        title: "What SalesTarget Does NOT Do",
+        isHeading: true
+      },
+      {
+        content: `SalesTarget does NOT:<ul>
 <li>&nbsp; &cross; Rotate IPs artificially</li>
 <li>&nbsp; &cross; Mask sender identity</li>
 <li>&nbsp; &cross; Use unsafe sending tricks</li>
@@ -714,15 +715,15 @@ Deliverability is achieved through:<ul>
 <li>&nbsp; &#10003; Control</li>
 </ul>
 Not hacks.`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "Best Practices for Users",
-      isHeading: true
-    },
-    {
-      content: `To get best results:<ul>
+      {
+        title: "Best Practices for Users",
+        isHeading: true
+      },
+      {
+        content: `To get best results:<ul>
 <li> &nbsp; &bull; Warm up new domains and inboxes</li>
 <li> &nbsp; &bull; Start with low volume</li>
 <li> &nbsp; &bull; Use verified leads</li>
@@ -732,15 +733,15 @@ Not hacks.`,
 <li> &nbsp; &bull; Increase volume gradually</li>
 </ul>
 SalesTarget enforces the technical side — your content drives engagement.`,
-      isParagraph: true
-    },
+        isParagraph: true
+      },
 
-    {
-      title: "Summary",
-      isHeading: true
-    },
-    {
-      content: `SalesTarget optimizes deliverability by controlling:<ul>
+      {
+        title: "Summary",
+        isHeading: true
+      },
+      {
+        content: `SalesTarget optimizes deliverability by controlling:<ul>
 <li>&nbsp; &#10003; How fast emails are sent</li>
 <li>&nbsp; &#10003; How many emails are sent</li>
 <li>&nbsp; &#10003; Which inbox sends them</li>
@@ -759,146 +760,146 @@ SalesTarget ensures your outreach stays:<br/>
 📥 In inbox<br/>
 📈 Scalable<br/>
 🛡 Safe`,
-      isParagraph: true
-    }
-  ]
-},
+        isParagraph: true
+      }
+    ]
+  },
   {
-  id: "4",
-  title: "Setting Up Your Account",
-  content: `This guide walks you through setting up your SalesTarget.AI account properly so you can launch safe, high-performing multi-channel campaigns (Email + LinkedIn).<br/>A proper setup ensures:<ul><li>&nbsp; &bull; Strong deliverability</li><li>&nbsp; &bull; Account safety</li><li>&nbsp; &bull; Accurate tracking</li><li>&nbsp; &bull; Smooth CRM workflow</li></ul>`,
-  features: [
-    {
-      title: "Step 1: Create Your Organization",
-      isHeading: true
-    },
-    {
-      content: `After signing up:<ol><li> &nbsp; 1. Enter your company name</li><li> &nbsp; 2. Select your industry</li><li> &nbsp; 3. Set your timezone</li><li> &nbsp; 4. Configure working hours</li></ol>`,
-      isParagraph: true
-    },
-    {
-      content: `Your timezone and working hours are important because:<ul><li>&nbsp; &bull; Email sending follows your configured schedule</li><li>&nbsp; &bull; LinkedIn automation respects business hours</li><li>&nbsp; &bull; Campaign execution is timezone-aware</li></ul>You can update these anytime in Organization Settings.`,
-      isParagraph: true
-    },
+    id: "4",
+    title: "Setting Up Your Account",
+    content: `This guide walks you through setting up your SalesTarget.AI account properly so you can launch safe, high-performing multi-channel campaigns (Email + LinkedIn).<br/>A proper setup ensures:<ul><li>&nbsp; &bull; Strong deliverability</li><li>&nbsp; &bull; Account safety</li><li>&nbsp; &bull; Accurate tracking</li><li>&nbsp; &bull; Smooth CRM workflow</li></ul>`,
+    features: [
+      {
+        title: "Step 1: Create Your Organization",
+        isHeading: true
+      },
+      {
+        content: `After signing up:<ol><li> &nbsp; 1. Enter your company name</li><li> &nbsp; 2. Select your industry</li><li> &nbsp; 3. Set your timezone</li><li> &nbsp; 4. Configure working hours</li></ol>`,
+        isParagraph: true
+      },
+      {
+        content: `Your timezone and working hours are important because:<ul><li>&nbsp; &bull; Email sending follows your configured schedule</li><li>&nbsp; &bull; LinkedIn automation respects business hours</li><li>&nbsp; &bull; Campaign execution is timezone-aware</li></ul>You can update these anytime in Organization Settings.`,
+        isParagraph: true
+      },
 
-    {
-      title: "Step 2: Add Team Members (Optional)",
-      isHeading: true
-    },
-    {
-      content: `If you're working with a team:<ol><li>&nbsp; 1. Go to <strong>Settings → Team Management</strong></li><li>&nbsp; 2. Invite users via email</li><li>&nbsp; 3. Assign roles:</li></ol><ul><li>&nbsp; &bull; <strong>Owner</strong> – Full access (billing + settings)</li><li>&nbsp; &bull; <strong>Admin</strong> – Manage accounts and integrations</li><li>&nbsp; &bull; <strong>Editor</strong> – Create and manage campaigns</li><li>&nbsp; &bull; <strong>Viewer</strong> – Read-only access</li></ul>`,
-      isParagraph: true
-    },
-    {
-      content: `Role-based access ensures:<ul><li>Controlled permissions</li><li>Secure account management</li><li>Clear campaign ownership</li></ul>`,
-      isParagraph: true
-    },
+      {
+        title: "Step 2: Add Team Members (Optional)",
+        isHeading: true
+      },
+      {
+        content: `If you're working with a team:<ol><li>&nbsp; 1. Go to <strong>Settings → Team Management</strong></li><li>&nbsp; 2. Invite users via email</li><li>&nbsp; 3. Assign roles:</li></ol><ul><li>&nbsp; &bull; <strong>Owner</strong> – Full access (billing + settings)</li><li>&nbsp; &bull; <strong>Admin</strong> – Manage accounts and integrations</li><li>&nbsp; &bull; <strong>Editor</strong> – Create and manage campaigns</li><li>&nbsp; &bull; <strong>Viewer</strong> – Read-only access</li></ul>`,
+        isParagraph: true
+      },
+      {
+        content: `Role-based access ensures:<ul><li>Controlled permissions</li><li>Secure account management</li><li>Clear campaign ownership</li></ul>`,
+        isParagraph: true
+      },
 
-    {
-      title: "Step 3: Connect Your Email Account",
-      isHeading: true
-    },
-    {
-      content: `Email is required for outreach campaigns.<br/>Go to:<br/><strong>Settings → Email Accounts → Add Account</strong><br/><br/>You can connect using:<ul><li> &nbsp; &bull; Google OAuth (recommended)</li><li> &nbsp; &bull; Outlook OAuth</li><li> &nbsp; &bull; SMTP/IMAP (custom providers)</li></ul>`,
-      isParagraph: true
-    },
-    {
-      title: "Before Sending Emails",
-      isHeading: true
-    },
-    {
-      content: `Make sure your domain has:<ul><li> &nbsp; &bull; SPF configured</li><li> &nbsp; &bull; DKIM enabled</li><li> &nbsp; &bull; DMARC policy active</li></ul>These records authenticate your domain and improve deliverability.<br/><br/>If you're unsure, refer to:<ul><li>&nbsp; &bull; DNS setup guide</li><li>&nbsp; &bull; SPF &amp; DKIM setup article</li></ul>`,
-      isParagraph: true
-    },
+      {
+        title: "Step 3: Connect Your Email Account",
+        isHeading: true
+      },
+      {
+        content: `Email is required for outreach campaigns.<br/>Go to:<br/><strong>Settings → Email Accounts → Add Account</strong><br/><br/>You can connect using:<ul><li> &nbsp; &bull; Google OAuth (recommended)</li><li> &nbsp; &bull; Outlook OAuth</li><li> &nbsp; &bull; SMTP/IMAP (custom providers)</li></ul>`,
+        isParagraph: true
+      },
+      {
+        title: "Before Sending Emails",
+        isHeading: true
+      },
+      {
+        content: `Make sure your domain has:<ul><li> &nbsp; &bull; SPF configured</li><li> &nbsp; &bull; DKIM enabled</li><li> &nbsp; &bull; DMARC policy active</li></ul>These records authenticate your domain and improve deliverability.<br/><br/>If you're unsure, refer to:<ul><li>&nbsp; &bull; DNS setup guide</li><li>&nbsp; &bull; SPF &amp; DKIM setup article</li></ul>`,
+        isParagraph: true
+      },
 
-    {
-      title: "Step 4: Configure Email Sending Settings",
-      isHeading: true
-    },
-    {
-      content: `After connecting your inbox:<ul><li> &nbsp; &bull; Set daily sending limits (start with 20–50/day)</li><li> &nbsp; &bull; Enable warm-up for new accounts</li><li> &nbsp; &bull; Add sender name and signature</li><li> &nbsp; &bull; Enable tracking preferences (opens, clicks)</li></ul>`,
-      isParagraph: true
-    },
-    {
-      content: `SalesTarget automatically:<ul><li> &nbsp; &bull; Rotates inboxes (if multiple connected)</li><li> &nbsp; &bull; Monitors account health</li><li> &nbsp; &bull; Applies safe sending behavior</li></ul>`,
-      isParagraph: true
-    },
+      {
+        title: "Step 4: Configure Email Sending Settings",
+        isHeading: true
+      },
+      {
+        content: `After connecting your inbox:<ul><li> &nbsp; &bull; Set daily sending limits (start with 20–50/day)</li><li> &nbsp; &bull; Enable warm-up for new accounts</li><li> &nbsp; &bull; Add sender name and signature</li><li> &nbsp; &bull; Enable tracking preferences (opens, clicks)</li></ul>`,
+        isParagraph: true
+      },
+      {
+        content: `SalesTarget automatically:<ul><li> &nbsp; &bull; Rotates inboxes (if multiple connected)</li><li> &nbsp; &bull; Monitors account health</li><li> &nbsp; &bull; Applies safe sending behavior</li></ul>`,
+        isParagraph: true
+      },
 
-    {
-      title: "Step 5: Connect Your LinkedIn Account (Optional but Recommended)",
-      isHeading: true
-    },
-    {
-      content: `To enable LinkedIn automation:<ol><li> &nbsp; &bull; Go to <strong>LinkedIn Automation</strong></li><li> &nbsp; &bull; Click <strong>Connect LinkedIn</strong></li><li> &nbsp; &bull; Authorize via secure OAuth</li></ol>`,
-      isParagraph: true
-    },
-    {
-      content: `SalesTarget automatically:<ul><li> &nbsp; &bull; Assigns a residential proxy</li><li> &nbsp; &bull; Applies LinkedIn-safe daily limits</li><li> &nbsp; &bull; Enables human-like timing behavior</li><li> &nbsp; &bull; Distributes actions across your schedule</li></ul>`,
-      isParagraph: true
-    },
-    {
-      content: `You can configure:<ul><li> &nbsp; &bull; Daily limits (connections, messages, visits)</li><li> &nbsp; &bull; Working days</li><li> &nbsp; &bull; Working hours</li><li> &nbsp; &bull; Warm-up mode</li></ul>This ensures safe LinkedIn automation.`,
-      isParagraph: true
-    },
+      {
+        title: "Step 5: Connect Your LinkedIn Account (Optional but Recommended)",
+        isHeading: true
+      },
+      {
+        content: `To enable LinkedIn automation:<ol><li> &nbsp; &bull; Go to <strong>LinkedIn Automation</strong></li><li> &nbsp; &bull; Click <strong>Connect LinkedIn</strong></li><li> &nbsp; &bull; Authorize via secure OAuth</li></ol>`,
+        isParagraph: true
+      },
+      {
+        content: `SalesTarget automatically:<ul><li> &nbsp; &bull; Assigns a residential proxy</li><li> &nbsp; &bull; Applies LinkedIn-safe daily limits</li><li> &nbsp; &bull; Enables human-like timing behavior</li><li> &nbsp; &bull; Distributes actions across your schedule</li></ul>`,
+        isParagraph: true
+      },
+      {
+        content: `You can configure:<ul><li> &nbsp; &bull; Daily limits (connections, messages, visits)</li><li> &nbsp; &bull; Working days</li><li> &nbsp; &bull; Working hours</li><li> &nbsp; &bull; Warm-up mode</li></ul>This ensures safe LinkedIn automation.`,
+        isParagraph: true
+      },
 
-    {
-      title: "Step 6: Review Account Health",
-      isHeading: true
-    },
-    {
-      content: `Before launching campaigns, confirm:<ul><li>&nbsp; ✔ Email account connected</li><li>&nbsp; ✔ Domain authentication verified</li><li>&nbsp; ✔ Warm-up enabled (if new inbox)</li><li>&nbsp; ✔ LinkedIn account connected (if using multi-channel)</li><li>&nbsp; ✔ Working hours configured</li></ul>`,
-      isParagraph: true
-    },
-    {
-      content: `A properly configured account prevents:<ul><li>&nbsp; &bull; Spam placement</li><li>&nbsp; &bull; Account restrictions</li><li>&nbsp; &bull; Sending errors</li><li>&nbsp; &bull; Reputation damage</li></ul>`,
-      isParagraph: true
-    },
+      {
+        title: "Step 6: Review Account Health",
+        isHeading: true
+      },
+      {
+        content: `Before launching campaigns, confirm:<ul><li>&nbsp; ✔ Email account connected</li><li>&nbsp; ✔ Domain authentication verified</li><li>&nbsp; ✔ Warm-up enabled (if new inbox)</li><li>&nbsp; ✔ LinkedIn account connected (if using multi-channel)</li><li>&nbsp; ✔ Working hours configured</li></ul>`,
+        isParagraph: true
+      },
+      {
+        content: `A properly configured account prevents:<ul><li>&nbsp; &bull; Spam placement</li><li>&nbsp; &bull; Account restrictions</li><li>&nbsp; &bull; Sending errors</li><li>&nbsp; &bull; Reputation damage</li></ul>`,
+        isParagraph: true
+      },
 
-    {
-      title: "Step 7: Connect Optional Integrations",
-      isHeading: true
-    },
-    {
-      content: `You can enhance your workflow by connecting:<ul><li>&nbsp; &bull; Google Calendar (meeting scheduling)</li><li>&nbsp; &bull; Zoom (video meetings)</li><li>&nbsp; &bull; Calendly (availability links)</li><li>&nbsp; &bull; Slack (notifications)</li><li>&nbsp; &bull; CRM imports (Salesforce, HubSpot, Pipedrive)</li></ul>`,
-      isParagraph: true
-    },
-    {
-      content: `These integrations allow:<ul><li>&nbsp; &bull; Meeting automation</li><li>&nbsp; &bull; CRM synchronization</li><li>&nbsp; &bull; Real-time team alerts</li></ul>`,
-      isParagraph: true
-    },
+      {
+        title: "Step 7: Connect Optional Integrations",
+        isHeading: true
+      },
+      {
+        content: `You can enhance your workflow by connecting:<ul><li>&nbsp; &bull; Google Calendar (meeting scheduling)</li><li>&nbsp; &bull; Zoom (video meetings)</li><li>&nbsp; &bull; Calendly (availability links)</li><li>&nbsp; &bull; Slack (notifications)</li><li>&nbsp; &bull; CRM imports (Salesforce, HubSpot, Pipedrive)</li></ul>`,
+        isParagraph: true
+      },
+      {
+        content: `These integrations allow:<ul><li>&nbsp; &bull; Meeting automation</li><li>&nbsp; &bull; CRM synchronization</li><li>&nbsp; &bull; Real-time team alerts</li></ul>`,
+        isParagraph: true
+      },
 
-    {
-      title: "What Happens After Setup?",
-      isHeading: true
-    },
-    {
-      content: `Once your account is configured:<ul><li>&nbsp; &bull; Leads automatically sync into CRM</li><li>&nbsp; &bull; Campaigns follow safe sending rules</li><li>&nbsp; &bull; Replies appear in the Unibox</li><li>&nbsp; &bull; Activity logs update in real-time</li><li>&nbsp; &bull; Analytics begin tracking performance</li></ul>`,
-      isParagraph: true
-    },
-    {
-      content: `You’re now ready to:<ul><li>&nbsp; &bull; Discover leads</li><li>&nbsp; &bull; Create campaigns</li><li>&nbsp; &bull; Launch multi-channel outreach</li></ul>`,
-      isParagraph: true
-    },
+      {
+        title: "What Happens After Setup?",
+        isHeading: true
+      },
+      {
+        content: `Once your account is configured:<ul><li>&nbsp; &bull; Leads automatically sync into CRM</li><li>&nbsp; &bull; Campaigns follow safe sending rules</li><li>&nbsp; &bull; Replies appear in the Unibox</li><li>&nbsp; &bull; Activity logs update in real-time</li><li>&nbsp; &bull; Analytics begin tracking performance</li></ul>`,
+        isParagraph: true
+      },
+      {
+        content: `You’re now ready to:<ul><li>&nbsp; &bull; Discover leads</li><li>&nbsp; &bull; Create campaigns</li><li>&nbsp; &bull; Launch multi-channel outreach</li></ul>`,
+        isParagraph: true
+      },
 
-    {
-      title: "Recommended Next Steps",
-      isHeading: true
-    },
-    {
-      content: `After setting up your account:<ol><li>&nbsp; 1. Review the Quick Start Guide</li><li>&nbsp; 2. Connect your first email account</li><li>&nbsp; 3. Enable warm-up</li><li>&nbsp; 4. Launch a small test campaign (50–100 leads)</li></ol>Starting small helps you scale safely.`,
-      isParagraph: true
-    },
+      {
+        title: "Recommended Next Steps",
+        isHeading: true
+      },
+      {
+        content: `After setting up your account:<ol><li>&nbsp; 1. Review the Quick Start Guide</li><li>&nbsp; 2. Connect your first email account</li><li>&nbsp; 3. Enable warm-up</li><li>&nbsp; 4. Launch a small test campaign (50–100 leads)</li></ol>Starting small helps you scale safely.`,
+        isParagraph: true
+      },
 
-    {
-      title: "Summary",
-      isHeading: true
-    },
-    {
-      content: `Setting up your SalesTarget account correctly ensures:<ul><li>✔ Safe email deliverability</li><li>✔ LinkedIn automation compliance</li><li>✔ Accurate tracking</li><li>✔ Team collaboration</li><li>✔ Smooth CRM integration</li></ul><br/>A few minutes of proper setup protects your domain, your LinkedIn account, and your long-term outreach performance.`,
-      isParagraph: true
-    }
-  ]
-},
+      {
+        title: "Summary",
+        isHeading: true
+      },
+      {
+        content: `Setting up your SalesTarget account correctly ensures:<ul><li>✔ Safe email deliverability</li><li>✔ LinkedIn automation compliance</li><li>✔ Accurate tracking</li><li>✔ Team collaboration</li><li>✔ Smooth CRM integration</li></ul><br/>A few minutes of proper setup protects your domain, your LinkedIn account, and your long-term outreach performance.`,
+        isParagraph: true
+      }
+    ]
+  },
   {
     id: "5", // Unique ID for routing
     title: "Navigating the dashboard",
@@ -1019,53 +1020,53 @@ SalesTarget ensures your outreach stays:<br/>
     ],
 
   },
-  {
-    id: "10", // Unique ID for routing
-    title: "What is LeadExplorer?",
-    updated: "Updated over 8 months ago",
-    content: `Lead Explorer in a cold email platform helps identify and qualify potential leads by leveraging a B2B lead database. It allows users to filter prospects based on industry, company size, job role, and other criteria, ensuring targeted outreach for higher conversion rates.`,
-    features: [
-      {
-        title: "Advanced Lead Filtering ",
-        description:
-          "Sort leads by industry, company size, job role, and location.",
-      },
-      {
-        title: "Verified Contact Data",
-        description: "Access accurate emails and direct contacts.",
-      },
-      {
-        title: "Real-Time Lead Updates",
-        description: "Get the latest lead insights and changes.",
-      },
-    ],
+  // {
+  //   id: "10", // Unique ID for routing
+  //   title: "What is LeadExplorer?",
+  //   updated: "Updated over 8 months ago",
+  //   content: `Lead Explorer in a cold email platform helps identify and qualify potential leads by leveraging a B2B lead database. It allows users to filter prospects based on industry, company size, job role, and other criteria, ensuring targeted outreach for higher conversion rates.`,
+  //   features: [
+  //     {
+  //       title: "Advanced Lead Filtering ",
+  //       description:
+  //         "Sort leads by industry, company size, job role, and location.",
+  //     },
+  //     {
+  //       title: "Verified Contact Data",
+  //       description: "Access accurate emails and direct contacts.",
+  //     },
+  //     {
+  //       title: "Real-Time Lead Updates",
+  //       description: "Get the latest lead insights and changes.",
+  //     },
+  //   ],
 
-  },
-  {
-    id: "11", // Unique ID for routing
-    title: "Researching Leads?",
-    updated: "Updated over 8 months ago",
-    content: `Before launching your campaigns, verify your leads to avoid high bounce rates, which can harm your sender's reputation. Emails sent to non-existent addresses get permanently bounced, so removing them is crucial for better deliverability.`,
-    features: [
-      {
-        title: "Bulk Verification",
-        description:
-          'When uploading a CSV file, check "Verify leads" before clicking Upload All.',
-      },
-      {
-        title: "Individual Verification",
-        description:
-          'Select leads from the Leads Tab and click "Verify Leads" in the top right corner.',
-      },
-      {
-        title: "Unlimited Warmup",
-        description:
-          "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
-      },
-    ],
+  // },
+  // {
+  //   id: "11", // Unique ID for routing
+  //   title: "Researching Leads?",
+  //   updated: "Updated over 8 months ago",
+  //   content: `Before launching your campaigns, verify your leads to avoid high bounce rates, which can harm your sender's reputation. Emails sent to non-existent addresses get permanently bounced, so removing them is crucial for better deliverability.`,
+  //   features: [
+  //     {
+  //       title: "Bulk Verification",
+  //       description:
+  //         'When uploading a CSV file, check "Verify leads" before clicking Upload All.',
+  //     },
+  //     {
+  //       title: "Individual Verification",
+  //       description:
+  //         'Select leads from the Leads Tab and click "Verify Leads" in the top right corner.',
+  //     },
+  //     {
+  //       title: "Unlimited Warmup",
+  //       description:
+  //         "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
+  //     },
+  //   ],
 
-  },
- 
+  // },
+
   {
     id: "13",
     title: "Transferring domains from one email provider to another",
@@ -1145,7 +1146,7 @@ SalesTarget ensures your outreach stays:<br/>
     ],
 
   },
- 
+
   {
     id: "18",
     title: "Why do I need DNS records?",
@@ -1170,8 +1171,8 @@ SalesTarget ensures your outreach stays:<br/>
     ],
 
   },
- 
-  
+
+
   {
     id: "20",
     title: "Ways to add a signature",
@@ -1359,7 +1360,7 @@ SalesTarget ensures your outreach stays:<br/>
     ],
 
   },
-  
+
   {
     id: "30",
     title: "CRM Import",
@@ -1447,8 +1448,8 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     ],
 
   },
-  
-  
+
+
   {
     id: "36",
     title: "How to manage the Unibox & Best Practices on how to reply to leads",
@@ -1546,7 +1547,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
       },
     ],
   },
-  
+
   {
     id: "41",
     title: "Add-on pricing",
@@ -1588,7 +1589,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     ],
 
   },
- 
+
   {
     id: "44",
     title: "DPA (Data Processing Addendum Document)",
@@ -1652,7 +1653,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     ],
 
   },
- 
+
   {
     id: "48",
     title: "How to add the Website Visitors script to Webflow?",
@@ -1716,9 +1717,9 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     ],
 
   },
-  
- 
- 
+
+
+
   {
     id: "54",
     title: "Monthly email volume",
@@ -8199,9 +8200,9 @@ continuously without burning inboxes.`,
   },
   {
     id: "85",
-    title: "What Is Lead Enrichment and Why Your Sales Team Cant Afford to Skip It in 2025",
+    title: "What Is Lead Enrichment and Why Your Sales Team Cant Afford to Skip It in 2026",
     content: `Here's a number that should bother you: the average B2B contact database decays at roughly 30% every year.<br/><br/>Job changes. Company rebrands. Acquisitions. People leaving roles. That email address you paid good money for in January? By December, there's a one-in-three chance it belongs to someone who no longer works there — or bounces straight to nowhere.<br/><br/>And if your sales team is still doing outbound with that data, you're not just wasting budget. You're actively damaging your domain reputation with every bounce, every wrong-person email, every reply that says "I left this company six months ago."<br/><br/>Lead enrichment fixes this. But it does something far more valuable than just keeping your data clean — it gives your team the full picture of who they're reaching out to before the first message is sent.`,
-    metaTitle: "What Is Lead Enrichment and Why It Matters for Your Sales Team in 2025",
+    metaTitle: "What Is Lead Enrichment and Why It Matters for Your Sales Team in 2026",
     metaDescription: "Learn how lead enrichment turns raw contacts into full buying profiles — and why bad data is quietly killing your outbound reply rates, deliverability, and budget.",
     metaKeywords: "lead enrichment, B2B data enrichment, sales data quality, contact enrichment, outbound sales, intent data, firmographics, SalesTarget.ai",
     features: [
@@ -8397,11 +8398,11 @@ continuously without burning inboxes.`,
   },
   {
     id: "86",
-    title: "ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2025?",
-    content: `If you've been researching B2B data and lead enrichment platforms recently, you've probably landed on the same three or four names: ZoomInfo, Apollo.io, and the newer wave of intelligence platforms like SalesTarget.ai.<br/><br/>Each of them will tell you they're the best. That's not useful.<br/><br/>What's actually useful is understanding what each platform optimises for, where each one has real gaps, and which one fits the motion you're trying to run in 2025 — because the answer is genuinely different depending on your stage, your team size, and how sophisticated your outbound is.<br/><br/>This comparison is honest. We'll call out where SalesTarget.ai is the stronger choice, but also where ZoomInfo and Apollo genuinely earn their reputation.`,
-    metaTitle: "ZoomInfo vs Apollo vs SalesTarget.ai: Best B2B Data Platform in 2025?",
-    metaDescription: "An honest breakdown of ZoomInfo, Apollo, and SalesTarget.ai — what each platform does well, where they fall short, and which one fits your sales team in 2025.",
-    metaKeywords: "ZoomInfo vs Apollo, B2B data platform comparison, SalesTarget.ai review, lead enrichment platforms 2025, Apollo alternative, ZoomInfo alternative, B2B prospecting tools",
+    title: "ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2026?",
+    content: `If you've been researching B2B data and lead enrichment platforms recently, you've probably landed on the same three or four names: ZoomInfo, Apollo.io, and the newer wave of intelligence platforms like SalesTarget.ai.<br/><br/>Each of them will tell you they're the best. That's not useful.<br/><br/>What's actually useful is understanding what each platform optimises for, where each one has real gaps, and which one fits the motion you're trying to run in 2026 — because the answer is genuinely different depending on your stage, your team size, and how sophisticated your outbound is.<br/><br/>This comparison is honest. We'll call out where SalesTarget.ai is the stronger choice, but also where ZoomInfo and Apollo genuinely earn their reputation.`,
+    metaTitle: "ZoomInfo vs Apollo vs SalesTarget.ai: Best B2B Data Platform in 2026?",
+    metaDescription: "An honest breakdown of ZoomInfo, Apollo, and SalesTarget.ai — what each platform does well, where they fall short, and which one fits your sales team in 2026.",
+    metaKeywords: "ZoomInfo vs Apollo, B2B data platform comparison, SalesTarget.ai review, lead enrichment platforms 2026, Apollo alternative, ZoomInfo alternative, B2B prospecting tools",
     features: [
       {
         title: "The Quick Summary",
@@ -8441,7 +8442,7 @@ continuously without burning inboxes.`,
         isParagraph: true
       },
       {
-        content: `Beyond cost, the platform was built for an era when having a big contact database was the differentiator. In 2025, that's table stakes. Intent signals, enrichment across multiple providers, and real-time data freshness are where the gap shows up — and ZoomInfo's intent product is bolted on rather than native, which shows in the quality.`,
+        content: `Beyond cost, the platform was built for an era when having a big contact database was the differentiator. In 2026, that's table stakes. Intent signals, enrichment across multiple providers, and real-time data freshness are where the gap shows up — and ZoomInfo's intent product is bolted on rather than native, which shows in the quality.`,
         isParagraph: true
       },
       {
@@ -8642,7 +8643,7 @@ continuously without burning inboxes.`,
         isHeading: true
       },
       {
-        content: `In 2025, the B2B data platform you choose isn't just a contact list purchase. It's the foundation of your entire outbound motion. The quality of your data determines the quality of every message your team sends, every conversation they start, and every deal that ends up in the pipeline.`,
+        content: `In 2026, the B2B data platform you choose isn't just a contact list purchase. It's the foundation of your entire outbound motion. The quality of your data determines the quality of every message your team sends, every conversation they start, and every deal that ends up in the pipeline.`,
         isParagraph: true
       },
       {
@@ -9030,7 +9031,7 @@ continuously without burning inboxes.`,
         isHeading: true
       },
       {
-        content: `Clay is a remarkable tool for the right team. If you have the technical chops, the budget for multiple provider subscriptions, and the appetite to build something custom — it's worth the investment.<br/><br/>But most sales teams don't need a custom-built enrichment infrastructure. They need great data, fast access, and a direct line from intelligence to outreach. That's exactly what SalesTarget.ai is built for.<br/><br/>The question to ask yourself isn't "which tool is more impressive?" It's "which tool will have my team talking to in-market buyers faster?"<br/><br/>For most B2B sales teams in 2025, that answer is clear.`,
+        content: `Clay is a remarkable tool for the right team. If you have the technical chops, the budget for multiple provider subscriptions, and the appetite to build something custom — it's worth the investment.<br/><br/>But most sales teams don't need a custom-built enrichment infrastructure. They need great data, fast access, and a direct line from intelligence to outreach. That's exactly what SalesTarget.ai is built for.<br/><br/>The question to ask yourself isn't "which tool is more impressive?" It's "which tool will have my team talking to in-market buyers faster?"<br/><br/>For most B2B sales teams in 2026, that answer is clear.`,
         isParagraph: true
       },
       {

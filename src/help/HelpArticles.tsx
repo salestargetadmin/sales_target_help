@@ -1,14 +1,14 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { 
-  ChevronRight, 
-  Book, 
-  Compass, 
-  Star, 
-  UserPlus, 
-  LayoutDashboard, 
-  Flag, 
-  Code, 
-  Database, 
+import {
+  ChevronRight,
+  Book,
+  Compass,
+  Star,
+  UserPlus,
+  LayoutDashboard,
+  Flag,
+  Code,
+  Database,
   Shield,
   ArrowLeft
 } from 'lucide-react'; // Import icons
@@ -42,15 +42,15 @@ const categories = [
       { title: 'Security best practices', id: 9, icon: Shield, color: '#FBBF24' }, // Orange
     ],
   },
-  {
-    title: 'What is Lead Explorer?',
-    icon: '🔍',
-    articles: [
-      { title: 'What Lead explorer does in a cold email platform?', id: 10, icon: Code, color: '#FF00FF' }, // Orange
-      { title: 'What to ask when researching leads?', id: 11, icon: Database, color: '#FF00FF' }, // Orange
+  // {
+  //   title: 'What is Lead Explorer?',
+  //   icon: '🔍',
+  //   articles: [
+  //     { title: 'What Lead explorer does in a cold email platform?', id: 10, icon: Code, color: '#FF00FF' }, // Orange
+  //     { title: 'What to ask when researching leads?', id: 11, icon: Database, color: '#FF00FF' }, // Orange
 
-    ],
-  },
+  //   ],
+  // },
   {
     title: 'Setup',
     icon: '🔍',
@@ -59,9 +59,9 @@ const categories = [
       { title: 'Setting up Reply-to email address', id: 14, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'Checklist before campaign launch', id: 15, icon: Shield, color: '#FF00FF' }, // Orange
       { title: 'Create a separate workspace and invite team members', id: 16, icon: Shield, color: '#FF00FF' }, // Orange
-     
+
       { title: 'Why do I need DNS records?', id: 18, icon: Shield, color: '#FF00FF' }, // Orange
-     
+
       { title: 'Ways to add a signature', id: 20, icon: Shield, color: '#FF00FF' }, // Orange
     ],
   },
@@ -72,7 +72,7 @@ const categories = [
       { title: 'How Warm-Up Works and Why it\'s Important 🤓', id: 21, icon: Code, color: '#FF00FF' }, // Orange
       { title: 'What is "read emulation" in Warmup', id: 22, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'Warmup filters - Google and Microsoft🚦', id: 23, icon: Shield, color: '#FF00FF' }, // Orange
-     
+
     ],
   },
   {
@@ -82,7 +82,7 @@ const categories = [
       { title: 'How do I make sure my emails will get delivered? 📦', id: 24, icon: Code, color: '#FF00FF' }, // Orange
       { title: "Scale Your Cold Email Campaigns With Secondary Sending Domains - The Strategy & How To Implement It", id: 25, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'Cold Email Copywriting Framework We Use To Get 400+ Replies Monthly', id: 26, icon: Shield, color: '#FF00FF' }, // Orange
-     
+
     ],
   },
   {
@@ -91,8 +91,8 @@ const categories = [
     articles: [
       { title: 'What to do if your \'Open Rate\' is low📉', id: 27, icon: Code, color: '#FF00FF' }, // Orange
       { title: "Why do emails bounce?", id: 28, icon: Database, color: '#FF00FF' }, // Orange
-      
-     
+
+
     ],
   },
   {
@@ -102,7 +102,7 @@ const categories = [
       { title: 'CRM Import', id: 30, icon: Code, color: '#FF00FF' }, // Orange
       { title: "Slack integration", id: 31, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'How to use Webhooks? 🕸🪝', id: 32, icon: Shield, color: '#FF00FF' }, // Orange
-     
+
     ],
   },
   {
@@ -110,9 +110,9 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'How To Create High-ROI Cold Email Campaigns by Scraping B2B Emails from Twitter (incl. Template)', id: 33, icon: Code, color: '#FF00FF' }, // Orange
-     
-      
-     
+
+
+
     ],
   },
   {
@@ -122,7 +122,7 @@ const categories = [
       { title: 'How to manage the Unibox & Best Practices on how to reply to leads', id: 36, icon: Code, color: '#FF00FF' }, // Orange
       { title: "Schedule a reply", id: 37, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'How to remove a lead from campaigns', id: 38, icon: Shield, color: '#FF00FF' }, // Orange
-     
+
     ],
   },
   {
@@ -130,9 +130,9 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'Email Outreach plans comparison', id: 39, icon: Code, color: '#FF00FF' }, // Orange
-   
+
       { title: 'Add-on pricing', id: 41, icon: Shield, color: '#FF00FF' }, // Orange
-     
+
     ],
   },
   {
@@ -140,9 +140,9 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'Request access to collected data', id: 42, icon: Code, color: '#FF00FF' }, // Orange
-     
+
       { title: 'Salestarget Sub-processors', id: 44, icon: Shield, color: '#FF00FF' }, // Orange
-     
+
     ],
   },
   {
@@ -151,8 +151,8 @@ const categories = [
     articles: [
       { title: 'Salestarget CRM', id: 45, icon: Code, color: '#FF00FF' }, // Orange
       { title: "CRM Features", id: 46, icon: Database, color: '#FF00FF' }, // Orange
-     
-     
+
+
     ],
   },
   {
@@ -162,7 +162,7 @@ const categories = [
       { title: 'How to add the Website Visitors script to Webflow?', id: 48, icon: Code, color: '#FF00FF' }, // Orange
       { title: "Getting started with the Website Visitors feature", id: 49, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'How do I add the Website Visitors Pixel to my website?', id: 50, icon: Shield, color: '#FF00FF' }, // Orange
-     
+
     ],
   },
 
@@ -171,12 +171,12 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'Total Monthly Costs', id: 57, icon: Shield, color: '#FF00FF' }, // Orange
-      
+
       { title: "Required email accounts", id: 55, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'Required domains', id: 56, icon: Shield, color: '#FF00FF' }, // Orange
       { title: 'Monthly email volume', id: 54, icon: Code, color: '#FF00FF' }, // Orange
-      
-     
+
+
     ],
   },
   {
@@ -184,12 +184,12 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'Importantance of warming up domain and email accounts', id: 58, icon: Shield, color: '#FF00FF' }, // Orange
-      
+
       { title: "Limits for domain and email accounts on SalesTarget.ai?", id: 59, icon: Database, color: '#FF00FF' }, // Orange
       { title: 'Warm-up plan for SalesTarget.ai users?', id: 60, icon: Shield, color: '#FF00FF' }, // Orange
-    
-      
-     
+
+
+
     ],
   },
   {
@@ -197,12 +197,12 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'How to Set Up Your Email Account on SalesTarget.ai', id: 62, icon: Shield, color: '#FF00FF' }, // Orange
-      
+
       // { title: "How do I add a new email account on SalesTarget.ai?", id: 63, icon: Database, color: '#FF00FF' }, // Orange
       // { title: 'What are the four options for setting up an email account on SalesTarget.ai?', id: 64, icon: Shield, color: '#FF00FF' }, // Orange
       // { title: 'How to handle DNS propagation and account setup delay?', id: 65, icon: Code, color: '#FF00FF' }, // Orange
-      
-     
+
+
     ],
   },
   {
@@ -210,7 +210,7 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'Meet Copilot - The Free AI Sales Assistant in SalesTarget.ai', id: 67, icon: Shield, color: '#FF00FF' }, // Orange
-        
+
     ],
   },
 
@@ -219,7 +219,7 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'Try SalesTarget.ai Free — Do Real Sales Work in 7 Days', id: 68, icon: Shield, color: '#FF00FF' }, // Orange
-        
+
     ],
   },
   {
@@ -292,28 +292,28 @@ const categories = [
       { title: 'How to Structure a High-Converting Campaign', id: 79, icon: Shield, color: '#FF00FF' },
     ],
   },
-   {
+  {
     title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops',
     icon: '🔍',
     articles: [
       { title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops', id: 80, icon: Shield, color: '#FF00FF' }, // Orange
-        
+
     ],
   },
-    {
+  {
     title: 'Stopping Rules: When a Lead Should Exit a Campaign',
     icon: '🔍',
     articles: [
       { title: 'Stopping Rules: When a Lead Should Exit a Campaign', id: 81, icon: Shield, color: '#FF00FF' }, // Orange
-        
+
     ],
   },
-    {
+  {
     title: 'How Leads Move Through a Campaign',
     icon: '🔍',
     articles: [
       { title: 'How Leads Move Through a Campaign', id: 82, icon: Shield, color: '#FF00FF' }, // Orange
-        
+
     ],
   },
   {
@@ -321,7 +321,7 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'What Happens When a Lead Replies Mid-Sequence', id: 83, icon: Shield, color: '#FF00FF' }, // Orange
-        
+
     ],
   },
   {
@@ -329,7 +329,7 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'What Happens When a Lead Does NOT Reply', id: 84, icon: Shield, color: '#FF00FF' }, // Orange
-        
+
     ],
   },
 
@@ -338,26 +338,26 @@ const categories = [
     icon: '🔍',
     articles: [
       { title: 'The Ultimate Cold Email Warm-Up Plan to Build a Strong Sender Reputation', id: 69, icon: Shield, color: '#FF00FF' }, // Orange
-        
+
     ],
   },
-   {
-    title: 'What Is Lead Enrichment and Why Your Sales Team Cant Afford to Skip It in 2025',
+  {
+    title: 'What Is Lead Enrichment and Why Your Sales Team Cant Afford to Skip It in 2026',
     icon: '🔍',
     articles: [
-      { title: 'What Is Lead Enrichment and Why Your Sales Team Can&#39;t Afford to Skip It in 2025', id: 85, icon: Shield, color: '#FF00FF' }, // Orange
-        
+      { title: 'What Is Lead Enrichment and Why Your Sales Team Can&#39;t Afford to Skip It in 2026', id: 85, icon: Shield, color: '#FF00FF' }, // Orange
+
     ],
   },
-   {
-    title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2025?',
+  {
+    title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2026?',
     icon: '🔍',
     articles: [
-      { title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2025?', id: 86, icon: Shield, color: '#FF00FF' }, // Orange
-        
+      { title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2026?', id: 86, icon: Shield, color: '#FF00FF' }, // Orange
+
     ],
   },
-    {
+  {
     title: 'Intent Data Explained: How to Find Buyers Before They Fill Out a Form',
     icon: '🔍',
     articles: [
