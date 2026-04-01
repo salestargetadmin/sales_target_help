@@ -373,6 +373,22 @@ const categories = [
     ],
   },
 
+  {
+    title: 'Intent Data Explained: How to Find Buyers Before They Fill Out a Form',
+    icon: '🔍',
+    articles: [
+      { title: 'Intent Data Explained: How to Find Buyers Before They Fill Out a Form', id: 87, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  },
+
+  {
+    title: 'Clay vs SalesTarget.ai: Which Lead Enrichment Tool Is Right for Your Sales Team?',
+    icon: '🔍',
+    articles: [
+      { title: 'Clay vs SalesTarget.ai: Which Lead Enrichment Tool Is Right for Your Sales Team?', id: 88, icon: Shield, color: '#FF00FF' }, // Orange
+    ],
+  }
+
 
 ];
 
