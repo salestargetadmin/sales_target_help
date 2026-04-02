@@ -86,16 +86,6 @@ const categories = [
     ],
   },
   {
-    title: 'Troubleshooting',
-    icon: '🔍',
-    articles: [
-      { title: 'What to do if your \'Open Rate\' is low📉', id: 27, icon: Code, color: '#FF00FF' }, // Orange
-      { title: "Why do emails bounce?", id: 28, icon: Database, color: '#FF00FF' }, // Orange
-
-
-    ],
-  },
-  {
     title: 'Integrations',
     icon: '🔍',
     articles: [
@@ -105,16 +95,7 @@ const categories = [
 
     ],
   },
-  {
-    title: 'Leads and Data',
-    icon: '🔍',
-    articles: [
-      { title: 'How To Create High-ROI Cold Email Campaigns by Scraping B2B Emails from Twitter (incl. Template)', id: 33, icon: Code, color: '#FF00FF' }, // Orange
-
-
-
-    ],
-  },
+ 
   {
     title: 'Unibox',
     icon: '🔍',
@@ -125,16 +106,7 @@ const categories = [
 
     ],
   },
-  {
-    title: 'Account and Billing',
-    icon: '🔍',
-    articles: [
-      { title: 'Email Outreach plans comparison', id: 39, icon: Code, color: '#FF00FF' }, // Orange
-
-      { title: 'Add-on pricing', id: 41, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
+  
   {
     title: 'Salestarget Privacy Center',
     icon: '🔍',
@@ -155,16 +127,7 @@ const categories = [
 
     ],
   },
-  {
-    title: 'Website Visitors',
-    icon: '🔍',
-    articles: [
-      { title: 'How to add the Website Visitors script to Webflow?', id: 48, icon: Code, color: '#FF00FF' }, // Orange
-      { title: "Getting started with the Website Visitors feature", id: 49, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'How do I add the Website Visitors Pixel to my website?', id: 50, icon: Shield, color: '#FF00FF' }, // Orange
 
-    ],
-  },
 
   {
     title: 'Calculate your costs',
