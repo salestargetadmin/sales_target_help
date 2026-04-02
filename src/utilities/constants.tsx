@@ -1068,65 +1068,6 @@ SalesTarget ensures your outreach stays:<br/>
   // },
 
   {
-    id: "13",
-    title: "Transferring domains from one email provider to another",
-    updated: "Updated over 8 months ago",
-    content: `To move your domain from one email service provider to another, there are several important steps that need to be followed. This guide will walk you through the process in how to transfer domains from one email provider to another. You can watch the video walkthrough by clicking here.`,
-    features: [
-      {
-        title: "Step 1: Cancel Subscription with Old Email Service Provider",
-        description:
-          "The first step in the migration process is to cancel the subscription with your old email service provider. This is to ensure that there are no conflicts when you try to add the domain to the new email service provider.",
-      },
-      {
-        title: "Step 2: Delete DNS Records",
-        description:
-          "This is a crucial step. Before adding the domain to the new email service provider, you will need to delete all old email provider's DNS records in the domain's DNS zone. This includes MX records, SPF, DKIM, and any verification DNS records that may exist. Here are the steps on how to delete DNS Records.Log into the platform where your domain is registered (e.g., GoDaddy, Bluehost, etc.). In this example, we will use GoDaddy.Navigate to the DNS management section. This might be called DNS Zone or something similar depending on your domain registrar.Find the DNS records of the domain you are trying to migrate and view all records.Select and delete the verification record (if any)Delete the MX records.Delete the SPF record. If you encounter an error, try editing the SPF record, delete the value part and click save. Then, try deleting it again.Delete the DKIM record.",
-      },
-      {
-        title: "Step 3: Add Domain to New Email Service Provider",
-        description:
-          "Now that you have deleted the necessary DNS records, it's time to add your domain to your new email service provider. Here are the steps on how to add a domain to the new email service provider.Log in to your new email service provider's workspace.Navigate to the section where you can add a domain. This might be under settings or domain management.Enter your domain name and follow the on-screen instructions to complete the addition process.",
-      },
-    ],
-
-  },
-  {
-    id: "14",
-    title: "Setting up Reply-to email address",
-    updated: "Updated over 8 months ago",
-    content: `You can set up a reply-to address when setting up the SMTP connection. This can be done if you'd like to send through a different email provider, and receive a response on a completely different inbox, or get all your salestarget replies to your business email. There are two ways you can set the reply-to email address. Both ways demand having your reply-to address connected to salestarget. Here are the two ways to set them up.`,
-    features: [
-      {
-        title: "",
-        description:
-          "Click on the email account you would like to enable the reply-to address for. Then navigate to the Settings section and set your reply-to address.",
-      },
-      {
-        title: "",
-        description:
-          "Set the reply-to address when connecting an account through the IMAP/SMTP method by checking the 'Set reply-to' in the SMTP part.",
-      },
-
-    ],
-
-  },
-  {
-    id: "15",
-    title: "Checklist before campaign launch",
-    updated: "Updated over 8 months ago",
-    content: `We understand that you want to do a full checklist before you proceed to do a campaign launch. Here are some of the checkers to test if they are set up correctly.`,
-    features: [
-      {
-        title: "",
-        description:
-          "For domains, you may use SPF and DKIM check. For email deliverability, try our inbox placement feature.",
-      },
-
-    ],
-
-  },
-  {
     id: "16",
     title: "Create a separate workspace and invite team members",
     updated: "Updated over 8 months ago",
@@ -1313,84 +1254,6 @@ SalesTarget ensures your outreach stays:<br/>
 
   },
   {
-    id: "27",
-    title: "What to do if your 'Open Rate' is low📉",
-    updated: "Updated over 8 months ago",
-    content: `Tracking open rates is not always the ideal form to gauge the performance. The true KPI would be the positive replies rate. There are different opinions on whether you should keep open tracking enabled or will it increase the reply rate and perceived deliverability with open tracking disabled. The open tracking pixel could technically hurt deliverability, but it is difficult to gauge the extent of it.`,
-    features: [
-      {
-        title: "Email accounts not set up properly.",
-        description:
-          "If you do not have SPF, DKIM, DMARC set up properly for your accounts that could negatively impact deliverability.",
-      },
-      {
-        title: "Bad subject lines.",
-        description:
-          "If your subject line is generic, salesy, and not targeted, there's less chance people will open it.",
-      },
-      {
-        title: "Email account not warmed up enough or not using warm-up.",
-        description:
-          "If you haven't warmed up your emails for at least 2-3 weeks before sending cold emails, you might see lower open rates. Your own domain's reputation and how old it is, along with the reputation of your sending accounts affect your deliverability.",
-      },
-    ],
-
-  },
-  {
-    id: "28",
-    title: "Why do emails bounce?",
-    updated: "Updated over 8 months ago",
-    content: `Email bounces means your email cannot be delivered to your recipient. Whenever that happens, you'll get a report back in your inbox with the details of the bounce. You may have noticed similar reports like the one below in your inbox. There are two categories of why emails bounce.`,
-    features: [
-      {
-        title: "Hard bounce",
-        description:
-          "A hard bounce happens when the email address you're trying to send an email to is no longer valid or has never existed. ",
-      },
-      {
-        title: "Soft Bounce",
-        description:
-          "Soft bounces are less common and a bit trickier to troubleshoot. Soft bounces happen when the recipient's email is valid, but it cannot be delivered due to other reasons",
-      },
-      {
-        title: "",
-        description:
-          "In this case, the best course of action would be to stop your cold outreach and only let warmup run for a few weeks. After a few weeks, you can start sending cold emails again and monitor if there is any improvement in bounces. Also, consider lowering your overall cold outreach volume.",
-      },
-    ],
-
-  },
-
-  {
-    id: "30",
-    title: "CRM Import",
-    updated: "Updated over 8 months ago",
-    content: `You can connect your CRM (Hubspot, Salesforce, and Pipedrive) to salestarget and import the leads to your campaigns or lists. In your CRM (Hubspot, Salesforce, and Pipedrive) you will need to create a List/Filter View with the leads that you want to import to salestarget.`,
-    features: [
-      {
-        title: "",
-        description:
-          "You can connect your CRM (Hubspot, Salesforce, and Pipedrive) to salestarget and import the leads to your campaigns or lists. In your CRM (Hubspot, Salesforce, and Pipedrive) you will need to create a List/Filter View with the leads that you want to import to salestarget.",
-      },
-      {
-        title: "",
-        description:
-          "Connecting Pipedrive, Connecting Hubspot, ​Connecting Salesforce",
-      },
-      {
-        title: "",
-        description:
-          "Once connected, follow the steps from these articles to import your leads to salestarget from your CRM:",
-      },
-      {
-        title: "",
-        description:
-          "Importing leads from Pipedrive, Importing leads from Hubspot, ​Importing leads from Salesforce",
-      },
-    ],
-
-  },
-  {
     id: "31",
     title: "Slack integration",
     updated: "Updated over 8 months ago",
@@ -1508,66 +1371,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
     ],
 
   },
-  {
-    id: "39",
-    title: "Email Outreach plans comparison",
-    updated: "Updated over 8 months ago",
-    content: `If you are still not sure what plan suits you the best`,
-    features: [
-      {
-        title: "Check below",
-        description: "You may connect as many email accounts as you need.",
-      },
 
-    ],
-
-
-    faq: [
-      {
-        title: " Do you offer custom pricing?",
-        description:
-          "Our custom pricing is available above the Light Speed plan, and there are no plans between Growth and HyperGrowth plan.",
-      },
-      {
-        title:
-          "How can I increase my limits if I am on HyperGrowth/LightSpeed plan?",
-        description:
-          " Users can also buy add-ons if they're already on the HyperGrowth or Light Speed plan and would like to send a higher volume. The pricing is +$87/mo for an extra add-on of +25k uploaded contacts. You can stack as many of these as you want, and make this upgrade from your billing page.",
-      },
-      {
-        title:
-          "I want to use your platform only to warm up my email addresses, do you have a plan only for warmup?",
-        description:
-          " There is no warmup-only plan, the warmup service is offered as part of our email outreach plans.",
-      },
-      {
-        title: "Are leads limits being reset every month?",
-        description:
-          " The uploaded leads limit counts any contact that you have uploaded to salestarget and that is in a campaign (active or paused). These do not work like credits, and do not reset every month - so if you need more space, you can upgrade your account or delete old campaigns and leads.",
-      },
-    ],
-  },
-
-  {
-    id: "41",
-    title: "Add-on pricing",
-    updated: "Updated over 8 months ago",
-    content: `The pricing of custom plans and add-ons`,
-    features: [
-      {
-        title: "Add-on for Email Outreach plans",
-        description:
-          "ou can purchase add-ons (available for Hyper Growth and Light Speed plans) to increase the uploaded contact limit",
-      },
-      {
-        title: "Add-on for Lead Finder plans",
-        description:
-          "You can purchase add-ons (available for Supersonic leads and higher lead plans) to get more lead credits.",
-      },
-
-    ],
-
-  },
   {
     id: "42",
     title: "salestarget Privacy Center",
@@ -1654,69 +1458,7 @@ In this case, the event is a new campaign event in salestarget. As soon as an ev
 
   },
 
-  {
-    id: "48",
-    title: "How to add the Website Visitors script to Webflow?",
-    updated: "Updated over 8 months ago",
-    content: `Salestarget is a cold email software that offers various features tailored to enhance outreach campaigns.`,
-    features: [
-      {
-        title: "Unlimited Email Accounts",
-        description: "You may connect as many email accounts as you need.",
-      },
-      {
-        title: "Done-For-You Automatic Email Accounts/ Domains Setup",
-        description:
-          "An outstanding feature that will save you countless hours on your campaign setup.",
-      },
-      {
-        title: "Unlimited Warmup",
-        description:
-          "With the largest warmup pool on the market, salestarget ensures your emails never land in spam.",
-      },
-    ],
 
-  },
-  {
-    id: "49",
-    title: "Getting started with the Website Visitors feature",
-    updated: "Updated over 8 months ago",
-    content: `To start tracking your website visitors, you will have to complete a couple of initial steps`,
-    features: [
-      {
-        title: "",
-        description:
-          "The Website Visitors feature can detect individual visitor information from US-based traffic - including business email addresses, job titles, what pages they've visited on your website, etc. If you're on a paid plan for this feature, you can also get additional 'company-only' visitor resolutions for free.",
-      },
-      {
-        title: "",
-        description:
-          "The visitor information does not come from your existing campaigns or lists. Instead, it is discovered and enriched by our powerful AI-powered algorithm. Long story short, this helps you discover data for all warm/inbound leads that you'd have otherwise missed.  ",
-      },
-
-    ],
-
-  },
-  {
-    id: "50",
-    title: "salestarget.ai Website Visitor ID Legal Compliance Onboarding",
-    updated: "Updated over 8 months ago",
-    content: `Welcome to salestarget.ai Website Visitor ID Tool! 🚀`,
-    features: [
-      {
-        title: "",
-        description:
-          "This document will guide you through the necessary legal compliance steps to ensure that our service is used responsibly and in accordance with relevant laws. Our commitment to privacy and data protection is at the forefront of our operations, and we want to ensure the same for your use of our product. This document is provided for informational purposes only and is not intended to constitute legal advice.",
-      },
-      {
-        title: "",
-        description:
-          "Ultimately, it is your responsibility to ensure that you are collecting and using personal information in compliance with all applicable laws and regulations. If you have any questions please consult legal counsel.",
-      },
-
-    ],
-
-  },
 
 
 

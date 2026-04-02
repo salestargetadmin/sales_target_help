@@ -38,15 +38,7 @@ const categories = [
 
   //   ],
   // },
-  {
-    title: 'Setup',
-    icon: '📂',
-    articles: [
-      { title: 'Understanding API connections', id: 13 },
-      { title: 'Data processing pipelines', id: 14 },
-      { title: 'Security best practices', id: 15 },
-    ],
-  },
+ 
   {
     title: "Account 'Warm-Up' and how it works",
     icon: '📂',
@@ -65,15 +57,7 @@ const categories = [
       { title: 'Security best practices', id: 21 },
     ],
   },
-  {
-    title: 'Troubleshooting',
-    icon: '📂',
-    articles: [
-      { title: 'Understanding API connections', id: 22 },
-      { title: 'Data processing pipelines', id: 23 },
-      { title: 'Security best practices', id: 24 },
-    ],
-  },
+  
   {
     title: 'Integrations',
     icon: '📂',
@@ -83,15 +67,7 @@ const categories = [
       { title: 'Security best practices', id: 27 },
     ],
   },
-  {
-    title: 'Leads and Data',
-    icon: '📂',
-    articles: [
-      { title: 'Understanding API connections', id: 28 },
-      { title: 'Data processing pipelines', id: 29 },
-      { title: 'Security best practices', id: 30 },
-    ],
-  },
+ 
   {
     title: 'Unibox',
     icon: '📂',
@@ -101,15 +77,7 @@ const categories = [
       { title: 'Security best practices', id: 33 },
     ],
   },
-  {
-    title: 'Account and Billing',
-    icon: '📂',
-    articles: [
-      { title: 'Understanding API connections', id: 34 },
-      { title: 'Data processing pipelines', id: 35 },
-      { title: 'Security best practices', id: 36 },
-    ],
-  },
+ 
   {
     title: 'Salestarget Privacy Center',
     icon: '📂',
@@ -128,15 +96,7 @@ const categories = [
       { title: 'Security best practices', id: 42 },
     ],
   },
-  {
-    title: 'Website Visitors',
-    icon: '📂',
-    articles: [
-      { title: 'Understanding API connections', id: 43 },
-      { title: 'Data processing pipelines', id: 44 },
-      { title: 'Security best practices', id: 45 },
-    ],
-  },
+
 
   {
     title: 'Calculate Your Costs',
