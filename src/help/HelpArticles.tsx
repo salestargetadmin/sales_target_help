@@ -7,7 +7,10 @@ import {
   Code,
   Database,
   Shield,
-  ArrowLeft
+  ArrowLeft,
+  LayoutDashboard,
+  UserPlus,
+  Flag
 } from 'lucide-react'; // Import icons
 import HelpLayout from './HelpLayout';
 
@@ -25,6 +28,24 @@ const categories = [
       { title: 'How to Send Leads to Other SalesTarget.ai Tools', id: 'le-7', icon: Shield, color: '#60A5FA' },
       { title: 'Enrichments & Credits — Complete Guide', id: 'le-8', icon: Star, color: '#60A5FA' },
       { title: 'What is Contact Enrichment?', id: 'le-9', icon: Database, color: '#60A5FA' },
+    ],
+  },
+  {
+    title: 'Cold Email Outreach',
+    icon: '📧',
+    articles: [
+      { title: 'What is Cold Email Outreach?', id: 'ceo-1', icon: Book, color: '#34D399' },
+      { title: 'How to Connect Your Email Account', id: 'ceo-2', icon: Shield, color: '#34D399' },
+      { title: 'How to Set Up Email Warm-up', id: 'ceo-3', icon: Star, color: '#34D399' },
+      { title: 'How to Create an Email Sequence', id: 'ceo-4', icon: Compass, color: '#34D399' },
+      { title: 'How to Set Up Follow-up Automation', id: 'ceo-5', icon: Code, color: '#34D399' },
+      { title: 'How to Use Personalization & Custom Variables', id: 'ceo-6', icon: Database, color: '#34D399' },
+      { title: 'How to Set Up A/B Testing', id: 'ceo-7', icon: LayoutDashboard, color: '#34D399' },
+      { title: 'How to Use Inbox Rotation', id: 'ceo-8', icon: UserPlus, color: '#34D399' },
+      { title: 'How to Validate Emails', id: 'ceo-9', icon: Flag, color: '#34D399' },
+      { title: 'How to Use AI Email Writing', id: 'ceo-10', icon: Compass, color: '#34D399' },
+      { title: 'How to Manage Unsubscribes', id: 'ceo-11', icon: Shield, color: '#34D399' },
+      { title: 'How to Read Your Analytics & Reports', id: 'ceo-12', icon: Database, color: '#34D399' },
     ],
   },
 ];

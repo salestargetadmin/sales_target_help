@@ -17,6 +17,24 @@ const categories = [
       { title: 'What is Contact Enrichment?', id: 'le-9' },
     ],
   },
+  {
+    title: 'Cold Email Outreach',
+    icon: '📧',
+    articles: [
+      { title: 'What is Cold Email Outreach?', id: 'ceo-1' },
+      { title: 'How to Connect Your Email Account', id: 'ceo-2' },
+      { title: 'How to Set Up Email Warm-up', id: 'ceo-3' },
+      { title: 'How to Create an Email Sequence', id: 'ceo-4' },
+      { title: 'How to Set Up Follow-up Automation', id: 'ceo-5' },
+      { title: 'How to Use Personalization & Custom Variables', id: 'ceo-6' },
+      { title: 'How to Set Up A/B Testing', id: 'ceo-7' },
+      { title: 'How to Use Inbox Rotation', id: 'ceo-8' },
+      { title: 'How to Validate Emails', id: 'ceo-9' },
+      { title: 'How to Use AI Email Writing', id: 'ceo-10' },
+      { title: 'How to Manage Unsubscribes', id: 'ceo-11' },
+      { title: 'How to Read Your Analytics & Reports', id: 'ceo-12' },
+    ],
+  },
 ];
 
 const HelpMain = () => {
