@@ -4,9 +4,6 @@ import {
   Book,
   Compass,
   Star,
-  UserPlus,
-  LayoutDashboard,
-  Flag,
   Code,
   Database,
   Shield,
@@ -16,328 +13,23 @@ import HelpLayout from './HelpLayout';
 
 const categories = [
   {
-    title: 'What is Salestarget?',
-    icon: '📂',
-    articles: [
-      { title: 'What is Salestarget', id: 1, icon: Book, color: '#60A5FA' }, // Blue
-      { title: 'Quick Start Guide', id: 2, icon: Compass, color: '#60A5FA' }, // Blue
-      { title: 'How Salestarget Optimizes Sending Behavior for Deliverability', id: 3, icon: Star, color: '#60A5FA' }, // Blue
-    ],
-  },
-  {
-    title: 'Account Connection',
-    icon: '🚀',
-    articles: [
-      { title: 'Setting up your account', id: 4, icon: UserPlus, color: '#34D399' }, // Green
-      { title: 'Navigating the dashboard', id: 5, icon: LayoutDashboard, color: '#34D399' }, // Green
-      { title: 'First steps with campaigns', id: 6, icon: Flag, color: '#34D399' }, // Green
-    ],
-  },
-  {
-    title: 'Creating Cold Campaigns',
-    icon: '🛠️',
-    articles: [
-      { title: 'Understanding API connections', id: 7, icon: Code, color: '#FBBF24' }, // Orange
-      { title: 'Data processing pipelines', id: 8, icon: Database, color: '#FBBF24' }, // Orange
-      { title: 'Security best practices', id: 9, icon: Shield, color: '#FBBF24' }, // Orange
-    ],
-  },
-  // {
-  //   title: 'What is Lead Explorer?',
-  //   icon: '🔍',
-  //   articles: [
-  //     { title: 'What Lead explorer does in a cold email platform?', id: 10, icon: Code, color: '#FF00FF' }, // Orange
-  //     { title: 'What to ask when researching leads?', id: 11, icon: Database, color: '#FF00FF' }, // Orange
-
-  //   ],
-  // },
-  {
-    title: 'Setup',
+    title: 'Lead Explorer',
     icon: '🔍',
     articles: [
-      { title: 'Transferring domains from one email provider to another', id: 13, icon: Code, color: '#FF00FF' }, // Orange
-      { title: 'Setting up Reply-to email address', id: 14, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'Checklist before campaign launch', id: 15, icon: Shield, color: '#FF00FF' }, // Orange
-      { title: 'Create a separate workspace and invite team members', id: 16, icon: Shield, color: '#FF00FF' }, // Orange
-
-      { title: 'Why do I need DNS records?', id: 18, icon: Shield, color: '#FF00FF' }, // Orange
-
-      { title: 'Ways to add a signature', id: 20, icon: Shield, color: '#FF00FF' }, // Orange
+      { title: 'What is Lead Explorer?', id: 'le-1', icon: Book, color: '#60A5FA' },
+      { title: 'How to Search for People in Lead Explorer', id: 'le-2', icon: Compass, color: '#60A5FA' },
+      { title: 'How to Search for Companies in Lead Explorer', id: 'le-3', icon: Compass, color: '#60A5FA' },
+      { title: 'How to Enrich a Lead Profile in Lead Explorer', id: 'le-4', icon: Database, color: '#60A5FA' },
+      { title: 'How to Save Leads to a List in Lead Explorer', id: 'le-5', icon: Star, color: '#60A5FA' },
+      { title: 'How to Export Leads from Lead Explorer', id: 'le-6', icon: Code, color: '#60A5FA' },
+      { title: 'How to Send Leads to Other SalesTarget.ai Tools', id: 'le-7', icon: Shield, color: '#60A5FA' },
+      { title: 'Enrichments & Credits — Complete Guide', id: 'le-8', icon: Star, color: '#60A5FA' },
+      { title: 'What is Contact Enrichment?', id: 'le-9', icon: Database, color: '#60A5FA' },
     ],
   },
-  {
-    title: 'Account \'Warm-Up\' and how it works',
-    icon: '🔍',
-    articles: [
-      { title: 'How Warm-Up Works and Why it\'s Important 🤓', id: 21, icon: Code, color: '#FF00FF' }, // Orange
-      { title: 'What is "read emulation" in Warmup', id: 22, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'Warmup filters - Google and Microsoft🚦', id: 23, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'Best Practices',
-    icon: '🔍',
-    articles: [
-      { title: 'How do I make sure my emails will get delivered? 📦', id: 24, icon: Code, color: '#FF00FF' }, // Orange
-      { title: "Scale Your Cold Email Campaigns With Secondary Sending Domains - The Strategy & How To Implement It", id: 25, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'Cold Email Copywriting Framework We Use To Get 400+ Replies Monthly', id: 26, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'Integrations',
-    icon: '🔍',
-    articles: [
-      { title: 'CRM Import', id: 30, icon: Code, color: '#FF00FF' }, // Orange
-      { title: "Slack integration", id: 31, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'How to use Webhooks? 🕸🪝', id: 32, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
- 
-  {
-    title: 'Unibox',
-    icon: '🔍',
-    articles: [
-      { title: 'How to manage the Unibox & Best Practices on how to reply to leads', id: 36, icon: Code, color: '#FF00FF' }, // Orange
-      { title: "Schedule a reply", id: 37, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'How to remove a lead from campaigns', id: 38, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  
-  {
-    title: 'Salestarget Privacy Center',
-    icon: '🔍',
-    articles: [
-      { title: 'Request access to collected data', id: 42, icon: Code, color: '#FF00FF' }, // Orange
-
-      { title: 'Salestarget Sub-processors', id: 44, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'CRM',
-    icon: '🔍',
-    articles: [
-      { title: 'Salestarget CRM', id: 45, icon: Code, color: '#FF00FF' }, // Orange
-      { title: "CRM Features", id: 46, icon: Database, color: '#FF00FF' }, // Orange
-
-
-    ],
-  },
-
-
-  {
-    title: 'Calculate your costs',
-    icon: '🔍',
-    articles: [
-      { title: 'Total Monthly Costs', id: 57, icon: Shield, color: '#FF00FF' }, // Orange
-
-      { title: "Required email accounts", id: 55, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'Required domains', id: 56, icon: Shield, color: '#FF00FF' }, // Orange
-      { title: 'Monthly email volume', id: 54, icon: Code, color: '#FF00FF' }, // Orange
-
-
-    ],
-  },
-  {
-    title: 'Best Practices for Warming Your Domain and Email Accounts',
-    icon: '🔍',
-    articles: [
-      { title: 'Importantance of warming up domain and email accounts', id: 58, icon: Shield, color: '#FF00FF' }, // Orange
-
-      { title: "Limits for domain and email accounts on SalesTarget.ai?", id: 59, icon: Database, color: '#FF00FF' }, // Orange
-      { title: 'Warm-up plan for SalesTarget.ai users?', id: 60, icon: Shield, color: '#FF00FF' }, // Orange
-
-
-
-    ],
-  },
-  {
-    title: 'How to Set Up Your Email Account on SalesTarget.ai',
-    icon: '🔍',
-    articles: [
-      { title: 'How to Set Up Your Email Account on SalesTarget.ai', id: 62, icon: Shield, color: '#FF00FF' }, // Orange
-
-      // { title: "How do I add a new email account on SalesTarget.ai?", id: 63, icon: Database, color: '#FF00FF' }, // Orange
-      // { title: 'What are the four options for setting up an email account on SalesTarget.ai?', id: 64, icon: Shield, color: '#FF00FF' }, // Orange
-      // { title: 'How to handle DNS propagation and account setup delay?', id: 65, icon: Code, color: '#FF00FF' }, // Orange
-
-
-    ],
-  },
-  {
-    title: 'Meet copilot - The Free AI Sales Assistant in SalesTarget.ai',
-    icon: '🔍',
-    articles: [
-      { title: 'Meet Copilot - The Free AI Sales Assistant in SalesTarget.ai', id: 67, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-
-  {
-    title: 'Try SalesTarget.ai Free — Do Real Sales Work in 7 Days',
-    icon: '🔍',
-    articles: [
-      { title: 'Try SalesTarget.ai Free — Do Real Sales Work in 7 Days', id: 68, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'CRM Setup & FAQ Guide',
-    icon: '🔍',
-    articles: [
-      { title: 'CRM Setup & FAQ Guide', id: 70, icon: Shield, color: '#FF00FF' },
-    ],
-  },
-  {
-    title: "Creating Your First Email Sequence: A Beginner's Guide to Cold Email Outreach",
-    icon: '🔍',
-    articles: [
-      { title: "Creating Your First Email Sequence: A Beginner's Guide to Cold Email Outreach", id: 71, icon: Shield, color: '#FF00FF' },
-    ],
-  },
-  {
-    title: 'LinkedIn Automation — Complete Help Center Guide',
-    icon: '🔍',
-    articles: [
-      { title: 'LinkedIn Automation — Complete Help Center Guide', id: 72, icon: Shield, color: '#FF00FF' },
-    ],
-  },
-  {
-    title: 'CRM Guide: Lead Activity, Meetings,Tasks & Activity Feed',
-    icon: '🔍',
-    articles: [
-      { title: 'CRM Guide: Lead Activity, Meetings,Tasks & Activity Feed', id: 73, icon: Shield, color: '#FF00FF' },
-    ],
-  },
-  {
-    title: 'A/B Testing in SalesTarget',
-    icon: '🔍',
-    articles: [
-      { title: 'A/B Testing in SalesTarget', id: 74, icon: Shield, color: '#FF00FF' },
-    ],
-  },
-  {
-    title: 'Campaigns Overview: How Campaigns Work in SalesTarget.ai',
-    icon: '🔍',
-    articles: [
-      { title: 'Campaigns Overview: How Campaigns Work in SalesTarget.ai', id: 75, icon: Shield, color: '#FF00FF' },
-    ],
-  },
-  {
-    title: 'Campaign vs Sequence: Understanding the Difference',
-    icon: '🔍',
-    articles: [
-      { title: 'Campaign vs Sequence: Understanding the Difference', id: 76, icon: Shield, color: '#FF00FF' },
-    ],
-  },
-  {
-    title: 'Campaign Limits Explained (Domains,Accounts & Volume)',
-    icon: '🔍',
-    articles: [
-      { title: 'Campaign Limits Explained (Domains,Accounts & Volume)', id: 77, icon: Shield, color: '#FF00FF' },
-    ],
-  },
-  {
-    title: 'Creating Your First Campaign (Email & Multichannel)',
-    icon: '🔍',
-    articles: [
-      { title: 'Creating Your First Campaign (Email & Multichannel)', id: 78, icon: Shield, color: '#FF00FF' },
-    ],
-  },
-  {
-    title: 'How to Structure a High-Converting Campaign',
-    icon: '🔍',
-    articles: [
-      { title: 'How to Structure a High-Converting Campaign', id: 79, icon: Shield, color: '#FF00FF' },
-    ],
-  },
-  {
-    title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops',
-    icon: '🔍',
-    articles: [
-      { title: 'Follow-Up Logic Explained: Timing, Steps &amp; Stops', id: 80, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'Stopping Rules: When a Lead Should Exit a Campaign',
-    icon: '🔍',
-    articles: [
-      { title: 'Stopping Rules: When a Lead Should Exit a Campaign', id: 81, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'How Leads Move Through a Campaign',
-    icon: '🔍',
-    articles: [
-      { title: 'How Leads Move Through a Campaign', id: 82, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'What Happens When a Lead Replies Mid-Sequence',
-    icon: '🔍',
-    articles: [
-      { title: 'What Happens When a Lead Replies Mid-Sequence', id: 83, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'What Happens When a Lead Does NOT Reply',
-    icon: '🔍',
-    articles: [
-      { title: 'What Happens When a Lead Does NOT Reply', id: 84, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-
-  {
-    title: 'The Ultimate Cold Email Warm-Up Plan to Build a Strong Sender Reputation',
-    icon: '🔍',
-    articles: [
-      { title: 'The Ultimate Cold Email Warm-Up Plan to Build a Strong Sender Reputation', id: 69, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'What Is Lead Enrichment and Why Your Sales Team Cant Afford to Skip It in 2026',
-    icon: '🔍',
-    articles: [
-      { title: 'What Is Lead Enrichment and Why Your Sales Team Can&#39;t Afford to Skip It in 2026', id: 85, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2026?',
-    icon: '🔍',
-    articles: [
-      { title: 'ZoomInfo vs Apollo vs SalesTarget.ai: Which B2B Data Platform Gives You the Most in 2026?', id: 86, icon: Shield, color: '#FF00FF' }, // Orange
-
-    ],
-  },
-  {
-    title: 'Intent Data Explained: How to Find Buyers Before They Fill Out a Form',
-    icon: '🔍',
-    articles: [
-      { title: 'Intent Data Explained: How to Find Buyers Before They Fill Out a Form', id: 87, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  },
-
-  {
-    title: 'Clay vs SalesTarget.ai: Which Lead Enrichment Tool Is Right for Your Sales Team?',
-    icon: '🔍',
-    articles: [
-      { title: 'Clay vs SalesTarget.ai: Which Lead Enrichment Tool Is Right for Your Sales Team?', id: 88, icon: Shield, color: '#FF00FF' }, // Orange
-    ],
-  }
-
-
 ];
+
+
 
 import { useSearch } from './SearchContext';
 const HelpArticles = () => {
@@ -362,7 +54,7 @@ const HelpArticles = () => {
         .replace(/\s+/g, '-') === decodedCategory
   );
 
-  const handleArticleClick = (articleId: number) => {
+  const handleArticleClick = (articleId: string) => {
     navigate(`/articles/${categoryName}/${articleId}`);
   };
 
