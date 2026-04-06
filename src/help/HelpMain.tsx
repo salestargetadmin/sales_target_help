@@ -35,6 +35,24 @@ const categories = [
       { title: 'How to Read Your Analytics & Reports', id: 'ceo-12' },
     ],
   },
+  {
+    title: 'LinkedIn Outreach',
+    icon: '💼',
+    articles: [
+      { title: 'What is LinkedIn Outreach?', id: 'lio-1' },
+      { title: 'How to Connect Your LinkedIn Account', id: 'lio-2' },
+      { title: 'LinkedIn Account Safety & Daily Limits', id: 'lio-3' },
+      { title: 'How to Create a LinkedIn Campaign', id: 'lio-4' },
+      { title: 'How to Automate Connection Requests', id: 'lio-5' },
+      { title: 'How to Set Up Message Sequences', id: 'lio-6' },
+      { title: 'How to Send InMail Outreach', id: 'lio-7' },
+      { title: 'How to Automate Profile Visits', id: 'lio-8' },
+      { title: 'How to Automate Follows & Post Engagement', id: 'lio-9' },
+      { title: 'How to Use Personalization & Custom Variables', id: 'lio-10' },
+      { title: 'How to Use AI Message Writing', id: 'lio-11' },
+      { title: 'How to Read Your Analytics & Reports', id: 'lio-12' },
+    ],
+  },
 ];
 
 const HelpMain = () => {

@@ -2177,6 +2177,1387 @@ const mockArticles = [
     ],
   },
 
+  // ─── LinkedIn Outreach ───────────────────────────────────────────────────
+
+  {
+    id: "lio-1",
+    title: "What is LinkedIn Outreach?",
+    updated: "Updated April 2026",
+    content: `
+      LinkedIn Outreach is SalesTarget.ai's LinkedIn automation tool that lets you run personalized, multi-step outreach campaigns directly on LinkedIn — at scale, without spending hours doing it manually. From sending connection requests to following up with message sequences, LinkedIn Outreach automates every touchpoint of your LinkedIn prospecting workflow.
+    `,
+    features: [
+      {
+        title: "What it lets you do",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Automate connection requests</strong> with personalized notes to your target prospects<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Send message sequences</strong> that follow up automatically if a prospect doesn't respond<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Send InMail</strong> to reach prospects you're not yet connected with<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Visit profiles automatically</strong> to trigger curiosity and get prospects to look at your profile back<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Follow prospects and engage with their posts</strong> to warm them up before reaching out<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Personalize every message</strong> using dynamic variables pulled from your lead data<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Write messages faster</strong> with AI-powered message writing<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Monitor campaign performance</strong> with detailed analytics
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "How it fits into SalesTarget.ai",
+        isHeading: 'true',
+      },
+      {
+        content: `LinkedIn Outreach plugs directly into your existing SalesTarget.ai workflow:`,
+        isParagraph: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. <strong>Find leads</strong> in Lead Explorer using People Search<br/>
+          &nbsp; 2. <strong>Enrich them</strong> to get LinkedIn profile URLs<br/>
+          &nbsp; 3. <strong>Send leads to LinkedIn Outreach</strong> — directly from your saved list<br/>
+          &nbsp; 4. <strong>Launch a campaign</strong> and let automation handle every LinkedIn touchpoint
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "How LinkedIn Outreach Works",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          LinkedIn Outreach runs through <strong>your own LinkedIn account</strong> — meaning all actions (connection requests, messages, profile visits) appear to come from you personally. This keeps your outreach authentic and human, while automation handles the volume and timing.<br/><br/>
+          Because it operates through your account, SalesTarget.ai builds in <strong>safety limits</strong> that mirror natural human LinkedIn activity — protecting your account from being flagged or restricted by LinkedIn.
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-2",
+    title: "How to Connect Your LinkedIn Account",
+    updated: "Updated April 2026",
+    content: `
+      To run LinkedIn campaigns through SalesTarget.ai, you need to connect your LinkedIn account. All outreach actions — connection requests, messages, profile visits, and more — are sent directly from your personal LinkedIn account.
+    `,
+    features: [
+      {
+        title: "Before You Connect",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> You must have an active LinkedIn account in good standing<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>LinkedIn Premium or Sales Navigator</strong> is recommended for higher daily limits and InMail access, but is not required for basic outreach<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Only <strong>one LinkedIn account</strong> can be connected per SalesTarget.ai user seat<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Your LinkedIn account must not currently be restricted or flagged by LinkedIn
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 1: Go to LinkedIn Account Settings",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Log in to your <strong>SalesTarget.ai</strong> account.<br/>
+          &nbsp; 2. From the left sidebar, click <strong>LinkedIn Outreach</strong>.<br/>
+          &nbsp; 3. Click <strong>Settings → LinkedIn Account</strong>.<br/>
+          &nbsp; 4. Click <strong>Connect LinkedIn Account</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 2: Log In to LinkedIn",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. A LinkedIn login window will appear.<br/>
+          &nbsp; 2. Enter your <strong>LinkedIn email address and password</strong>.<br/>
+          &nbsp; 3. Click <strong>Sign In</strong>.<br/><br/>
+          <strong>Note:</strong> SalesTarget.ai connects to LinkedIn via a secure browser session. Your credentials are encrypted and never stored in plain text.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 3: Complete Any LinkedIn Verification",
+        isStep: 'true',
+      },
+      {
+        content: `
+          LinkedIn may prompt you with an additional verification step such as:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Email verification</strong> — LinkedIn sends a code to your registered email<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Phone verification</strong> — LinkedIn sends a code to your registered phone number<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>CAPTCHA</strong> — a visual challenge to confirm you're human<br/><br/>
+          Complete the verification step as prompted — this is LinkedIn's standard security process and is expected when connecting from a new location or device.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 4: Confirm the Connection",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Once verified, you'll be redirected back to SalesTarget.ai.<br/>
+          &nbsp; 2. Your LinkedIn account will appear as <strong>Connected</strong> under <strong>Settings → LinkedIn Account</strong>.<br/>
+          &nbsp; 3. You'll see your LinkedIn profile name, profile photo, and connection count confirmed in the dashboard.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 5: Install the SalesTarget.ai Browser Extension (Recommended)",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Go to <strong>Settings → LinkedIn Account → Install Browser Extension</strong>.<br/>
+          &nbsp; 2. Follow the installation instructions for your browser (Chrome recommended).<br/>
+          &nbsp; 3. Once installed, the extension maintains a persistent connection between SalesTarget.ai and your LinkedIn account — reducing the chance of session timeouts or re-authentication prompts.<br/><br/>
+          <strong>Why use the extension?</strong> LinkedIn sessions can expire after a period of inactivity. The browser extension keeps your session active and ensures your campaigns run uninterrupted.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Managing Your LinkedIn Connection",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          From <strong>Settings → LinkedIn Account</strong> you can:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>View connection status</strong> — see if your account is active and connected<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Reconnect</strong> — if your session has expired, click Reconnect and log in again<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Disconnect</strong> — remove the LinkedIn account from SalesTarget.ai at any time
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-3",
+    title: "LinkedIn Account Safety & Daily Limits",
+    updated: "Updated April 2026",
+    content: `
+      Because LinkedIn Outreach runs through your personal LinkedIn account, protecting that account is a top priority. LinkedIn monitors accounts for unusual activity — and accounts that send too many requests or messages too quickly can be warned, restricted, or permanently banned. SalesTarget.ai has built-in safety controls to keep your account safe while you scale your outreach.
+    `,
+    features: [
+      {
+        title: "How LinkedIn Detects Automation",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          LinkedIn looks for patterns that don't match natural human behaviour:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Sending hundreds of connection requests in a single day<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Messaging dozens of people within minutes of each other<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Visiting hundreds of profiles in rapid succession<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Activity happening outside of normal business hours<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Consistent activity at machine-like intervals (e.g., exactly every 5 minutes)<br/><br/>
+          SalesTarget.ai is designed to mimic natural human behaviour — spacing out actions, randomizing timing, and staying within LinkedIn's acceptable activity thresholds.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "SalesTarget.ai Safety Features",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Safety Feature", "How it protects you"],
+        rows: [
+          ["Daily action limits", "Caps the number of each action type per day, per account"],
+          ["Randomized timing", "Actions are spaced at randomized intervals, not fixed machine-like schedules"],
+          ["Smart sending windows", "Actions only run during business hours in your timezone by default"],
+          ["Activity ramp-up", "For new accounts, SalesTarget.ai starts with lower limits and gradually increases"],
+          ["Auto-pause on warning", "If LinkedIn sends a warning to your account, campaigns pause automatically"],
+        ],
+      },
+      {
+        title: "Recommended Daily Limits",
+        isHeading: 'true',
+      },
+      {
+        content: `These are the recommended safe limits per LinkedIn account per day. SalesTarget.ai defaults to these ranges — you can lower them but we strongly advise not exceeding them.`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Action", "Safe Daily Limit"],
+        rows: [
+          ["Connection Requests", "20 – 30 per day"],
+          ["Messages (to connections)", "50 – 80 per day"],
+          ["InMail Messages", "10 – 20 per day"],
+          ["Profile Visits", "80 – 100 per day"],
+          ["Follows", "30 – 50 per day"],
+          ["Post Likes / Engagements", "30 – 50 per day"],
+        ],
+      },
+      {
+        content: `
+          <strong>For new LinkedIn accounts (less than 3 months old):</strong> Start at the lower end of each range and increase gradually over 4–6 weeks. New accounts are more closely monitored by LinkedIn.<br/><br/>
+          <strong>For LinkedIn Premium or Sales Navigator users:</strong> You may be able to push slightly higher limits, particularly for InMail. However, the limits above are the safe baseline for all account types.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Configure Your Safety Limits",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Go to <strong>LinkedIn Outreach → Settings → Safety Limits</strong>.<br/>
+          &nbsp; 2. You will see sliders for each action type.<br/>
+          &nbsp; 3. Adjust the daily maximum for each action — staying within the recommended ranges above.<br/>
+          &nbsp; 4. Toggle <strong>Smart Sending Window</strong> on — this restricts activity to business hours (default: Monday–Friday, 8am–6pm in your local timezone).<br/>
+          &nbsp; 5. Toggle <strong>Randomize Action Timing</strong> on — this ensures actions are spaced naturally rather than at fixed intervals.<br/>
+          &nbsp; 6. Click <strong>Save</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Activity Ramp-Up for New Accounts",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          If you're starting with a fresh or relatively new LinkedIn account:<br/><br/>
+          &nbsp; 1. Go to <strong>Settings → Safety Limits → Enable Ramp-Up Mode</strong>.<br/>
+          &nbsp; 2. Select your account age (e.g., less than 1 month, 1–3 months, 3–6 months).<br/>
+          &nbsp; 3. SalesTarget.ai will automatically start with lower daily limits and gradually increase them over the ramp-up period — reducing the risk of triggering LinkedIn's spam detection.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Warning Signs to Watch For",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          Even with safety limits in place, know the warning signs of a LinkedIn account under scrutiny:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> LinkedIn sends you an email asking you to verify your identity<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> You're prompted to complete a CAPTCHA more frequently than usual<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Your connection request acceptance rate drops significantly<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> You receive a message from LinkedIn about "unusual activity"<br/><br/>
+          If any of these occur:<br/><br/>
+          &nbsp; 1. <strong>Pause all campaigns immediately</strong> from <strong>LinkedIn Outreach → Campaigns</strong>.<br/>
+          &nbsp; 2. Log in to LinkedIn directly and follow any instructions they provide.<br/>
+          &nbsp; 3. Reduce your daily limits before resuming.<br/>
+          &nbsp; 4. Wait 48–72 hours before restarting campaigns.
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-4",
+    title: "How to Create a LinkedIn Campaign",
+    updated: "Updated April 2026",
+    content: `
+      A LinkedIn campaign in SalesTarget.ai is a multi-step automated workflow that guides a prospect through a series of LinkedIn touchpoints — from a profile visit and follow, all the way through to a connection request and message sequence. This article walks you through setting up a campaign from start to finish.
+    `,
+    features: [
+      {
+        stepTitle: "Step 1: Go to LinkedIn Outreach",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Log in to your <strong>SalesTarget.ai</strong> account.<br/>
+          &nbsp; 2. From the left sidebar, click <strong>LinkedIn Outreach</strong>.<br/>
+          &nbsp; 3. Click <strong>Campaigns → New Campaign</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 2: Name Your Campaign",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Enter a clear campaign name (e.g., <em>SaaS VP Sales – US – April 2026</em>).<br/>
+          &nbsp; 2. Confirm your connected LinkedIn account is selected as the sender.<br/>
+          &nbsp; 3. Click <strong>Next</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 3: Add Your Leads",
+        isStep: 'true',
+      },
+      {
+        content: `
+          Choose how you want to add prospects to this campaign:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>From Lead Explorer</strong> — select a saved list that includes LinkedIn profile URLs<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Import a CSV</strong> — upload a file that includes LinkedIn profile URLs as a column<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Paste LinkedIn URLs</strong> — manually paste a list of LinkedIn profile URLs<br/><br/>
+          <strong>Important:</strong> LinkedIn Outreach requires a <strong>LinkedIn profile URL</strong> for each prospect. Make sure your leads have been enriched with LinkedIn URLs in Lead Explorer before adding them to a campaign.<br/><br/>
+          Map the columns from your lead data to the campaign fields (First Name, Last Name, LinkedIn URL, Company, etc.) and click <strong>Next</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 4: Build Your Campaign Sequence",
+        isStep: 'true',
+      },
+      {
+        content: `This is where you define the actions SalesTarget.ai will take for each prospect, and in what order. Think of it as a workflow — each step runs automatically, one after the other.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "Available Campaign Steps",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Step Type", "What it does"],
+        rows: [
+          ["Profile Visit", "Visits the prospect's LinkedIn profile — they get notified and may visit yours back"],
+          ["Follow", "Follows the prospect on LinkedIn"],
+          ["Connection Request", "Sends a connection request with an optional personalized note"],
+          ["Message", "Sends a direct LinkedIn message (to accepted connections)"],
+          ["InMail", "Sends a paid InMail message (no connection required)"],
+          ["Post Like / Engage", "Likes a recent post from the prospect"],
+          ["Delay", "Adds a waiting period between steps (e.g., wait 2 days before the next action)"],
+        ],
+      },
+      {
+        title: "Recommended Campaign Flow for Cold Outreach",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          <div style="background:#1e293b;padding:12px 16px;border-radius:6px;font-family:monospace;font-size:0.8em;color:#94a3b8;margin:8px 0">
+            Day 1 &nbsp;→ Profile Visit<br/>
+            Day 2 &nbsp;→ Follow<br/>
+            Day 3 &nbsp;→ Post Like (if they have a recent post)<br/>
+            Day 4 &nbsp;→ Connection Request (with personalized note)<br/>
+            Day 7 &nbsp;→ Message (after connection is accepted)<br/>
+            Day 10 → Follow-up Message (if no reply)<br/>
+            Day 14 → Final Follow-up Message
+          </div>
+          To build this:<br/><br/>
+          &nbsp; 1. Click <strong>Add Step</strong> and select the step type.<br/>
+          &nbsp; 2. Configure each step (write message copy, set delays, add conditions).<br/>
+          &nbsp; 3. Drag and drop steps to reorder them if needed.<br/>
+          &nbsp; 4. Continue until your full sequence is built.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 5: Configure Campaign Settings",
+        isStep: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Setting", "Description"],
+        rows: [
+          ["Active hours", "Days and hours during which actions run (default: Mon–Fri, 8am–6pm)"],
+          ["Stop on reply", "Stops the sequence automatically when a prospect replies"],
+          ["Stop on connection accepted", "Skips steps that require connection if the prospect was already a connection"],
+          ["Daily action limits", "How many actions this campaign can perform per day"],
+        ],
+      },
+      {
+        stepTitle: "Step 6: Review and Launch",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Click <strong>Review</strong> to see a full summary — leads, sequence steps, and settings.<br/>
+          &nbsp; 2. Check that your LinkedIn account is correctly connected.<br/>
+          &nbsp; 3. Choose <strong>Launch Now</strong> or <strong>Schedule for Later</strong>.<br/>
+          &nbsp; 4. Click <strong>Launch Campaign</strong>.<br/><br/>
+          Your campaign is now live. SalesTarget.ai will work through your lead list, performing each action in sequence at natural, randomized intervals.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Monitoring Your Campaign",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          Once live, track progress from the <strong>Campaign Dashboard</strong>:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Total leads in campaign<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Actions completed (visits, follows, connection requests sent, messages sent)<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Connection acceptance rate<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Reply rate<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Leads who have completed the full sequence
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-5",
+    title: "How to Automate Connection Requests",
+    updated: "Updated April 2026",
+    content: `
+      The Connection Request step in LinkedIn Outreach automatically sends a LinkedIn connection request to each prospect in your campaign. You can include a personalized note with each request — and with SalesTarget.ai's personalization variables, every note can feel individually written even when sent at scale.
+    `,
+    features: [
+      {
+        title: "How Connection Requests Work on LinkedIn",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> LinkedIn allows you to send a connection request with an optional note of up to <strong>300 characters</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> If the prospect accepts, they become a 1st-degree connection — unlocking the ability to message them directly for free<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> If the prospect ignores or declines the request, no further connection-based steps will trigger for that prospect<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> LinkedIn limits the number of connection requests you can send — SalesTarget.ai enforces safe daily limits automatically
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 1: Add a Connection Request Step to Your Campaign",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Open your campaign in <strong>LinkedIn Outreach → Campaigns</strong>.<br/>
+          &nbsp; 2. In the sequence builder, click <strong>Add Step → Connection Request</strong>.<br/>
+          &nbsp; 3. The Connection Request step editor will open.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 2: Write Your Connection Note",
+        isStep: 'true',
+      },
+      {
+        content: `
+          The connection note is your first impression — keep it short, relevant, and human. You have <strong>300 characters maximum</strong>.<br/><br/>
+          <strong>Best practices for connection notes:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Lead with relevance</strong> — mention something specific to them (their role, industry, or a recent post)<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>No hard pitch</strong> — the connection note is not the place to sell. Save that for the follow-up message.<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Keep it short</strong> — 1–2 sentences is enough. Long notes often feel like spam.<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Use personalization variables</strong> — make it feel 1-to-1<br/><br/>
+          <strong>Example note:</strong><br/>
+          <em>Hi {{first_name}}, I came across your profile while researching {{industry}} leaders — would love to connect and share ideas.</em><br/><br/>
+          <strong>Example note (referencing their content):</strong><br/>
+          <em>Hi {{first_name}}, been following {{company_name}}'s growth — impressive work. Would love to connect!</em><br/><br/>
+          To use personalization variables, type <strong>{{</strong> in the note field and select from the available variables.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 3: Set the Delay Before This Step",
+        isStep: 'true',
+      },
+      {
+        content: `
+          Connection requests work best when they're not the very first action. Consider warming up the prospect first:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Add a <strong>Profile Visit</strong> step 1–2 days before the connection request<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Add a <strong>Follow</strong> step 1 day before the connection request<br/><br/>
+          This way, the prospect has already seen your name before you ask to connect — increasing acceptance rates significantly.<br/><br/>
+          In the step settings, set <strong>Wait X days after previous step</strong> before this action runs. Click <strong>Save Step</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 4: Configure What Happens After the Request",
+        isStep: 'true',
+      },
+      {
+        content: `After a connection request is sent, the campaign needs to know what to do next based on whether the prospect accepts:`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Condition", "What SalesTarget.ai does"],
+        rows: [
+          ["Connection accepted", "Proceeds to the next step (e.g., sends a message)"],
+          ["Not accepted within X days", "Either moves to an InMail step or ends the sequence for that prospect"],
+        ],
+      },
+      {
+        content: `
+          &nbsp; 1. Click on the step that follows the connection request.<br/>
+          &nbsp; 2. Set the <strong>condition</strong> — e.g., "Only run this step if connection was accepted."<br/>
+          &nbsp; 3. Optionally, add an <strong>InMail step</strong> as a fallback for prospects who don't accept.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Tracking Connection Requests",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          From the <strong>Campaign Dashboard</strong>, you can monitor:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Requests Sent</strong> — total connection requests sent by the campaign<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Accepted</strong> — how many have been accepted (and your acceptance rate %)<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Pending</strong> — requests still awaiting a response<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Withdrawn</strong> — any requests automatically withdrawn after being pending too long<br/><br/>
+          <strong>Healthy connection acceptance rate:</strong> 25–40% is typical for cold outreach. Rates above 40% indicate strong ICP targeting and a compelling note.
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-6",
+    title: "How to Set Up Message Sequences",
+    updated: "Updated April 2026",
+    content: `
+      Once a prospect accepts your connection request, SalesTarget.ai can automatically send them a series of LinkedIn direct messages — a message sequence. Each message fires at the delay you set, and the sequence stops automatically the moment the prospect replies.
+    `,
+    features: [
+      {
+        title: "How LinkedIn Message Sequences Work",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Messages are sent as <strong>LinkedIn direct messages</strong> — they appear in the prospect's LinkedIn inbox just like a normal message from you<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> The sequence only sends messages to <strong>1st-degree connections</strong> (prospects who have accepted your connection request)<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> If the prospect replies at any point, the sequence stops immediately<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Messages are sent during your configured <strong>active hours</strong> at randomized intervals to appear natural
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 1: Add Message Steps to Your Campaign",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Open your campaign in <strong>LinkedIn Outreach → Campaigns</strong>.<br/>
+          &nbsp; 2. In the sequence builder, after your Connection Request step, click <strong>Add Step → Message</strong>.<br/>
+          &nbsp; 3. The message editor will open.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 2: Write Your First Message",
+        isStep: 'true',
+      },
+      {
+        content: `
+          Your first message after a connection is accepted should:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Thank them for connecting</strong> (optional but warms the tone)<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Introduce your value</strong> — briefly explain what you do and why it's relevant to them<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>End with a soft, low-friction ask</strong> — avoid asking for a call immediately<br/><br/>
+          <strong>Example first message:</strong><br/>
+          <em>Hi {{first_name}}, thanks for connecting! I work with {{industry}} teams at companies like {{company_name}} to help them book more meetings without adding headcount. Would love to share how — open to a quick exchange here on LinkedIn?</em><br/><br/>
+          Use personalization variables by typing <strong>{{</strong> in the message field and selecting from the list.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 3: Set the Delay for the First Message",
+        isStep: 'true',
+      },
+      {
+        content: `
+          Set how many days after the connection is accepted before the first message sends:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Recommended:</strong> 1 day after connection accepted — gives the prospect time to see the connection notification before a message arrives<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Avoid messaging instantly after connection — it can feel automated and rushed<br/><br/>
+          In the step settings, set <strong>Wait X days after connection accepted</strong> and click <strong>Save</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 4: Add Follow-up Messages",
+        isStep: 'true',
+      },
+      {
+        content: `
+          If the prospect doesn't reply to the first message, add follow-up messages to continue the sequence:<br/><br/>
+          &nbsp; 1. Click <strong>Add Step → Message</strong> again after the first message step.<br/>
+          &nbsp; 2. Write a follow-up — shorter than the first, with a different angle or a fresh value proposition.<br/>
+          &nbsp; 3. Set the delay (e.g., 3–5 days after the previous message).<br/>
+          &nbsp; 4. Repeat for additional follow-ups.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Recommended Message Sequence Structure",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Step", "Timing", "Content"],
+        rows: [
+          ["Message 1", "Day 1 after connection", "Introduction + soft value proposition"],
+          ["Message 2", "Day 4", "Follow-up with a relevant insight, case study, or resource"],
+          ["Message 3", "Day 9", "Low-friction CTA — \"Worth a quick chat?\""],
+          ["Message 4", "Day 14", "Final message — close the loop politely"],
+        ],
+      },
+      {
+        stepTitle: "Step 5: Set Stop Conditions",
+        isStep: 'true',
+      },
+      {
+        content: `
+          In the campaign settings, ensure the following are enabled:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Stop on reply</strong> — sequence stops the moment a prospect responds<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Skip prospects who are already messaging</strong> — avoids messaging prospects who have an open conversation with you outside of this campaign
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Message Length Best Practices",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Message in Sequence", "Recommended Length"],
+        rows: [
+          ["First message", "3–5 sentences"],
+          ["Follow-up messages", "2–3 sentences"],
+          ["Final follow-up", "1–2 sentences"],
+        ],
+      },
+      {
+        content: `LinkedIn is not email — shorter, conversational messages consistently outperform long formal ones. Write the way you'd naturally message someone on LinkedIn, not the way you'd write a business email.`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-7",
+    title: "How to Send InMail Outreach",
+    updated: "Updated April 2026",
+    content: `
+      InMail is LinkedIn's paid messaging feature that lets you send a message to any LinkedIn member — even if you're not connected with them. In SalesTarget.ai, InMail steps can be added to your campaigns as a way to reach prospects who haven't accepted your connection request, or as an alternative to connection-based outreach entirely.
+    `,
+    features: [
+      {
+        title: "What is InMail?",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          InMail messages are delivered directly to a prospect's LinkedIn inbox — bypassing the need for a prior connection. Unlike regular LinkedIn messages, InMail:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Can be sent to <strong>any LinkedIn member</strong>, regardless of connection status<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Is available to users with <strong>LinkedIn Premium, Sales Navigator, or Recruiter</strong> accounts<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Has a limited monthly credit allocation — the number of InMails you can send per month depends on your LinkedIn subscription tier<br/><br/>
+          <strong>Note:</strong> InMail availability in SalesTarget.ai depends on your LinkedIn account type. A LinkedIn Premium or Sales Navigator subscription is required to send InMails.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "InMail vs. Connection Request + Message — When to Use Each",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Approach", "Best used when"],
+        rows: [
+          ["Connection Request → Message", "You want to build a genuine connection first; best for longer-term relationship building"],
+          ["InMail", "Prospect hasn't accepted your connection request; you want to reach senior decision-makers directly; you have Sales Navigator"],
+        ],
+      },
+      {
+        stepTitle: "Step 1: Add an InMail Step to Your Campaign",
+        isStep: 'true',
+      },
+      {
+        content: `InMail can be used in two ways within a campaign:`,
+        isParagraph: 'true',
+      },
+      {
+        title: "As a Fallback (Recommended)",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          Use InMail as a fallback step for prospects who did not accept your connection request:<br/><br/>
+          &nbsp; 1. Open your campaign in <strong>LinkedIn Outreach → Campaigns</strong>.<br/>
+          &nbsp; 2. After your <strong>Connection Request</strong> step, click <strong>Add Step → InMail</strong>.<br/>
+          &nbsp; 3. Set the condition: <strong>Only run if connection request was not accepted within X days</strong>.<br/>
+          &nbsp; 4. Write your InMail subject and message body.<br/>
+          &nbsp; 5. Set the delay and click <strong>Save Step</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "As a Standalone Step",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          For direct InMail-only outreach without a connection request:<br/><br/>
+          &nbsp; 1. In the sequence builder, click <strong>Add Step → InMail</strong> as your first or primary outreach step.<br/>
+          &nbsp; 2. Write your InMail subject line and message.<br/>
+          &nbsp; 3. Set your delay and proceed.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 2: Write Your InMail",
+        isStep: 'true',
+      },
+      {
+        content: `
+          InMail allows a <strong>subject line</strong> (up to 200 characters) and a <strong>message body</strong> (up to 1,900 characters).<br/><br/>
+          <strong>Subject Line Tips:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Keep it short and specific — under 8 words works best<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Reference something relevant to their role or company<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Avoid clickbait or overly salesy language<br/><br/>
+          <strong>Subject line examples:</strong><br/>
+          <em>Quick question about {{company_name}}'s sales process</em><br/>
+          <em>Idea for {{company_name}}'s outbound team</em><br/>
+          <em>{{first_name}} — worth 10 minutes?</em><br/><br/>
+          <strong>Message Body Tips:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Get to the point quickly — InMail recipients know it's outreach<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Personalize the opening with a relevant reference to their work or company<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Keep the body under 150 words — shorter InMails consistently get higher response rates<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> End with a clear, low-friction ask
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 3: Monitor InMail Performance",
+        isStep: 'true',
+      },
+      {
+        content: `
+          From the <strong>Campaign Dashboard → InMail</strong> tab, you can track:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> InMails sent<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> InMail open rate<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> InMail reply rate<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Credits remaining (based on your LinkedIn subscription)<br/><br/>
+          <strong>LinkedIn InMail credit tip:</strong> LinkedIn refunds InMail credits when a prospect replies to your message — so engaging InMails effectively cost you nothing in the long run.
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-8",
+    title: "How to Automate Profile Visits",
+    updated: "Updated April 2026",
+    content: `
+      Profile Visit automation in SalesTarget.ai automatically visits a prospect's LinkedIn profile on your behalf. This triggers a LinkedIn notification to the prospect — telling them that you viewed their profile. Many prospects will then visit your profile back out of curiosity, creating a warm touchpoint before any direct outreach begins.
+    `,
+    features: [
+      {
+        title: "Why Profile Visits Work",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          A profile visit is one of the lowest-friction ways to get on a prospect's radar. When someone sees that a relevant person viewed their profile, they're naturally curious — and many will click through to see who you are.<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>No action required from the prospect</strong> — they simply receive a notification<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>No character limits or copy to write</strong> — profile visits are silent touchpoints<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>High volume possible</strong> — you can visit up to 80–100 profiles per day safely<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Best used as the opening step</strong> in any LinkedIn campaign sequence
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 1: Add a Profile Visit Step to Your Campaign",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Open your campaign in <strong>LinkedIn Outreach → Campaigns</strong>.<br/>
+          &nbsp; 2. In the sequence builder, click <strong>Add Step → Profile Visit</strong>.<br/>
+          &nbsp; 3. In the step settings, confirm:<br/>
+          &nbsp; &nbsp; &nbsp;&nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Timing:</strong> Set as Day 1 of the sequence (the first action)<br/>
+          &nbsp; &nbsp; &nbsp;&nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Delay after previous step:</strong> If this is not the first step, set the delay in days<br/>
+          &nbsp; 4. Click <strong>Save Step</strong>.<br/><br/>
+          No message copy is needed — the profile visit action runs automatically using your connected LinkedIn account.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 2: Position It Correctly in Your Sequence",
+        isStep: 'true',
+      },
+      {
+        content: `
+          Profile visits work best at the beginning of a campaign sequence — before any other outreach action. The recommended placement is:<br/><br/>
+          <div style="background:#1e293b;padding:12px 16px;border-radius:6px;font-family:monospace;font-size:0.8em;color:#94a3b8;margin:8px 0">
+            Day 1 → Profile Visit &nbsp;&nbsp;&nbsp;&nbsp;← Silent touchpoint, gets you on their radar<br/>
+            Day 2 → Follow &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Another soft signal of interest<br/>
+            Day 3 → Post Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Warms them up further<br/>
+            Day 4 → Connection Request ← They already know your name by now
+          </div>
+          By the time your connection request arrives, the prospect has already seen your name 2–3 times. This familiarity significantly improves connection acceptance rates.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "How LinkedIn Handles Profile Visit Notifications",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Your LinkedIn Account Type", "What the prospect sees"],
+        rows: [
+          ["Free LinkedIn", "Your profile view may show as \"LinkedIn Member\" (anonymous) to some users"],
+          ["LinkedIn Premium / Sales Navigator", "Your full name and profile are always visible to the prospect"],
+        ],
+      },
+      {
+        content: `<strong>Recommendation:</strong> For maximum impact from profile visits, use a LinkedIn Premium or Sales Navigator account. If you're on a free account, some prospects may see the visit as anonymous — reducing the warm-up effect.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "Tracking Profile Visit Activity",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          From the <strong>Campaign Dashboard</strong>, you can see:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Profile visits completed</strong> — total visits performed by the campaign<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Profile visit rate</strong> — percentage of leads who have been visited so far<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Prospects who visited back</strong> — where LinkedIn data allows, SalesTarget.ai can track when a prospect viewed your profile after you visited theirs
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-9",
+    title: "How to Automate Follows & Post Engagement",
+    updated: "Updated April 2026",
+    content: `
+      Follow and Post Like automation in SalesTarget.ai lets you automatically follow prospects on LinkedIn and engage with their recent posts — creating additional warm touchpoints before you send a connection request or message. These subtle signals of genuine interest make your subsequent outreach feel far more natural and less intrusive.
+    `,
+    features: [
+      {
+        title: "Why Follows & Post Engagement Matter",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          Most cold outreach fails because it arrives with zero context — the prospect has no idea who you are. Follows and post likes solve this by building name recognition before the ask:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Following a prospect</strong> notifies them and puts your name in their activity feed<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Liking their post</strong> sends them a notification and shows you're paying attention to their content<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Together, these actions create a <strong>warm familiarity effect</strong> — by the time you send a connection request, you're no longer a complete stranger
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Follow Automation",
+        isHeading: 'true',
+      },
+      {
+        content: `When a Follow step runs, SalesTarget.ai automatically follows the prospect's LinkedIn profile on your behalf. They receive a notification that you're now following them.`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "How to Add a Follow Step",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Open your campaign in <strong>LinkedIn Outreach → Campaigns</strong>.<br/>
+          &nbsp; 2. In the sequence builder, click <strong>Add Step → Follow</strong>.<br/>
+          &nbsp; 3. Set the <strong>delay</strong> — recommended placement is Day 2, after a Profile Visit on Day 1.<br/>
+          &nbsp; 4. Click <strong>Save Step</strong>.<br/><br/>
+          SalesTarget.ai caps follow actions at <strong>30–50 per day</strong> by default. You can adjust this under <strong>Settings → Safety Limits</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Post Like / Engage Automation",
+        isHeading: 'true',
+      },
+      {
+        content: `When a Post Like step runs, SalesTarget.ai visits the prospect's LinkedIn profile, finds their most recent post, and automatically likes it on your behalf. The prospect receives a notification that you engaged with their content.`,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "How to Add a Post Like Step",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. In the sequence builder, click <strong>Add Step → Post Like / Engage</strong>.<br/>
+          &nbsp; 2. Set the <strong>delay</strong> — recommended placement is Day 3, after a Profile Visit and Follow.<br/>
+          &nbsp; 3. Configure the engagement settings:
+        `,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Setting", "Description"],
+        rows: [
+          ["Like most recent post", "Likes the prospect's most recently published post"],
+          ["Skip if no recent post", "If the prospect hasn't posted in the last 30 days, skips this step and moves to the next"],
+          ["Engage with articles too", "Includes LinkedIn articles in addition to regular posts"],
+        ],
+      },
+      {
+        content: `
+          &nbsp; 4. Click <strong>Save Step</strong>.<br/><br/>
+          If the <strong>Skip if no recent post</strong> option is enabled and the prospect has no post in the last 30 days, SalesTarget.ai will skip the Post Like step and proceed to the next step in the sequence automatically — no manual intervention needed.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Recommended Sequence Using Both Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          <div style="background:#1e293b;padding:12px 16px;border-radius:6px;font-family:monospace;font-size:0.8em;color:#94a3b8;margin:8px 0">
+            Day 1 → Profile Visit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Silent view — gets you noticed<br/>
+            Day 2 → Follow &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Follow notification — your name appears again<br/>
+            Day 3 → Post Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Engagement notification — shows genuine interest<br/>
+            Day 4 → Connection Request &nbsp;&nbsp;&nbsp;← Warm ask — they've seen you 3 times already<br/>
+            Day 7 → Message (if accepted) ← Conversation starts with a warm prospect
+          </div>
+          By stacking these touchpoints before any direct outreach, you create a multi-signal warm-up that dramatically improves connection and reply rates compared to cold, single-step outreach.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Tracking Follow & Engagement Activity",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          From the <strong>Campaign Dashboard</strong>, you can track:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Follows completed</strong> — total follows sent by the campaign<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Post likes completed</strong> — total post engagements performed<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Steps skipped</strong> — prospects who had no recent post and had the step skipped
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-10",
+    title: "How to Use Personalization & Custom Variables",
+    updated: "Updated April 2026",
+    content: `
+      Personalization in LinkedIn Outreach lets you insert dynamic variables into your connection notes, messages, and InMails — so every message feels individually written, even when it's sent to hundreds of prospects. This article covers how to use the default variables available in every campaign, and how to create your own custom variables for deeper personalization.
+    `,
+    features: [
+      {
+        title: "What are Personalization Variables?",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          Personalization variables are placeholders you add to your message templates. When a message sends, SalesTarget.ai replaces each placeholder with the actual data from that prospect's record.<br/><br/>
+          <strong>Template:</strong> Hi <em>{{first_name}}</em>, I noticed <em>{{company_name}}</em> is expanding — congrats on the growth!<br/><br/>
+          <strong>What the prospect receives:</strong> Hi Sarah, I noticed Acme Corp is expanding — congrats on the growth!
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Default Variables Available in Every Campaign",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Variable", "What it inserts"],
+        rows: [
+          ["{{first_name}}", "Prospect's first name"],
+          ["{{last_name}}", "Prospect's last name"],
+          ["{{full_name}}", "Prospect's full name"],
+          ["{{job_title}}", "Prospect's job title"],
+          ["{{company_name}}", "Prospect's company name"],
+          ["{{industry}}", "Prospect's industry"],
+          ["{{city}}", "Prospect's city"],
+          ["{{country}}", "Prospect's country"],
+          ["{{sender_name}}", "Your name (the sender)"],
+          ["{{sender_company}}", "Your company name"],
+          ["{{sender_title}}", "Your job title"],
+        ],
+      },
+      {
+        title: "Custom Variables",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          Custom variables let you add any field you need that isn't covered by the defaults.<br/><br/>
+          <strong>Example use cases:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>{{icebreaker}}</em> — a unique, research-based opening line for each prospect<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>{{recent_post_topic}}</em> — the topic of their most recent LinkedIn post<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>{{mutual_connection}}</em> — a shared contact you both know<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>{{pain_point}}</em> — a specific challenge relevant to their role or industry<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>{{case_study}}</em> — a relevant customer success story based on their sector
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Create a Custom Variable",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Open your campaign and click <strong>Edit Sequence</strong>.<br/>
+          &nbsp; 2. In the message editor, type <strong>{{</strong> to open the variable picker.<br/>
+          &nbsp; 3. Click <strong>+ Create Custom Variable</strong> and enter a name (e.g., <em>icebreaker</em>).<br/>
+          &nbsp; 4. Add a <strong>Fallback Value</strong> — what gets inserted if the field is empty (e.g., <em>there</em> for {{first_name}}).<br/>
+          &nbsp; 5. Save the variable. It will now appear in your variable list.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Populate Custom Variables in Your Lead List",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Go to your campaign's <strong>Leads</strong> tab.<br/>
+          &nbsp; 2. You'll see a column for each custom variable you've created.<br/>
+          &nbsp; 3. Fill in the value for each prospect — either manually or by importing a CSV with the custom variable columns pre-filled.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Using Variables in Connection Notes",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          Connection notes have a <strong>300-character limit</strong> — keep your variable usage focused and concise.<br/><br/>
+          <strong>Example:</strong><br/>
+          <em>Hi {{first_name}}, came across your profile while exploring {{industry}} leaders — love what {{company_name}} is doing. Would love to connect!</em><br/><br/>
+          <strong>Tip:</strong> Always set a fallback for <em>{{first_name}}</em> (e.g., "there") in case the first name field is missing for any prospect.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Using Variables in LinkedIn Messages and InMails",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          Variables work in both the subject line and body of InMails, and in all LinkedIn direct messages.<br/><br/>
+          <strong>Message example:</strong><br/>
+          <em>Hi {{first_name}}, thanks for connecting! I work with {{industry}} teams to help them scale outbound without increasing headcount. Given what {{company_name}} is building, I thought this might be relevant — would love to share more.</em><br/><br/>
+          <strong>InMail subject example:</strong><br/>
+          <em>{{first_name}} — idea for {{company_name}}'s outbound team</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Always Set Fallback Values",
+        isHeading: 'true',
+      },
+      {
+        content: `A fallback value is used when a variable field is empty for a particular prospect. Missing fallbacks can cause broken-looking messages.`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Variable", "Suggested Fallback"],
+        rows: [
+          ["{{first_name}}", "there"],
+          ["{{company_name}}", "your company"],
+          ["{{industry}}", "your industry"],
+          ["{{city}}", "your area"],
+          ["{{icebreaker}}", "I came across your profile"],
+        ],
+      },
+      {
+        content: `To set a fallback, click on the variable in the message editor and enter a value in the <strong>Fallback</strong> field.`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-11",
+    title: "How to Use AI Message Writing",
+    updated: "Updated April 2026",
+    content: `
+      AI Message Writing in SalesTarget.ai helps you write high-quality LinkedIn connection notes, messages, and InMails faster. Instead of writing from scratch, you describe your target audience and goal — and the AI generates ready-to-use copy that you can edit, refine, or use as-is.
+    `,
+    features: [
+      {
+        title: "What AI Message Writing Can Do for LinkedIn",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Write connection request notes</strong> that are short, relevant, and personalized<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Write LinkedIn direct messages</strong> for any step in your sequence<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Write InMail subject lines and body copy</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Generate a full message sequence</strong> — all steps at once<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Rewrite or improve</strong> messages you've already drafted<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Adjust tone</strong> — casual, professional, consultative, direct<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Suggest personalization hooks</strong> based on the prospect's role or industry
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 1: Open the AI Message Writer",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Go to <strong>LinkedIn Outreach → Campaigns</strong> and open or create a campaign.<br/>
+          &nbsp; 2. In the sequence builder, click on any <strong>Message</strong>, <strong>Connection Request</strong>, or <strong>InMail</strong> step.<br/>
+          &nbsp; 3. In the message editor, click the <strong>AI Write</strong> button (AI icon in the toolbar).<br/>
+          &nbsp; 4. The AI Message Writer panel will open.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 2: Describe Your Campaign",
+        isStep: 'true',
+      },
+      {
+        content: `Provide context so the AI generates relevant, targeted copy:`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Field", "Example"],
+        rows: [
+          ["Your product / service", "\"A LinkedIn and cold email outreach automation platform\""],
+          ["Target audience", "\"VP of Sales and Sales Directors at B2B SaaS companies\""],
+          ["Goal of this message", "\"Start a conversation — get them to reply\""],
+          ["Tone", "Casual / Professional / Direct / Consultative"],
+          ["Key value proposition", "\"Helps sales teams book 3x more meetings without increasing headcount\""],
+        ],
+      },
+      {
+        stepTitle: "Step 3: Select the Message Type",
+        isStep: 'true',
+      },
+      {
+        content: `
+          Tell the AI which type of LinkedIn copy you need:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Connection Note</strong> — short (under 300 characters), no pitch<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>First Message</strong> — warm intro after connection is accepted<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Follow-up Message</strong> — shorter, different angle from the first<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>InMail</strong> — includes a subject line + longer body<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Full Sequence</strong> — generates all message steps at once
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 4: Generate and Refine",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Click <strong>Generate</strong>.<br/>
+          &nbsp; 2. Review the output — the AI will produce copy appropriate for the message type and channel.<br/>
+          &nbsp; 3. If you want adjustments, type a refinement instruction:<br/>
+          &nbsp; &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Make it shorter — LinkedIn messages should be under 5 sentences"</em><br/>
+          &nbsp; &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Remove the call to action — just open a conversation"</em><br/>
+          &nbsp; &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Make the tone more casual"</em><br/>
+          &nbsp; &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add a reference to their industry in the opening line"</em><br/>
+          &nbsp; 4. Click <strong>Refine</strong> to update the copy based on your instruction.<br/>
+          &nbsp; 5. Once happy, paste the result into the message editor or click <strong>Use This</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Generate a Full LinkedIn Sequence with AI",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          Instead of writing each step individually, generate your entire campaign message sequence at once:<br/><br/>
+          &nbsp; 1. In the sequence builder, click <strong>Generate Full Sequence with AI</strong>.<br/>
+          &nbsp; 2. Fill in your campaign context (product, audience, goal, tone).<br/>
+          &nbsp; 3. Specify how many message steps you want and over how many days.<br/>
+          &nbsp; 4. Click <strong>Generate</strong>.<br/>
+          &nbsp; 5. The AI will produce copy for every message step and suggest delays between each.<br/>
+          &nbsp; 6. Review, edit, and launch.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Tips for Better AI Output on LinkedIn",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Keep LinkedIn tone conversational</strong> — tell the AI "write this as a natural LinkedIn message, not a formal email"<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Specify the character limit for connection notes</strong> — remind the AI it's a 300-character note, not a full message<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Avoid jargon</strong> — ask the AI to keep it simple and human<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Always review before sending</strong> — AI output is a strong starting point, but your own voice and edits will always improve the result<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Use personalization variables</strong> — after generating copy, add {{first_name}} and {{company_name}} where relevant to make it feel 1-to-1
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "lio-12",
+    title: "How to Read Your Analytics & Reports",
+    updated: "Updated April 2026",
+    content: `
+      The Analytics dashboard in LinkedIn Outreach gives you a real-time view of how your campaigns and individual actions are performing. Understanding these metrics helps you identify what's working, where prospects are dropping off, and how to improve your results over time.
+    `,
+    features: [
+      {
+        stepTitle: "Accessing Your Analytics",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Go to <strong>LinkedIn Outreach</strong> from the left sidebar.<br/>
+          &nbsp; 2. Click <strong>Analytics</strong> for an overview across all campaigns — or open a specific campaign and click the <strong>Analytics</strong> tab for campaign-level data.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Campaign-Level Metrics",
+        isHeading: 'true',
+      },
+      {
+        title: "Total Leads in Campaign",
+        isHeading: 'true',
+      },
+      {
+        content: `The total number of prospects enrolled in the campaign across all stages of the sequence.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "Connection Request Metrics",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Metric", "What it means"],
+        rows: [
+          ["Requests Sent", "Total connection requests sent by the campaign"],
+          ["Accepted", "Number of requests accepted by prospects"],
+          ["Acceptance Rate", "Accepted ÷ Sent × 100"],
+          ["Pending", "Requests still awaiting a response"],
+        ],
+      },
+      {
+        content: `<strong>Benchmark — Acceptance Rate:</strong>`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Rate", "What it means"],
+        rows: [
+          ["Above 40%", "Excellent — strong targeting and compelling connection note"],
+          ["25% – 40%", "Good — healthy for cold outreach"],
+          ["Below 25%", "Low — review your ICP targeting and connection note copy"],
+        ],
+      },
+      {
+        title: "Message Metrics",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Metric", "What it means"],
+        rows: [
+          ["Messages Sent", "Total direct messages sent across all message steps"],
+          ["Replies Received", "Number of prospects who replied to any message"],
+          ["Reply Rate", "Replies ÷ Messages Sent × 100"],
+        ],
+      },
+      {
+        content: `<strong>Benchmark — Reply Rate:</strong>`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Rate", "What it means"],
+        rows: [
+          ["Above 10%", "Excellent — strong messaging and targeting"],
+          ["5% – 10%", "Good — solid LinkedIn outreach performance"],
+          ["Below 5%", "Low — review message copy, sequence timing, and audience fit"],
+        ],
+      },
+      {
+        title: "InMail Metrics",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Metric", "What it means"],
+        rows: [
+          ["InMails Sent", "Total InMail messages sent"],
+          ["InMail Reply Rate", "Replies ÷ InMails Sent × 100"],
+          ["Credits Used", "InMail credits consumed from your LinkedIn account"],
+          ["Credits Refunded", "Credits returned for InMails that received a reply"],
+        ],
+      },
+      {
+        title: "Profile Visit Metrics",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Metric", "What it means"],
+        rows: [
+          ["Profile Visits Completed", "Total profile visits performed by the campaign"],
+          ["Prospects Who Visited Back", "Prospects who viewed your profile after you visited theirs"],
+        ],
+      },
+      {
+        title: "Follow & Engagement Metrics",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Metric", "What it means"],
+        rows: [
+          ["Follows Completed", "Total follow actions performed"],
+          ["Post Likes Completed", "Total post engagement actions performed"],
+          ["Steps Skipped", "Prospects who had no recent post and had the step skipped"],
+        ],
+      },
+      {
+        title: "Sequence Step Breakdown",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          To see how each individual step in your campaign is performing:<br/><br/>
+          &nbsp; 1. Open a campaign and click the <strong>Analytics</strong> tab.<br/>
+          &nbsp; 2. Scroll to the <strong>Sequence Step Performance</strong> section.<br/>
+          &nbsp; 3. You'll see metrics for each step — how many prospects reached that step, and how many moved past it.<br/><br/>
+          This lets you identify exactly where prospects are dropping off in your sequence — so you can optimize the specific step that's underperforming.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Campaign Comparison",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          To compare performance across multiple campaigns:<br/><br/>
+          &nbsp; 1. Go to <strong>Analytics → Campaign Overview</strong>.<br/>
+          &nbsp; 2. Select the campaigns you want to compare using the filter at the top.<br/>
+          &nbsp; 3. View side-by-side metrics — useful for identifying which audience, message style, or sequence structure is working best.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Exporting Reports",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Go to <strong>Analytics</strong> and apply your desired filters (date range, campaigns, etc.).<br/>
+          &nbsp; 2. Click <strong>Export Report</strong> at the top right.<br/>
+          &nbsp; 3. Download as <strong>CSV</strong> or <strong>PDF</strong>.
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
 ];
 
 export default mockArticles;

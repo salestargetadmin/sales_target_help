@@ -48,6 +48,24 @@ const categories = [
       { title: 'How to Read Your Analytics & Reports', id: 'ceo-12', icon: Database, color: '#34D399' },
     ],
   },
+  {
+    title: 'LinkedIn Outreach',
+    icon: '💼',
+    articles: [
+      { title: 'What is LinkedIn Outreach?', id: 'lio-1', icon: Book, color: '#818CF8' },
+      { title: 'How to Connect Your LinkedIn Account', id: 'lio-2', icon: Shield, color: '#818CF8' },
+      { title: 'LinkedIn Account Safety & Daily Limits', id: 'lio-3', icon: Flag, color: '#818CF8' },
+      { title: 'How to Create a LinkedIn Campaign', id: 'lio-4', icon: LayoutDashboard, color: '#818CF8' },
+      { title: 'How to Automate Connection Requests', id: 'lio-5', icon: UserPlus, color: '#818CF8' },
+      { title: 'How to Set Up Message Sequences', id: 'lio-6', icon: Compass, color: '#818CF8' },
+      { title: 'How to Send InMail Outreach', id: 'lio-7', icon: Code, color: '#818CF8' },
+      { title: 'How to Automate Profile Visits', id: 'lio-8', icon: Compass, color: '#818CF8' },
+      { title: 'How to Automate Follows & Post Engagement', id: 'lio-9', icon: Star, color: '#818CF8' },
+      { title: 'How to Use Personalization & Custom Variables', id: 'lio-10', icon: Database, color: '#818CF8' },
+      { title: 'How to Use AI Message Writing', id: 'lio-11', icon: Code, color: '#818CF8' },
+      { title: 'How to Read Your Analytics & Reports', id: 'lio-12', icon: LayoutDashboard, color: '#818CF8' },
+    ],
+  },
 ];
 
 
