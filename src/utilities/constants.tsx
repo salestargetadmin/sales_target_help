@@ -1853,35 +1853,34 @@ const mockArticles = [
 
   {
     id: "ceo-10",
-    title: "How to Use AI Email Writing",
+    title: "How to Use AI Sequences",
     updated: "Updated April 2026",
-    content: `AI Email Writing in SalesTarget.ai helps you write high-quality cold emails faster. Instead of staring at a blank page, you describe your goal and target audience, and the AI generates a ready-to-use email — which you can then edit, refine, or use as-is.`,
+    content: `AI Sequences is the first engine in SalesTarget.ai's AI Outreach Suite. It automatically generates a complete, multi-step cold email outreach flow — including subject lines, email copy, follow-up messages, and calls to action — in seconds. Instead of planning and writing every step manually, you describe your campaign goal and the AI builds the entire sequence structure for you, ready to launch.`,
     features: [
       {
-        title: "What AI Email Writing Can Do",
+        title: "What AI Sequences Generates",
         isHeading: 'true',
       },
       {
         content: `
-          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Generate a full cold email</strong> from a short prompt describing your product and audience<br/>
-          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Write follow-up emails</strong> that naturally continue the conversation from a previous step<br/>
-          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Rewrite or improve</strong> an email you've already drafted<br/>
-          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Generate subject line variations</strong> to test against each other<br/>
-          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Adjust tone</strong> — formal, casual, direct, consultative, and more<br/>
-          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Generate a full sequence</strong> — all steps written at once based on your campaign goal
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Campaign step structure</strong> — how many emails to send and the delay between each<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Subject lines</strong> — for every step in the sequence<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Email body copy</strong> — tailored to your audience, tone, and goal<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Follow-up messages</strong> — progressively shorter and differently angled from the first<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Calls to action</strong> — appropriate for each stage of the sequence (e.g., soft opener on step 1, direct ask on step 3)
         `,
         isParagraph: 'true',
       },
       {
-        stepTitle: "Step 1: Open the AI Email Writer",
+        stepTitle: "Step 1: Open AI Sequences",
         isStep: 'true',
       },
       {
         content: `
-          &nbsp; 1. Go to <strong>Cold Email Outreach</strong> → <strong>Campaigns</strong> and open or create a campaign.<br/>
-          &nbsp; 2. In the sequence builder, click on any email step.<br/>
-          &nbsp; 3. In the email editor, click the <strong>AI Write</strong> button (the AI icon in the toolbar).<br/>
-          &nbsp; 4. The AI Email Writer panel will open on the right side.
+          &nbsp; 1. Go to <strong>Cold Email Outreach</strong> from the left sidebar.<br/>
+          &nbsp; 2. Click <strong>Campaigns</strong> → <strong>New Campaign</strong>.<br/>
+          &nbsp; 3. After naming your campaign and adding your leads, click <strong>Build Sequence with AI</strong> in the sequence builder.<br/>
+          &nbsp; 4. The AI Sequences panel will open.
         `,
         isParagraph: 'true',
       },
@@ -1893,50 +1892,59 @@ const mockArticles = [
         isTable: true,
         headers: ["Field", "Example"],
         rows: [
-          ["Your product / service", "\"A sales engagement platform that automates cold email and LinkedIn outreach\""],
-          ["Target audience", "\"VP of Sales and Sales Directors at B2B SaaS companies with 50–500 employees\""],
-          ["Goal of this email", "\"Book a 15-minute discovery call\""],
+          ["Your product / service", "\"A B2B lead generation and outreach automation platform\""],
+          ["Target audience", "\"Head of Sales and VP of Sales at SaaS companies with 50–500 employees\""],
+          ["Primary goal", "\"Book a discovery call\""],
           ["Tone", "Casual / Professional / Direct / Consultative"],
-          ["Key value proposition", "\"Helps sales teams book 3x more meetings without increasing headcount\""],
+          ["Key value proposition", "\"Helps sales teams book 3x more meetings without adding headcount\""],
+          ["Number of steps", "How many emails in the sequence (e.g., 4 steps over 14 days)"],
         ],
       },
       {
-        stepTitle: "Step 3: Generate the Email",
+        stepTitle: "Step 3: Generate the Sequence",
         isStep: 'true',
       },
       {
         content: `
-          &nbsp; 1. Click <strong>Generate</strong>.<br/>
-          &nbsp; 2. The AI will produce a complete email — subject line and body — based on your inputs.<br/>
-          &nbsp; 3. Review the output. You can <strong>use it as-is</strong>, <strong>regenerate</strong> for a fresh version, or <strong>edit directly</strong> — paste it into the editor and adjust to your voice.
+          &nbsp; 1. Click <strong>Generate Sequence</strong>.<br/>
+          &nbsp; 2. AI Sequences will produce all steps simultaneously — typically within a few seconds.<br/>
+          &nbsp; 3. You will see the full sequence laid out in the sequence builder — each email step with its subject line and body, suggested delays between steps, and CTAs for each step.
         `,
         isParagraph: 'true',
       },
       {
-        stepTitle: "Step 4: Refine with Follow-up Prompts",
+        stepTitle: "Step 4: Review and Edit",
         isStep: 'true',
       },
       {
-        content: `If the first output isn't quite right, you can refine it by adding instructions:<br/><br/>
-          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> "Make it shorter — no more than 5 sentences"<br/>
-          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> "Make the opening more personalized — reference their industry"<br/>
-          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> "Change the CTA to ask if they're open to a quick email exchange instead of a call"<br/>
-          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> "Make the tone more casual and conversational"
+        content: `Review every step before launching:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Read each email out loud</strong> — does it sound like something you'd genuinely send?<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Check personalization variables</strong> — make sure <code>{{first_name}}</code> and <code>{{company_name}}</code> are placed naturally<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Adjust the tone</strong> if needed — add your own voice to any step that feels too generic<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Modify delays</strong> — change the timing between steps to match your outreach cadence
         `,
         isParagraph: 'true',
       },
       {
-        title: "Generate a Full Sequence with AI",
+        stepTitle: "Step 5: Launch",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Click <strong>Review</strong> to confirm leads, steps, and sending settings.<br/>
+          &nbsp; 2. Click <strong>Launch Campaign</strong> or <strong>Schedule for Later</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Regenerating or Adjusting the Sequence",
         isHeading: 'true',
       },
       {
-        content: `
-          &nbsp; 1. In the sequence builder, click <strong>Generate Full Sequence with AI</strong>.<br/>
-          &nbsp; 2. Fill in your campaign context (product, audience, goal, tone).<br/>
-          &nbsp; 3. Specify how many steps you want (e.g., 4-step sequence over 14 days).<br/>
-          &nbsp; 4. Click <strong>Generate</strong>.<br/>
-          &nbsp; 5. The AI will produce all emails and suggested delays for each step.<br/>
-          &nbsp; 6. Review and edit each step before launching.
+        content: `If the first output isn't quite right:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Click <strong>Regenerate</strong> to get a completely fresh sequence based on the same inputs<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Click <strong>Edit Inputs</strong> to adjust your campaign description and regenerate with updated context<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Edit individual steps manually without regenerating the rest
         `,
         isParagraph: 'true',
       },
@@ -2171,6 +2179,236 @@ const mockArticles = [
           &nbsp; 1. Go to <strong>Analytics</strong> and apply your desired filters (date range, campaigns, etc.).<br/>
           &nbsp; 2. Click <strong>Export Report</strong> at the top right.<br/>
           &nbsp; 3. Download as <strong>CSV</strong> or <strong>PDF</strong>.
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "ceo-13",
+    title: "How to Use the AI Content Generator",
+    updated: "Updated April 2026",
+    content: `The AI Content Generator is the second engine in SalesTarget.ai's AI Outreach Suite. While AI Sequences builds your entire campaign structure, the AI Content Generator focuses on writing individual cold emails — producing natural, persuasive copy tailored precisely to your target audience, tone, and conversion goal. Use it when you want to write or rewrite a specific email step rather than generating a full sequence from scratch.`,
+    features: [
+      {
+        title: "What the AI Content Generator Does",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Writes individual cold emails</strong> — first emails, follow-ups, or final touches<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Adapts to your audience</strong> — the output is shaped around who you're targeting and what matters to them<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Matches your tone</strong> — casual, professional, direct, or consultative<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Focuses on your goal</strong> — whether that's booking a call, getting a reply, or driving a click<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Improves existing copy</strong> — paste in an email you've already written and the AI rewrites or sharpens it<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Generates subject line variations</strong> — multiple options to test against each other
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 1: Open the AI Content Generator",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Go to <strong>Cold Email Outreach → Campaigns</strong> and open or create a campaign.<br/>
+          &nbsp; 2. In the sequence builder, click on any email step.<br/>
+          &nbsp; 3. In the email editor, click the <strong>AI Write</strong> button.<br/>
+          &nbsp; 4. Select <strong>AI Content Generator</strong> from the options.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 2: Enter Your Inputs",
+        isStep: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Field", "Example"],
+        rows: [
+          ["Product / Service", "\"An AI-powered cold outreach platform for B2B sales teams\""],
+          ["Target audience", "\"Sales Directors at mid-market SaaS companies\""],
+          ["Email goal", "\"Get a reply — start a conversation\""],
+          ["Tone", "Casual / Professional / Direct / Consultative"],
+          ["Key pain point to address", "\"Reps spend too much time on manual prospecting and not enough time selling\""],
+          ["Value proposition", "\"Automates prospecting and outreach so reps focus only on live conversations\""],
+        ],
+      },
+      {
+        stepTitle: "Step 3: Generate the Email",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Click <strong>Generate</strong>.<br/>
+          &nbsp; 2. The AI Content Generator will produce a <strong>subject line</strong> and a complete <strong>email body</strong> — opening, value statement, and CTA.<br/>
+          &nbsp; 3. Review the output. You can <strong>use it as-is</strong>, <strong>regenerate</strong> for a fresh version with the same inputs, or <strong>refine with a prompt</strong> — give the AI a specific instruction to adjust the output.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 4: Refine the Output",
+        isStep: 'true',
+      },
+      {
+        content: `If the first version isn't quite right, type a refinement instruction and click <strong>Refine</strong>:`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Instruction", "What it does"],
+        rows: [
+          ["\"Make it shorter — 4 sentences max\"", "Condenses the email to a tighter format"],
+          ["\"Make the opening more specific to their role\"", "Sharpens the relevance of the first line"],
+          ["\"Remove the question at the end — just make a statement\"", "Adjusts the CTA style"],
+          ["\"Make it sound less like a sales email\"", "Softens the tone for a more conversational feel"],
+          ["\"Add a social proof line — mention we work with SaaS companies\"", "Inserts credibility into the copy"],
+        ],
+      },
+      {
+        title: "Improving an Existing Email",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. In the AI Content Generator panel, click <strong>Improve Existing Email</strong>.<br/>
+          &nbsp; 2. Paste your current email into the input field.<br/>
+          &nbsp; 3. Describe what you want improved — e.g., "Make the subject line more compelling" or "Shorten the body and make the CTA clearer".<br/>
+          &nbsp; 4. Click <strong>Improve</strong>. The AI will return a revised version of your email.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Generating Subject Line Variations",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. In the AI Content Generator, click <strong>Generate Subject Lines Only</strong>.<br/>
+          &nbsp; 2. Describe the email topic and target audience.<br/>
+          &nbsp; 3. The AI will produce 5–10 subject line variations.<br/>
+          &nbsp; 4. Pick your top two and use them in an A/B test on that email step.
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "ceo-14",
+    title: "How to Use the AI Spintax Generator",
+    updated: "Updated April 2026",
+    content: `The AI Spintax Generator is the third engine in SalesTarget.ai's AI Outreach Suite. It automatically rewrites your cold emails into multiple unique variations — so that every email sent from your campaign looks different from the last. This protects your deliverability by preventing spam filters from flagging repeated identical content, while keeping your outreach personal and human-sounding at scale.`,
+    features: [
+      {
+        title: "What is Spintax?",
+        isHeading: 'true',
+      },
+      {
+        content: `Spintax is a technique where different versions of words, phrases, or sentences are embedded inside a single email template. When the email sends, one variation is randomly selected for each recipient — meaning no two emails are exactly alike, even when sent to thousands of people.<br/><br/>In SalesTarget.ai, <strong>the AI generates all the spintax variations for you automatically</strong> — you don't have to write them manually.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "Why Spintax Matters for Deliverability",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Avoids spam filter triggers</strong> caused by repeated identical content patterns<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Improves inbox placement</strong> — emails look hand-written rather than mass-sent<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Protects sender reputation</strong> when sending at high volume<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Increases engagement</strong> — slight variation in wording keeps emails feeling fresh and personal
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 1: Open the AI Spintax Generator",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Go to <strong>Cold Email Outreach → Campaigns</strong> and open or create a campaign.<br/>
+          &nbsp; 2. In the sequence builder, click on any email step.<br/>
+          &nbsp; 3. In the email editor, click the <strong>AI Write</strong> button.<br/>
+          &nbsp; 4. Select <strong>AI Spintax Generator</strong> from the options.<br/><br/>
+          You can also access it from an email you've already written by clicking <strong>Generate Spintax</strong> inside the editor toolbar.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 2: Input Your Email",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. If you already have an email written in the editor, click <strong>Apply Spintax to This Email</strong> — the AI will use your existing copy as the base.<br/>
+          &nbsp; 2. If you're starting from scratch, paste your email into the Spintax input field.<br/>
+          &nbsp; 3. Click <strong>Generate Spintax</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 3: Review the Spintax Output",
+        isStep: 'true',
+      },
+      {
+        content: `The AI Spintax Generator will return your email rewritten in full spintax format — with multiple alternatives built into every key phrase, sentence opener, and CTA.<br/><br/>Review the spintax to make sure:<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> All variations sound natural and on-brand<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> No variation changes your core message or makes the email misleading<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Personalization variables like <code>{{first_name}}</code> and <code>{{company_name}}</code> are correctly placed outside the spintax brackets
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 4: Adjust the Spintax Intensity",
+        isStep: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Level", "What it does"],
+        rows: [
+          ["Light", "Varies only subject lines and opening lines — minimal changes to the body"],
+          ["Medium", "Varies subject lines, openers, key sentences, and CTAs — recommended for most campaigns"],
+          ["Heavy", "Varies nearly every phrase throughout the entire email — maximum uniqueness per send"],
+        ],
+      },
+      {
+        stepTitle: "Step 5: Preview Generated Variations",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Click <strong>Preview Variations</strong> in the Spintax panel.<br/>
+          &nbsp; 2. SalesTarget.ai will generate 5–10 sample email versions drawn from the spintax pool.<br/>
+          &nbsp; 3. Read through each one — they should all feel natural, coherent, and on-message.<br/>
+          &nbsp; 4. If any combination sounds off, go back and adjust that section of the spintax manually.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        stepTitle: "Step 6: Apply and Save",
+        isStep: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Once satisfied with the spintax output, click <strong>Apply to Email</strong>.<br/>
+          &nbsp; 2. The spintax template will be saved to your email step.<br/>
+          &nbsp; 3. When the campaign sends, each individual email will automatically receive a unique combination of the variations — no two recipients get identical wording.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Best Practices for AI Spintax",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Always preview before sending</strong> — a quick review of 5–10 sample outputs catches any awkward combinations the AI may have generated<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Keep core facts consistent</strong> — spintax should vary style and phrasing, never facts, names, or product claims<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Use Medium intensity as your default</strong> — it provides strong deliverability protection without risking incoherent copy<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Combine with personalization variables</strong> — spintax handles content variation, personalization variables handle 1-to-1 data — both together create the most natural-feeling emails at scale<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Apply spintax to every step</strong> — not just the first email. Follow-ups benefit equally from variation
         `,
         isParagraph: 'true',
       },

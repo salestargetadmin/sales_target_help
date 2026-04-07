@@ -43,9 +43,11 @@ const categories = [
       { title: 'How to Set Up A/B Testing', id: 'ceo-7', icon: LayoutDashboard, color: '#34D399' },
       { title: 'How to Use Inbox Rotation', id: 'ceo-8', icon: UserPlus, color: '#34D399' },
       { title: 'How to Validate Emails', id: 'ceo-9', icon: Flag, color: '#34D399' },
-      { title: 'How to Use AI Email Writing', id: 'ceo-10', icon: Compass, color: '#34D399' },
+      { title: 'How to Use AI Sequences', id: 'ceo-10', icon: Compass, color: '#34D399' },
       { title: 'How to Manage Unsubscribes', id: 'ceo-11', icon: Shield, color: '#34D399' },
       { title: 'How to Read Your Analytics & Reports', id: 'ceo-12', icon: Database, color: '#34D399' },
+      { title: 'How to Use the AI Content Generator', id: 'ceo-13', icon: Code, color: '#34D399' },
+      { title: 'How to Use the AI Spintax Generator', id: 'ceo-14', icon: Star, color: '#34D399' },
     ],
   },
   {
