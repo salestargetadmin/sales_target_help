@@ -2308,19 +2308,19 @@ const mockArticles = [
         `,
         isParagraph: 'true',
       },
-      {
-        stepTitle: "Step 5: Install the SalesTarget.ai Browser Extension (Recommended)",
-        isStep: 'true',
-      },
-      {
-        content: `
-          &nbsp; 1. Go to <strong>Settings → LinkedIn Account → Install Browser Extension</strong>.<br/>
-          &nbsp; 2. Follow the installation instructions for your browser (Chrome recommended).<br/>
-          &nbsp; 3. Once installed, the extension maintains a persistent connection between SalesTarget.ai and your LinkedIn account — reducing the chance of session timeouts or re-authentication prompts.<br/><br/>
-          <strong>Why use the extension?</strong> LinkedIn sessions can expire after a period of inactivity. The browser extension keeps your session active and ensures your campaigns run uninterrupted.
-        `,
-        isParagraph: 'true',
-      },
+      // {
+      //   stepTitle: "Step 5: Install the SalesTarget.ai Browser Extension (Recommended)",
+      //   isStep: 'true',
+      // },
+      // {
+      //   content: `
+      //     &nbsp; 1. Go to <strong>Settings → LinkedIn Account → Install Browser Extension</strong>.<br/>
+      //     &nbsp; 2. Follow the installation instructions for your browser (Chrome recommended).<br/>
+      //     &nbsp; 3. Once installed, the extension maintains a persistent connection between SalesTarget.ai and your LinkedIn account — reducing the chance of session timeouts or re-authentication prompts.<br/><br/>
+      //     <strong>Why use the extension?</strong> LinkedIn sessions can expire after a period of inactivity. The browser extension keeps your session active and ensures your campaigns run uninterrupted.
+      //   `,
+      //   isParagraph: 'true',
+      // },
       {
         title: "Managing Your LinkedIn Connection",
         isHeading: 'true',
