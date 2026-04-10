@@ -53,6 +53,7 @@ const categories = [
       { title: 'How to Use Personalization & Custom Variables', id: 'lio-10' },
       { title: 'How to Use AI Message Writing', id: 'lio-11' },
       { title: 'How to Read Your Analytics & Reports', id: 'lio-12' },
+      { title: 'LinkedIn Sending Limits & Warmup Schedule', id: 'lio-13' },
     ],
   },
 ];

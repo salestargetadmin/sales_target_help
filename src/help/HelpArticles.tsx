@@ -66,6 +66,7 @@ const categories = [
       { title: 'How to Use Personalization & Custom Variables', id: 'lio-10', icon: Database, color: '#818CF8' },
       { title: 'How to Use AI Message Writing', id: 'lio-11', icon: Code, color: '#818CF8' },
       { title: 'How to Read Your Analytics & Reports', id: 'lio-12', icon: LayoutDashboard, color: '#818CF8' },
+      { title: 'LinkedIn Sending Limits & Warmup Schedule', id: 'lio-13', icon: Shield, color: '#818CF8' },
     ],
   },
 ];

@@ -3783,6 +3783,252 @@ const mockArticles = [
     ],
   },
 
+
+  {
+    id: "lio-13",
+    title: "LinkedIn Sending Limits & Warmup Schedule",
+    updated: "Updated April 2026",
+    content: `Understanding your LinkedIn account's sending limits is one of the most important parts of running safe, effective outreach on SalesTarget.ai. This article explains how warmup works, the exact limits for each LinkedIn account type week by week, and what happens when an account is disconnected or restricted.`,
+    features: [
+      {
+        title: "Why Warmup Limits Exist",
+        isHeading: 'true',
+      },
+      {
+        content: `LinkedIn monitors every account for unusual activity. A brand new account — or one that hasn't been used for outreach before — that suddenly sends dozens of connection requests and messages in a day is a red flag. LinkedIn can warn, restrict, or permanently ban accounts that behave this way.<br/><br/>Warmup solves this by gradually increasing your activity over a set number of weeks — mimicking the natural growth pattern of a real, active LinkedIn user. By the time you reach your full sending capacity, LinkedIn's algorithm already recognises your account as trustworthy.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "Automatic vs. Manual Warmup",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Mode", "How it works"],
+        rows: [
+          ["Automatic Warmup", "SalesTarget.ai manages your limits week by week — automatically increasing them on schedule without any action needed from you. Recommended for most users."],
+          ["Manual Warmup", "You control the limits yourself using the sliders in Settings → Safety Limits. Use this only if you have experience with LinkedIn outreach and understand the safe thresholds for your account type."],
+        ],
+      },
+      {
+        content: `<strong>Recommendation:</strong> Use <strong>Automatic Warmup</strong> unless you have a specific reason to control limits manually. The automatic schedule is built around LinkedIn's trust boundaries for each account type and removes the risk of accidentally exceeding safe limits.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Enable Automatic Warmup",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. Go to <strong>LinkedIn Outreach → Settings → Safety Limits</strong>.<br/>
+          &nbsp; 2. Toggle <strong>Automatic Warmup</strong> on.<br/>
+          &nbsp; 3. Select your LinkedIn account type (Standard, Premium, Sales Navigator, or Recruiter).<br/>
+          &nbsp; 4. SalesTarget.ai will manage your limits from Day 1 through to your post-warmup maximum automatically.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Warmup Schedules by Account Type",
+        isHeading: 'true',
+      },
+      {
+        content: `Each LinkedIn account type has a different warmup duration and maximum capacity. Find your account type below.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "🔵 Standard LinkedIn Account (Free)",
+        isHeading: 'true',
+      },
+      {
+        content: `<strong>Warmup Duration:</strong> 6 weeks (42 days) &nbsp;|&nbsp; <strong>Post-Warmup Maximum:</strong> 20 connection requests / day`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Week", "Daily Connections", "Messages", "Profile Views", "Likes", "Comments"],
+        rows: [
+          ["Week 1", "3", "5", "10", "2", "1"],
+          ["Week 2", "5", "8", "15", "5", "2"],
+          ["Week 3", "8", "12", "25", "8", "3"],
+          ["Week 4", "12", "20", "40", "15", "5"],
+          ["Week 5", "15", "30", "60", "25", "8"],
+          ["Week 6", "18", "40", "80", "35", "12"],
+          ["Post-Warmup", "20", "50", "100", "40", "15"],
+        ],
+      },
+      {
+        content: `Standard accounts follow the slowest and most conservative warmup path. The first 2–3 weeks are intentionally low to build account trust before any meaningful volume begins.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "🟡 LinkedIn Premium Account",
+        isHeading: 'true',
+      },
+      {
+        content: `<strong>Warmup Duration:</strong> 4 weeks (28 days) &nbsp;|&nbsp; <strong>Post-Warmup Maximum:</strong> 30 connection requests / day`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Week", "Daily Connections", "Messages", "Profile Views", "Likes", "Comments"],
+        rows: [
+          ["Week 1", "8", "20", "40", "15", "5"],
+          ["Week 2", "15", "40", "80", "35", "12"],
+          ["Week 3", "22", "60", "120", "50", "20"],
+          ["Week 4", "28", "75", "180", "75", "28"],
+          ["Post-Warmup", "30", "80", "200", "80", "30"],
+        ],
+      },
+      {
+        content: `Premium accounts warm up faster because LinkedIn assigns them a higher trust score. By Week 4, activity levels are approaching full capacity.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "🟢 Sales Navigator Account",
+        isHeading: 'true',
+      },
+      {
+        content: `<strong>Warmup Duration:</strong> 3 weeks (21 days) &nbsp;|&nbsp; <strong>Post-Warmup Maximum:</strong> 40 connection requests / day`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Week", "Daily Connections", "Messages", "Profile Views", "Likes", "Comments"],
+        rows: [
+          ["Week 1", "12", "30", "60", "25", "8"],
+          ["Week 2", "22", "60", "120", "50", "18"],
+          ["Week 3", "35", "90", "220", "90", "35"],
+          ["Post-Warmup", "40", "100", "250", "100", "40"],
+        ],
+      },
+      {
+        content: `Sales Navigator accounts benefit from LinkedIn's advanced targeting and improved deliverability signals — allowing a much faster warmup and the highest connection request volume of the non-recruiter tier.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "🔴 Recruiter Account",
+        isHeading: 'true',
+      },
+      {
+        content: `<strong>Warmup Duration:</strong> 3 weeks (21 days) &nbsp;|&nbsp; <strong>Post-Warmup Maximum:</strong> 50 connection requests / day`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Week", "Daily Connections", "Messages", "Profile Views", "Likes", "Comments"],
+        rows: [
+          ["Week 1", "18", "45", "90", "35", "12"],
+          ["Week 2", "32", "80", "180", "70", "28"],
+          ["Week 3", "45", "130", "270", "110", "45"],
+          ["Post-Warmup", "50", "150", "300", "120", "50"],
+        ],
+      },
+      {
+        content: `Recruiter accounts are designed for high-volume engagement and candidate outreach — giving them the highest permitted activity levels across all account types.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "Post-Warmup Maximum Summary",
+        isHeading: 'true',
+      },
+      {
+        content: `Once warmup is complete, these are the stable daily maximums you can maintain long-term:`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Account Type", "Max Connections/Day", "Max Messages/Day", "Max Profile Views/Day"],
+        rows: [
+          ["Standard (Free)", "20", "50", "100"],
+          ["Premium", "30", "80", "200"],
+          ["Sales Navigator", "40", "100", "250"],
+          ["Recruiter", "50", "150", "300"],
+        ],
+      },
+      {
+        content: `These limits can be maintained long-term as long as your <strong>connection acceptance rate stays above 30%</strong> and your overall account health remains strong.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "The 30% Acceptance Rate Rule",
+        isHeading: 'true',
+      },
+      {
+        content: `Your connection acceptance rate is one of LinkedIn's most important signals for account health. If too many of your connection requests go unaccepted, LinkedIn interprets this as spam behaviour — even if you're within daily limits.<br/><br/><strong>SalesTarget.ai monitors your acceptance rate continuously.</strong> If your acceptance rate drops below <strong>30%</strong>, the system will automatically reduce your daily connection request limit to protect your account from LinkedIn restrictions.`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Acceptance Rate", "What SalesTarget.ai does"],
+        rows: [
+          ["Above 30%", "Limits remain at your current schedule"],
+          ["Below 30%", "Daily connection requests automatically reduced until rate recovers"],
+        ],
+      },
+      {
+        content: `<strong>How to keep your acceptance rate healthy:</strong> Target a well-defined ICP, use personalized connection notes, and warm up prospects with profile visits and follows before sending a connection request. These steps consistently produce acceptance rates of 35–50%.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "What Happens If Your Account Is Disconnected or Restricted",
+        isHeading: 'true',
+      },
+      {
+        title: "If your account is disconnected and reconnected",
+        isHeading: 'true',
+      },
+      {
+        content: `Your warmup progress is <strong>not reset</strong>. SalesTarget.ai retains your account's warmup history — so if you disconnect and reconnect the same LinkedIn account, your limits resume from exactly where they left off.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "If your account is restricted by LinkedIn",
+        isHeading: 'true',
+      },
+      {
+        content: `A LinkedIn restriction does not always mean your account is permanently gone. LinkedIn issues different types of restrictions — and many accounts are successfully recovered. Do not panic or rush to create a new account before understanding the type of restriction you're facing.<br/><br/><strong>There are 3 possible outcomes when an account is restricted:</strong><br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Temporary restriction — lifts automatically:</strong> LinkedIn may apply a short-term restriction that resolves on its own within a few hours or days. No action may be needed beyond waiting.<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Appeal successful — account recovered:</strong> LinkedIn may ask you to verify your identity or appeal the restriction. Many users successfully recover their accounts by completing the verification process LinkedIn requests.<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Permanent restriction — account cannot be recovered:</strong> In some cases, LinkedIn permanently bans an account. This is typically reserved for repeated or severe violations. LinkedIn will communicate this clearly through your account or registered email.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What to do immediately if your account is restricted",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; 1. <strong>Pause all campaigns in SalesTarget.ai</strong> — go to <strong>LinkedIn Outreach → Campaigns</strong> and pause everything<br/>
+          &nbsp; 2. <strong>Log in to LinkedIn directly</strong> and read any messages or notifications from LinkedIn about the restriction<br/>
+          &nbsp; 3. <strong>Follow LinkedIn's instructions</strong> — if they ask for identity verification, phone confirmation, or an appeal submission, complete it promptly<br/>
+          &nbsp; 4. <strong>Wait for LinkedIn's response</strong> before taking any further action — do not attempt to create a new account while an appeal is pending<br/>
+          &nbsp; 5. <strong>Once your account is restored</strong>, reconnect it in SalesTarget.ai under <strong>Settings → LinkedIn Account</strong> — note that <strong>warmup progress resets from Week 1</strong> after a restriction, even if the account is recovered. A restricted account's trust level with LinkedIn is reset and needs to be rebuilt gradually from scratch.<br/>
+          &nbsp; 6. <strong>Only connect a new account</strong> if LinkedIn has confirmed the restriction is permanent and recovery is not possible — this account will also start warmup from Week 1
+        `,
+        isParagraph: 'true',
+      },
+      {
+        content: `<strong>The best protection against restriction is prevention.</strong> Follow the warmup schedule, stay within limits, maintain a healthy acceptance rate, and use SalesTarget.ai's Automatic Warmup mode to remove human error from the equation entirely.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "Quick Reference — Which Account Should You Use?",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["If you want...", "Use this account type"],
+        rows: [
+          ["To get started with basic outreach", "Standard (Free)"],
+          ["Faster warmup and higher limits", "LinkedIn Premium"],
+          ["Maximum outreach volume for sales teams", "Sales Navigator"],
+          ["Very high volume candidate or prospect outreach", "Recruiter"],
+        ],
+      },
+    ],
+  },
+
 ];
 
 export default mockArticles;
