@@ -66,6 +66,26 @@ const categories = [
       { title: 'How to Read Your Analytics & Reports', id: 'lio-12', icon: LayoutDashboard, color: '#818CF8' },
     ],
   },
+  {
+    title: 'Co-pilot',
+    icon: '🤖',
+    articles: [
+      { title: 'What is the SalesTarget.ai Co-pilot?', id: 'cp-0', icon: Book, color: '#F59E0B' },
+      { title: 'Co-pilot: Create a Campaign', id: 'cp-1', icon: Compass, color: '#F59E0B' },
+      { title: 'Co-pilot: Create a List', id: 'cp-3', icon: Database, color: '#F59E0B' },
+      { title: 'Co-pilot: Get All Lists', id: 'cp-4', icon: Star, color: '#F59E0B' },
+      { title: 'Co-pilot: Add Leads to a List', id: 'cp-5', icon: UserPlus, color: '#F59E0B' },
+      { title: 'Co-pilot: Update Campaign Sequence', id: 'cp-6', icon: Code, color: '#F59E0B' },
+      { title: 'Co-pilot: Get My Campaigns', id: 'cp-7', icon: LayoutDashboard, color: '#F59E0B' },
+      { title: 'Co-pilot: Query Meetings', id: 'cp-8', icon: Compass, color: '#F59E0B' },
+      { title: 'Co-pilot: Query Deals', id: 'cp-9', icon: Shield, color: '#F59E0B' },
+      { title: 'Co-pilot: Query Tasks', id: 'cp-10', icon: Flag, color: '#F59E0B' },
+      { title: 'Co-pilot: Add List to Campaign', id: 'cp-11', icon: Database, color: '#F59E0B' },
+      { title: 'Co-pilot: Create, Update & Assign Tasks', id: 'cp-12', icon: UserPlus, color: '#F59E0B' },
+      { title: 'Co-pilot: Weekly Analytics', id: 'cp-13', icon: LayoutDashboard, color: '#F59E0B' },
+      { title: 'Co-pilot: Best Campaign', id: 'cp-14', icon: Star, color: '#F59E0B' },
+    ],
+  },
 ];
 
 
