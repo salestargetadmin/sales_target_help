@@ -4029,6 +4029,996 @@ const mockArticles = [
     ],
   },
 
+  // ─── Co-pilot ─────────────────────────────────────────────────────────────
+
+  {
+    id: "cp-0",
+    title: "What is the SalesTarget.ai Co-pilot?",
+    updated: "Updated April 2026",
+    content: `The SalesTarget.ai Co-pilot is your AI-powered sales assistant built directly into the platform. Instead of navigating menus and clicking through settings, you simply tell the Co-pilot what you want to do — in plain English — and it handles it instantly.`,
+    features: [
+      {
+        title: "How to Access the Co-pilot",
+        isHeading: 'true',
+      },
+      {
+        content: `The Co-pilot is available in two ways:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Dedicated Co-pilot page</strong> — click <strong>Co-pilot</strong> from the left sidebar to open the full Co-pilot workspace<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Floating assistant</strong> — the Co-pilot icon is accessible from anywhere in the platform so you can use it without leaving the page you're on
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use the Co-pilot",
+        isHeading: 'true',
+      },
+      {
+        content: `<strong>1. Type naturally</strong><br/>Just describe what you want as if you're messaging a colleague:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Create a new campaign called SaaS VPs April 2026"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me my best performing campaign from last month"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Find VP of Sales leads in the US at SaaS companies"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        content: `<strong>2. Use suggested commands</strong><br/>The Co-pilot surfaces suggested commands based on the page you're on and your recent activity. Click any suggestion to run it instantly — no typing required.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "What the Co-pilot Can Do",
+        isHeading: 'true',
+      },
+      {
+        content: `The Co-pilot has 14 built-in actions across four areas:`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Area", "Actions"],
+        rows: [
+          ["Campaigns", "Create Campaign, Update Sequence, Get My Campaigns, Add List to Campaign"],
+          ["Leads", "Search Leads, Create List, Get Lists, Add Leads to List"],
+          ["CRM", "Query Meetings, Query Deals, Query Tasks, Create / Update / Assign Tasks"],
+          ["Analytics", "Weekly Analytics, Best Campaign"],
+        ],
+      },
+      {
+        title: "Tips for Best Results",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Use exact names</strong> — when referring to an existing campaign or list, use its exact name<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Be specific</strong> — the more detail you give, the more accurate the result<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Check confirmations</strong> — the Co-pilot always confirms what it did after each action<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Use suggestions</strong> — if unsure what to type, click a suggested command to see how requests are phrased
+        `,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-1",
+    title: "Co-pilot: Create a Campaign",
+    updated: "Updated April 2026",
+    content: `The <strong>Create Campaign</strong> action lets you create a new email outreach campaign instantly by simply telling the Co-pilot the campaign name — without navigating to the Campaigns section manually.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Creates a new campaign in Cold Email Outreach with the name you specify. Once created, the campaign is ready for you to add leads and build your sequence.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `Type your request naturally in the Co-pilot chat:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Create a new campaign called SaaS VPs April 2026"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Set up a campaign named Fintech Founders US"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Make a new campaign called Q2 Outreach — Enterprise"</em><br/><br/>
+          The Co-pilot will create the campaign immediately and confirm the name.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What Happens Next",
+        isHeading: 'true',
+      },
+      {
+        content: `After the Co-pilot creates the campaign:<br/><br/>
+          &nbsp; 1. Go to <strong>Cold Email Outreach → Campaigns</strong> to find the newly created campaign<br/>
+          &nbsp; 2. Add your leads — either from a saved list or by importing a CSV<br/>
+          &nbsp; 3. Build your email sequence using the sequence builder<br/>
+          &nbsp; 4. Configure your sending settings and launch<br/><br/>
+          <strong>Tip:</strong> You can also ask the Co-pilot to add a list to the campaign right away — <em>"Create a campaign called SaaS VPs and add my April leads list to it"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Add List to Campaign &nbsp;|&nbsp; Update Campaign Sequence &nbsp;|&nbsp; Get My Campaigns`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-3",
+    title: "Co-pilot: Create a List",
+    updated: "Updated April 2026",
+    content: `The <strong>Create List</strong> action lets you create a new named leads list instantly through the Co-pilot — without navigating to Lead Explorer manually.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Creates a new, empty leads list in Lead Explorer with the name you specify. Once created, the list is ready for you to add leads to or attach to a campaign.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Create a list called SaaS Founders US Q2"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Make a new leads list named Fintech VPs Europe"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Create a list called April Enterprise Prospects"</em><br/><br/>
+          The Co-pilot will create the list immediately and confirm it's ready under <strong>Lead Explorer → My Lists</strong>.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What to Do After Creating a List",
+        isHeading: 'true',
+      },
+      {
+        content: `Once the list is created you can ask the Co-pilot to populate it right away:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add my search results to the SaaS Founders US Q2 list"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Search for CTOs in fintech and add them to my new list"</em><br/><br/>
+          Or navigate to <strong>Lead Explorer → My Lists</strong> to manage the list manually.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Naming Tips",
+        isHeading: 'true',
+      },
+      {
+        content: `Give your lists clear, descriptive names so they're easy to find later. A good naming convention includes the <strong>audience</strong>, <strong>region</strong>, and <strong>date or quarter</strong>.`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Good list name", "Vague list name"],
+        rows: [
+          ["SaaS VPs – US – April 2026", "List 1"],
+          ["Fintech CTOs – UK – Q2", "New leads"],
+          ["Enterprise Accounts – Series B", "My list"],
+        ],
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Search Leads &nbsp;|&nbsp; Add Leads to a List &nbsp;|&nbsp; Get All Lists`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-4",
+    title: "Co-pilot: Get All Lists",
+    updated: "Updated April 2026",
+    content: `The <strong>Get Lists</strong> action fetches all your available leads lists — giving you a quick overview of every list you have, how many leads are in each, and when they were last updated.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Returns a summary of all your saved leads lists from Lead Explorer, displayed directly in the Co-pilot chat. No need to navigate to My Lists manually.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all my lists"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What lists do I currently have?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"How many leads are in my SaaS CTOs list?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"List all my saved lead lists"</em><br/><br/>
+          The Co-pilot will return a summary showing each list name and its lead count.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "When to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Before starting a new campaign — to check which lists are ready to use<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Before creating a new list — to avoid duplicating an existing one<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> When you can't remember the exact name of a list — to find it quickly before referencing it in another Co-pilot action
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What to Do After Reviewing Your Lists",
+        isHeading: 'true',
+      },
+      {
+        content: `Once you know what lists you have, follow up with another Co-pilot action:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add my SaaS VPs list to the April campaign"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add more leads to my Fintech CTOs list"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Create a new list called Enterprise Accounts Q2"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Create a List &nbsp;|&nbsp; Add Leads to a List &nbsp;|&nbsp; Add List to Campaign`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-5",
+    title: "Co-pilot: Add Leads to a List",
+    updated: "Updated April 2026",
+    content: `The <strong>Add Leads to List</strong> action adds leads to an existing named list — either from a search result or by specifying the leads you want to include.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Takes leads — from a Co-pilot search result or a specified source — and adds them to any existing list in Lead Explorer.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `<strong>After running a search:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add these leads to my SaaS VPs list"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Save these results to my April Prospects list"</em><br/><br/>
+          <strong>Specifying leads directly:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add the fintech CTOs I searched for earlier to my Q2 list"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add leads from my last search to the Enterprise Accounts list"</em><br/><br/>
+          The Co-pilot will confirm how many leads were added and to which list.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Combining Search and Add in One Request",
+        isHeading: 'true',
+      },
+      {
+        content: `You can combine a lead search and list addition into a single Co-pilot instruction:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Find VP of Sales contacts in the US at SaaS companies and add them to my April Outreach list"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Search for CTOs in fintech in London and save them to my UK Prospects list"</em><br/><br/>
+          The Co-pilot will run the search and add the results to the specified list in one step.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What Happens If the List Doesn't Exist Yet",
+        isHeading: 'true',
+      },
+      {
+        content: `If you reference a list that doesn't exist, the Co-pilot will let you know. You can then:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Ask it to create the list first — <em>"Create a list called April Outreach first, then add these leads"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Or use the Create a List action before adding leads
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Search Leads &nbsp;|&nbsp; Create a List &nbsp;|&nbsp; Get All Lists`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-6",
+    title: "Co-pilot: Update Campaign Sequence",
+    updated: "Updated April 2026",
+    content: `The <strong>Update Campaign Sequence</strong> action lets you modify the email sequence steps inside an existing campaign — adding, editing, or adjusting steps through a simple natural language instruction.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Locates an existing campaign and updates its email sequence based on your instruction — without needing to open the campaign and navigate the sequence builder manually.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `<strong>Adding a new step:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add a follow-up email on day 5 to my SaaS VPs campaign"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add a new step to the April Outreach sequence — a final follow-up on day 14"</em><br/><br/>
+          <strong>Editing an existing step:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Change the subject line of step 2 in my Q2 campaign to 'Quick question, {{first_name}}'"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Update the call to action in the first email of my Fintech campaign"</em><br/><br/>
+          <strong>Adjusting delays:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Change the delay between step 2 and step 3 in my April campaign to 4 days"</em><br/><br/>
+          The Co-pilot will locate the campaign and apply the requested changes, then confirm what was updated.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What You Can Update",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Element", "Example instruction"],
+        rows: [
+          ["Add a new step", '"Add a follow-up on day 7"'],
+          ["Edit subject line", '"Change the subject line of step 1"'],
+          ["Edit email body", '"Update the body of the second email"'],
+          ["Change delay", '"Set the delay before step 3 to 5 days"'],
+          ["Change CTA", '"Update the call to action in step 2"'],
+        ],
+      },
+      {
+        title: "Tip — Be Specific About the Campaign Name",
+        isHeading: 'true',
+      },
+      {
+        content: `If you have multiple campaigns, always specify the exact campaign name so the Co-pilot updates the right one:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> ✅ <em>"Update step 2 in my SaaS VPs April 2026 campaign"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> ❌ <em>"Update step 2 in my campaign"</em> — may be ambiguous if you have multiple campaigns
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Create a Campaign &nbsp;|&nbsp; Get My Campaigns &nbsp;|&nbsp; Add List to Campaign`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-7",
+    title: "Co-pilot: Get My Campaigns",
+    updated: "Updated April 2026",
+    content: `The <strong>Get My Campaigns</strong> action fetches and displays a list of all your campaigns — active, paused, completed, and draft — so you can quickly find and act on any campaign without navigating to the Campaigns section.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Returns a summary of all your campaigns with their current status, giving you a quick overview of everything running across your Cold Email Outreach workspace.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all my campaigns"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"List my active campaigns"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What campaigns do I currently have running?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all paused campaigns"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Do I have any draft campaigns?"</em><br/><br/>
+          The Co-pilot returns a summary list of your campaigns with their name and current status.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Filtering by Status",
+        isHeading: 'true',
+      },
+      {
+        content: `You can ask the Co-pilot to filter campaigns by their current state:`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Status", "Example request"],
+        rows: [
+          ["Active", '"Show me all active campaigns"'],
+          ["Paused", '"Which campaigns are paused?"'],
+          ["Completed", '"Show me completed campaigns"'],
+          ["Draft", '"List my draft campaigns"'],
+          ["All", '"Show me all my campaigns"'],
+        ],
+      },
+      {
+        title: "What to Do After Reviewing Your Campaigns",
+        isHeading: 'true',
+      },
+      {
+        content: `Follow up with another Co-pilot action directly:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add my SaaS VPs list to the April Outreach campaign"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Update the sequence in my Q2 Fintech campaign"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me the analytics for my best campaign this month"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Create a Campaign &nbsp;|&nbsp; Update Campaign Sequence &nbsp;|&nbsp; Add List to Campaign`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-8",
+    title: "Co-pilot: Query Meetings",
+    updated: "Updated April 2026",
+    content: `The <strong>Query Meetings</strong> action searches and filters your CRM meetings based on criteria you specify — such as date, contact, company, or status — and returns the results instantly without opening the CRM manually.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Searches through your CRM meeting records and returns a filtered list based on what you ask for. Useful for quickly checking your schedule, finding meetings with specific contacts, or reviewing upcoming or past meetings.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `<strong>By date or time:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all meetings scheduled for this week"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What meetings do I have today?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me meetings coming up in the next 3 days"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What meetings did I have last week?"</em><br/><br/>
+          <strong>By contact or company:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Find meetings with contacts from Acme Corp"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all meetings with Sarah Johnson"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Do I have any meetings with Fintech companies this month?"</em><br/><br/>
+          <strong>By status:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all upcoming meetings"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"List meetings that have been completed this week"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Find meetings that were cancelled"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What the Results Show",
+        isHeading: 'true',
+      },
+      {
+        content: `Each meeting in the results will include:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Contact name and company<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Meeting date and time<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Meeting status (upcoming, completed, cancelled)<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Any notes or agenda attached to the meeting
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What to Do After Reviewing Meetings",
+        isHeading: 'true',
+      },
+      {
+        content: `Use the results to take follow-up action directly from the CRM:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Open the contact record to review their full activity history before a meeting<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Add a note or reminder ahead of an upcoming meeting<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Log a call outcome after a meeting has taken place
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Query Deals &nbsp;|&nbsp; Query Tasks &nbsp;|&nbsp; Create, Update &amp; Assign Tasks`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-9",
+    title: "Co-pilot: Query Deals",
+    updated: "Updated April 2026",
+    content: `The <strong>Query Deals</strong> action searches and filters your CRM deals based on stage, value, owner, activity, or any other criteria — giving you an instant view of your pipeline without opening the CRM manually.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Searches through your CRM deal records and returns a filtered list based on what you ask for. Use it to check pipeline status, find stalled deals, review high-value opportunities, or get a quick snapshot of where things stand.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `<strong>By pipeline stage:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all deals in the proposal stage"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What deals are currently in negotiation?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"List all deals that are in the discovery stage"</em><br/><br/>
+          <strong>By value:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me open deals worth more than $10,000"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What are my highest value deals this quarter?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Find deals under $5,000 that are still open"</em><br/><br/>
+          <strong>By owner:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all deals assigned to James"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What deals does Sarah currently own?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"List all unassigned deals"</em><br/><br/>
+          <strong>By activity:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Find deals that haven't been updated in 2 weeks"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me deals with no activity in the last 10 days"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Which deals are at risk of going cold?"</em><br/><br/>
+          <strong>By company or contact:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all deals with Acme Corp"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Find open deals with contacts from the fintech industry"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What the Results Show",
+        isHeading: 'true',
+      },
+      {
+        content: `Each deal in the results will include:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Deal name and associated contact or company<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Current pipeline stage<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Deal value<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Assigned owner<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Last activity date
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What to Do After Reviewing Deals",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Follow up on stalled deals by creating a task — <em>"Create a follow-up task for the Acme Corp deal"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Reassign a deal — <em>"Assign the TechCorp deal to Rachel"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Open the deal record in the CRM for full details
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Query Meetings &nbsp;|&nbsp; Query Tasks &nbsp;|&nbsp; Create, Update &amp; Assign Tasks`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-10",
+    title: "Co-pilot: Query Tasks",
+    updated: "Updated April 2026",
+    content: `The <strong>Query Tasks</strong> action searches and filters your CRM tasks based on status, due date, assignee, or type — giving you an instant view of what needs to be done without opening the CRM task list manually.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Searches through your CRM task records and returns a filtered list based on what you ask for. Use it to check what's due today, find overdue tasks, review a team member's workload, or get a quick overview of outstanding follow-ups.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `<strong>By due date:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What tasks are due today?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me tasks due this week"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What's on my task list for tomorrow?"</em><br/><br/>
+          <strong>By status:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all overdue tasks"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"List tasks that haven't been completed yet"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Which tasks are still open?"</em><br/><br/>
+          <strong>By assignee:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all tasks assigned to me"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What tasks does James have open?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"List all unassigned tasks"</em><br/><br/>
+          <strong>By type:</strong><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all follow-up tasks"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Find all callback tasks"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"List tasks related to Acme Corp"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What the Results Show",
+        isHeading: 'true',
+      },
+      {
+        content: `Each task in the results will include:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Task description<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Due date and time<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Assigned team member<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Related contact or deal<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> Current status (open, completed, overdue)
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Using Query Tasks as a Daily Work Routine",
+        isHeading: 'true',
+      },
+      {
+        content: `A fast way to start your day with the Co-pilot:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me all tasks due today"</em> → work through your list<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Mark the Acme Corp follow-up task as complete"</em> → update as you go<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me overdue tasks"</em> → catch anything that slipped<br/><br/>
+          This keeps your CRM clean and ensures no follow-up falls through the cracks.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Create, Update &amp; Assign Tasks &nbsp;|&nbsp; Query Meetings &nbsp;|&nbsp; Query Deals`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-11",
+    title: "Co-pilot: Add List to Campaign",
+    updated: "Updated April 2026",
+    content: `The <strong>Add List to Campaign</strong> action attaches an existing leads list to a campaign — enrolling all the leads in that list into the campaign's email sequence instantly.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Connects a saved leads list from Lead Explorer to a specific campaign in Cold Email Outreach. Once attached, the leads in the list are enrolled in the campaign and will begin receiving the sequence when the campaign launches or is already running.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add my SaaS VPs list to the April Outreach campaign"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Attach the Fintech Leads list to my Q2 campaign"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add the Enterprise Prospects list to the SaaS Founders campaign"</em><br/><br/>
+          The Co-pilot will confirm which list is being added to which campaign before applying the change.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Things to Check Before Adding a List",
+        isHeading: 'true',
+      },
+      {
+        content: `Before attaching a list to a campaign, make sure:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>The list has verified emails</strong> — leads without email addresses cannot receive campaign emails. Enrich leads in Lead Explorer first if needed.<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>The leads haven't already been contacted</strong> — adding leads who are already in another active campaign may cause duplicate outreach.<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>The campaign is set up</strong> — the campaign should have a sequence built and sending settings configured before leads are added.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What Happens After the List Is Attached",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> If the campaign is in <strong>draft</strong> — leads are queued and will start receiving emails when you launch the campaign<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> If the campaign is <strong>active</strong> — leads from the new list will be enrolled immediately and begin receiving emails according to the sequence schedule
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Get All Lists &nbsp;|&nbsp; Get My Campaigns &nbsp;|&nbsp; Create a Campaign`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-12",
+    title: "Co-pilot: Create, Update & Assign Tasks",
+    updated: "Updated April 2026",
+    content: `The <strong>Create, Update &amp; Assign Tasks</strong> action lets you manage CRM tasks entirely through natural language — creating new tasks, updating existing ones, and assigning or reassigning them to team members, all without opening the CRM manually.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Handles all task management actions in your CRM through a single Co-pilot instruction:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Create</strong> a new task linked to a contact, deal, or date<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Update</strong> an existing task — change due date, description, or status<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Assign</strong> a task to yourself or a team member<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Mark</strong> a task as complete
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Creating a Task",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Create a task to follow up with Sarah at Acme Corp on Friday"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Add a task — call James from TechCorp next Monday at 10am"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Create a follow-up reminder for the Fintech deal — due Thursday"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Set a task to send a proposal to the Enterprise Accounts lead by end of week"</em><br/><br/>
+          The Co-pilot will create the task and attach it to the relevant contact or deal record in the CRM.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Updating a Task",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Mark the Acme Corp follow-up task as complete"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Change the due date on James's follow-up task to Thursday"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Update the TechCorp callback task — add a note that they're interested in the enterprise plan"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Reschedule the Fintech proposal task to next Tuesday"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Assigning or Reassigning a Task",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Assign the Acme Corp follow-up task to Rachel"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Reassign all of Tom's open tasks to Sarah"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Assign this task to me"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Who is currently assigned to the TechCorp deal follow-up task?"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Tips for Creating Accurate Tasks",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Include the contact or company name</strong> so the task is correctly linked to the right CRM record<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Specify a date or timeframe</strong> — <em>"by Friday"</em>, <em>"next Monday"</em>, <em>"in 3 days"</em> — so the due date is set correctly<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Include the task type</strong> where relevant — <em>"call back"</em>, <em>"send proposal"</em>, <em>"follow up"</em>, <em>"send email"</em><br/><br/>
+          <strong>Example of a complete, clear task request:</strong><br/>
+          <em>"Create a task to call back James at TechCorp on Monday morning — he wants to discuss pricing"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Query Tasks &nbsp;|&nbsp; Query Deals &nbsp;|&nbsp; Query Meetings`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-13",
+    title: "Co-pilot: Weekly Analytics",
+    updated: "Updated April 2026",
+    content: `The <strong>Weekly Analytics</strong> action displays a full summary of your campaign activity for the current week — including a line chart of performance over time, key stat cards, and a top performers breakdown — all surfaced directly in the Co-pilot without navigating to the Analytics section.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Pulls your weekly campaign data and presents it as a visual analytics summary including:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Line chart</strong> — shows campaign activity trends across the week (emails sent, opens, replies)<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Stat cards</strong> — key numbers at a glance including total emails sent, open rate, reply rate, and click rate<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Top performers</strong> — which campaigns and team members are driving the best results this week
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me this week's analytics"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What does my campaign performance look like this week?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Give me a weekly summary of outreach activity"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"How are my campaigns performing this week?"</em><br/><br/>
+          The Co-pilot returns the visual weekly analytics dashboard directly in the chat.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "What the Stat Cards Show",
+        isHeading: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Stat Card", "What it measures"],
+        rows: [
+          ["Emails Sent", "Total emails sent across all active campaigns this week"],
+          ["Open Rate", "Percentage of sent emails that were opened"],
+          ["Reply Rate", "Percentage of sent emails that received a reply"],
+          ["Click Rate", "Percentage of sent emails where a link was clicked"],
+          ["Bounces", "Number of emails that bounced this week"],
+        ],
+      },
+      {
+        title: "What the Top Performers Section Shows",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Top campaign</strong> — the campaign with the highest reply rate this week<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Top team member</strong> — the rep with the most replies or meetings booked (if team workspace is active)
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "When to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Start of day</strong> — get a quick pulse check on how your campaigns are running<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Weekly review</strong> — use it in team meetings to discuss performance<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Before making changes</strong> — check current performance before adjusting a sequence or adding new leads
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Best Campaign &nbsp;|&nbsp; Get My Campaigns`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
+  {
+    id: "cp-14",
+    title: "Co-pilot: Best Campaign",
+    updated: "Updated April 2026",
+    content: `The <strong>Best Campaign</strong> action identifies and displays your top performing campaign over the past 30 days — using a weighted scoring model that factors in multiple performance signals to give you a single, clear winner.`,
+    features: [
+      {
+        title: "What It Does",
+        isHeading: 'true',
+      },
+      {
+        content: `Analyses all your campaigns from the past 30 days and scores them using a weighted performance model. The result is your single best performing campaign, displayed with a full performance breakdown so you know exactly what made it successful.`,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use It",
+        isHeading: 'true',
+      },
+      {
+        content: `
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What's my best performing campaign this month?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Show me my top campaign from the last 30 days"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"Which campaign has been the most effective recently?"</em><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <em>"What's been my best campaign?"</em><br/><br/>
+          The Co-pilot returns the winning campaign along with its key performance metrics.
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "How the Scoring Works",
+        isHeading: 'true',
+      },
+      {
+        content: `The Best Campaign score is calculated using a <strong>weighted scoring model</strong> — not just a single metric like open rate. This means a campaign that performs consistently well across multiple metrics ranks higher than one that excels at just one thing.`,
+        isParagraph: 'true',
+      },
+      {
+        isTable: true,
+        headers: ["Signal", "Why it matters"],
+        rows: [
+          ["Reply Rate", "The strongest indicator of genuine engagement and campaign effectiveness"],
+          ["Open Rate", "Shows how well your subject lines are performing"],
+          ["Click Rate", "Indicates content relevance and CTA effectiveness"],
+          ["Delivery Rate", "Reflects list quality and sender reputation"],
+          ["Overall Engagement", "Combined activity score across all signals"],
+        ],
+      },
+      {
+        title: "What the Result Shows",
+        isHeading: 'true',
+      },
+      {
+        content: `After running the Best Campaign action, the Co-pilot displays:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Campaign name</strong> — the winning campaign<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Score</strong> — the weighted performance score<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Key metrics</strong> — open rate, reply rate, click rate, and emails sent for the period<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Why it won</strong> — a brief summary of the signals that pushed it to the top
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "How to Use This Insight",
+        isHeading: 'true',
+      },
+      {
+        content: `Once you know your best campaign, replicate what's working:<br/><br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Review the subject lines</strong> — copy the approach to other campaigns<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Study the sequence structure</strong> — check how many steps it has and the timing between them<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Look at the audience</strong> — identify what made this ICP particularly responsive<br/>
+          &nbsp; &nbsp;<span style="font-size:0.55em;vertical-align:middle">●</span> <strong>Duplicate the campaign</strong> — use it as a template for your next campaign targeting a similar audience<br/><br/>
+          <em>"Show me the sequence from my best campaign"</em><br/>
+          <em>"Create a new campaign using the same structure as my top campaign"</em>
+        `,
+        isParagraph: 'true',
+      },
+      {
+        title: "Related Co-pilot Actions",
+        isHeading: 'true',
+      },
+      {
+        content: `Weekly Analytics &nbsp;|&nbsp; Get My Campaigns &nbsp;|&nbsp; Update Campaign Sequence`,
+        isParagraph: 'true',
+      },
+    ],
+  },
+
 ];
 
 export default mockArticles;

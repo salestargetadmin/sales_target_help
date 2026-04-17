@@ -56,6 +56,26 @@ const categories = [
       { title: 'LinkedIn Sending Limits & Warmup Schedule', id: 'lio-13' },
     ],
   },
+  {
+    title: 'Co-pilot',
+    icon: '🤖',
+    articles: [
+      { title: 'What is the SalesTarget.ai Co-pilot?', id: 'cp-0' },
+      { title: 'Co-pilot: Create a Campaign', id: 'cp-1' },
+      { title: 'Co-pilot: Create a List', id: 'cp-3' },
+      { title: 'Co-pilot: Get All Lists', id: 'cp-4' },
+      { title: 'Co-pilot: Add Leads to a List', id: 'cp-5' },
+      { title: 'Co-pilot: Update Campaign Sequence', id: 'cp-6' },
+      { title: 'Co-pilot: Get My Campaigns', id: 'cp-7' },
+      { title: 'Co-pilot: Query Meetings', id: 'cp-8' },
+      { title: 'Co-pilot: Query Deals', id: 'cp-9' },
+      { title: 'Co-pilot: Query Tasks', id: 'cp-10' },
+      { title: 'Co-pilot: Add List to Campaign', id: 'cp-11' },
+      { title: 'Co-pilot: Create, Update & Assign Tasks', id: 'cp-12' },
+      { title: 'Co-pilot: Weekly Analytics', id: 'cp-13' },
+      { title: 'Co-pilot: Best Campaign', id: 'cp-14' },
+    ],
+  },
 ];
 
 const HelpMain = () => {
